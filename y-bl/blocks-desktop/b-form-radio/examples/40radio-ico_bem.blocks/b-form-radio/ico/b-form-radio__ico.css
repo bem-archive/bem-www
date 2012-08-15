@@ -1,0 +1,12 @@
+.b-form-radio__ico
+{
+    position: relative;
+    top: -1px;
+    z-index: 5;
+    
+    width: 13px;
+    height: 13px;
+    margin: 0 6px 0 0;
+
+    vertical-align: middle;
+}

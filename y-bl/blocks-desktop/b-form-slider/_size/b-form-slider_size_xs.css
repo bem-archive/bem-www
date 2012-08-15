@@ -1,0 +1,24 @@
+.b-form-slider_size_xs .b-form-slider__body
+{
+    height: 20px;
+}
+
+.b-form-slider_size_xs .b-form-slider__mark
+{
+    font: 10px Verdana, arial, sans-serif;
+}
+
+.b-form-slider_size_xs .b-form-slider__runner
+{
+    top: 4px;
+
+    width: 22px;
+    height: 12px;
+    margin-left: -12px;
+}
+
+.b-form-slider_size_xs .b-form-slider__runner_pos_1,
+.b-form-slider_size_xs .b-form-slider__runner_pos_2
+{
+    width: 11px;
+}

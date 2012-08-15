@@ -1,0 +1,23 @@
+.i-ua_js_yes .b-form-checkbox .b-form-checkbox__inner
+{
+    position: relative;
+    top: 3px;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.i-ua_js_yes .b-form-checkbox__bg
+{
+    margin: 0;
+}
+
+.i-ua_js_yes .b-form-checkbox__checkbox
+{
+    zoom: 1.8; /* увеличиваем реальный чекбокс, дабы он закрыл собой весь кастомный чекбокс */ /**/
+
+    margin: -3px 0 0 -3px;
+
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}

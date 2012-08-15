@@ -1,0 +1,1 @@
+exports.baseLevelPath = require.resolve('../../../../../tools/bem/level.js');

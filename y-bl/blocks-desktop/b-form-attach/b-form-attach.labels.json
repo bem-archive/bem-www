@@ -1,0 +1,8 @@
+{
+    "brand" : "brand",
+    "topicality" : "progress",
+    "action" : "static",
+    "purposes": [
+        ["purpose", "form"]
+    ]
+}

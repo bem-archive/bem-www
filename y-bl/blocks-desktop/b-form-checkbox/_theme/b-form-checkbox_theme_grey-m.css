@@ -1,0 +1,19 @@
+.i-ua_js_yes .b-form-checkbox_theme_grey-m .b-form-checkbox__inner
+{
+    background: #9a9a9a;
+    background-color: rgba(178, 178, 174, 0.8);
+    background: linear-gradient(top, rgba(192,192,192,0.5) 0%,rgba(49,49,49,0.5) 100%);
+    background: -moz-linear-gradient(top, rgba(192, 192, 192, 0.5) 0%, rgba(49, 49, 49, 0.5) 100%);
+    background: -o-linear-gradient(top, rgba(192, 192, 192, 0.5) 0%, rgba(49, 49, 49, 0.5) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(192, 192, 192, 0.5)), color-stop(100%,rgba(49, 49, 49, 0.5)));
+}
+
+.i-ua_js_yes .b-form-checkbox_theme_grey-m .b-form-checkbox__bg
+{
+    background: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(top, rgba(255,255,255,0.95) 10%,rgba(250,250,250,0.81) 60%,rgba(245,245,245,0.76) 80%,rgba(230,230,230,0.7) 100%);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.95) 10%, rgba(250, 250, 250, 0.85) 60% , rgba(245, 245, 245, 0.80) 80% ,  rgba(230, 230, 230, 0.70) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.95) 10%, rgba(250, 250, 250, 0.85) 60% , rgba(245, 245, 245, 0.80) 80% ,  rgba(230, 230, 230, 0.70) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(255, 255, 255, 0.95)), color-stop(60%,rgba(250, 250, 250, 0.85)), color-stop(80%,rgba(245, 245, 245, 0.80)), color-stop(100%,rgba(230, 230, 230, 0.70)));
+}

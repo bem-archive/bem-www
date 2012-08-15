@@ -1,0 +1,25 @@
+.b-form-attach
+{
+    position: relative;
+
+    display: -moz-inline-box;
+    display: inline-block;
+
+    white-space: nowrap;
+}
+
+.b-form-attach .b-form-button
+{
+    overflow: hidden; /* Safari ugly fix  */
+}
+
+.b-form-attach .b-form-button__input
+{
+    font: 100px/100px Arial, sans-serif;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: auto;
+}

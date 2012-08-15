@@ -1,0 +1,56 @@
+.b-form-switch_theme_switch-s-black
+{
+    height: 15px;
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__body
+{
+    width: 32px;
+    height: 13px;
+
+    border: 1px solid #6a6a6a;
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__label
+{
+    font: 11px Verdana, sans-serif;
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__button
+{
+    width: 9px;
+    height: 13px;
+    margin-top: -2px;
+    margin-left: -2px;
+
+    border: 1px solid #6a6a6a;
+
+    background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhjOGM4YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzUwNTA1MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2M5YzljOSIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(140,140,140,1) 0%, rgba(80,80,80,1) 50%, rgba(201,201,201,0) 51%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(140,140,140,1)), color-stop(50%,rgba(80,80,80,1)), color-stop(51%,rgba(201,201,201,0)), color-stop(100%,rgba(255,255,255,0)));
+    background: -o-linear-gradient(top, rgba(140,140,140,1) 0%,rgba(80,80,80,1) 50%,rgba(201,201,201,0) 51%,rgba(255,255,255,0) 100%);
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__body_position_right .b-form-switch__button
+{
+    left: 24px;
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__label
+{
+    opacity: 0.4;
+    color: #d4d4d4;
+}
+
+.b-form-switch_theme_switch-s-black .b-form-switch__label_active_yes
+{
+    opacity: .8;
+    color: #fff;
+}
+
+body .b-form-switch_focused_yes.b-form-switch_theme_switch-s-black .b-form-switch__body
+{
+    -moz-box-shadow: 0 0 2px #d1be77,0 0 2px #d1be77,0 0 3px #d1be77;
+    -webkit-box-shadow: 0 0 2px #d1be77,0 0 2px #d1be77,0 0 3px #d1be77;
+    box-shadow: 0 0 2px #d1be77,0 0 2px #d1be77,0 0 3px #d1be77;
+}

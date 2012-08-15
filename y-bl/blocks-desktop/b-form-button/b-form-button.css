@@ -1,0 +1,57 @@
+.b-form-button
+{
+    display: inline-block;
+
+    outline: 0;
+    cursor: pointer;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: right; /* Opera && FF2 *//**/
+
+    /* background-image задаётся в _theme *//**/
+    background-repeat: no-repeat;
+    background-position: 100% -55px/*!head*/;
+}
+
+a.b-form-button:link,
+a.b-form-button:hover,
+a.b-form-button:visited
+{
+    text-decoration: none;
+}
+
+.b-form-button__left
+{
+    font-style: normal;
+
+    display: inline-block;
+
+    height: 100%;
+
+    vertical-align: top;
+
+    background: no-repeat 0 2px; /* no-repeat жизненно необходимо для FF2, для других браузеров ничего не изменится  *//**/
+}
+
+.b-form-button__content
+{
+    font: 13px Arial, sans-serif;
+
+    display: inline-block;
+
+    height: 100%;
+
+    text-align: center;
+    white-space: nowrap;
+
+    background: repeat-x 0 -112px;
+}
+
+.b-form-button__text
+{
+    display: inline-block;
+}

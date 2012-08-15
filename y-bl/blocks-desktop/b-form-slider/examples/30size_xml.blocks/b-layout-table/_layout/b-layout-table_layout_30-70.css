@@ -1,0 +1,25 @@
+.b-layout-table_layout_30-70
+{
+    width: 700px;
+}
+
+.b-layout-table_layout_30-70 .b-layout-table__cell
+{
+    width: 30%;
+    padding-top: 60px;
+
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.b-layout-table_layout_30-70 .b-layout-table__cell_position_r
+{
+    width: 70%;
+
+    vertical-align: top;
+}
+
+.b-layout-table_layout_30-70 .b-form-button
+{
+    margin-bottom: -1px;
+}

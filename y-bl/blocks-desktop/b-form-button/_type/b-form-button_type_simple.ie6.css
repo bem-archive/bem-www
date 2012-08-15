@@ -1,0 +1,9 @@
+.b-form-button_type_simple
+{
+    height: auto !important;
+}
+
+.b-form-button_type_simple .b-form-button__click
+{
+    height: 50px;
+}

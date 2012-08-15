@@ -1,0 +1,9 @@
+{
+    "brand" : "nonbrand",
+    "action" : "static",
+    "purposes" : [
+        ["purpose", "search"],
+        ["purpose", "navigation"],
+        ["purpose", "form"]
+    ]
+}

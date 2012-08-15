@@ -1,0 +1,75 @@
+===Соответствие новых модификаторов контролам===
+%%html
+    <table cellspacing="1" bgcolor="#ccc" style="margin-bottom: 10px; border-collapse: separate;">
+        <tr style="background: #eee;">
+            <th style="padding: 3px 10px;">Модификатор / Контрол</th>
+            <th style="padding: 3px 10px;">b-form-button</th>
+            <th style="padding: 3px 10px;">b-form-checkbox</th>
+            <th style="padding: 3px 10px;">b-form-input</th>
+            <th style="padding: 3px 10px;">b-form-radio</th>
+            <th style="padding: 3px 10px;">b-form-switch</th>
+            <th style="padding: 3px 10px;">b-form-select</th>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">s</td>
+            <td style="padding: 2px 0;text-align: center;">19</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">11</td>
+            <td style="padding: 2px 0;text-align: center;">11</td>
+            <td style="padding: 2px 0;text-align: center;">s</td>
+            <td style="padding: 2px 0;text-align: center;">s</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0; text-align: center;">m</td>
+            <td style="padding: 2px 0;text-align: center;">22</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">m</td>
+            <td style="padding: 2px 0;text-align: center;">m</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">l</td>
+            <td style="padding: 2px 0;text-align: center;">26</td>
+            <td style="padding: 2px 0;text-align: center;">15</td>
+            <td style="padding: 2px 0;text-align: center;">16</td>
+            <td style="padding: 2px 0;text-align: center;">l</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">l</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">xl</td>
+            <td style="padding: 2px 0;text-align: center;">33</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">21</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+        </tr>
+    </table>
+%%
+
+Если вам необходимо добавить контрол размером между уже существующими размерами, то называть модификаторы нужно следуя таблице, приведенной ниже.
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="font-size: 120%; border-collapse: separate;">
+    <tr style="background: #fff;">
+        <td style="padding: 2px 5px;text-align: center;">xs</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">s</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">sm</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">m</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">ml</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">l</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">lxl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">xl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">xxl</td>
+    </tr>
+</table>
+%%

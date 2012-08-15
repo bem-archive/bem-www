@@ -1,0 +1,9 @@
+.b-form-slider__title
+{
+    font-weight: bold;
+}
+
+.b-form-slider_disabled_yes .b-form-slider__title
+{
+    opacity: 0.5;
+}

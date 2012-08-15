@@ -1,0 +1,18 @@
+.b-form-select__fade
+{
+    width: 24px;
+    margin-left: -24px;
+
+    w: expression(
+        function (t) {
+            var p = t.parentNode;
+            var h = p.offsetHeight;
+
+            if (t.h != h) {
+                t.h = h;
+
+                t.style.height = h + "px";
+            }
+        } (this)
+    );
+}

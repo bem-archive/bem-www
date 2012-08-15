@@ -1,0 +1,15 @@
+.b-autocomplete-item
+{
+    margin: 0;
+    padding: 0.25em 0.3em;
+
+    cursor: pointer;
+
+    list-style: none;
+    white-space: nowrap;
+}
+
+.b-autocomplete-item_hovered_yes
+{
+    background: #fdedaf;
+}

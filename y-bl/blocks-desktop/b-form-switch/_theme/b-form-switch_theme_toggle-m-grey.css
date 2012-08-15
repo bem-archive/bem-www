@@ -1,0 +1,67 @@
+.b-form-switch_theme_toggle-m-grey
+{
+    height: 20px;
+
+    color: #fff;
+}
+
+.b-form-switch_theme_toggle-m-grey .b-form-switch__button
+{
+    width: 13px;
+    height: 18px;
+    margin: 0 -6px 0 -7px;
+
+    background: #eee;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#FFFFFF),color-stop(100%,#C1C1C1));
+    background: -moz-linear-gradient(top,#FFFFFF 10%,#C1C1C1 100%);
+    background: -o-linear-gradient(top,#FFFFFF 10%,#C1C1C1 100%);
+
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.57);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.57);
+    box-shadow: 0 0 3px rgba(0,0,0,.57);
+}
+
+.b-form-switch_theme_toggle-m-grey .b-form-switch__label
+{
+    font-size: 13px;
+
+    line-height: 19px;
+}
+
+.i-ua_js_yes .b-form-switch_theme_toggle-m-grey .b-form-switch__label
+{
+    -moz-box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+    -webkit-box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+}
+
+.b-form-switch_theme_toggle-m-grey .b-form-switch__label_position_left
+{
+    padding-right: 7px;
+}
+
+.b-form-switch_theme_toggle-m-grey  .b-form-switch__label_position_right
+{
+    padding-left: 6px;
+}
+
+.b-form-switch_theme_toggle-m-grey .b-form-switch__label_position_left,
+.b-form-switch_theme_toggle-m-grey .b-form-switch__body_position_left .b-form-switch__label,
+.b-form-switch_theme_toggle-m-grey.b-form-switch_transition_progress .b-form-switch__body_position_right .b-form-switch__label_position_left
+{
+    background: #6bc873;
+}
+
+.b-form-switch_theme_toggle-m-grey .b-form-switch__label_position_right,
+.b-form-switch_theme_toggle-m-grey .b-form-switch__body_position_right .b-form-switch__label,
+.b-form-switch_theme_toggle-m-grey.b-form-switch_transition_progress .b-form-switch__body_position_left .b-form-switch__label_position_right
+{
+    background: #f28365;
+}
+
+body .b-form-switch_focused_yes.b-form-switch_theme_toggle-m-grey .b-form-switch__body
+{
+    -moz-box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+    -webkit-box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+    box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+}

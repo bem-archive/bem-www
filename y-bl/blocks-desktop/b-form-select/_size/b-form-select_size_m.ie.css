@@ -1,0 +1,25 @@
+.b-form-select_size_m .b-form-select__arrow
+{
+    top: 7px;
+}
+
+.b-form-select_size_m .b-form-button .b-form-button__input
+{
+    height: 26px;
+}
+
+[class].b-form-select_size_m .b-form-button .b-form-button__content
+{
+    top: -26px;
+}
+
+[class].b-form-select__popup_size_m .b-form-select__item_selected_yes.b-form-select__item_hovered_yes,
+[class].b-form-select__popup_size_m .b-form-select__item_selected_yes.b-form-select__item_hovered_yes
+{
+    background-position: 100% -27px;
+}
+
+.b-form-select__popup_size_m .b-form-select__item_selected_yes
+{
+    background-position: 100% -2px;
+}
