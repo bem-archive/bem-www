@@ -1,0 +1,124 @@
+block b-form-select {
+
+    default, !this._inputAttrs, !this.elem: {
+
+        var ctx = this.ctx,
+            id = ctx.id || this.generateId(); //'id-' + Math.random().toString(36).slice(2, 12);
+
+        apply(
+            this._inputAttrs = {
+                id: id,
+                name: ctx.name || id,
+                tabindex: ctx.tabindex
+            },
+            this._formSelect = {
+                block: this.block,
+                mods: this.mods
+            }
+        );
+
+    }
+
+    !this.mods.layout, !this.elem, mix: [ { mods: { 'layout': 'auto' } } ]
+
+    js: true
+
+    this.mods.theme, !this.elem, js: {
+
+        var theme = this.mods.theme,
+            // мапим название темы `b-form-*` и темы `b-popupa`
+            bpopupaThemesMap = {
+                'grey': 'ffffff',
+                'black': 'black'
+            };
+
+        // (XXX, varankinv@): костыли :(
+        for(t in bpopupaThemesMap)  {
+            if(bpopupaThemesMap.hasOwnProperty(t) && theme.indexOf(t) === 0) {
+                theme = t;
+                break;
+            }
+        }
+
+        return { popupMods: { theme: bpopupaThemesMap[theme] || theme } };
+
+    }
+
+    tag: 'span'
+
+    elem select {
+
+        tag: 'select'
+
+        attrs: {
+
+            var attrs = ['id', 'name'],
+                prop = {}, p;
+
+            while(p=attrs.pop()) {
+                this._inputAttrs[p] && (prop[p] = this._inputAttrs[p])
+            }
+
+            prop.tabindex = -1;
+
+            this.mods.disabled === 'yes' && (prop.disabled = 'disabled')
+
+            return prop;
+
+        }
+
+    }
+
+    elem option, tag: 'option'
+
+    elem option-group, tag: 'optgroup'
+
+    elem text, tag: 'span'
+
+    elem arrow, tag: 'i'
+
+}
+
+/**
+ * b-form-button внутри b-form-select-а
+ */
+block b-form-button, this._formSelect {
+
+    !this.elem {
+
+        default, !this.ctx._theme: {
+
+            // пробрасываем модификаторы темы и размера в кнопку
+            var ctx = this.ctx,
+                selectMods = this._formSelect.mods,
+                m = {};
+
+            selectMods.theme && (m.theme = selectMods.theme + '-' + selectMods.size);
+            selectMods.size && (m.size = selectMods.size);
+
+            selectMods.disabled === 'yes' && (m.disabled = 'yes');
+
+            ctx.mods = this._.extend(ctx.mods, m);
+
+            apply(
+                this._mode = '',
+                this.ctx._theme = true
+            );
+
+        }
+
+        mix: [{ block: this._formSelect.block, elem: 'button' }]
+
+    }
+
+    elem content {
+
+        content: [
+            this.ctx.content,
+            { block: this._formSelect.block, elem: 'arrow', content: '&#9660;' }
+        ]
+
+    }
+
+}
+

@@ -1,0 +1,10 @@
+block i-global {
+
+    this._mode === 'env': {
+
+//        'ket': 'val',
+//        'ket': 'val'
+
+    }
+
+}

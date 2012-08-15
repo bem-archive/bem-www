@@ -1,0 +1,16 @@
+.b-autocomplete-item_type_foot
+{
+    font: 85%/1.5em Verdana,sans-serif;
+
+    padding: 0 0.3em;
+
+    text-align: right;
+
+    color: #555;
+    background: #C8C8C8;
+}
+
+.b-autocomplete-item_type_foot .b-link
+{
+    color: #555;
+}

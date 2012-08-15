@@ -1,0 +1,10 @@
+* html .b-form-select,
+* html .b-form-select .b-form-select__select
+{
+    width: 500px;
+}
+
+* html .b-form-select .b-form-button__text
+{
+    width: 100%; 
+}

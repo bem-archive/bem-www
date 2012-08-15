@@ -1,0 +1,18 @@
+.b-form-slider__scale
+{
+    position: relative;
+    z-index: 6;
+}
+
+.b-form-slider__mark
+{
+    position: absolute;
+
+    padding-top: 0.1em;
+}
+
+.b-form-slider__mark_position_last
+{
+    left: auto !important;
+    right: 0;
+}

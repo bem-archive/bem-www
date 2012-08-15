@@ -1,0 +1,50 @@
+({
+    block: 'b-page',
+    title: 'b-form-button',
+    head: [
+        { elem: 'css', url: '_50input-button_bem.css', ie: false },
+        { elem: 'css', url: '_50input-button_bem.ie6.css', ie: 'IE 6' },
+        { elem: 'css', url: '_50input-button_bem.ie7.css', ie: 'IE 7' },
+        { elem: 'css', url: '_50input-button_bem.ie8.css', ie: 'IE 8' },
+        { elem: 'css', url: '_50input-button_bem.ie9.css', ie: 'IE 9' },
+        { block: 'i-jquery', elem: 'core' },
+        { elem: 'js', url: '_50input-button_bem.js' }
+    ],
+    content: {
+        block: 'i-lego-example',
+        content: {
+            tag: 'form',
+            cls: 'b-myform',
+            attrs: { action: 'bbb' },
+            content: {
+                block: 'b-mysearch',
+                content: [
+                    {
+                        elem: 'input',
+                        content: {
+                            block: 'b-form-input',
+                            mods: { theme: 'grey' },
+                            content: [
+                                {
+                                    elem: 'hint',
+                                    content: 'b-form-input'
+                                },
+                                { elem: 'input' }
+                            ]
+                        }
+                    },
+                    {
+                        elem: 'button',
+                        content: {
+                            block: 'b-form-button',
+                            attrs: { tabindex: 106 },
+                            mods: { theme: 'grey-s', size: 's' },
+                            type: 'submit',
+                            content: 'b-form-button'
+                        }
+                    }
+                ]
+            }
+        }
+    }
+})

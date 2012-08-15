@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru">
+        <lego:b-layout-table lego:layout="30-70">
+            <lego:row>
+                <lego:cell>
+                    Размер XS
+                </lego:cell>
+                <lego:cell lego:position="r">
+                    <lego:i-lego-example>
+                        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="xs">
+                            <lego:info lego:preset="inline">
+                                <lego:title>Цена</lego:title>
+                                <lego:b-form-input lego:theme="grey" value="30">
+                                    <lego:input/>
+                                </lego:b-form-input>
+
+                                <lego:b-form-input lego:theme="grey" value="70">
+                                    <lego:input/>
+                                </lego:b-form-input>
+                            </lego:info>
+
+                            <lego:scale>
+                                <lego:mark value="0" step="10">
+                                    <lego:label>0</lego:label>
+                                </lego:mark>
+                                <lego:mark value="100">
+                                    <lego:label>100</lego:label>
+                                </lego:mark>
+                            </lego:scale>
+                        </lego:b-form-slider>
+                    </lego:i-lego-example>
+                </lego:cell>
+            </lego:row>
+            <lego:row>
+                <lego:cell>
+                    <lego:b-form-button lego:size="s" lego:theme="grey-s" type="button">Размер S</lego:b-form-button>
+                </lego:cell>
+                <lego:cell lego:position="r">
+                    <lego:i-lego-example>
+                        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="s">
+                            <lego:info lego:preset="inline">
+                                <lego:title>Цена</lego:title>
+                                <lego:b-form-input lego:theme="grey" value="30">
+                                    <lego:input/>
+                                </lego:b-form-input>
+
+                                <lego:b-form-input lego:theme="grey" value="70">
+                                    <lego:input/>
+                                </lego:b-form-input>
+                            </lego:info>
+
+                            <lego:scale>
+                                <lego:mark value="0" step="10">
+                                    <lego:label>0</lego:label>
+                                </lego:mark>
+                                <lego:mark value="100">
+                                    <lego:label>100</lego:label>
+                                </lego:mark>
+                            </lego:scale>
+                        </lego:b-form-slider>
+                    </lego:i-lego-example>
+                </lego:cell>
+            </lego:row>
+            <lego:row>
+                <lego:cell>
+                    <lego:b-form-button lego:size="m" lego:theme="grey-m" type="button">Размер M</lego:b-form-button>
+                </lego:cell>
+                <lego:cell lego:position="r">
+                    <lego:i-lego-example>
+                        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="m">
+                            <lego:info lego:preset="inline">
+                                <lego:title>Цена</lego:title>
+                                <lego:b-form-input lego:theme="grey" value="30">
+                                    <lego:input/>
+                                </lego:b-form-input>
+
+                                <lego:b-form-input lego:theme="grey" value="70">
+                                    <lego:input/>
+                                </lego:b-form-input>
+                            </lego:info>
+
+                            <lego:scale>
+                                <lego:mark value="0" step="10">
+                                    <lego:label>0</lego:label>
+                                </lego:mark>
+                                <lego:mark value="100">
+                                    <lego:label>100</lego:label>
+                                </lego:mark>
+                            </lego:scale>
+                        </lego:b-form-slider>
+                    </lego:i-lego-example>
+                </lego:cell>
+            </lego:row>
+            <lego:row>
+                <lego:cell>
+                    <lego:b-form-button lego:size="l" lego:theme="grey-l" type="button">Размер L</lego:b-form-button>
+                </lego:cell>
+                <lego:cell lego:position="r">
+                    <lego:i-lego-example>
+                        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="l">
+                            <lego:info lego:preset="inline">
+                                <lego:title>Цена</lego:title>
+                                <lego:b-form-input lego:theme="grey" value="30">
+                                    <lego:input/>
+                                </lego:b-form-input>
+
+                                <lego:b-form-input lego:theme="grey" value="70">
+                                    <lego:input/>
+                                </lego:b-form-input>
+                            </lego:info>
+
+                            <lego:scale>
+                                <lego:mark value="0" step="10">
+                                    <lego:label>0</lego:label>
+                                </lego:mark>
+                                <lego:mark value="100">
+                                    <lego:label>100</lego:label>
+                                </lego:mark>
+                            </lego:scale>
+                        </lego:b-form-slider>
+                    </lego:i-lego-example>
+                </lego:cell>
+            </lego:row>
+        </lego:b-layout-table>
+</lego:page>

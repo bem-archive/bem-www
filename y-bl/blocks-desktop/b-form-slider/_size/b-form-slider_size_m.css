@@ -1,0 +1,22 @@
+.b-form-slider_size_m
+{
+    font-size: 13px;
+}
+
+.b-form-slider_size_m .b-form-slider__body
+{
+    height: 24px;
+}
+
+.b-form-slider_size_m .b-form-slider__runner
+{
+    width: 42px;
+    height: 20px;
+    margin-left: -22px;
+}
+
+.b-form-slider_size_m .b-form-slider__runner_pos_1,
+.b-form-slider_size_m .b-form-slider__runner_pos_2
+{
+    width: 21px;
+}

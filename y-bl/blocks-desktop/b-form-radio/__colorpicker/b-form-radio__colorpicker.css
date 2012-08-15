@@ -1,0 +1,27 @@
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes .b-form-radio__inner:after
+{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    border-bottom: none;
+    
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.40) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.16)), color-stop(100%,rgba(0, 0, 0, 0.40)));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.16) 0%, rgba(0, 0, 0, 0.40) 100%);
+}
+
+.b-form-radio__colorpicker .b-form-radio__button .b-form-radio__content
+{
+    width: 2.8em;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_focused_yes
+{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/*Убираем верхний непрозрачный градиент для цветных кнопок*/ /**/
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes .b-form-radio__inner:after
+{
+    display: none;
+}

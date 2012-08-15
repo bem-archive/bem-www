@@ -1,0 +1,80 @@
+.b-form-radio .b-form-radio__button_checked_yes .b-form-radio__inner:before
+{
+    opacity: 0.5;
+}
+
+.b-form-radio__button_next-for-checked_yes .b-form-radio__inner:before,
+.b-form-radio__button_checked_yes.b-form-radio__button_side_right:after,
+.b-form-radio__button_checked_yes.b-form-radio__button_side_both:after
+{
+    display: none;
+}
+
+.b-form-radio__button_checked_yes:after,
+.b-form-radio__button_checked_yes .b-form-radio__inner:after,
+.b-form-radio__button_checked_yes .b-form-radio__content:before,
+.b-form-radio__button_checked_yes .b-form-radio__content:after
+{
+    font: 0/0 a;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    content: "";
+}
+
+.b-form-radio__button_checked_yes:after
+{
+    z-index: 1;
+    left: 100%;
+    bottom: -1px;
+
+    width: 1px;
+    margin-left: -1px;
+
+    opacity: 0.5;
+}
+
+ /*Рисует верхний градиент, этот градиент не прозрачный*/
+.b-form-radio__button_checked_yes .b-form-radio__inner:after
+{
+    right: 0;
+
+    height: 1px;
+}
+
+/* Рисует вторые справа и слева вертикальные однопиксельные градиенты */ /**/
+.b-form-radio__button_checked_yes .b-form-radio__content:before,
+.b-form-radio__button_checked_yes .b-form-radio__content:after
+{
+    z-index: 10;
+    left: 1px;
+    bottom: -1px;
+
+    width: 1px;
+
+    opacity: 0.2;
+}
+
+.b-form-radio__button_checked_yes .b-form-radio__content:after
+{
+    left: 100%;
+
+    margin-left: -2px;
+}
+
+.b-form-radio__button_checked_yes.b-form-radio__button_side_left .b-form-radio__content:before,
+.b-form-radio__button_checked_yes.b-form-radio__button_side_both .b-form-radio__content:before
+{
+    left: 0;
+    bottom: 1px;
+}
+
+.b-form-radio__button_checked_yes.b-form-radio__button_side_right .b-form-radio__content:after,
+.b-form-radio__button_checked_yes.b-form-radio__button_side_both .b-form-radio__content:after
+{
+    bottom: 1px;
+
+    margin-left: -1px;
+}

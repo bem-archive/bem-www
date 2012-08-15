@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'konkord';
+    src: local('konkord');
+    src: url('i-font_face_konkord.woff'),
+         url('i-font_face_konkord.ttf');
+}
+
+.i-font_face_konkord
+{
+    font-family: 'konkord';
+}

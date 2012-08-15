@@ -1,0 +1,12 @@
+.b-form-attach__holder
+{
+    display: inline;
+
+    zoom: 1;
+
+}
+
+.b-form-attach__holder .b-icon
+{
+    background-image: url(b-form-attach__holder.png);
+}

@@ -1,0 +1,50 @@
+body .b-form-radio__colorpicker .b-form-radio__button .b-form-radio__inner
+{
+    background-image: none !important;
+    filter: none !important;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes .b-form-radio__inner
+{
+    background: none !important;
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__content
+{
+    height: 100%;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes .b-form-radio__content
+{
+    padding-right: 1px;
+    
+    background: none;
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_focused_yes
+{
+    top: 0;
+    left: 0;
+
+    margin-right: 0;
+
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_focused_yes.b-form-radio__button_side_left
+{
+    left: 0;
+
+    margin-right: 0;
+
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_focused_yes.b-form-radio__button_side_right
+{
+    margin-right: 0;
+
+    filter: none;
+}

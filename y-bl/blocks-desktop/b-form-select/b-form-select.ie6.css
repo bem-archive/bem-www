@@ -1,0 +1,22 @@
+.b-form-select__arrow
+{
+    font-style: normal;
+    font-size: 9px !important;
+}
+
+.b-form-select .b-form-button .b-form-button__content
+{
+    left: 5px;
+
+    display: inline;
+}
+
+.b-form-select .b-form-button .b-form-button__input
+{
+    display: none;
+}
+
+.b-form-select .b-form-button
+{
+    zoom: 1;
+}

@@ -1,0 +1,21 @@
+.b-form-radio_size_m .b-form-radio__button
+{
+    font-size: 13px;
+}
+
+.b-form-radio_size_m .b-form-radio__inner
+{
+    height: 20px;
+}
+
+.b-form-radio_size_m .b-form-radio__text
+{
+    line-height: 21px;
+
+    top: -1px;
+}
+
+.b-form-radio_size_m .b-form-radio__button_checked_yes .b-form-radio__content .b-form-radio__text
+{
+    top: 0;
+}

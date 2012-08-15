@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-switch lego:type="toggle" lego:theme="toggle-s-black" name="on-off">
+            <lego:option value="on">вкл</lego:option>
+            <lego:option lego:active="yes" value="off">выкл</lego:option>
+        </lego:b-form-switch>
+    </xhtml:div>
+
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-switch lego:type="toggle" lego:theme="toggle-m-black" name="on-off2">
+            <lego:option lego:active="yes" value="on">вкл</lego:option>
+            <lego:option value="off">выкл</lego:option>
+        </lego:b-form-switch>
+    </xhtml:div>
+
+</lego:page>

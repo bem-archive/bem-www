@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <lego:b-dummy>
+        <lego:b-form-switch lego:type="switch" lego:theme="switch-s-grey" name="light">
+            <lego:option lego:active="yes" value="on">Вкл.</lego:option>
+            <lego:option value="off">Выкл.</lego:option>
+        </lego:b-form-switch>
+        <xhtml:pre>$('.b-form-switch').bem('b-form-switch')
+
+    .on('change', function() {
+        this.val()<xhtml:samp id="val"></xhtml:samp>
+        this.position()<xhtml:samp id="position"></xhtml:samp>
+    })
+
+    <xhtml:a href="javascript:$('.b-form-switch').bem('b-form-switch').val('on');undefined">.val('on')</xhtml:a>
+    <xhtml:a href="javascript:$('.b-form-switch').bem('b-form-switch').val('off');undefined">.val('off')</xhtml:a>
+    <xhtml:a href="javascript:$('.b-form-switch').bem('b-form-switch').val('doesn_exist');undefined">.val('doesnt_exist')</xhtml:a>
+    <xhtml:a href="javascript:$('.b-form-switch').bem('b-form-switch').toggle();undefined">.toggle()</xhtml:a></xhtml:pre>
+    </lego:b-dummy>
+</lego:page>
+

@@ -1,0 +1,18 @@
+.b-form-select__item_focused_yes
+{
+    position: relative;
+    z-index: 2;
+}
+
+.b-form-select__item_focused_yes:after
+{
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+
+    content: '';
+
+    width: 30px;
+    height: 100%;
+}

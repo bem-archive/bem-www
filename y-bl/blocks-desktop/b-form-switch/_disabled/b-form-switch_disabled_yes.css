@@ -1,0 +1,11 @@
+.b-form-switch_disabled_yes
+{
+    opacity: 0.3;
+}
+
+body .b-form-switch_disabled_yes .b-form-switch__body
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

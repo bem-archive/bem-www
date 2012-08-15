@@ -1,0 +1,99 @@
+/* __button (begin) */ /**/
+.b-form-radio_theme_grey .b-form-radio__inner
+{
+    border-color: #b8b8b8;
+
+    filter:progid:DXImageTransform.Microsoft.gradient (startColorstr=#d2ffffff, endColorstr=#c8a8a8a8, GradientType=0);
+}
+/* __button (end) */ /**/
+
+/*__button_checked_yes (begin)*/ /**/
+.b-form-radio_theme_grey .b-form-radio__button_checked_yes
+{
+    border-color: #93875d transparent #b8b8b8 !important;
+    background: #fff6d5 url(b-form-radio-grey-checked.ie.png) 0 -41px repeat-x;
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__inner
+{
+    background: url(b-form-radio-grey-checked.ie.png) 0 -2px no-repeat !important;
+}
+
+body .b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__inner .b-form-radio__content
+{
+    background: url(b-form-radio-grey-checked.ie.png) 100% -82px no-repeat;
+}
+
+body .b-form-radio_theme_grey .b-form-radio__button_checked_yes
+{
+    padding-top: 1px;
+
+    border-width: 1px 0 0 !important;
+}
+
+.b-form-radio_theme_grey .b-form-radio__colorpicker .b-form-radio__button_checked_yes
+{
+    padding-top: 0;
+
+    border-width: 1px!important;
+}
+
+body .b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__inner
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__inner,
+.b-form-radio_theme_grey .b-form-radio__button_next-for-checked_yes .b-form-radio__inner
+{
+    border-left: 0;
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__text
+{
+    top: 0;
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__text,
+.b-form-radio_theme_grey .b-form-radio__button_next-for-checked_yes .b-form-radio__text
+{
+    padding-left: 11px !important;
+}
+
+[class].b-form-radio_theme_grey .b-form-radio__button_checked_yes .b-form-radio__inner
+{
+    border-right: 0;
+}
+
+[class].b-form-radio_theme_grey .b-form-radio__button_checked_yes.b-form-radio__button_side_right .b-form-radio__text,
+[class].b-form-radio_theme_grey  .b-form-radio__button_checked_yes.b-form-radio__button_side_both .b-form-radio__text
+{
+    padding-right: 11px;
+}
+/*__button_checked_yes (end)*/ /**/
+
+/*__button_disabled_yes (begin)*/ /**/
+body .b-form-radio_theme_grey .b-form-radio__button_disabled_yes
+{
+    border-top-color: #f6f6f6;
+    border-bottom-color: #e5e5e5;
+}
+
+body .b-form-radio_theme_grey .b-form-radio__button_disabled_yes .b-form-radio__inner
+{
+    border-color: #efefef;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 );
+}
+
+[class].b-form-radio_theme_grey .b-form-radio__button_disabled_yes .b-form-radio__text
+{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+/*__button_disabled_yes (end)*/ /**/
+
+/*__colorpicker (begin)*/ /**/
+.b-form-radio_theme_grey .b-form-radio__colorpicker .b-form-radio__inner .b-form-radio__content
+{
+    background: url(b-form-radio-colorpicker.png) 0 50% repeat-x;
+}
+/*__colorpicker (end)*/ /**/

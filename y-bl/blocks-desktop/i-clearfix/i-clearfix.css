@@ -1,0 +1,11 @@
+/* Control with floats only (begin) */
+    .i-clearfix:after
+    {
+        display: block;
+        clear: both;
+
+        height: 0;
+
+        content: " ";
+    }
+/* Control with floats only (end) */

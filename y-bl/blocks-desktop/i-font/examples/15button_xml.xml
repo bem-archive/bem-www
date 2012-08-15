@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <lego:i-lego-example>
+	    <xhtml:form action="bbb">
+	        <lego:b-form-button lego:theme="grey-l" lego:size="l" type="submit">
+                Кнопонька
+            </lego:b-form-button>
+	    </xhtml:form>
+    </lego:i-lego-example>
+</lego:page>

@@ -1,0 +1,13 @@
+.b-form-radio
+{
+    display: inline-table;
+
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.i-ua_js_yes .b-form-radio__radio
+{
+    position: absolute;
+    left: -10000px;
+}

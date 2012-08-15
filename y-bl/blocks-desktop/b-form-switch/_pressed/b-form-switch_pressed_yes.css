@@ -1,0 +1,7 @@
+.i-ua_js_yes .b-form-switch_pressed_yes .b-form-switch__label
+{
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}

@@ -1,0 +1,61 @@
+.b-form-switch_theme_switch-s-grey
+{
+    height: 15px;
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__body
+{
+    width: 34px;
+    height: 15px;
+
+    background: #9a9a9a;
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__label
+{
+    font: 11px Verdana, sans-serif;
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__button
+{
+    width: 11px;
+    height: 13px;
+
+    background: #eee;
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#FFFFFF),color-stop(100%,#C1C1C1));
+    background: -moz-linear-gradient(top,#FFFFFF 10%,#C1C1C1 100%);
+    background: -o-linear-gradient(top,#FFFFFF 10%,#C1C1C1 100%);
+
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.57);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.57);
+    box-shadow: 0 0 3px rgba(0,0,0,.57);
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__body_position_right .b-form-switch__button
+{
+    left: 22px;
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__body
+{
+    -moz-box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+    -webkit-box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.57);
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__label
+{
+    color: #666;
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__label_active_yes
+{
+    color: #000;
+}
+
+body .b-form-switch_focused_yes.b-form-switch_theme_switch-s-grey .b-form-switch__body
+{
+    -moz-box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+    -webkit-box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+    box-shadow: 0 0 2px #ffd94f,0 0 2px #ffd94f,0 0 3px #ffd94f, inset 0 2px 5px rgba(0,0,0,.57);
+}

@@ -1,0 +1,82 @@
+this._start, !this['i-global']: {
+
+    var ps = {},
+        // params 
+        es = [
+            'appcurl-host',
+            'api-appcurl-host',
+            'airomo-host',
+            'appsociety-host',
+            'app-api-host',
+            'airomo-static-host',
+            'page-url'
+        ], e;
+
+    local(this._mode = 'default', this.block = 'i-global')
+        while(e = es.shift()) {
+            local(this.elem = e) ps[e] = this.apply();
+        }
+
+    this['i-global'] = this._.extend(ps,
+        apply(this._mode='env', this.block='i-global'));
+
+    this.apply();
+
+}
+
+block i-global {
+
+    this._mode === 'env': {}
+
+    default: {
+        for(var p in this.ctx.params) {
+            this['i-global'][p] = this.ctx.params[p];
+        }
+    }
+
+    this.elem: ''
+
+    elem appcurl-host: 'www.appcurl.com'
+    elem api-appcurl-host: 'api.appcurl.com'
+    elem airomo-host: 'www.airomo.com'
+    elem appsociety-host: 'apps.airomo.com'
+    elem api-host: 'api.airomo.com'
+    elem app-api-host: 'appapi.airomo.com'
+    elem airomo-static-host: 'static.airomo.com'
+    elem page-url: '/'
+
+    // Params to JS
+    this._mode === 'public-params' {
+        this.elem: (
+            {
+                'appcurl-host': 1,
+                'api.appcurl-host': 1,
+                'airomo-host': 1,
+                'appsociety-host': 1,
+                'app-api-host': 1,
+                'airomo-static-host': 1,
+                'page-url': '/'
+            }[this.elem] || false)
+    }
+
+}
+
+block b-page, elem body, mix, !this.ctx._iGlobal: {
+
+    var mix = apply(this.ctx._iGlobal = true);
+
+    var js = {},
+        _this = this['i-global'],
+        block = { block: 'i-global', js: js }, e;
+
+    // (NOTE): fill in params for JS
+    local(this._mode = 'public-params', this.block = 'i-global') {
+        for(e in _this) if(_this.hasOwnProperty(e) && apply(this.elem = e)) js[e] = _this[e];
+    }
+
+    mix ? mix.push(block) : (mix = [block]);
+
+    return mix;
+
+}
+

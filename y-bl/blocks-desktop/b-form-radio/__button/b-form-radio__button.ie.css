@@ -1,0 +1,37 @@
+body .b-form-radio__button
+{
+    border-width: 1px 0 !important;
+
+    cursor: default;
+}
+
+.b-form-radio__button,
+.b-form-radio__inner,
+.b-form-radio__content,
+.b-form-radio__text
+{
+    display: inline-block;
+}
+
+.b-form-radio__content
+{
+    height: 100%;
+}
+
+.b-form-radio__inner
+{
+    border-style: solid;
+    border-width: 0 0 0 1px;
+}
+
+.b-form-radio__button_side_right .b-form-radio__inner,
+.b-form-radio__button_side_both .b-form-radio__inner
+{
+    border-width: 0 1px;
+    -border-right: 0;
+}
+
+.i-ua_js_yes .b-form-radio__button .b-form-radio__text
+{
+    padding: 0 10px;
+}

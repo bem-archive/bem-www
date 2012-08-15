@@ -1,0 +1,10 @@
+.b-form-button_type_simple .b-form-button__click
+{
+    vertical-align: top;
+    /* Не знаю почему это помогает, https://jira.yandex-team.ru/browse/LEGO-6160 */ /**/
+}
+
+.b-form-button_disabled_yes .b-form-button__simple
+{
+    color: #999;
+}
