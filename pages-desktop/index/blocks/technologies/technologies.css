@@ -1,4 +1,44 @@
 .technologies
 {
     background: #fdf6e3;
+	overflow: hidden;
+	
+	padding: 0 30px 60px 30px;
+}
+
+.technologies__link
+{
+	text-align: center;
+	padding: 25px 0 0 0;
+}
+
+.technologies__info
+{
+	width: 39%;
+	margin: -1em auto 2em;	
+}
+
+.technologies__tech
+{
+	width: 21%;
+	margin-left: 3%;
+	
+	float: left;
+}
+
+.technologies__tech:first-child
+{
+	margin-left: 0;
+}
+
+.technologies__tech .b-link
+{
+	display: inline-block; 
+	
+	font-size: 24px;
+	
+	padding: 2px 7px;
+	margin: -5px 0 20px -7px;
+	
+	white-space: nowrap;
 }

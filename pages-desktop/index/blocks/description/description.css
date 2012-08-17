@@ -1,0 +1,25 @@
+.description
+{
+	overflow: hidden;
+	
+	margin-bottom: 2.3em;
+	padding: 0 50px;
+}
+
+.description__link
+{
+	float: left;
+	
+	overflow: hidden; 
+	
+	width: 36%;
+}
+
+.description__inner
+{
+	float: left; 
+	
+	margin-left: 3%;
+	
+	width: 50%;
+}

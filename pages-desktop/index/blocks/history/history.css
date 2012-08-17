@@ -1,9 +1,30 @@
+.history
+{
+	margin-bottom: 80px;
+}
+
 .history__inner
 {
-    float: right;
+    float: left;
 
-    width: 50%;
-    padding: 20px 54px;
+    width: 44.5%;
+	
+    padding: 20px 3.7%;
+	margin-left: 36%;
+	
+    background: #fff
+}
 
-    background: #fff;
+
+.history__inner:after
+{
+	background: url(history.png) no-repeat  transparent;
+    content: "";
+	
+    height: 34px;
+    width: 550px;
+	
+    margin: 18px 0 0 -50px;
+	
+    position: absolute;
 }

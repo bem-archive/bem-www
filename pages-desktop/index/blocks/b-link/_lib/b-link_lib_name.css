@@ -1,0 +1,9 @@
+.b-link_lib_name
+{
+	display: inline-block;
+	
+	font-size: 24px;
+	margin: 0 0 .5em -7px;
+	
+	padding: 2px 7px;
+}

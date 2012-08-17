@@ -1,8 +1,10 @@
 .b-page
 {
-    font: 14px/1.5 Tahoma, arial, sans-serif;
+    font: 14px/1.7 Tahoma, arial, sans-serif;
 
-    margin: 0;
+    margin: 0 auto;
+	
+	width: 1000px;
 
     background: #f3f1ee;
 
