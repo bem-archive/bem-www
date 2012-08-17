@@ -1,0 +1,16 @@
+.b-form-radio__button_disabled_yes
+{
+    opacity: 0.4;
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.b-form-radio__button_disabled_yes,
+.b-form-radio__button_disabled_yes .b-form-radio__inner,
+.b-form-radio__button_disabled_yes .b-form-radio__content,
+.b-form-radio__button_disabled_yes .b-form-radio__text
+{
+    cursor: default!important;
+}

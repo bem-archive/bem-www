@@ -1,0 +1,8 @@
+.b-autocomplete-item_type_href .b-link
+{
+    display: block;
+
+    text-decoration: none;
+    
+    color: #000;
+}

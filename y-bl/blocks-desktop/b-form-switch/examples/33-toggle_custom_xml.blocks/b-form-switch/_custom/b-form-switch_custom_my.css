@@ -1,0 +1,26 @@
+.b-form-switch_custom_my .b-form-switch__button
+{
+    width: 15px;
+    margin: 0 -7px 0 -9px;
+}
+
+.b-form-switch_custom_my .b-form-switch__label_position_left
+{
+    padding-right: 9px;
+}
+
+.b-form-switch_custom_my .b-form-switch__label_position_right
+{
+    padding-left: 7px;
+}
+
+.b-form-switch_custom_my .b-form-switch__button .b-icon
+{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+    padding: 10px 10px 0 0;
+
+    background: url(http://mmoo2.music.graymantle2.yandex.ru/blocks/b-form-switch/_toggle-type/b-form-switch_toggle-type_translation.png);
+}

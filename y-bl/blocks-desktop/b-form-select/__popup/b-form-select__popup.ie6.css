@@ -1,0 +1,10 @@
+.b-popupa__content
+{
+    width: 100%;
+    padding-right: 0!important;
+}
+
+.b-form-select__popup
+{
+    margin-left: 1px;
+}

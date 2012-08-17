@@ -1,0 +1,30 @@
+body .b-form-switch_theme_toggle-m-black .b-form-switch__body .b-form-switch__label
+{
+    top: 0;
+
+    line-height: 16px;
+}
+
+.b-form-switch_theme_toggle-m-black .b-form-switch__button
+{
+    top: -1px;
+    
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#505050',GradientType=0 );
+}
+
+.b-form-switch_theme_toggle-m-black .b-form-switch__body
+{
+    overflow: hidden;
+}
+
+[class].b-form-switch_theme_toggle-m-black.b-form-switch_focused_yes .b-form-switch__body,
+[class].b-form-switch_theme_toggle-m-black.b-form-switch_focused_yes .b-form-switch__button
+{
+    border-color: #aba386;
+}
+
+[class].b-form-switch_theme_toggle-m-black.b-form-switch_disabled_yes .b-form-switch__button
+{
+    background: #393939;
+    filter: none; /*filter перекрывает border при alpha(opacity=30)*/
+}

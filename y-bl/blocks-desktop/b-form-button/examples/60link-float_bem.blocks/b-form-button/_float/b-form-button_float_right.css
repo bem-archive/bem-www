@@ -1,0 +1,8 @@
+.b-form-button_float_right
+{
+    float: right;
+
+    margin: 10px 0 5px 10px;
+
+    white-space: nowrap;
+}

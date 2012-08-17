@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-radio name="show_to" lego:size="m" lego:theme="grey">
+            <lego:button lego:disabled="yes">виден всем</lego:button>
+            <lego:button>только друзьям</lego:button>
+            <lego:button lego:disabled="yes">только мне</lego:button>
+            <lego:button>только не мне</lego:button>
+        </lego:b-form-radio>
+    </xhtml:div>
+</lego:page>
+
+

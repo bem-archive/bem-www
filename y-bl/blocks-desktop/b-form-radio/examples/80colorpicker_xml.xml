@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-radio name="show_to" lego:size="m" lego:theme="grey">
+            <lego:button>Все цвета</lego:button>
+            <lego:button>Черно-белые</lego:button>
+            <lego:colorpicker><lego:button lego:color="red"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="green"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="blue"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="black"></lego:button></lego:colorpicker>
+        </lego:b-form-radio>
+    </xhtml:div>
+</lego:page>

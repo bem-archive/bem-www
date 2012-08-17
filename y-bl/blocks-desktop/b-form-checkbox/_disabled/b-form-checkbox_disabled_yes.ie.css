@@ -1,0 +1,9 @@
+.i-ua_js_yes .b-form-checkbox_disabled_yes .b-form-checkbox__tick
+{
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}
+
+.i-ua_js_yes body .b-form-checkbox_disabled_yes .b-form-checkbox__bg
+{
+    margin-top: -60px;
+}

@@ -1,0 +1,11 @@
+.b-form-switch__label
+{
+    cursor: default;
+}
+
+.b-form-switch__button
+{
+    font: 0/0 a;
+
+    /*top: 0 !important;*/
+}

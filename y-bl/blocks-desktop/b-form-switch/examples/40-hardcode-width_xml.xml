@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <lego:i-lego-example>
+        <xhtml:p>По умолчанию, b-form-switch неправильно работает внутри скрытого блока.</xhtml:p>
+        <xhtml:p>Для того, чтобы это исправить необходимо самостоятельно вызвать методa <xhtml:b>updateDimmensions()</xhtml:b> при отображении. </xhtml:p>
+        <lego:b-dropdowna>
+            <lego:switcher>
+                <lego:b-link lego:pseudo="yes" url="http://www.yandex.ru/all">Нажимать тут</lego:b-link>
+            </lego:switcher>
+            <lego:b-popupa>
+                <lego:tail/>
+                <lego:content>
+                    <lego:row lego:is="first">Экваториальный дип-скай объект: гипотеза и теории</lego:row>
+                    <lego:row>
+                        <lego:b-form-switch lego:type="toggle" lego:theme="toggle-s-grey" name="sex">
+                            <lego:option lego:active="yes" value="on">Вкл.</lego:option>
+                            <lego:option value="off">Выкл.</lego:option>
+                        </lego:b-form-switch>
+                    </lego:row>
+                    <lego:row lego:is="last">
+                        <lego:b-form-button lego:size="s" lego:theme="grey-s" type="submit">Установить значение по умолчанию</lego:b-form-button>
+                    </lego:row>
+                </lego:content>
+            </lego:b-popupa>
+        </lego:b-dropdowna>
+    </lego:i-lego-example>
+
+    <lego:i-lego-example>Либо задайте ширину сами, переопределив метод <xhtml:b>getLabelWidth()</xhtml:b>.
+        <lego:b-dropdowna>
+            <lego:switcher>
+                <lego:b-link lego:pseudo="yes" url="http://www.yandex.ru/all">ткни меня</lego:b-link>
+            </lego:switcher>
+            <lego:b-popupa>
+                <lego:tail/>
+                <lego:content>
+                    <lego:b-form-switch lego:focused="yes" lego:type="toggle" lego:theme="toggle-m-grey" name="sex">
+                        <lego:option lego:active="yes" value="on">Вкл.</lego:option>
+                        <lego:option value="off">Выкл.</lego:option>
+                    </lego:b-form-switch>
+                </lego:content>
+            </lego:b-popupa>
+        </lego:b-dropdowna>
+    </lego:i-lego-example>
+
+</lego:page>

@@ -1,0 +1,12 @@
+.b-form-button_theme_blue-xl,
+.b-form-button_theme_blue-xl .b-form-button__left,
+.b-form-button_theme_blue-xl .b-form-button__content
+{
+    color: #000;
+    background-image: url(b-form-button_theme_blue-xl.png);
+}
+
+body .b-form-button_disabled_yes .b-form-button__content
+{
+    color: #999 !important;
+}

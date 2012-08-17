@@ -1,0 +1,6 @@
+.b-form-slider__allowed-range
+{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+}
