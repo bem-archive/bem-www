@@ -24,6 +24,7 @@
 	margin-left: 3%;
 	
 	float: left;
+	font-size: 12px;
 }
 
 .technologies__tech:first-child
@@ -35,10 +36,20 @@
 {
 	display: inline-block; 
 	
-	font-size: 24px;
+	font: 200% Ekibastuz, Tahoma, arial, sans-serif;
 	
 	padding: 2px 7px;
 	margin: -5px 0 20px -7px;
 	
 	white-space: nowrap;
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.technologies
+	{
+		float: left;
+		
+		width: 46%;
+	}
 }

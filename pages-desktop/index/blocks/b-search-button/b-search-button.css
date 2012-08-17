@@ -1,0 +1,18 @@
+.b-search-button
+{
+	font-size: 12px;
+	
+	padding: 5px 15px;
+	
+	border: 1px solid #ccc;
+	background: #fff;
+	
+	display: inline-block;
+	
+	cursor: pointer;
+}
+
+.b-search-button:hover
+{
+	border-color: #aaa;	
+}

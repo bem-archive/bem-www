@@ -1,3 +1,9 @@
+@font-face 
+{
+    font-family: Ekibastuz; /* ָלÿ רנטפעא */
+    src: url(ALSEkibastuz_Regular.otf); /* ֿףעü ך פאיכף סמ רנטפעמל */
+}
+
 .b-page
 {
     font: 14px/1.7 Tahoma, arial, sans-serif;
@@ -9,4 +15,12 @@
     background: #f3f1ee;
 
     color: #586e75;
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-page
+	{
+		width: 2000px;
+	}
 }

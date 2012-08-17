@@ -28,3 +28,16 @@
 {
 	margin-left: 2%;
 }
+
+@media screen and (min-width: 2000px) 
+{
+	.tools
+	{
+		margin-bottom: 80px;
+		padding: 0 65px;
+		
+		overflow: hidden;
+		
+		width: 45%;
+	}
+}

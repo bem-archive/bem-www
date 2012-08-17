@@ -8,11 +8,17 @@
 	
 	width: 133px;
 	height: 46px;
-	
-	margin: 0 0 0 1%;
 }
 
 .b-link_cmp_lj:hover
 {
 	background: url(b-link_cmp_lj.png);
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-link_cmp_lj
+	{
+		margin: 0 4%;
+	}
 }
