@@ -1,0 +1,9 @@
+[class].b-form-select__popup_scrollable_yes .b-popupa__content
+{
+    padding-right: 14px;
+}
+
+[class].b-form-select__popup_scrollable_yes.b-form-select__popup_layout_auto .b-form-select__item
+{
+    padding-right: 0;
+}

@@ -1,0 +1,32 @@
+.b-form-slider_theme_grey .b-form-slider__runner
+{
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#66000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-1, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=0, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#c1c1c3');
+}
+
+.b-form-slider_theme_grey .b-form-slider__runner_focused_yes
+{
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#66000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-1, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=0, Color='#3F000000', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color='#ffd94f', Positive='true'),
+            progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#c1c1c3');
+}
+
+.b-form-slider_theme_grey .b-form-slider__range,
+.b-form-slider_theme_grey .b-form-slider__allowed-range
+{
+    filter: alpha(opacity = 80),
+            progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e462e0a', endColorstr='#14cbcbcb');
+}
+
+.b-form-slider_theme_grey .b-form-slider__body_type_range .b-form-slider__range_pos_2
+{
+    background: none;
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf7dc926', endColorstr='#bf3d7213');
+}

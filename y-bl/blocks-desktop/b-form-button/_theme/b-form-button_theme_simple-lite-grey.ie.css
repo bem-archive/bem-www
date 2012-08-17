@@ -1,0 +1,9 @@
+.b-form-button_theme_simple-lite-grey .b-form-button__simple
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d000000', endColorstr='#1f000000',GradientType=0);
+}
+
+[class].b-form-button_theme_simple-lite-grey.b-form-button_disabled_yes .b-form-button__simple
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#05000000', endColorstr='#0d000000',GradientType=0);
+}

@@ -1,0 +1,21 @@
+block b-mysearch {
+
+    tag: 'table'
+    attrs: { cellpadding: 0, cellspacing: 0 }
+
+    content, !this.elem, !this.ctx._wrap: {
+        local(
+            this._mode = '',
+            this.ctx._wrap = true,
+            this.ctx = {
+                tag: 'tr',
+                content: this.ctx.content
+            }
+        ) this.apply();
+    }
+
+    elem input, tag: 'td'
+
+    elem button, tag: 'td'
+
+}

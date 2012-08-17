@@ -1,0 +1,33 @@
+.b-mysearch
+{
+    font-size: 100%;
+
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.b-mysearch__under
+{
+    padding: 0;
+
+    vertical-align: top;
+}
+
+.b-mysearch__input,
+.b-mysearch__button
+{
+    padding: 0;
+
+    vertical-align: middle;
+}
+
+.b-mysearch__input
+{
+    width: 100%;
+}
+
+.b-mysearch__button
+{
+    padding-left: 6px;
+}

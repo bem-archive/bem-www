@@ -1,0 +1,5 @@
+.b-form-slider_disabled_yes .b-form-slider__body,
+.b-form-slider_disabled_yes .b-form-slider__scale
+{
+    opacity: 0.5;
+}

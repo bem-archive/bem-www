@@ -1,0 +1,26 @@
+.b-form-button_theme_simple-blue .b-form-button__simple
+{
+    color: #1E5799;
+
+    background: rgba(30,87,153,0.12);
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0.05) 0%, rgba(125,185,232,0.12) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,0.05)), color-stop(100%,rgba(125,185,232,0.12)));
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0.05) 0%,rgba(125,185,232,0.12) 100%);
+    background: -o-linear-gradient(top,  rgba(30,87,153,0.05) 0%,rgba(125,185,232,0.12) 100%);
+    background: -ms-linear-gradient(top,  rgba(30,87,153,0.05) 0%,rgba(125,185,232,0.12) 100%);
+}
+
+.b-form-button_theme_simple-blue.b-form-button_hovered_yes .b-form-button__simple
+{
+    background: rgba(30,87,153,0.18);
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0.08) 0%, rgba(125,185,232,0.18) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,0.08)), color-stop(100%,rgba(125,185,232,0.18)));
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0.08) 0%,rgba(125,185,232,0.18) 100%);
+    background: -o-linear-gradient(top,  rgba(30,87,153,0.08) 0%,rgba(125,185,232,0.18) 100%);
+    background: -ms-linear-gradient(top,  rgba(30,87,153,0.08) 0%,rgba(125,185,232,0.18) 100%);
+}
+
+.b-form-button_theme_simple-blue.b-form-button_focused_yes .b-form-button__simple
+{
+    outline-color: rgba(30,87,153,0.5);
+}

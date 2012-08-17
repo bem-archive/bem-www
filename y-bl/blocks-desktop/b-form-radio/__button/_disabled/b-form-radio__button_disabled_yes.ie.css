@@ -1,0 +1,13 @@
+body [class].b-form-radio__button_disabled_yes.b-form-radio__button_focused_yes
+{
+    top: 0;
+    left: 0;
+
+    margin-right: 0;
+
+    vertical-align: bottom;
+
+    filter:
+    progid:DXImageTransform.Microsoft.Shadow(enabled=false)
+    progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+}

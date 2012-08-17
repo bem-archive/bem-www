@@ -1,0 +1,24 @@
+block b-form-button, mod type simple {
+
+    mix, !this.elem, !this.ctx.mods.theme, !this.ctx._mix: {
+        var mix;
+
+        local(this.ctx._mix = true) mix = this.apply();
+
+        mix[0].mods.theme = 'simple-grey';
+
+        return mix;
+    }
+
+    content: [
+        {
+            elem: 'simple',
+            content: this.ctx.content
+        },
+        this._click,
+        this._input
+    ]
+
+    elem simple, tag: 'span'
+
+}

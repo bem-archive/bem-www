@@ -1,0 +1,17 @@
+.b-link_cmp_thk
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_thk.png);
+	
+	width: 116px;
+	height: 55px;
+
+}
+
+.b-link_cmp_thk:hover
+{
+	background: url(b-link_cmp_thk.png);
+}

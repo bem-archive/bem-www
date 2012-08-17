@@ -1,0 +1,23 @@
+.b-form-select__item_selected_yes .b-form-select__text:before
+{
+    position: relative;
+    z-index: 10;
+    top: 0;
+
+    float: right;
+
+    width: 25px;
+    height: 19px;
+    margin: 0 -25px -19px 0;
+
+    content: '';
+
+    background-repeat: no-repeat;
+}
+
+.b-form-select__item_selected_yes .b-form-select__text
+{
+    float: left;
+
+    max-width: 100%;
+}

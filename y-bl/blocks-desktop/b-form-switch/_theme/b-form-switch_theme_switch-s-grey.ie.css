@@ -1,0 +1,33 @@
+[class].b-form-switch_theme_switch-s-grey.b-form-switch_focused_yes .b-form-switch__body
+{
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#ffd94f', Direction=0, Strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color='#ffd94f', Direction=90, Strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color='#ffd94f', Direction=180, Strength=2)
+        progid:DXImageTransform.Microsoft.Shadow(color='#ffd94f', Direction=270, Strength=2)
+        progid:DXImageTransform.Microsoft.gradient(startColorstr=#A0656565, endColorstr=#009a9a9a, GradientType=0);
+}
+
+.b-form-switch_theme_switch-s-grey .b-form-switch__button
+{
+    top: 0 !important;
+    
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#00757575', Direction=0, Strength=1)
+        progid:DXImageTransform.Microsoft.gradient (startColorstr=#A0ffffff, endColorstr=#c8d5d5d5, GradientType=0);
+}
+
+[class].b-form-switch_theme_switch-s-grey.b-form-switch_focused_yes .b-form-switch__body
+{
+    margin: 0;
+}
+
+[class].b-form-switch_theme_switch-s-grey.b-form-switch_focused_yes .b-form-switch__label_position_left
+{
+    margin-right: 4px;
+}
+
+[class].b-form-switch_theme_switch-s-grey.b-form-switch_focused_yes .b-form-switch__label_position_right
+{
+    margin-left: 4px;
+}

@@ -1,0 +1,148 @@
+body .b-form-radio__button
+{
+    position: relative;
+    z-index: 2;
+
+    display: -moz-inline-box;
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+
+    outline: 0;
+    white-space: nowrap;
+    vertical-align: top;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+    border-width: 1px!important;
+    border-style: solid none/*!head*/;
+    /*border-color: rgba(0, 0, 0, 0.16) transparent rgba(0, 0, 0, 0.40);*/  /* убрали из-за бага в chorome >11 под mac LEGO-4223 */ /**/
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.b-form-radio__inner
+{
+    position: relative;
+
+    /* По мотивам LEGO-4827 - b-form-radio: в Opera 10.63 съехала тень на кнопках с иконками */ /**/
+    display: block;
+}
+
+.b-form-radio__inner, x:-moz-any-link
+{
+    /* По мотивам LEGO-4774 - b-form-radio: В FF3.5 нет разделителей м/у кнопками */ /**/
+    display: inline-block;
+}
+
+.b-form-radio__inner:before
+{
+    font: 0/0 a;
+
+    position: absolute;
+    z-index: 4;
+    top: -1px;
+    left: 0;
+    bottom: -1px;
+
+    width: 1px;
+
+    content: '';
+}
+
+/* Убиваю псевдэллемент слева, мешает скругленным уголкам */ /**/
+.b-form-radio__button_side_left .b-form-radio__inner:before
+{
+    display: none;
+}
+
+.b-form-radio__content
+{
+    display: -moz-inline-box;
+    display: inline-block;
+
+    height: 100%;
+
+    padding-left: 7px;
+}
+
+.i-ua_js_yes .b-form-radio__content
+{
+    padding-left: 0;
+}
+
+.b-form-radio__button .b-form-radio__text
+{
+    line-height: 100%;
+    
+    position: relative;
+    
+    padding: 0 0.5em 0 0.3em;
+
+    cursor: default; /*LEGO-7117*/
+}
+
+.i-ua_js_yes .b-form-radio__button .b-form-radio__text
+{
+    position: relative;
+
+    padding: 0 0.95em;
+}
+
+.b-form-radio__button_side_left
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+
+    -webkit-background-clip: padding-box;
+}
+
+.b-form-radio__button_side_left .b-form-radio__inner,
+.b-form-radio__button_side_left .b-form-radio__inner .b-form-radio__content
+{
+    border-bottom-left-radius: 3px;
+
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+
+    -webkit-background-clip: padding-box;
+}
+
+.b-form-radio__button_side_right
+{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+
+    -webkit-background-clip: padding-box;
+}
+
+.b-form-radio__button_side_right .b-form-radio__inner,
+.b-form-radio__button_side_right .b-form-radio__inner .b-form-radio__content
+{
+    border-bottom-right-radius: 3px;
+
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+
+    -webkit-background-clip: padding-box;
+}

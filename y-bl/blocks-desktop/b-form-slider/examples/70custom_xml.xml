@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru">
+    <lego:i-lego-example>
+        <lego:b-form-slider lego:type="range" min="50" max="175" lego:theme="custom" lego:size="xs">
+
+            <lego:info lego:preset="custom">
+                <lego:title>ПлЮшки да РоГалики</lego:title>
+
+                <lego:b-form-input lego:theme="grey" value="70">
+                    <lego:input/>
+                </lego:b-form-input>
+
+                <lego:unit>рогаликов</lego:unit>
+
+                <lego:b-form-input lego:theme="grey" value="150">
+                    <lego:input/>
+                </lego:b-form-input>
+
+                <lego:unit>бубликов</lego:unit>
+            </lego:info>
+
+            <lego:scale>
+                <lego:mark value="0" step="10"/>
+                <lego:mark value="50" step="10" percent="20">
+                    <lego:label>50</lego:label>
+                </lego:mark>
+                <lego:mark value="175" step="10" percent="80">
+                    <lego:label>175</lego:label>
+                </lego:mark>
+                <lego:mark value="250"/>
+            </lego:scale>
+        </lego:b-form-slider>
+    </lego:i-lego-example>
+
+</lego:page>

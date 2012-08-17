@@ -1,0 +1,18 @@
+.b-link_cmp_lenta
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_lenta.png);
+	
+	width: 158px;
+	height: 41px;
+	
+	margin: 0 0 0 1%;
+}
+
+.b-link_cmp_lenta:hover
+{
+	background: url(b-link_cmp_lenta.png);
+}

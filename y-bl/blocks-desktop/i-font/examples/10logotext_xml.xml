@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru">
+    <lego:b-page>
+        <lego:b-head-logo lego:type="text"/>
+        <lego:b-head-logo/>
+    </lego:b-page>
+</lego:page>

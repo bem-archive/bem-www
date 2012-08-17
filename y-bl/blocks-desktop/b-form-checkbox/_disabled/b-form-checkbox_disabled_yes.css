@@ -1,0 +1,15 @@
+.i-ua_js_yes body .b-form-checkbox_disabled_yes .b-form-checkbox__inner
+{
+    opacity: 0.3;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.i-ua_js_yes body .b-form-checkbox_disabled_yes .b-form-checkbox__bg
+{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

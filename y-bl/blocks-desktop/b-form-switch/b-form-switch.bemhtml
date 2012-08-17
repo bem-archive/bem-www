@@ -1,0 +1,67 @@
+block b-form-switch {
+
+    js: true
+    tag: 'span'
+    default, !this._switchInit: {
+        local(
+            this._switchInit = true,
+            this._switchName = this.ctx.name || 'id-' + Math.random(), // TODO: Сделать generate-id(.)
+            this._isDisabled = this.mods.disabled === 'yes',
+            this._switchPosition = this.mods.position
+        ) this.apply();
+    }
+
+    elem option {
+        tag: 'input',
+        mix: [{ elem: 'input' }, { elem: 'input-' + this._switchOptionSide }],
+        attrs: {
+            var attrs = { type: 'radio', name: this._switchName, id: this._switchOptionId };
+            this._switchPosition === this._switchOptionSide &&
+                (attrs['checked'] = 'checked');
+
+            this._isDisabled && (attrs.disabled = '');
+
+            return attrs;
+        },
+        default, !this._switchOptionWrap: {
+            local(
+                this._mode = '',
+                this._switchOptionWrap = true,
+                this._switchOptionId = this.ctx.id || 'id-' + Math.random(), // TODO: Сделать generate-id(.)
+                this._switchOptionSide = this.isFirst() ? 'left' : 'right',
+                this._switchOptionContent = this.ctx.content,
+                this.ctx.content = '',
+                this.ctx = [
+                    {
+                        elem: 'label',
+                        content: this.ctx
+                    },
+                    this.isFirst() ? { elem: this.mods.type === 'switch' ? 'body' : 'button' } : ''
+                ]
+            ) this.apply();
+        }
+    }
+
+    elem label {
+        tag: 'label',
+        mix: {
+            var mix = [{ elemMods: {position: this._switchOptionSide} }];
+            this._switchPosition === this._switchOptionSide &&
+                mix.push({ elemMods: { active: 'yes' } });
+
+            return mix;
+        }
+        attrs: { hidefocus: true, unselectable: 'on', 'for': this._switchOptionId }
+    }
+
+    elem label-inner, tag: 'span'
+
+    elem body {
+        tag: 'span',
+        mix: [{ elemMods: { position: this._switchPosition } }],
+        content, !this.ctx.content: { elem: 'button' }
+    }
+
+    elem button, tag: 'span'
+
+}

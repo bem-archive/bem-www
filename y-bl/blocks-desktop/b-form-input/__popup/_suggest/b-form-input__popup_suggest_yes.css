@@ -1,0 +1,9 @@
+.b-form-input__popup_suggest_yes
+{
+    min-width: 31em;
+}
+
+.b-form-input__popup_suggest_yes .b-autocomplete-item_type_foot
+{
+    font-size: 85%;
+}

@@ -1,0 +1,12 @@
+.b-form-select__fade
+{
+    position: absolute;
+    z-index: 1;  
+    top: 0;
+    left: 100%;
+
+    width: 30px;
+    height: 100%;
+    margin-left: -30px;
+}
+

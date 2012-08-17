@@ -1,0 +1,18 @@
+.b-link_cmp_lj
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_lj.png);
+	
+	width: 133px;
+	height: 46px;
+	
+	margin: 0 0 0 1%;
+}
+
+.b-link_cmp_lj:hover
+{
+	background: url(b-link_cmp_lj.png);
+}
