@@ -1,7 +1,7 @@
 @font-face 
 {
-    font-family: Ekibastuz; /* ָלÿ רנטפעא */
-    src: url(ALSEkibastuz_Regular.otf); /* ֿףעü ך פאיכף סמ רנטפעמל */
+    font-family: Ekibastuz; 
+    src: url(ALSEkibastuz_Regular.otf);
 }
 
 .b-page
@@ -10,13 +10,16 @@
 
     margin: 0 auto;
 	
-	width: 1000px;
+	width: 100%;
+	min-width: 1000px;
 
     background: #f3f1ee;
 
     color: #586e75;
+	
+	position: relative;
 }
-
+/*
 @media screen and (min-width: 2000px) 
 {
 	.b-page
@@ -24,3 +27,4 @@
 		width: 2000px;
 	}
 }
+*/

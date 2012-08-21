@@ -1,0 +1,10 @@
+.b-link_cmp_thk,
+.b-link_cmp_thk:hover
+{
+	display: inline-block;
+
+	width: 70px;
+	height: 35px;
+	
+	background: url(b-link_cmp_thk.png)	
+}
