@@ -1,0 +1,11 @@
+.logo
+{
+	width: 50px;
+	height: 40px;
+	
+	background: url(logo.png);
+	
+	float: left;
+	
+	margin: 10px 0 10px 10px;
+}
