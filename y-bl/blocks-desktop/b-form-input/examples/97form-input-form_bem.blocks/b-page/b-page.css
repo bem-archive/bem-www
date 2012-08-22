@@ -1,0 +1,23 @@
+.b-page
+{
+    width: 400px;
+    margin: 20px;
+}
+
+h1
+{
+    font-weight: 400;
+}
+
+table,
+td
+{
+    padding: 0;
+
+    border-collapse: collapse;
+}
+
+label
+{
+    vertical-align: middle;
+}

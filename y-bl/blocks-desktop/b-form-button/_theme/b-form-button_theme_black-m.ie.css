@@ -1,0 +1,11 @@
+.b-form-button_theme_black-m,
+.b-form-button_theme_black-m .b-form-button__left,
+.b-form-button_theme_black-m .b-form-button__content
+{
+    color: #cacaca;
+}
+
+body .b-form-button_theme_black-m.b-form-button_disabled_yes .b-form-button__content
+{
+    color: #7d7d7d;
+}

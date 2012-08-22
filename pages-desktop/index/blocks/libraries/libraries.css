@@ -1,0 +1,25 @@
+.libraries
+{
+	margin-bottom: 60px;
+	padding: 0 50px;
+}
+
+.libraries__link
+{
+	text-align: center;
+}
+
+.libraries__lib
+{
+	margin: 25px 0 45px 0;	
+}	
+
+@media screen and (min-width: 2000px) 
+{
+	.libraries
+	{
+		float: left;
+		
+		width: 46%;
+	}
+}

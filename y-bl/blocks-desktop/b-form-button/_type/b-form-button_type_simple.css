@@ -1,0 +1,39 @@
+.b-form-button_type_simple .b-form-button__simple
+{
+    display: inline-block;
+
+    margin: 2px !important; /* Чтобы перекрыть margin-ы в _size */ /**/
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.b-form-button_type_simple .b-form-button__input,
+.b-form-button_type_simple .b-form-button__click
+{
+    cursor: pointer;
+}
+
+.b-form-button_disabled_yes .b-form-button__input,
+.b-form-button_disabled_yes .b-form-button__click
+{
+    cursor: default;
+}
+
+.b-form-button_disabled_yes .b-form-button__simple
+{
+    cursor: default;
+
+    opacity: 0.5;
+}
+
+.b-form-button_pressed_yes .b-form-button__simple,
+.b-form-button_focused_yes .b-form-button__simple
+{
+    outline: 1px dotted;
+    outline-offset: 1px;
+}

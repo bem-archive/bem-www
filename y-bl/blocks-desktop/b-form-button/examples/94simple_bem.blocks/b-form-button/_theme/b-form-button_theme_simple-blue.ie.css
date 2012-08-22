@@ -1,0 +1,23 @@
+.b-form-button_theme_simple-blue .b-form-button__simple
+{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d1e5799', endColorstr='#1f7db9e8',GradientType=0);
+}
+
+* html a.b-form-button_theme_simple-blue:hover .b-form-button__simple
+{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#141e5799', endColorstr='#2e7db9e8',GradientType=0);
+}
+
+[class].b-form-button_theme_simple-blue.b-form-button_hovered_yes .b-form-button__simple
+{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#141e5799', endColorstr='#2e7db9e8',GradientType=0);
+}
+
+[class].b-form-button_theme_simple-blue.b-form-button_disabled_yes .b-form-button__simple
+{
+    color: #8fabcc;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#051e5799', endColorstr='#0d7db9e8',GradientType=0);
+}
+
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru">
+
+    <lego:i-lego-example lego:row="yes">
+        <lego:b-form-button lego:size="s" lego:theme="grey-s" type="submit" lego:valign="middle">Кнопка</lego:b-form-button>
+        <lego:b-form-radio lego:size="s" lego:theme="grey">
+            <lego:button value="radio" lego:checked="yes">Радио</lego:button>
+            <lego:button value="group">группа</lego:button>
+        </lego:b-form-radio>
+        <lego:b-form-checkbox lego:theme="grey-m" lego:size="m">
+            <lego:label>чекбокс</lego:label>
+        </lego:b-form-checkbox>
+        <lego:b-form-select lego:size="s" lego:theme="grey" name="nashSelect">
+            <lego:b-form-button type="button" lego:size="s" lego:theme="grey-s" lego:valign="middle">Селект</lego:b-form-button>
+            <lego:select>
+                <lego:option value="select">Селект</lego:option>
+                <lego:option value="1">1</lego:option>
+                <lego:option value="2">2</lego:option>
+            </lego:select>
+        </lego:b-form-select>
+    </lego:i-lego-example>
+
+    <lego:i-lego-example lego:row="yes">
+        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="xs" lego:input="hidden">
+
+            <lego:info>
+                <lego:b-form-input lego:theme="grey" value="30">
+                    <lego:input/>
+                </lego:b-form-input>
+
+                <lego:b-form-input lego:theme="grey" value="70">
+                    <lego:input/>
+                </lego:b-form-input>
+            </lego:info>
+
+            <lego:scale>
+                <lego:mark value="0" step="10"/>
+                <lego:mark value="100"/>
+            </lego:scale>
+        </lego:b-form-slider>
+    </lego:i-lego-example>
+
+    <lego:i-lego-example lego:row="yes">
+        <lego:b-form-input lego:theme="grey" lego:size="m">
+            <lego:hint>Инпут</lego:hint>
+            <lego:input/>
+        </lego:b-form-input>
+    </lego:i-lego-example>
+
+    <lego:i-lego-example lego:row="yes">
+        <lego:b-form-input lego:theme="grey" lego:type="textarea">
+            <lego:hint>Текстовая область</lego:hint>
+            <lego:input/>
+        </lego:b-form-input>
+    </lego:i-lego-example>
+</lego:page>

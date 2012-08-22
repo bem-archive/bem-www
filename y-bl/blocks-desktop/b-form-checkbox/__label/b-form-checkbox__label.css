@@ -1,0 +1,11 @@
+.b-form-checkbox__label
+{
+    padding-left: 3px;
+    position: relative;
+    top: -1px;
+}
+
+.b-form-checkbox_disabled_yes .b-form-checkbox__label
+{
+    color: #999;
+}

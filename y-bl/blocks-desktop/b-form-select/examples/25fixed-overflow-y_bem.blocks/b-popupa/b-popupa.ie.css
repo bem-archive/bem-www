@@ -1,0 +1,4 @@
+.b-form-select__popup_layout_fixed .b-popupa__content
+{
+    width: 382px; /*Уменьшаем еще на 14px так как в ИЕ скрол не учитывается при вычислении ширины попапа*/
+}

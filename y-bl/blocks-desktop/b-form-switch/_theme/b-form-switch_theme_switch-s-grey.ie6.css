@@ -1,0 +1,6 @@
+.b-form-switch_theme_switch-s-grey .b-form-switch__body
+{
+    top: 2px;
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#A0656565, endColorstr=#009a9a9a, GradientType=0);
+}

@@ -1,0 +1,26 @@
+.how-to-start
+{
+	margin-bottom: 60px;
+	padding: 0 50px;
+}
+
+.how-to-start__link
+{
+	text-align: center;
+	
+	margin-bottom: 1em;
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.how-to-start
+	{
+		float: left;
+		
+		margin-bottom: 60px;
+		margin-top: -124px;
+		padding: 0 50px;
+		
+		width: 45%
+	}
+}

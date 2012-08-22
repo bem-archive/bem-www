@@ -1,0 +1,64 @@
+.b-form-select
+{
+    position: relative;
+
+    display: inline-block;
+}
+
+.b-form-select .b-form-button
+{
+    max-width: 100%;
+
+    text-align: left;
+}
+
+.i-ua_js_no .b-form-select__button
+{
+    display: none;
+}
+
+.b-form-select .b-form-button .b-form-button__content
+{
+    position: relative;
+
+    display: block;
+
+    padding: 0 20px 0 5px;
+
+    text-align: left;
+}
+
+.b-form-select .b-form-button__input
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+}
+
+.b-form-select .b-form-button__text
+{
+    overflow: hidden;
+
+    max-width: 100%;
+}
+
+.b-form-select__arrow
+{
+    line-height: 100%;
+    
+    position: absolute;
+    right: 3px;
+}
+
+.b-form-select .b-form-button_pressed_yes .b-form-select__arrow
+{
+    padding-top: 1px;
+}
+
+.b-form-select_disabled_yes .b-form-select__arrow
+{
+    opacity: .5;
+}
+

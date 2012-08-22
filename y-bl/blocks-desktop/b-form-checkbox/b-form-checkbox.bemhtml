@@ -1,0 +1,59 @@
+block b-form-checkbox {
+
+    default, !this._checkboxAttrs: {
+        local(
+            this._checkboxAttrs = (this.ctx.checkboxAttrs || {}).id ? this.ctx.checkboxAttrs : { id: 'id' + Math.random() } // TODO: Сделать generate-id(.)
+        ) this.apply()
+    }
+    js: true
+    mix: { return !this.mods.size ? [{ mods: { size: 'm' } }] : '' }
+    tag: 'span'
+
+    content: [
+        {
+            elem: 'inner',
+            tag: 'span',
+            content: [
+                { elem: 'checkbox', attrs: this.ctx.checkboxAttrs || {} },
+                { elem: 'bg' }
+            ]
+        },
+        this.ctx.content
+    ]
+
+    elem label {
+        tag: 'label',
+        attrs: {
+            var a = this.ctx.attrs ? this.ctx.attrs : {};
+            a['for'] = this._checkboxAttrs.id;
+            return a;
+        }
+    }
+
+    elem checkbox {
+        tag: 'input',
+        attrs: {
+            var a = this.ctx.attrs ? this.ctx.attrs : {};
+            a['id'] = this._checkboxAttrs.id;
+            a.type = 'checkbox';
+
+            this.mods.disabled && (a.disabled = 'disabled');
+            this.mods.checked && (a.checked = 'checked');
+
+            return a;
+        }
+    }
+
+    elem bg {
+        tag: 'i',
+        content: { elem: 'tick' }
+    }
+
+    elem tick {
+        tag: 'img',
+        attrs: {
+            return { src: '//yandex.st/lego/_/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif', alt: this.mods.checked? ' v': '', title: '' };
+        }
+    }
+
+}

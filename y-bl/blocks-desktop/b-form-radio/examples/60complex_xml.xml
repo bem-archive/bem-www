@@ -1,0 +1,30 @@
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:form class="my-form" action="bbb">
+        <xhtml:table class="my-table">
+            <xhtml:tr style="background: #66cc33;">
+                <xhtml:td colspan="3">
+                    Для того, чтобы Яндекс выглядел аккуратнее и развивался в одном стиле, были разработаны декоративные
+                    (нестандартные для операционной системы) элементы.
+                    Одним из таких элементов является
+                    <lego:b-form-radio name="sex" lego:size="s" lego:theme="grey">
+                        <lego:button lego:checked="yes">М</lego:button>
+                        <lego:button>Ж</lego:button>
+                        <lego:button>—</lego:button>
+                    </lego:b-form-radio>
+                    радио-кнопка. У радио-кнопки можно поменять цвет текста и тон.
+                    Если поставить на цветной фон, то она принимает тон фона-подложки.
+                </xhtml:td>
+            </xhtml:tr>
+            <xhtml:tr style="background: #36c; color: #fff;">
+                <xhtml:td style="text-align: left;">
+                    Радиогруппа: 
+                    <lego:b-form-radio name="sex" lego:size="m" lego:theme="grey">
+                        <lego:button lego:checked="yes">М</lego:button>
+                        <lego:button>Ж</lego:button>
+                        <lego:button>—</lego:button>
+                    </lego:b-form-radio>
+                </xhtml:td>
+            </xhtml:tr>
+        </xhtml:table>
+    </xhtml:form>
+</lego:page>

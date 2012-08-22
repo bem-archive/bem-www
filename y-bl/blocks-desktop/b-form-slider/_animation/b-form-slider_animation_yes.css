@@ -1,0 +1,15 @@
+.b-form-slider_animation_yes .b-form-slider__runner
+{
+    -webkit-transition: left .25s ease;
+    -moz-transition: left .25s ease;
+    -o-transition: left .25s ease;
+    transition: left .25s ease;
+}
+
+.b-form-slider_animation_yes.b-form-slider_type_range .b-form-slider__range
+{
+    -webkit-transition: width .25s ease, left .25s ease;
+    -moz-transition: width .25s ease, left .25s ease;
+    -o-transition: width .25s ease, left .25s ease;
+    transition: width .25s ease, left .25s ease;
+}

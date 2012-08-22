@@ -1,0 +1,23 @@
+.b-form-select__arrow
+{
+    line-height: 100%;
+
+    right: 1px;
+}
+
+[class].b-form-select .b-form-button .b-form-button__content
+{
+    margin: 0 5px;
+
+    vertical-align: middle;
+}
+
+[class].b-form-select .b-form-button .b-form-button__input
+{
+    margin-top: 0;
+}
+
+.b-form-select_disabled_yes .b-form-select__arrow
+{
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+}

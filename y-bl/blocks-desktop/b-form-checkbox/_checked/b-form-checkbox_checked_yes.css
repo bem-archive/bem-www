@@ -1,0 +1,24 @@
+.i-ua_js_yes .b-form-checkbox__tick
+{
+    /*background: url(b-form-checkbox_checked_yes.gif) -9999px 50% no-repeat;*/
+    background: url(data:image/gif;base64,R0lGODlhDQANALMJADIyMi4uLoWFhVZWVnZ2di8vLzAwMDExMTMzMwAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAkALAAAAAANAA0AAAQhMMlJq70Y4Yn0BoBQHdNxEKOZmINlvDBWzMWWBIGt73wEADs=) -9999px 50% no-repeat;
+}
+
+.i-ua_js_yes .b-form-checkbox_checked_yes .b-form-checkbox__tick
+{
+    background-position: 50%;
+}
+
+/* Поддержка без картинок */ /**/
+.i-ua_js_yes .b-form-checkbox__tick[alt]
+{
+    overflow: hidden;
+
+    text-indent: 30px; /* FF */ /**/
+
+    color: #2f2f2f;
+
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}

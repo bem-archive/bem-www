@@ -1,0 +1,14 @@
+.b-form-select__popup_scrollable_yes .b-popupa__content
+{
+    padding-right: 14px!important;
+}
+
+.b-form-select__popup_scrollable_yes
+{
+    padding-right: 0;
+}
+
+.b-form-select__popup_scrollable_yes .b-form-select__fade
+{
+    margin-left: -26px;
+}

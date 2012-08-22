@@ -1,0 +1,26 @@
+.b-link_cmp_yota
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_yota.png);
+	
+	width: 62px;
+	height: 62px;
+	
+	margin: -3px 0 0 0;
+}
+
+.b-link_cmp_yota:hover
+{
+	background: url(b-link_cmp_yota.png);
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-link_cmp_yota
+	{
+		margin: -8px 4% 0 4%;
+	}
+}

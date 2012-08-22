@@ -1,0 +1,25 @@
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <xhtml:div style="margin: 20px">
+        <lego:b-form-radio name="results_type" lego:size="s" lego:theme="grey">
+            <lego:button value="global">Global results</lego:button>
+            <lego:button value="russian">Russian results</lego:button>
+        </lego:b-form-radio>
+
+        <xhtml:div style="margin-top: 1em;">
+            <lego:b-js-example>$('.b-form-radio').bem('b-form-radio').val('global')</lego:b-js-example>
+            <lego:b-js-example>$('.b-form-radio').bem('b-form-radio').val('russian')</lego:b-js-example>
+            <lego:b-js-example>$('.b-form-radio').bem('b-form-radio').val()</lego:b-js-example>
+        </xhtml:div>
+
+        <xhtml:div style="margin-top: 1em;">
+            <lego:b-js-example>$('.b-form-radio').bem('b-form-radio').uncheckAll()</lego:b-js-example>
+        </xhtml:div>
+
+        <xhtml:p>
+            current: <xhtml:span id="radio_current">—</xhtml:span><xhtml:br/>
+            prev: <xhtml:span id="radio_prev">—</xhtml:span>
+        </xhtml:p>
+    </xhtml:div>
+
+</lego:page>

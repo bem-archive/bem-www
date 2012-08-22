@@ -1,0 +1,85 @@
+block b-form-button {
+
+    default, !this._inputClick: {
+        local(
+            this._inputClick = true,
+            this._input = (this.ctx.type ?
+                {
+                    elem: 'input',
+                    type: this.ctx.type,
+                    tabindex: this.ctx.tabindex,
+                    disabled: this.mods.disabled,
+                    name: this.ctx.name,
+                    value: this.ctx.value
+                } : '')
+        ) this.apply();
+    }
+
+    js: true
+    tag: 'span'
+    attrs: {
+        var a = { role: 'button' };
+        this.ctx.url && (a.href = this.ctx.url);
+        this.ctx.target && (a.target = this.ctx.target);
+        this.ctx.counter && (a.onmousedown = this.ctx.counter);
+        this.mods.disabled && (a['aria-disabled'] = true);
+
+        a.tabindex = 1;
+
+        return a;
+    }
+
+    mix: {
+        var m = {},
+            mods = this.ctx.mods;
+
+        if (!mods || !mods.size) m.size = 's';
+        if (!mods || !mods.theme) m.theme = 'grey-s';
+
+        return [{ mods: m }];
+    }
+
+    this.ctx, this.ctx.url, tag: 'a'
+
+    content: [
+        { elem: 'left' },
+        {
+            elem: 'content',
+            tag: 'span',
+            content: {
+                elem: 'text',
+                content: this.ctx.content
+            }
+        },
+        { elem: 'click' },
+        this._input
+    ]
+
+    elem left, tag: 'i'
+
+    elem text {
+        tag: 'span',
+        content: this.ctx.content
+    }
+
+    elem click, tag: ''
+
+    elem click, tag, this.ctx.url: 'i'
+
+    elem input {
+        tag: 'input',
+        attrs: {
+            var a = { type: this.ctx.type, value: '' },
+                ctx = this.ctx;
+
+            var props = ['tabindex', 'name', 'value'], p;
+            while(p = props.shift())
+                ctx[p] && (a[p] = ctx[p]);
+
+            ctx.disabled && (a.disabled = 'disabled');
+
+            return a;
+        }
+    }
+
+}

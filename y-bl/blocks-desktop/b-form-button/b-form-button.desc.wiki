@@ -1,0 +1,126 @@
+Для того, чтобы Яндекс выглядел аккуратнее и развивался в одном стиле,
+были разработаны декоративные (нестандартные для операционной системы) элементы форм.
+
+Одним из таких элементов является кнопка.
+Данная кнопка предназначена только для работы с интерфейсами, она не подходит для промо-задач.
+У кнопки можно поменять цвет текста, форму и тон. Если кнопку поставить на цветной фон, то она принимает тон фона-подложки.\\
+Сейчас кнопка может быть ((#b-form-button.40height высотой 19px, 22px, 26px и 33px)), обратите внимание на то, что к размерам кнопки
+прибавляется еще по 2 пикселя с каждой стороны. Это обусловленно тем, что состояние "В фокусе" имеет 2-х пиксельную, внешнюю обводку (outline).
+Текущая разметка спрайта позволяет без особых трудозатрат создавать и перекрашивать кнопки высотой до 50px.
+Остальные размеры мы договорились делать, если в них есть потребность.
+Если вам нужна кнопка больше или меньше уже реализованных высот — напишите на ((mailto:lego@yandex-team.ru lego@)).
+
+С версии 2.9 реализована простая кнопка, которая должна уменьшить использование псевдо-ссылок на портале.
+Простые кнопки имеют простое визуальное отображение. Реализованы без картинок на css3.
+
+===Технические подробности
+
+1.Если рядом с кнопкой располагается ((#b-form-button.70complex_bem текст или ##inline-block## элемент)), необходимо использовать модификатор: ##lego:valign="middle"##;
+1.По умолчанию ((#b-form-button.10button_bem кнопка размером s (высотой 19px) серая полупрозрачная));
+1.Если вы меняете только цветовую тему кнопки надо указать модификатор ##lego:theme##. Кроме этого, этим модификатором можно сменить стандартную форму кнопки на стрелку.
+1.Если вы меняете высоту, форму и цветовую тему кнопки надо указать модификаторы ##lego:theme## и ##lego:size##;
+1. Кнопку-стрелочку нельзя использовать в шапке со стрелочкой. ((/blocks-desktop/b-form-button/button-arrow-head.png button-arrow-head.png));
+1.Для всех браузеров, кроме Internet Explorer и Firefox, кнопка реализована без ##position:absolute## **и** ##position:relative##.\\
+**Не задавать самой кнопке css свойство 'position:relative', в Опере возникают проблемы с кликабельностью кнопки при наличии параметров** ##type="submit" и type="button"##;
+1.В выделенном состоянии текст кнопки смещается на ##1px## вниз;
+1.В Internet Explorer 6 не поддерживается полупрозрачность кнопки, поэтому она не принимает фон подложки. В картинках канал альфа белого цвета;
+1.Internet Explorer 6 и 7(QM),8(QM) не поддерживают двойные классы, поэтому если кнопка в стостоянии Фокуса, то при Наведении отработает только сотояние Наведения;
+1.В спрайте состояния располагаются в следующем порядке:
+* Активное
+* Наведенное
+* Выделенное (Нажатое)
+* В фокусе
+* В фокусе при наведении
+* Неактивное
+
+===Технические подробности для простой кнопки — ##b-form-button_type_simple##
+
+1. По умолчанию ((#b-form-button.20button_bem кнопка размером s (высотой 19px) с темой ##simple-grey##));
+1. Реализованы две ((#b-form-button.94simple_xml полупрозрачные темы));
+1. В нажатом состоянии текст кнопки не сдвигается вниз на 1px;
+1. Так как кнопка реализована без картинок, то в названии темы размер не указывается;
+1. В верстке используются двоичные классы, поэтому в ##IE6## и ##IE## в ##QM## состояния ##hovered##, ##pressed##, ##focused## работать не будут.\\
+Состояние ##hovered## на Простой кнопке-ссылке, реализовано через ##:hover##;
+1. Кнопка ##type=[submit/button]## в IE имеет фокус меньше чем кнопка ссылка, тк фокус реализован на ##input##-х
+
+===Создание своей цветовой схемы===
+В папке ##b-form-button## находится файл ##b-form-button~__~sliced.psd##. В нем имеется 4 слайса ##b-form-button_theme_grey-s(m | l | xl)## —
+это оригинальные спрайты для ##b-form-button##, перекрасив кнопки под свои нужды, вы можете быстро создать спрайт для вашей цветовой схемы.
+
+
+
+===Соответствие новых модификаторов контролам===
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="margin-bottom: 10px; border-collapse: separate;">
+    <tr style="background: #eee;">
+        <th style="padding: 3px 10px;">Модификатор / Контрол</th>
+        <th style="padding: 3px 10px;">b-form-button</th>
+        <th style="padding: 3px 10px;">b-form-checkbox</th>
+        <th style="padding: 3px 10px;">b-form-input</th>
+        <th style="padding: 3px 10px;">b-form-radio</th>
+        <th style="padding: 3px 10px;">b-form-switch</th>
+        <th style="padding: 3px 10px;">b-form-select</th>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">s</td>
+        <td style="padding: 2px 0;text-align: center;">19</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">11</td>
+        <td style="padding: 2px 0;text-align: center;">11</td>
+        <td style="padding: 2px 0;text-align: center;">s</td>
+        <td style="padding: 2px 0;text-align: center;">s</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0; text-align: center;">m</td>
+        <td style="padding: 2px 0;text-align: center;">22</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">m</td>
+        <td style="padding: 2px 0;text-align: center;">m</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">l</td>
+        <td style="padding: 2px 0;text-align: center;">26</td>
+        <td style="padding: 2px 0;text-align: center;">15</td>
+        <td style="padding: 2px 0;text-align: center;">16</td>
+        <td style="padding: 2px 0;text-align: center;">l</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">l</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">xl</td>
+        <td style="padding: 2px 0;text-align: center;">33</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">21</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+    </tr>
+</table>
+%%
+
+Если вам необходимо добавить контрол размером между уже существующими размерами, то называть модификаторы нужно следуя таблице, приведенной ниже.
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="font-size: 120%; border-collapse: separate;">
+    <tr style="background: #fff;">
+        <td style="padding: 2px 5px;text-align: center;">xs</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">s</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">sm</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">m</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">ml</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">l</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">lxl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">xl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">xxl</td>
+    </tr>
+</table>
+%%

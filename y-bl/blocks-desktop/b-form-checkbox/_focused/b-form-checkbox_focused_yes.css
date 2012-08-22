@@ -1,0 +1,15 @@
+.i-ua_js_yes .b-form-checkbox_focused_yes .b-form-checkbox__inner
+{
+    border-collapse: separate;
+
+    -webkit-box-shadow: 0 0 2px #ffd94f, 0 0 2px #ffd94f, 0 0 3px #ffd94f;
+    -moz-box-shadow:  0 0 2px #ffd94f, 0 0 2px #ffd94f, 0 0 3px #ffd94f;
+    box-shadow: 0 0 2px #ffd94f, 0 0 2px #ffd94f, 0 0 3px #ffd94f;
+}
+
+.i-ua_js_yes .b-form-checkbox_focused_yes .b-form-checkbox__bg
+{
+    -webkit-box-shadow: 0 0 1px #a48f3d;
+    -moz-box-shadow: 0 0 1px #a48f3d;
+    box-shadow: 0 0 1px #a48f3d;
+}

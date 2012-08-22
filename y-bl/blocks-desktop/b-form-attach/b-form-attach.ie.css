@@ -1,0 +1,13 @@
+.b-form-attach
+{
+    overflow: hidden;
+
+    display: inline;
+
+    zoom: 1;
+}
+
+[class].b-form-attach .b-form-button__input
+{
+    left: auto;
+}

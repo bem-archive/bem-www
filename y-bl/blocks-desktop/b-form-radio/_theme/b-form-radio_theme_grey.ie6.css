@@ -1,0 +1,40 @@
+/* __button (begin) */ /**/
+.b-form-radio_theme_grey .b-form-radio__button_side_right .b-form-radio__content,
+.b-form-radio_theme_grey .b-form-radio__button_side_both .b-form-radio__content
+{
+    background: url(b-form-radio-grey-checked.ie.png) 100% -120px no-repeat;
+}
+/* __button (end) */ /**/
+
+/*__button_checked_yes (begin)*/ /**/
+body .b-form-radio_theme_grey .b-form-radio__button_checked_yes
+{
+    border-color: #d5d5d5 #d5d5d5 #999999 !important;
+}
+/*__button_checked_yes (end)*/ /**/
+
+/*__button_disabled_yes (begin)*/ /**/
+.b-form-radio_theme_grey .b-form-radio__button_disabled_yes
+{
+    color: #979797;
+    border-color: #e5e5e5;
+    border-bottom-color: #c0c0c0;
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_disabled_yes .b-form-radio__inner
+{
+    border-left-color: #dadada;
+}
+
+.b-form-radio_theme_grey .b-form-radio__button_disabled_yes .b-form-radio__content
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#64ffffff, endColorstr=#64a8a8a8, GradientType=0);
+}
+/*__button_disabled_yes (end)*/ /**/
+
+/*__colorpicker (begin)*/ /**/
+.b-form-radio_theme_grey .b-form-radio__colorpicker .b-form-radio__content
+{
+    background: #000;
+}
+/*__colorpicker (end)*/ /**/

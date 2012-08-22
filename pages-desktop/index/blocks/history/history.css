@@ -1,0 +1,59 @@
+.history
+{
+	margin-bottom: 80px;
+}
+
+.history__inner
+{
+    float: left;
+
+    width: 44.5%;
+	
+    padding: 20px 3.7%;
+	margin-left: 36%;
+	
+    background: #fff
+}
+
+
+.history__inner:after
+{
+	background: url(history.png) no-repeat  transparent;
+    content: "";
+	
+    height: 34px;
+    width: 550px;
+	
+    margin: 18px 0 0 -15px;
+	
+    position: absolute;
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.history
+	{
+		margin-bottom: 80px;
+		
+		float: left;
+		
+		width: 47%;
+	}
+	
+	.history__inner
+	{
+		float: left;
+
+		width: 44.5%;
+		
+		padding: 20px 3.7%;
+		margin-left: 38%;
+		
+		background: #fff
+	}	
+	
+	.history__inner:after
+	{
+		margin: 19px 0 0 -30px;
+	}	
+}

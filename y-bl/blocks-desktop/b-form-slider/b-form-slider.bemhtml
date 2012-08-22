@@ -1,0 +1,27 @@
+block b-form-slider {
+
+    default, !this.elem, !this._inSlider: {
+        apply(this._inSlider = true);
+    }
+
+    content: [
+        this.ctx.content,
+        {
+            elem: 'body',
+            content: {
+                elem: 'click'
+            }
+        }
+    ]
+    
+// elem click {
+
+//        this.mods['off-switcher'], content: { elem: 'off-switcher' }
+
+//    }
+
+}
+
+block b-form-input, !this.elem, this._inSlider {
+    mix: [ { block: 'b-form-slider', elem: 'input' } ]
+}
