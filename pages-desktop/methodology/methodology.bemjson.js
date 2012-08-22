@@ -250,7 +250,7 @@
 					    },
 						{
 							block: 'b-search-button',
-							content: 'Поиск'				
+							content: 'Найти'				
 						}
 					]	
 					} 
@@ -281,11 +281,31 @@
 									content: [
 										{
 											elem: 'li',
-											content: 'Установить с установочного диска или с сайта Apple'	
+											content: [
+												'Установить ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'Xcode'
+												},
+												' с установочного диска или ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'сайта Apple'
+												}												
+											]	
 										},
 										{
 											elem: 'li',
-											content: 'Установить homebrew'
+											content: [ 
+												'Установить ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'homebrew'
+												}
+											]			
 										},
 										{
 											elem: 'code',
@@ -293,7 +313,14 @@
 										},										
 										{
 											elem: 'li',
-											content: 'Установить nodejs'
+											content: [ 
+												'Установить ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'nodejs'
+												}
+											]			
 										},
 										{
 											elem: 'code',
@@ -301,7 +328,14 @@
 										},										
 										{
 											elem: 'li',
-											content: 'Установить npm'
+											content: [ 
+												'Установить ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'npm'
+												}
+											]			
 										},
 										{
 											elem: 'code',
@@ -309,7 +343,14 @@
 										},											
 										{
 											elem: 'li',
-											content: 'Установить bem-tools'
+											content: [ 
+												'Установить ',
+												{
+													block: 'b-link',
+													url: '#',
+													content: 'bem-tools'
+												}
+											]			
 										},
 										{
 											elem: 'code',

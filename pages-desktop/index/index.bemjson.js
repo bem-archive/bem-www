@@ -41,7 +41,7 @@
 					    },
 						{
 							block: 'b-search-button',
-							content: 'Поиск'				
+							content: 'Найти'				
 						}
 					]	
 				}

@@ -5,6 +5,8 @@
 	width: 65%;
 	
 	display: inline-block;
+	
+	float: left;
 }
 
 .b-form-input_type_search.b-form-input_theme_grey .b-form-input__box

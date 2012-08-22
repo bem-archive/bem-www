@@ -38,3 +38,28 @@
 	
 	text-decoration: underline;	
 }
+
+@media all and (-webkit-min-device-pixel-ratio:0) 
+{
+	.b-menu-horiz_type_submenu a
+	{
+		padding: 6px 7px 14px; /* Chrome */
+	}
+	.b-menu-horiz_type_submenu
+	{
+		padding-top: 1px; /* Chrome */
+	}	
+}
+
+@media (min-resolution: .001dpcm) 
+{
+    _:-o-prefocus, .b-menu-horiz_type_submenu
+	{ 
+        margin-top: 14px; /* Opera */
+		padding-top: 1px;
+    }
+    _:-o-prefocus, .b-menu-horiz_type_submenu a
+	{ 
+		padding: 6px 7px 14px; /* Opera */
+    }	
+}
