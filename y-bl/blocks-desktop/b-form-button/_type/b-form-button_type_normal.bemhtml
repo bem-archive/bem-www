@@ -1,0 +1,17 @@
+block b-form-button, mod type normal {
+
+    content: [
+        {
+            elem: 'normal',
+            content: {
+                elem: 'text',
+                content: this.ctx.content
+            }
+        },
+        this._click,
+        this._input
+    ]
+
+    elem normal, tag: 'span'
+
+}

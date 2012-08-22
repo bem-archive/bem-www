@@ -1,0 +1,5 @@
+.b-form-select,
+.b-form-select .b-form-select__select
+{
+    width: 400px;
+}

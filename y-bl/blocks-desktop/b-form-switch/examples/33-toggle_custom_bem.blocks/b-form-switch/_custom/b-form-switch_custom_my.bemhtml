@@ -1,0 +1,6 @@
+block b-form-switch, this.mods.custom, elem button, content: {
+
+    block: 'b-icon',
+    mods: { type: 'lastfm'}
+
+}

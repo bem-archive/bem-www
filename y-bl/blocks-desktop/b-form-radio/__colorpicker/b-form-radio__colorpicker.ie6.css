@@ -1,0 +1,30 @@
+.b-form-radio_size_s .b-form-radio__colorpicker .b-form-radio__inner,
+.b-form-radio_size_m .b-form-radio__colorpicker .b-form-radio__inner
+{
+    background: none !important;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button
+{
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__content
+{
+    filter: alpha(Opacity=0, Finishopacity=80 Style=1, startX=0, startY=0, finishX=0, finishY=100);
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes
+{
+    filter: none;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_side_right
+{
+    border-right-width: 1px!important;
+}
+
+.b-form-radio__colorpicker .b-form-radio__button_checked_yes .b-form-radio__content
+{
+    background: none!important;
+}

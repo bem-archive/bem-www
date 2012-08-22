@@ -1,0 +1,17 @@
+.i-ua_js_yes .b-form-checkbox_size_l .b-form-checkbox__tick
+{
+    width: 13px;
+    height: 13px;
+}
+
+.i-ua_js_yes .b-form-checkbox_size_l .b-form-checkbox__checkbox
+{
+    width: 15px;
+    height: 15px;
+}
+
+/* Поддержка без картинок */ /**/
+.i-ua_js_yes .b-form-checkbox_size_l .b-form-checkbox__tick[alt]
+{
+    font-size: 11px;
+}

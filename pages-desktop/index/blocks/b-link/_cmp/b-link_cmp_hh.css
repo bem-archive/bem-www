@@ -1,0 +1,26 @@
+.b-link_cmp_hh
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_hh.png);
+	
+	width: 87px;
+	height: 62px;
+	
+	margin: -3px 0 0 0;
+}
+
+.b-link_cmp_hh:hover
+{
+	background: url(b-link_cmp_hh.png);
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-link_cmp_hh
+	{
+		margin: -3px 4% 0 4%;
+	}
+}

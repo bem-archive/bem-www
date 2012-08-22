@@ -1,0 +1,29 @@
+.b-form-slider__info_preset_custom
+{
+    margin-bottom: 0.2em;
+}
+
+.b-form-slider__info_preset_custom .b-form-slider__title
+{
+    font-size: 110%;
+}
+
+.b-form-slider__info_preset_custom .b-form-slider__input
+{
+    width: 50%;
+    margin-top: 8px;
+}
+
+.b-form-slider__info_preset_custom .b-form-slider__unit
+{
+    position: relative;
+    left: 50%;
+
+    float: left;
+
+    margin: -1.45em 0 -1.45em 0.8em;
+
+    color: green;
+
+    font-size: 90%;
+}

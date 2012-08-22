@@ -1,0 +1,23 @@
+.b-form-switch_type_toggle .b-form-switch__body
+{
+    position: relative;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label
+{
+    zoom: 1;
+
+    vertical-align: top;
+}
+
+.b-form-switch_type_toggle .b-form-switch__button
+{
+    position: absolute;
+}
+
+.i-ua_js_no .b-form-switch_type_toggle .b-form-switch__label
+{
+    width: auto;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}

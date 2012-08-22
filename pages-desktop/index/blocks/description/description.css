@@ -1,0 +1,46 @@
+.description
+{
+	overflow: hidden;
+	
+	margin-bottom: 2.3em;
+	padding: 0 50px;
+}
+
+.description__link
+{
+	float: left;
+	
+	overflow: hidden; 
+	
+	width: 37%;
+}
+
+.description__inner
+{
+	float: left; 
+	
+	margin-left: 2%;
+	
+	width: 50%;
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.description
+	{
+		overflow: hidden;
+		
+		margin-bottom: 2.3em;
+		padding: 0 50px;
+		width: 42%;
+	}
+	
+	.description__link
+	{
+		float: left;
+		
+		overflow: hidden; 
+		
+		width: 38%;
+	}	
+}

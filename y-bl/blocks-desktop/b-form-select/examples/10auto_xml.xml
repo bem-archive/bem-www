@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <lego:i-lego-example>
+        <xhtml:div style="margin: 20px">
+            <lego:b-form-select lego:size="s" lego:theme="grey" name="nashSelect">
+                <lego:b-form-button type="button" lego:size="s" lego:theme="grey-s" lego:valign="middle">Отправленные</lego:b-form-button>
+                <lego:select>
+                    <lego:option value="nnn">Отправленные</lego:option>
+                    <lego:option value="nnn">Черновики</lego:option>
+                    <lego:option value="nnn">Входящие</lego:option>
+                    <lego:option value="nnn">Удаленные</lego:option>
+                    <lego:option value="nnn">Звенящие</lego:option>
+                    <lego:option-group label="Опшен груп">
+                        <lego:option value="nnn">ТВЦ</lego:option>
+                        <lego:option value="nnn">National Geographic</lego:option>
+                    </lego:option-group>
+                    <lego:option-group label="Еще группа">
+                        <lego:option value="nnn">Отравленные</lego:option>
+                        <lego:option value="nnn">Взорванные</lego:option>
+                    </lego:option-group>
+                    <lego:option value="nnn">Непознанные</lego:option>
+                </lego:select>
+            </lego:b-form-select>
+        </xhtml:div>
+        <xhtml:div style="margin: 20px">
+            <lego:b-form-select lego:size="m" lego:theme="grey" name="nashSelect">
+                <lego:b-form-button type="button" lego:size="m" lego:theme="grey-m" lego:valign="middle">Отправленные</lego:b-form-button>
+                <lego:select>
+                    <lego:option value="nnn">Отправленные</lego:option>
+                    <lego:option value="nnn">Черновики</lego:option>
+                    <lego:option value="nnn">Входящие</lego:option>
+                    <lego:option value="nnn">Удаленные</lego:option>
+                    <lego:option value="nnn">Звенящие</lego:option>
+                    <lego:option-group label="Опшен груп">
+                        <lego:option value="nnn">ТВЦ</lego:option>
+                        <lego:option value="nnn">National Geographic</lego:option>
+                    </lego:option-group>
+                    <lego:option-group label="Еще группа">
+                        <lego:option value="nnn">Отравленные</lego:option>
+                        <lego:option value="nnn">Взорванные</lego:option>
+                    </lego:option-group>
+                    <lego:option value="nnn">Непознанные</lego:option>
+                </lego:select>
+            </lego:b-form-select>
+        </xhtml:div>
+        <xhtml:div style="margin: 20px">
+            <lego:b-form-select lego:size="l" lego:theme="grey" name="nashSelect">
+                <lego:b-form-button type="button" lego:size="l" lego:theme="grey-l" lego:valign="middle">Отправленные</lego:b-form-button>
+                <lego:select>
+                    <lego:option value="nnn">Отправленные</lego:option>
+                    <lego:option value="nnn">Черновики</lego:option>
+                    <lego:option value="nnn">Входящие</lego:option>
+                    <lego:option value="nnn">Удаленные</lego:option>
+                    <lego:option value="nnn">Звенящие</lego:option>
+                    <lego:option-group label="Опшен груп">
+                        <lego:option value="nnn">ТВЦ</lego:option>
+                        <lego:option value="nnn">National Geographic</lego:option>
+                    </lego:option-group>
+                    <lego:option-group label="Еще группа">
+                        <lego:option value="nnn">Отравленные</lego:option>
+                        <lego:option value="nnn">Взорванные</lego:option>
+                    </lego:option-group>
+                    <lego:option value="nnn">Непознанные</lego:option>
+                </lego:select>
+            </lego:b-form-select>
+        </xhtml:div>
+    </lego:i-lego-example>
+</lego:page>

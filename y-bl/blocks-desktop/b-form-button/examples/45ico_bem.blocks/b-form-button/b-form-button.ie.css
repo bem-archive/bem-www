@@ -1,0 +1,19 @@
+* html .b-form-button .b-icon
+{
+    margin-top: 4px;
+}
+
+* html .b-form-button_type_simple .b-icon
+{
+    margin-top: 3px;
+}
+
+[class].b-form-button .b-icon
+{
+    top: 2px;
+}
+
+[class].b-form-button_type_simple .b-icon
+{
+    top: 1px;
+}

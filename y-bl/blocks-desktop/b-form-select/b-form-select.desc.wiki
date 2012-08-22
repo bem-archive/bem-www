@@ -1,0 +1,91 @@
+Позволяет создать элемент интерфейса в виде выпадающего списка в стиле Яндекс контроллов.
+
+===Технические подробности
+1. По умолчанию контрол имеет модификатор ##_layout_auto##, у которого ##css##-свойство ##width: auto##.
+При модификаторе ##_layout_auto## ширина кнопки и ширина выпадающего селекта растягивается по контенту. Ширину вы можете ограничить на свое усмотрение ##css##-свойством ##max-width##. ((#12max-width_bem Пример)).
+1. При модификаторе ##_layout_fixed## кнопка и выпадающий селект имеют одинаковую четко заданную ширину. ((#15fixed_bem Пример))
+1. Если рядом с селектом располагается текст или ##inline-block## элемент, то для кнопки необходимо использовать модификатор: ##lego:valign="middle"##. ((#10auto_bem Пример))
+1. В ##html## всегда лежит невидимый ##<select>##, при отключенном ##js## появляется нативный контролл.
+1. Раскрывающийся список имеет всего один уровень вложенности, как в нативном контролле. Больше уровней вложенности не предусмотрено.
+1. Если у вас на странице находится два селекта с разной фиксированной шириной, то для каждого нужно пробросить еще свой модификатор _width, чтобы ##css##-свойство по ограничению ширины не применилось бы ко всем селектам. ((#17two-fixed_bem Пример))
+1. Во входных данных в контенте кнопки нужно прописывать выбранный по умолчанию пункт селекта. Это нужно для того, чтобы при загрузке страницы, пока еще не отработал js, кнопка не схлопывалась без контента.
+1. По умолчанию первый пункт является выбранным. Если вам нужно сделать выбранным по умолчанию другой пункт селекта - нужно добавить в аттрибуты selected="selected" ((#10auto_xml Пример)). В этом случае нужно во входных данных в контенте кнопки прописать этот же пункт.
+1. В IE<9 на длинных пунктах селекта при _hovered_yes и _focused_yes нет элемента, который позволяет тексту исчезать постепенно. Галочка в этих версиях браузера всегда находится в правой части селекта, а не сразу за текстом.
+1. В IE<9 ховер не выставляется, если курсор в правой части пунктов 
+1. При _layout_fixed или css-свойстве max-width ширину попапа нужно указывать на 4 пикселя меньше требуемой. ((#10auto_bem Пример))
+
+===Соответствие новых модификаторов контролам===
+%%html
+    <table cellspacing="1" bgcolor="#ccc" style="margin-bottom: 10px; border-collapse: separate;">
+        <tr style="background: #eee;">
+            <th style="padding: 3px 10px;">Модификатор / Контрол</th>
+            <th style="padding: 3px 10px;">b-form-button</th>
+            <th style="padding: 3px 10px;">b-form-checkbox</th>
+            <th style="padding: 3px 10px;">b-form-input</th>
+            <th style="padding: 3px 10px;">b-form-radio</th>
+            <th style="padding: 3px 10px;">b-form-switch</th>
+            <th style="padding: 3px 10px;">b-form-select</th>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">s</td>
+            <td style="padding: 2px 0;text-align: center;">19</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">11</td>
+            <td style="padding: 2px 0;text-align: center;">11</td>
+            <td style="padding: 2px 0;text-align: center;">s</td>
+            <td style="padding: 2px 0;text-align: center;">s</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0; text-align: center;">m</td>
+            <td style="padding: 2px 0;text-align: center;">22</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">13</td>
+            <td style="padding: 2px 0;text-align: center;">m</td>
+            <td style="padding: 2px 0;text-align: center;">m</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">l</td>
+            <td style="padding: 2px 0;text-align: center;">26</td>
+            <td style="padding: 2px 0;text-align: center;">15</td>
+            <td style="padding: 2px 0;text-align: center;">16</td>
+            <td style="padding: 2px 0;text-align: center;">l</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">l</td>
+        </tr>
+        <tr style="font-size: 110%; background: #fff;">
+            <td style="padding: 2px 0;text-align: center;">xl</td>
+            <td style="padding: 2px 0;text-align: center;">33</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">21</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+            <td style="padding: 2px 0;text-align: center;">—</td>
+        </tr>
+    </table>
+%%
+
+Если вам необходимо добавить контрол размером между уже существующими размерами, то называть модификаторы нужно следуя таблице, приведенной ниже.
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="font-size: 120%; border-collapse: separate;">
+    <tr style="background: #fff;">
+        <td style="padding: 2px 5px;text-align: center;">xs</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">s</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">sm</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">m</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">ml</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">l</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">lxl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">xl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">xxl</td>
+    </tr>
+</table>
+%%

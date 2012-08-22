@@ -1,0 +1,26 @@
+[class].b-form-radio_size_m
+{
+    height: 22px;
+}
+
+[class].b-form-radio_size_m .b-form-radio__content
+{
+    height: 20px;
+}
+
+[class].b-form-radio_size_m .b-form-radio__text
+{
+    top: -3px;
+}
+
+.i-ua_js_yes .b-form-radio_size_m .b-form-radio__text
+{
+    line-height: 19px;
+
+    top: -1px;
+}
+
+.b-form-radio_size_m .b-form-radio__button_checked_yes .b-form-radio__content .b-form-radio__text
+{
+    top: -1px;
+}

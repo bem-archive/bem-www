@@ -1,0 +1,32 @@
+.i-ua_js_yes .b-form-checkbox_theme_black-m .b-form-checkbox__inner
+{
+    border: 1px solid rgba(80, 80, 80, .6);
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.i-ua_js_yes .b-form-checkbox_theme_black-m.b-form-checkbox_focused_yes .b-form-checkbox__inner
+{
+    border-color: #ffd94f;
+}
+
+.i-ua_js_yes .b-form-checkbox_theme_black-m .b-form-checkbox__bg
+{
+    margin: 0;
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+
+    background: #535353;
+    background: linear-gradient(top, rgba(145,145,145,1) 0%,rgba(83,83,83,1) 50%,rgba(83,83,83,0) 51%,rgba(83,83,83,0) 100%);
+    background: -moz-linear-gradient(top, rgba(145,145,145,1) 0%, rgba(83,83,83,1) 50%, rgba(83,83,83,0) 51%, rgba(83,83,83,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(145,145,145,1)), color-stop(50%,rgba(83,83,83,1)), color-stop(51%,rgba(83,83,83,0)), color-stop(100%,rgba(83,83,83,0)));
+    background: -o-linear-gradient(top, rgba(145,145,145,1) 0%,rgba(83,83,83,1) 50%,rgba(83,83,83,0) 51%,rgba(83,83,83,0) 100%);
+}
+
+.i-ua_js_yes .b-form-checkbox_theme_black-m .b-form-checkbox__tick
+{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAQElEQVQoz2P4//8/A6mYgdaazpCq6QypmmAaynFpOoNDQysuP51BcwaMvRRfQJzBgQmGHkENuAICrwa6RC5lmgB/Cw6x5Cy+IAAAAABJRU5ErkJggg==);
+}

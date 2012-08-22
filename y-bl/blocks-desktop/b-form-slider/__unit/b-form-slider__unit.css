@@ -1,0 +1,9 @@
+.b-form-slider__unit
+{
+    vertical-align: middle;
+}
+
+.b-form-slider_disabled_yes .b-form-slider__unit
+{
+    opacity: 0.5;
+}

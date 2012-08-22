@@ -1,0 +1,5 @@
+.b-form-radio__button_side_right,
+.b-form-radio__button_side_both
+{
+    border-right: 0;
+}

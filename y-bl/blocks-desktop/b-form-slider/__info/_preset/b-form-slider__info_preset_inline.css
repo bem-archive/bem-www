@@ -1,0 +1,21 @@
+.b-form-slider__info_preset_inline
+{
+    margin-bottom: 10px;
+
+    text-align: right;
+}
+
+.b-form-slider__info_preset_inline .b-form-slider__input
+{
+    display: inline-block;
+
+    width: 25%;
+    margin-right: 0.8em;
+
+    vertical-align: middle;
+}
+
+.b-form-slider__info_preset_inline .b-form-slider__title
+{
+    float: left;
+}

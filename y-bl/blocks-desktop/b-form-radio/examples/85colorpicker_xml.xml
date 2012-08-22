@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:h2>_size_m</xhtml:h2>
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-radio name="show_to" lego:size="m" lego:theme="grey">
+            <lego:button>Все цвета</lego:button>
+            <lego:button>Черно-белые</lego:button>
+            <lego:colorpicker><lego:button lego:color="ff2400"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="orange"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="yellow"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="00fd00"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="cyan"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="0d76fc"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="magenta"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="white"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="black"></lego:button></lego:colorpicker>
+        </lego:b-form-radio>
+    </xhtml:div>
+    <xhtml:h2>_size_s</xhtml:h2>
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-radio name="show_to" lego:size="s" lego:theme="grey">
+            <lego:button>Все цвета</lego:button>
+            <lego:button>Черно-белые</lego:button>
+            <lego:colorpicker><lego:button lego:color="ff2400"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="orange"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="yellow"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="00fd00"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="cyan"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="0d76fc"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="magenta"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="white"></lego:button></lego:colorpicker>
+            <lego:colorpicker><lego:button lego:color="black"></lego:button></lego:colorpicker>
+        </lego:b-form-radio>
+    </xhtml:div>
+</lego:page>

@@ -1,0 +1,10 @@
+.b-menu-vert_type_col-3
+{
+	margin-top: 3em;
+}
+
+.b-menu-vert_type_col-3 .b-link
+{
+	padding: 3px;
+	display: inline-block;
+}

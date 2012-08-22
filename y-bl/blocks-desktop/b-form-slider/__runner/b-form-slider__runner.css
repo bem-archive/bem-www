@@ -1,0 +1,13 @@
+.b-form-slider__runner
+{
+    position: absolute;
+    z-index: 10;
+    top: 2px;
+
+    /* solid нужен Опере — по мотивам https://jira.yandex-team.ru/browse/LEGO-7514 *//**/
+    outline: 0 solid;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:p style="margin: 20px;">Переключатель в тексте
+        <lego:b-form-switch lego:type="switch" lego:theme="switch-s-grey" name="color">
+            <lego:option lego:active="yes" value="white">белый</lego:option>
+            <lego:option value="black">чёрный</lego:option>
+        </lego:b-form-switch> <xhtml:span style="font: 11px Verdana;">этот текст размером как в переключателе размера S</xhtml:span>
+    </xhtml:p>
+    <xhtml:p style="margin: 20px;">
+        Переключатель в тексте
+        <lego:b-form-switch lego:type="switch" lego:theme="switch-m-grey" name="color2">
+            <lego:option value="white">white</lego:option>
+            <lego:option lego:active="yes" value="black">black</lego:option>
+        </lego:b-form-switch> размер перелючателя M
+    </xhtml:p>
+</lego:page>

@@ -1,0 +1,10 @@
+.b-link_cmp_yandex,
+.b-link_cmp_yandex:hover
+{
+	display: inline-block;
+
+	width: 65px;
+	height: 39px;
+	
+	background: url(b-link_cmp_yandex.png)	
+}

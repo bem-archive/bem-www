@@ -1,0 +1,12 @@
+.github
+{
+	width: 206px;
+	height: 130px;	
+	
+	background: url(github.png);
+	
+	margin: 20px 0 0 9%;
+	
+	position: absolute;
+	right: 0;
+}

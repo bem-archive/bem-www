@@ -1,0 +1,89 @@
+.b-form-switch_type_toggle .b-form-switch__body
+{
+    height: 100%;
+
+    white-space: nowrap;
+}
+
+.i-ua_js_yes .b-form-switch_type_toggle .b-form-switch__label
+{
+    position: relative;
+    z-index: 9;
+
+    display: inline-block;
+    overflow: hidden;
+
+    height: 100%;
+
+    cursor: default;
+    text-align: center;
+    text-transform: lowercase;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label_position_left
+{
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label_position_right
+{
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label-inner
+{
+    float: right;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label_position_right .b-form-switch__label-inner
+{
+    float: left;
+}
+
+.b-form-switch_type_toggle .b-form-switch__button
+{
+    position: relative;
+    z-index: 10;
+    top: -1px;
+
+    display: inline-block;
+}
+
+.b-form-switch_type_toggle .b-form-switch__label
+{
+    width: 1px;
+}
+
+.b-form-switch_type_toggle.b-form-switch_animation_yes .b-form-switch__label
+{
+    -moz-transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+    -o-transition: width .2s ease;
+    transition: width .2s ease;
+}
+
+.b-form-switch_type_toggle.b-form-switch_pressed_yes .b-form-switch__label
+{
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.i-ua_js_no .b-form-switch_type_toggle .b-form-switch__label
+{
+    background: none !important;
+}
+
+.i-ua_js_no .b-form-switch_type_toggle .b-form-switch__label-inner
+{
+    float: none;
+}

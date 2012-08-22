@@ -1,0 +1,12 @@
+.b-link_cmp_hh,
+.b-link_cmp_hh:hover
+{
+	display: inline-block;
+
+	width: 49px;
+	height: 31px;
+	
+	margin: 0 0 4px 3%;	
+	
+	background: url(b-link_cmp_hh.png)	
+}

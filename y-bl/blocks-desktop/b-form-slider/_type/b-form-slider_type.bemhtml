@@ -1,0 +1,6 @@
+block b-form-slider, this.mods.type, elem body {
+
+    mix: {
+        return [{elemMods: { type: this.mods.type }}];
+    }
+}

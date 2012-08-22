@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <lego:b-example>
+
+        <xhtml:h2 style="font-size:150%; margin-top:.5em;">В тексте</xhtml:h2>
+        <xhtml:p>Пол <lego:b-form-switch lego:type="toggle" lego:theme="toggle-m-grey" name="sex">
+            <lego:option lego:active="yes" value="male">мужской</lego:option>
+            <lego:option value="female">женский</lego:option>
+        </lego:b-form-switch>. Мы спрашиваем это исключительно потому что склоняем все обращения
+        по сайту и для этого нам нужно знать, как к вам обращаться, дорогой/ая. Ну, это и статистика.</xhtml:p>
+
+        <xhtml:h2 style="font-size:150%; margin-top:1em;">Текст в лейбе разной длины</xhtml:h2>
+        <xhtml:p>А сейчас мы поинтересуемся вашим полом.</xhtml:p>
+        <lego:b-form-switch lego:type="toggle" lego:theme="toggle-m-grey" name="sex2">
+            <lego:option lego:active="yes" value="male">Вы знаете, я мужчина</lego:option>
+            <lego:option value="female">Ура, я женщина!</lego:option>
+        </lego:b-form-switch>
+
+        <xhtml:div style="background: #1B4F88; color: white; margin-top:1em; padding:.5em;">
+            <xhtml:p>Открывать ссылки в новом окне?</xhtml:p>
+            <lego:b-form-switch lego:type="toggle" lego:theme="toggle-m-grey" name="smoke">
+                <lego:option lego:active="yes" value="male">Да, пожалуйста</lego:option>
+                <lego:option value="female">Нет, спасибо</lego:option>
+            </lego:b-form-switch>
+        </xhtml:div>
+
+    </lego:b-example>
+</lego:page>

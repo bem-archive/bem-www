@@ -1,0 +1,35 @@
+.b-menu-horiz_type_navigate 
+{
+	font-family: Ekibastuz,Tahoma,arial,sans-serif;
+	
+	margin: 21px 0 0 2%;
+	
+	float: left;
+}
+
+.b-menu-horiz_type_navigate a
+{
+	padding: 8px 7px 18px 7px;
+	
+	color: #586e75;
+	text-decoration: none;
+}
+
+.b-menu-horiz_type_navigate .b-menu-horiz__layout .b-menu-horiz__layout-unit:hover .b-menu-horiz__layout
+{
+	display: block;
+}
+
+.b-menu-horiz_type_navigate a:hover
+{
+	background: #EEE8D5;
+	color: #586e75;	
+}
+
+.b-menu-horiz_type_navigate .b-link_state_active
+{
+	background: #EEE8D5;
+	color: #586e75;	
+}
+
+

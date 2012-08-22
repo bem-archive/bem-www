@@ -1,0 +1,19 @@
+.b-form-radio
+{
+    display: inline-block;
+
+    text-align: left;
+    white-space: nowrap;
+
+    vertical-align: middle;
+}
+
+.b-form-radio
+{
+    /* Не выделяем текст на всех кнопках */ /**/
+    behavior: expression(
+        function(t) {
+            t.onselectstart=new Function('return false');
+        }(this)
+    );
+}

@@ -1,0 +1,17 @@
+.b-form-slider_disabled_yes .b-form-slider__body
+{
+    filter: alpha(opacity = 30);
+}
+
+body .b-form-slider_disabled_yes .b-form-slider__range,
+body .b-form-slider_disabled_yes .b-form-slider__allowed-range
+{
+    filter: none;
+}
+
+.b-form-slider_disabled_yes .b-form-slider__title,
+.b-form-slider_disabled_yes .b-form-slider__unit,
+.b-form-slider_disabled_yes .b-form-slider__mark
+{
+    color: #8c8c8c;
+}

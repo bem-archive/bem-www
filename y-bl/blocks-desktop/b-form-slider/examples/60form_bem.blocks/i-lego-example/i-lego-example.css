@@ -1,0 +1,20 @@
+.i-lego-example
+{
+    width: 400px;
+    margin: 0;
+    padding: 15px 30px;
+
+    background: #eee;
+}
+
+.i-lego-example_row_yes
+{
+    white-space: nowrap;
+}
+
+.i-lego-example .b-form-radio,
+.i-lego-example .b-form-select,
+.i-lego-example .b-form-checkbox
+{
+    margin-left: 20px;
+}
