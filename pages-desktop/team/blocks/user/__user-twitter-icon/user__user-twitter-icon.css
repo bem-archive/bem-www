@@ -1,9 +1,9 @@
-.user-twitter-icon
+.user__user-twitter-icon
 {
 	width: 25px;
 	height: 19px;
 	
-	background: url(user-twitter-icon.png);
+	background: url(user__user-twitter-icon.png);
 	
 	position: absolute;
 	

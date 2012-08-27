@@ -21,30 +21,46 @@
         {
             block: 'header',
             content: [
-				{
-					block: 'search-form',
-					content: [
-						{
-							block: 'b-label',
-							mods: { lang: 'english'},
-                            content: 'English'
-						},
-						{
-							block: 'b-link',
-							mods: { lang: 'russian'},
-                            content: 'Русский'
-						},						
-						{
-							block: 'b-form-input',
-							mods: { theme: 'grey', autocomplete: 'yes', size: 'xl', type: 'search' },
-							content: { elem: 'input', attrs: { name: 'suggest' } }
-					    },
-						{
-							block: 'b-search-button',
-							content: 'Найти'				
-						}
-					]	
-				}
+                {
+                    elem: 'inner',
+                    content: [
+                        {
+                              block: 'b-menu-horiz',
+                              mods: { layout: 'simple' },
+                              separator: ' | ', 
+                              content: [
+                                {
+                                  elem: 'item',
+                                  content: 'English'
+                                },
+                                {
+                                  elem: 'item',
+                                  content: {
+                                    block: 'b-link', url: '#russian', content: 'Русский'
+                                  }
+                                }
+                              ]             
+                        },
+                        {
+                          block: 'search-form',
+                          content: [            
+                              {
+                                  block: 'b-search',
+                                  attrs: { action: '/search.xml' },
+                                  input: {
+                                      elem: 'input',
+                                      elemMods: { type: 'search'}
+                                  },
+                                  button: {
+                                      elem: 'button',
+                                      elemMods: { type: 'search'},
+                                      attrs: { value: 'Искать'}
+                                  }
+                              }
+                            ] 
+                        }
+                    ]
+                }
 			]
         },
         {
@@ -57,12 +73,12 @@
 							elem: 'link',
 							content: [
 								{
-                            block: 'b-link',
-							mods: { type: 'detailed'},
-                            url: '#',
-                            content: 'Detailed description of BEM'
-							}
-						]	
+                                    block: 'b-link',
+        							mix: [{ block: 'description', elem : 'link-inner' }],
+                                    url: '#',
+                                    content: 'Detailed description of BEM'
+    							}
+						    ]	
                         },
                         {
 							elem: 'inner',
@@ -75,7 +91,7 @@
                     content: [
                         {
                             block: 'b-link',
-							mods: { type: 'history'},
+							mix: [{ block: 'description', elem : 'link-inner' }],
                             url: '#',
                             content: 'History'
                         },
@@ -100,12 +116,12 @@
 							elem: 'link',
 							content: [
 								{						
-                            block: 'b-link',
-							mods: { type: 'how-to-start'},
-                            url: '#',
-                            content: 'How to start?'
-							}
-						]	
+                                    block: 'b-link',
+                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    url: '#',
+                                    content: 'How to start?'
+							    }
+						    ]	
                         },
                         {
                             content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2). As our ambitions, complexity and performance requirements grew, we aimed at replacing XSLT and Perl templates with a JS-based declarative templating DSL, built on top of Node.js. Along with those efforts, we looked into simplifying development workflow and developed a bunch of command-line tools that already helped us manage front-end code on the file system, preprocess CSS and JavaScript code, and so on, and so forth. Some parts of the BEM stack started as open source projects, while others (like the UI component library) are being gradually open sourced. Our goal is to publish most of them during 2012. BEM is a toolkit that will help address and resolve front-end issues quickly and effectively. It is available in a range of reusable code libraries—all of them are hosted on Github and are completely open source.'
@@ -119,12 +135,12 @@
 							elem: 'link',
 							content: [
 								{							
-                            block: 'b-link',
-							mods: { type: 'tools'},
-                            url: '#',
-                            content: 'Tools'
-							}
-						]	
+                                    block: 'b-link',
+        							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    url: '#',
+                                    content: 'Tools'
+							    }
+						    ]	
                         },
                         {
                             elem: 'tool',
@@ -132,7 +148,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-									mods: { type: 'tool'},
+									mix: [{ block: 'description', elem : 'link-inner' }],
                                     url: '#',
                                     content: 'BEM tools'
                                 },
@@ -147,7 +163,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-									mods: { type: 'tool'},									
+									mix: [{ block: 'description', elem : 'link-inner' }],								
                                     url: '#',
                                     content: 'CSSO'
                                 },
@@ -263,7 +279,7 @@
 							content: [
 								{							
                             block: 'b-link',
-							mods: { type: 'technologies'},
+						    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                             url: '#',
                             content: 'Technologies'
 							}
@@ -335,7 +351,7 @@
 							content: [
 								{							
                             block: 'b-link',
-							mods: { type: 'libraries'},
+							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                             url: '#',
                             content: 'Libraries'
 							}

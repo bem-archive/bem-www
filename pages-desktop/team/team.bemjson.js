@@ -147,21 +147,25 @@
 				{
 					block: 'search-wrap',
                     content: [		
-				{
-					block: 'search-form',
-					content: [					
-						{
-							block: 'b-form-input',
-							mods: { theme: 'grey', autocomplete: 'yes', size: 'xl', type: 'search' },
-							content: { elem: 'input', attrs: { name: 'suggest' } }
-					    },
-						{
-							block: 'b-search-button',
-							content: 'Найти'				
-						}
-					]	
-					} 
-				  ]
+                        {
+                          block: 'search-form',
+                          content: [            
+                              {
+                                  block: 'b-search',
+                                  attrs: { action: '/search.xml' },
+                                  input: {
+                                      elem: 'input',
+                                      elemMods: { type: 'search'}
+                                  },
+                                  button: {
+                                      elem: 'button',
+                                      elemMods: { type: 'search'},
+                                      attrs: { value: 'Искать'}
+                                  }
+                              }
+                            ] 
+                        }
+				    ]
 				},			
                 {
                     block: 'main',
@@ -188,8 +192,9 @@
 											content: [
 												{
 													block: 'user-avatar',
+													mix: [{ block: 'user', elem : 'user-avatar' }],
 													tag: 'img',
-													attrs: { src: 'blocks/user-avatar/user-avatar.png', alt: 'Виталий Харисов' }
+													attrs: { src: 'blocks/user/__user-avatar/user-avatar.png', alt: 'Виталий Харисов' }
 												}
 											]
 										},
@@ -244,8 +249,9 @@
 											content: [
 												{
 													block: 'user-avatar',
+													mix: [{ block: 'user', elem : 'user-avatar' }],
 													tag: 'img',
-													attrs: { src: 'blocks/user-avatar/user-avatar-2.png', alt: 'Евгений Батовский' }
+													attrs: { src: 'blocks/user/__user-avatar/user-avatar-2.png', alt: 'Евгений Батовский' }
 												}
 											]
 										},
@@ -299,8 +305,9 @@
 											content: [
 												{
 													block: 'user-avatar',
+													mix: [{ block: 'user', elem : 'user-avatar' }],
 													tag: 'img',
-													attrs: { src: 'blocks/user-avatar/user-avatar-3.png', alt: 'Сергей Бережной' }
+													attrs: { src: 'blocks/user/__user-avatar/user-avatar-3.png', alt: 'Сергей Бережной' }
 												}
 											]
 										},
@@ -368,8 +375,9 @@
 										content: [
 											{
 												block: 'user-avatar',
+												mix: [{ block: 'user', elem : 'user-avatar' }],
 												tag: 'img',
-												attrs: { src: 'blocks/user-avatar/user-avatar-4.png', alt: 'Константин Константинопольский' }
+												attrs: { src: 'blocks/user/__user-avatar/user-avatar-4.png', alt: 'Константин Константинопольский' }
 											}
 										]
 									},
@@ -398,7 +406,8 @@
 										url: '#',
 										content: [
 											{
-												block: 'user-lj-icon'
+												block: 'user-lj-icon',
+												mix: [{ block: 'user', elem : 'user-lj-icon' }],
 											},
 											 'kostik'
 										]
@@ -415,8 +424,9 @@
 										content: [
 											{
 												block: 'user-avatar',
+												mix: [{ block: 'user', elem : 'user-avatar' }],
 												tag: 'img',
-												attrs: { src: 'blocks/user-avatar/user-avatar-5.png', alt: 'Георгий Мостоловица' }
+												attrs: { src: 'blocks/user/__user-avatar/user-avatar-5.png', alt: 'Георгий Мостоловица' }
 											}
 										]
 									},
@@ -436,7 +446,8 @@
 										url: '#',
 										content: [
 											{
-												block: 'user-twitter-icon'
+												block: 'user-twitter-icon',
+												mix: [{ block: 'user', elem : 'user-twitter-icon' }],
 											},
 											 'gfranco'
 										]
@@ -458,8 +469,9 @@
 										content: [
 											{
 												block: 'user-avatar',
+												mix: [{ block: 'user', elem : 'user-avatar' }],
 												tag: 'img',
-												attrs: { src: 'blocks/user-avatar/user-avatar-6.png', alt: 'Кир Белевич' }
+												attrs: { src: 'blocks/user/__user-avatar/user-avatar-6.png', alt: 'Кир Белевич' }
 											}
 										]
 									},

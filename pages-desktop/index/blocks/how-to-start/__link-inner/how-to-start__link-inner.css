@@ -1,0 +1,9 @@
+.how-to-start__link-inner
+{
+	display: inline-block;
+	
+    font: 60px Ekibastuz,Tahoma,arial,sans-serif;
+
+    margin: -5px 0 20px -7px;
+    padding: 2px 15px;	
+}

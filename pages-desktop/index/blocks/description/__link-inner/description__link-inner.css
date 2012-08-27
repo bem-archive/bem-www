@@ -1,0 +1,9 @@
+.description__link-inner
+{
+	display: inline-block; 
+
+	font: 175% Ekibastuz, Tahoma, arial, sans-serif;
+
+	padding: 5px 7px;
+	margin: -5px 0 5px -7px;	
+}

@@ -240,21 +240,25 @@
 				{
 					block: 'search-wrap',
                     content: [		
-				{
-					block: 'search-form',
-					content: [					
-						{
-							block: 'b-form-input',
-							mods: { theme: 'grey', autocomplete: 'yes', size: 'xl', type: 'search' },
-							content: { elem: 'input', attrs: { name: 'suggest' } }
-					    },
-						{
-							block: 'b-search-button',
-							content: 'Найти'				
-						}
-					]	
-					} 
-				  ]
+                        {
+                          block: 'search-form',
+                          content: [            
+                              {
+                                  block: 'b-search',
+                                  attrs: { action: '/search.xml' },
+                                  input: {
+                                      elem: 'input',
+                                      elemMods: { type: 'search'}
+                                  },
+                                  button: {
+                                      elem: 'button',
+                                      elemMods: { type: 'search'},
+                                      attrs: { value: 'Искать'}
+                                  }
+                              }
+                            ] 
+                        }
+				    ]
 				},			
                 {
                     block: 'main',
