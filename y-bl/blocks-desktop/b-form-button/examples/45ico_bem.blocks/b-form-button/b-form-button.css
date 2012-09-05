@@ -1,0 +1,12 @@
+.b-form-button .b-icon
+{
+    position: relative;
+    top: 3px;
+
+    margin-right: 4px;
+}
+
+.b-form-button_type_simple .b-icon
+{
+    top: 2px;
+}

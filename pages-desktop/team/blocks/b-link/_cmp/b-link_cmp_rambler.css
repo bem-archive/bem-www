@@ -1,0 +1,12 @@
+.b-link_cmp_rambler,
+.b-link_cmp_rambler:hover
+{
+	display: inline-block;
+
+	width: 108px;
+	height: 31px;
+	
+	margin: 0 0 4px 3%;
+	
+	background: url(b-link_cmp_rambler.png);	
+}

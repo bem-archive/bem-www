@@ -1,0 +1,1 @@
+Селект c overflow-y и шириной auto

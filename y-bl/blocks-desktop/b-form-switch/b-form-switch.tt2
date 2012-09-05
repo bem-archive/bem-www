@@ -1,0 +1,30 @@
+[%~ MACRO b_form_switch(options) BLOCK ~%]
+    [%
+        SET class = 'b-form-switch b-form-switch_is-bem_yes i-bem';
+        SET class = class _ ' ' _ options.class IF options.class;
+        SET class = class _ ' b-form-switch_type_' _ options.type || 'toggle' ;
+        SET class = class _ ' b-form-switch_focused_yes' IF options.focused;
+        SET class = class _ ' b-form-switch_theme_' _ (options.theme || 'toggle-s');
+        SET poisition = options.left.checked ? 'left' : 'right';
+
+
+    %]
+    <span onclick="return {'b-form-switch': {name: 'b-form-switch'}}" class="[% class %] b-form-switch_poisition_[% poisition %]">[%~ ~%]
+        <span class="b-form-switch__body b-form-switch__body_poisition_[% poisition %]">[%~ ~%]
+            [%~ b_form_switch__radio(options.left, 'left', options.name) ~%]
+            <span class="b-form-switch__button">[%~ ~%]</span>[%~ ~%]
+            [%~ b_form_switch__radio(options.right, 'right', options.name) ~%]
+        </span>[%~ ~%]
+    </span>[%~ ~%]
+[%~ END ~%]
+
+[%~ MACRO b_form_switch__radio(options, direction, name) BLOCK ~%]
+    [%~ SET active_class = 'b-form-switch__label_active_yes' IF options.checked; ~%]
+    [%~ SET checked = ' checked="checked"' IF options.checked; ~%]
+    [%~ SET id = ' id="' _ options.id _'"' IF options.id; ~%]
+    [%~ SET for = ' for="' _ options.id _'"' IF options.id; ~%]
+    [%~ ~%]<input type="radio" [% checked %] name="[% name %]" value="[% options.value %]" [% id %] class="b-form-switch__option b-form-switch__input b-form-switch__input-[% direction %]">
+    [%~ ~%]<label [% for %] unselectable="on" hidefocus="true" class="[% active_class %] b-form-switch__label b-form-switch__label-[% direction %] " style="">
+        [%~ ~%]<span class="b-form-switch__label-inner " >[%~ options.text~ %]</span>
+    [%~ ~%]</label>
+[%~ END ~%]

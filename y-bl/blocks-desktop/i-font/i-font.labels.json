@@ -1,0 +1,8 @@
+{
+    "brand" : "nonbrand",
+    "topicality" : "process",
+    "action" : "static",
+    "purposes" : [
+        ["purpose", "helper"]
+    ]
+}

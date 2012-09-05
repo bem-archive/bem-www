@@ -1,0 +1,119 @@
+Это блок из серии декоративных (не системных) контролов, созданных специально для Яндекса.
+
+Поле ввода представлено в разных вариантах:
+((#b-form-input.10form-input_xml простое)),
+((#b-form-input.20form-input_xml с подсказкой)),
+((#b-form-input.30form-input_xml с меткой)),
+((#b-form-input.40form-input_xml с сообщением для ошибок)),
+((#b-form-input.50form-input_xml с примерами)),
+в виде ((#b-form-input.60form-input_xml формы для набора текста)),
+примеры полей ввода ((#b-form-input.70form-input-samples_xml в таблице)).
+
+
+===Технические подробности
+* Существует возможность устанавливать фокус в поле ввода после загрузки страницы. Для этого необходимо воспользоваться
+атрибутом ##autofocus##:
+%%hl xml
+    <lego:b-form-input autofocus="yes">
+        <lego:input/>
+    </lego:b-form-input>
+%%
+
+* При наличии у блока сообщения (##lego:message##) с модификаторами ##lego:visibility## и ##lego:type##, блоку добавляется модификатор, с помощью которого можно изменять внешний
+вид блока, в зависимости от видимого сообщения.\\ **Например:**
+%%hl xml
+    <lego:message lego:type="error" lego:visibility="visible">ошибка!</lego:message>
+        в результате получается
+    <span class="b-form-input b-form-input_message-error_visible">...
+%%
+
+**Если сообщению не указан lego:type никаких модификаторов блоку не добавляется.**
+
+* **При наличии у блока подсказки (##hint##) в ##xml##-е элемент ##hint## должен быть всегда перед элементом ##input##.**
+
+%%hl xml
+    <lego:b-form-input>
+        <lego:hint>Хинт перед Инпутом</lego:hint>
+        <lego:input/>
+    </lego:b-form-input>
+%%
+
+* Текущая реализация черной темы имеет отличия от макета, чтобы избежать появления экстраразметки. Отличие заклчается в том, что в состоянии в фокусе остается видна рамка поля.
+
+
+
+===Соответствие новых модификаторов контролам===
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="margin-bottom: 10px; border-collapse: separate;">
+    <tr style="background: #eee;">
+        <th style="padding: 3px 10px;">Модификатор / Контрол</th>
+        <th style="padding: 3px 10px;">b-form-button</th>
+        <th style="padding: 3px 10px;">b-form-checkbox</th>
+        <th style="padding: 3px 10px;">b-form-input</th>
+        <th style="padding: 3px 10px;">b-form-radio</th>
+        <th style="padding: 3px 10px;">b-form-switch</th>
+        <th style="padding: 3px 10px;">b-form-select</th>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">s</td>
+        <td style="padding: 2px 0;text-align: center;">19</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">11</td>
+        <td style="padding: 2px 0;text-align: center;">11</td>
+        <td style="padding: 2px 0;text-align: center;">s</td>
+        <td style="padding: 2px 0;text-align: center;">s</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0; text-align: center;">m</td>
+        <td style="padding: 2px 0;text-align: center;">22</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">13</td>
+        <td style="padding: 2px 0;text-align: center;">m</td>
+        <td style="padding: 2px 0;text-align: center;">m</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">l</td>
+        <td style="padding: 2px 0;text-align: center;">26</td>
+        <td style="padding: 2px 0;text-align: center;">15</td>
+        <td style="padding: 2px 0;text-align: center;">16</td>
+        <td style="padding: 2px 0;text-align: center;">l</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">l</td>
+    </tr>
+    <tr style="font-size: 110%; background: #fff;">
+        <td style="padding: 2px 0;text-align: center;">xl</td>
+        <td style="padding: 2px 0;text-align: center;">33</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">21</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+        <td style="padding: 2px 0;text-align: center;">—</td>
+    </tr>
+</table>
+%%
+
+Если вам необходимо добавить контрол размером между уже существующими размерами, то называть модификаторы нужно следуя таблице, приведенной ниже.
+%%html
+<table cellspacing="1" bgcolor="#ccc" style="font-size: 120%; border-collapse: separate;">
+    <tr style="background: #fff;">
+        <td style="padding: 2px 5px;text-align: center;">xs</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">s</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">sm</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">m</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">ml</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">l</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">lxl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="font-weight: 600;padding: 2px 5px;text-align: center;">xl</td>
+        <td style="padding: 2px 5px;text-align: center;">&lt;</td>
+        <td style="padding: 2px 5px;text-align: center;">xxl</td>
+    </tr>
+</table>
+%%

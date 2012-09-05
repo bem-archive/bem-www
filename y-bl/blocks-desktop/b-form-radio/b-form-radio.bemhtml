@@ -1,0 +1,11 @@
+block b-form-radio {
+
+    js: true
+    tag: 'span'
+
+    default, !this.elem, !this._inputAttrs: {
+        apply(this._inputAttrs = this.ctx.inputAttrs || {},
+                this._nextForChecked = false);
+    }
+
+}

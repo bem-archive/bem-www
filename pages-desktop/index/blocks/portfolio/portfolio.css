@@ -1,0 +1,13 @@
+.portfolio
+{
+	background: #fff;
+}
+
+.portfolio__title
+{
+	text-align: center;
+	
+	padding: 40px 0;
+	
+	font: 48px Ekibastuz, Tahoma, arial, sans-serif;
+}

@@ -1,0 +1,26 @@
+.b-link_cmp_rambler
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_rambler.png);
+	
+	width: 257px;
+	height: 68px;
+	
+	margin: -8px 0 0 0;
+}
+
+.b-link_cmp_rambler:hover
+{
+	background: url(b-link_cmp_rambler.png);
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-link_cmp_rambler
+	{
+		margin: -8px 4% 0 4%;
+	}
+}

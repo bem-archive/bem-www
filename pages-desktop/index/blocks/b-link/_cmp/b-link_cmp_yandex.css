@@ -1,0 +1,26 @@
+.b-link_cmp_yandex
+{
+	display: block; 
+	
+	float: left;
+	
+	background: url(b-link_cmp_yandex.png);
+	
+	width: 106px;
+	height: 55px;
+	
+	margin: 0 0 0 1%;
+}
+
+.b-link_cmp_yandex:hover
+{
+	background: url(b-link_cmp_yandex.png);
+}
+
+@media screen and (min-width: 2000px) 
+{
+	.b-link_cmp_yandex
+	{
+	margin: 0 4% 0 1%;
+	}
+}

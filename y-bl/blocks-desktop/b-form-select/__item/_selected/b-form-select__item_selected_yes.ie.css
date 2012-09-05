@@ -1,0 +1,17 @@
+.b-form-select__item_selected_yes
+{
+    position: relative;
+    z-index: 2;
+}
+
+.b-form-select__item_selected_yes .b-form-select__text
+{
+    margin-right: 20px;
+
+    overflow: hidden;
+}
+
+.b-form-select__item_selected_yes 
+{
+    background-repeat: no-repeat;
+}

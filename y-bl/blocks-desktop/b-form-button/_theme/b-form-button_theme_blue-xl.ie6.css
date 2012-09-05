@@ -1,0 +1,6 @@
+.b-form-button_theme_blue-xl,
+.b-form-button_theme_blue-xl .b-form-button__left,
+.b-form-button_theme_blue-xl .b-form-button__content
+{
+    background-image: url(b-form-button_theme_blue-no-transparent-xl.ie.png);
+}

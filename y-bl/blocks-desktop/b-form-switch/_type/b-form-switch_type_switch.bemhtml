@@ -1,0 +1,8 @@
+block b-form-switch, mod type switch {
+
+    elem label, content: [
+        this.ctx.content,
+        this._switchOptionContent
+    ]
+
+}

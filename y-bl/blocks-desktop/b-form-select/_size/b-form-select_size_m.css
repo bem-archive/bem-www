@@ -1,0 +1,23 @@
+.b-form-select__popup_size_m .b-form-select__item
+{
+    font-size: 13px;
+    
+    line-height: 19px;
+}
+
+.b-form-select_size_m .b-form-button .b-form-button__content
+{
+    margin-top: -26px;
+}
+
+.b-form-select__popup_size_m .b-form-select__item_selected_yes .b-form-select__text:before
+{
+    background-position: 9px 4px;
+}
+
+.b-form-select_size_m .b-form-select__arrow
+{
+    font-size: 10px;
+    
+    top: 8px;
+}

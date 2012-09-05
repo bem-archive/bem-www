@@ -1,0 +1,12 @@
+.b-form__table td
+{
+    padding: 10px;
+
+    vertical-align: top;
+}
+
+.b-form__table p
+{
+    margin: 0;
+    padding: 0;
+}

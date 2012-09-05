@@ -1,0 +1,30 @@
+.b-form-switch_type_switch
+{
+    height: auto !important;
+}
+
+.b-form-switch_type_switch .b-form-switch__label
+{
+    vertical-align: baseline;
+}
+
+.b-form-switch_type_switch .b-form-switch__body
+{
+    font: 0/0 a;
+}
+
+[class].b-form-switch_type_switch .b-form-switch__label_position_left
+{
+    margin-right: 6px;
+}
+
+[class].b-form-switch_type_switch .b-form-switch__label_position_right
+{
+    margin-left: 6px;
+}
+
+[class].b-form-switch_type_switch .b-form-switch__body
+{
+    margin: 2px 0;
+}
+

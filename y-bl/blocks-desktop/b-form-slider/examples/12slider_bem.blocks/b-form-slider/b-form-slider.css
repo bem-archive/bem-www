@@ -1,0 +1,15 @@
+.b-form-slider__mark
+{
+    height: 6px;
+    margin-top: -6px;
+
+    line-height: 27px !important;
+
+    border-left: 1px solid #ccc;
+}
+
+.b-form-slider__mark_position_last
+{
+    border: 0;
+    border-right: 1px solid #ccc;
+}

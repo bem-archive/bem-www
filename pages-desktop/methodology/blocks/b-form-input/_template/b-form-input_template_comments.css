@@ -1,0 +1,25 @@
+.b-form-input_template_comments
+{
+	margin: 10px .5em 0 0;
+
+	width: 100%;
+	
+	display: inline-block;
+}
+
+.b-form-input_template_comments.b-form-input_theme_grey .b-form-input__box
+{
+	border: 1px solid #ccc !important;
+	box-shadow: none;
+	border-radius: 0 !important;	
+}
+
+.b-form-input_template_comments .b-form-input__box
+{
+	box-shadow: none;
+}
+
+.b-form-input_template_comments .b-form-input__input
+{
+	height: 100px;
+}

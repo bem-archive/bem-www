@@ -1,0 +1,6 @@
+block b-form-attach {
+
+    elem holder, tag: 'span'
+    elem text, tag: 'span'
+
+}

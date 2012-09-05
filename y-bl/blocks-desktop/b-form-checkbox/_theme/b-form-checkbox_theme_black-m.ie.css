@@ -1,0 +1,9 @@
+.i-ua_js_yes .b-form-checkbox_theme_black-m .b-form-checkbox__bg
+{
+    background: url(b-form-checkbox_theme_black-m.png);
+}
+
+.i-ua_js_yes .b-form-checkbox_theme_black-m .b-form-checkbox__tick
+{
+    background-image: url(b-form-checkbox_theme_black-tick.gif);
+}

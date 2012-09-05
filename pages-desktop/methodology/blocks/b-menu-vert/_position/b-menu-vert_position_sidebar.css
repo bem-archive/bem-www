@@ -1,0 +1,14 @@
+.b-menu-vert_position_sidebar
+{
+	margin: 20px 0 5px 0;	
+}
+
+.b-menu-vert_position_sidebar .b-link
+{
+	margin: 3px 0;
+	padding: 2px 3px;
+	
+	display: block;	
+
+	font-size: 10px;	
+}

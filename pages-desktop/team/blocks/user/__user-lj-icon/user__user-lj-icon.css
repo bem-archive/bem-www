@@ -1,0 +1,11 @@
+.user__user-lj-icon
+{
+	width: 23px;
+	height: 20px;
+	
+	background: url(user__user-lj-icon.png);
+	
+	position: absolute;
+	
+	margin: 3px 0 0 -25px;
+}	

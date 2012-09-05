@@ -1,0 +1,18 @@
+.b-form-button_theme_grey-arrow-no-transparent-m,
+.b-form-button_theme_grey-arrow-no-transparent-m .b-form-button__left,
+.b-form-button_theme_grey-arrow-no-transparent-m .b-form-button__content
+{
+    color: #000;
+    background-image: url(b-form-button_theme_grey-arrow-no-transparent-m.png);
+}
+
+body .b-form-button_disabled_yes .b-form-button__content
+{
+    color: #999 !important;
+}
+
+body .b-form-button_theme_grey-arrow-no-transparent-m .b-form-button__content
+{
+    margin-right: 10px;
+    padding-right: 5px;
+}

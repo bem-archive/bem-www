@@ -1,0 +1,9 @@
+.b-form-select_layout_fixed .b-form-button
+{
+    width: auto; /*Сбрасываем w:100% для IE6*/
+}
+
+.b-form-select_layout_fixed .b-form-button .b-form-button__text
+{
+    width: 100%;
+}

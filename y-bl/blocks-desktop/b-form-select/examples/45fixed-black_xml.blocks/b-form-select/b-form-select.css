@@ -1,0 +1,10 @@
+body
+{
+    background-color: #272727;
+}
+
+.b-form-select,
+.b-form-select .b-form-select__select
+{
+    width: 200px;
+}

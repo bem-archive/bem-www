@@ -1,0 +1,15 @@
+.b-form-switch_theme_toggle-s-grey .b-form-switch__label
+{
+    filter:
+        progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#585858', Positive='true')
+        progid:DXImageTransform.Microsoft.gradient(startColorstr=#A0757575, endColorstr=#009a9a9a, GradientType=0);
+}
+
+.b-form-switch_theme_toggle-s-grey .b-form-switch__button
+{
+    top: 0 !important;
+    
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#00757575', Direction=0, Strength=1)
+        progid:DXImageTransform.Microsoft.gradient (startColorstr=#A0ffffff, endColorstr=#c8d5d5d5, GradientType=0);
+}

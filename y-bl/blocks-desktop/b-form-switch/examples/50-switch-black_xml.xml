@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-switch lego:type="switch" lego:theme="switch-s-black" name="color">
+            <lego:option lego:active="yes" value="white">белый</lego:option>
+            <lego:option value="black">чёрный</lego:option>
+        </lego:b-form-switch>
+    </xhtml:div>
+    <xhtml:div style="margin: 20px;">
+        <lego:b-form-switch lego:type="switch" lego:theme="switch-m-black" name="color2">
+            <lego:option value="white">белый</lego:option>
+            <lego:option lego:active="yes" value="black">чёрный</lego:option>
+        </lego:b-form-switch>
+    </xhtml:div>
+</lego:page>

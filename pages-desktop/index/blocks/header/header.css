@@ -1,0 +1,9 @@
+.header
+{
+    height: 182px;
+	
+	margin: auto;
+	padding: 90px 0 40px 0;
+	
+	background: url(header.png) no-repeat center;
+}

@@ -1,0 +1,11 @@
+block b-form-button, mod counter yes, this.ctx.counter, js: {
+
+    var a = {},
+        ctx = this.ctx,
+        es = ['counter', 'show-counter'], e;
+
+    while(e = es.shift()) ctx[e] && (a[e] = ctx[e]);
+
+    return a;
+
+}
