@@ -12,13 +12,13 @@
     padding: 20px 3.7%;
 	margin-left: 36%;
 	
-    background: #fff
+    background: #fff;
 }
 
 
 .history__inner:after
 {
-	background: url(history.png) no-repeat  transparent;
+	background: url(history.png) no-repeat;
     content: "";
 	
     height: 34px;

@@ -1,0 +1,36 @@
+block header, !this.elem {
+    default, !this.ctx._done: {
+        apply(
+            this._mode = '',
+            this.ctx = {
+                block: 'header',
+                content: [
+                    {
+                        elem: 'inner',
+                        content: [                       
+                            {
+                              block: 'search-form',
+                              content: [            
+                                    {
+                                      block: 'b-search',
+                                      attrs: { action: '/search.xml' },
+                                      input: {
+                                          elem: 'input',
+                                          elemMods: { type: 'search'}
+                                      },
+                                      button: {
+                                          elem: 'button',
+                                          elemMods: { type: 'search'},
+                                          attrs: { value: 'Искать'}
+                                        }
+                                    }
+                                ] 
+                            }
+                        ]
+                    }                				
+                ],
+                _done: true
+            }
+        );
+    }
+}

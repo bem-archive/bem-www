@@ -1,0 +1,17 @@
+.header__logo
+{
+	width: 50px;
+	height: 40px;
+	
+	background: url(header__logo.png);
+	
+	float: left;
+	
+	margin: 10px 0 10px 10px;
+}
+
+.b-link.header__logo:hover
+{
+	background: url(header__logo.png);	
+}	
+	

@@ -1,0 +1,9 @@
+.companies__company
+{
+	width: 75px;
+	height: 68px;
+
+	display: inline-block;
+
+	outline: none;
+}

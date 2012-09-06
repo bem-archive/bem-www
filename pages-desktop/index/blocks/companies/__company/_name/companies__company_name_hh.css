@@ -1,0 +1,7 @@
+.companies__company_name_hh,
+.companies__company_name_hh:hover
+{
+	background: url(companies__company_name_hh.png) no-repeat;
+
+	width: 10%;
+}

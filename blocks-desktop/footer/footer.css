@@ -9,14 +9,14 @@
 	font-size: 12px;
 }
 
-.footer a
+.footer .b-link
 {
     color: #fff;
 	
 	line-height: 1.9;
 }
 
-.footer a:hover
+.footer .b-link:hover
 {
 	background: #000;
 	

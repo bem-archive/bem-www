@@ -20,54 +20,14 @@
     content: [
         {
             block: 'header',
-            content: [
-                {
-                    elem: 'inner',
-                    content: [
-                        {
-                              block: 'b-menu-horiz',
-                              mods: { layout: 'simple' },
-                              separator: ' | ', 
-                              content: [
-                                {
-                                  elem: 'item',
-                                  content: 'English'
-                                },
-                                {
-                                  elem: 'item',
-                                  content: {
-                                    block: 'b-link', url: '#russian', content: 'Русский'
-                                  }
-                                }
-                              ]             
-                        },
-                        {
-                          block: 'search-form',
-                          content: [            
-                              {
-                                  block: 'b-search',
-                                  attrs: { action: '/search.xml' },
-                                  input: {
-                                      elem: 'input',
-                                      elemMods: { type: 'search'}
-                                  },
-                                  button: {
-                                      elem: 'button',
-                                      elemMods: { type: 'search'},
-                                      attrs: { value: 'Искать'}
-                                  }
-                              }
-                            ] 
-                        }
-                    ]
-                }
-			]
+            mods: { type: 'main' }
         },
         {
             block: 'content',
             content: [
                 {
                     block: 'description',
+                    mix: [{ block: 'i-clearfix' }],
                     content: [
                         {
 							elem: 'link',
@@ -75,14 +35,14 @@
 								{
                                     block: 'b-link',
         							mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: '#',
-                                    content: 'Detailed description of BEM'
+                                    url: '//bem.github.com/bem-method/pages/beginning/beginning.ru.html',
+                                    content: 'Подробное описание BEM'
     							}
 						    ]	
                         },
                         {
 							elem: 'inner',
-                            content: 'BEM stands for “Block”, “Element”, “Modifier”. It is a front-end methodology: a new way of thinking when developing Web interfaces. This article will elaborate on the theory as well as the practice of building websites at Yandex—one of the leading internet companies in Russia.'
+                            content: 'В Яндексе сверстали множество проектов, счёт страниц идёт на десятки тысяч. Подходы, применяемые разработчиками Яндекса к HTML/CSS-вёрстке и клиентскому коду вообще, постоянно эволюционировали.'
                         }
                     ]
                 },
@@ -92,21 +52,38 @@
                         {
                             block: 'b-link',
 							mix: [{ block: 'description', elem : 'link-inner' }],
-                            url: '#',
-                            content: 'History'
+                            url: '//bem.github.com/bem-method/pages/history/history.ru.html',
+                            content: 'История создания БЭМ'
                         },
                         {
-                            content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
-                        },
-                        {
-                            content: 'As our ambitions, complexity and performance requirements grew, we aimed at replacing XSLT and Perl templates with a JS-based declarative templating DSL, built on top of Node.js. Along with those efforts, we looked into simplifying development workflow and developed a bunch of command-line tools that already helped us manage front-end code on the file system, preprocess CSS and JavaScript code, and so on, and so forth.'
-                        },
-                        {
-                            content: 'Some parts of the BEM stack started as open source projects, while others (like the UI component library) are being gradually open sourced. Our goal is to publish most of them during 2012.'
-                        },
-                        {
-                            content: 'BEM is a toolkit that will help address and resolve front-end issues quickly and effectively. It is available in a range of reusable code libraries—all of them are hosted on Github and are completely open source.'
-                        },
+                            block: 'b-text',
+                            content: [
+                                {
+                                    elem: 'p',
+                                    content: 'Это статья об истории создания БЭМ, о том, откуда взялись сущности БЭМ и почему они сейчас именно такие.'
+                                },
+                                {
+                                    elem: 'p',
+                                    content: 'К концу статьи вы увидите, что БЭМ гибок и может применяться в том объёме, в каком это возможно в вашем проекте.'
+                                },                                
+                                {
+                                    elem: 'h1',
+                                    content: 'Самое начало (Яндекс.Адреса)'
+                                },
+                                {
+                                    elem: 'p',
+                                    content: 'Когда я начал работать над Яндекс.Адресами в далёком 2005 году, вёрстку я делал так:'
+                                },
+                                {
+                                    elem: 'code',
+                                    content: 'about.html index.html … adresa.css adresa.js i/yandex.png'
+                                },
+                                {
+                                    elem: 'p',
+                                    content: 'Странички были статическими html-файлами. Стили для них складывались в один файл на весь проект – adresa.css, скрипты – в adresa.js. Скриптов было очень мало.) Картинки – в отдельную директорию.'
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -115,7 +92,7 @@
                         {
 							elem: 'link',
 							content: [
-								{						
+								{
                                     block: 'b-link',
                                     mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                                     url: '#',
@@ -130,6 +107,7 @@
                 },
                 {
                     block: 'tools',
+                    mix: [{ block: 'i-clearfix' }],
                     content: [
                         {
 							elem: 'link',
@@ -137,8 +115,8 @@
 								{							
                                     block: 'b-link',
         							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '#',
-                                    content: 'Tools'
+                                    url: '//github.com/bem/bem-tools',
+                                    content: 'Инструменты'
 							    }
 						    ]	
                         },
@@ -149,11 +127,33 @@
                                 {
                                     block: 'b-link',
 									mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: '#',
+                                    url: '//github.com/bem/bem-tools',
                                     content: 'BEM tools'
                                 },
                                 {
-                                    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
+                                    content: 'Начали реализацию инструментов bem-tools, которые помогают работать с файлами по БЭМ-методу.Инструменты реализуются на JavaScript под Node.js.Директории с реализацией блоков стали называть «уровнем переопределения».Например, на проекте может быть:'
+                                },
+                                {
+                                    block: 'b-text',
+                                    content: [
+                                        {
+                                            elem: 'ol',
+                                            content: [
+                                                {
+                                                    elem: 'li',
+                                                    content: 'публичная библиотека блоков с github'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'внутренняя библиотека lego'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'и блоки самого проекта'
+                                                }                                                
+                                            ]
+                                        }                               
+                                    ]
                                 }
                             ]
                         },
@@ -163,7 +163,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-									mix: [{ block: 'description', elem : 'link-inner' }],								
+									mix: [{ block: 'description', elem : 'link-inner' }],
                                     url: '#',
                                     content: 'CSSO'
                                 },
@@ -270,6 +270,7 @@
                 },
 				{
 					block: 'tech-wrapper',
+                    mix: [{ block: 'i-clearfix' }],
                     content: [
                 {
                     block: 'technologies',
@@ -277,13 +278,13 @@
                         {
 							elem: 'link',
 							content: [
-								{							
-                            block: 'b-link',
-						    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                            url: '#',
-                            content: 'Technologies'
-							}
-						]	
+								{
+                                    block: 'b-link',
+        						    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    url: '#',
+                                    content: 'Technologies'
+							    }
+						    ]	
                         },
                         {
 							elem: 'info',
@@ -349,25 +350,80 @@
                         {
 							elem: 'link',
 							content: [
-								{							
-                            block: 'b-link',
-							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                            url: '#',
-                            content: 'Libraries'
-							}
-						]	
+								{
+                                    block: 'b-link',
+        							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    url: '#',
+                                    content: 'Libraries'
+    							}
+    						]	
                         },
                         {
                             elem: 'lib',
                             content: [
                                 {
                                     block: 'b-link',
-									mods: { lib: 'name'},
+									mix: [{ block: 'libraries', elem : 'service-name' }],
                                     url: '#',
                                     content: 'bem-bl'
                                 },
                                 {
-                                    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2). As our ambitions, complexity and performance requirements grew, we aimed at replacing XSLT and Perl templates with a JS-based declarative templating DSL, built on top of Node.js. Along with those efforts, we looked into simplifying development workflow and developed a bunch of command-line tools that already helped us manage front-end code on the file system, preprocess CSS and JavaScript code, and so on, and so forth. Some parts of the BEM stack started as open source projects, while others (like the UI component library) are being gradually open sourced. Our goal is to publish most of them during 2012. BEM is a toolkit that will help address and resolve front-end issues quickly and effectively. It is available in a range of reusable code libraries—all of them are hosted on Github and are completely open source.'
+                                    block: 'b-text',
+                                    content: [
+                                        {
+                                            elem: 'p',
+                                            content: 'Библиотека состоит из блоков, которые реализованны по BEM методу.'
+                                        },
+                                        {
+                                            elem: 'p',
+                                            content: [
+                                                'Код библиотеки находится на GitHub: ',
+                                                {
+                                                    block: 'b-link',
+                                                    target: '_blank',
+                                                    url: '//github.com/bem/bem-bl',
+                                                    content: 'github.com/bem/bem-bl.'
+                                                } 
+                                            ]    
+                                        },
+                                        {
+                                            elem: 'p',
+                                            content: 'Блоки реализованы в технологиях BEMHTML (шаблоны), CSS, клиентский JS.'
+                                        },
+                                        {
+                                            elem: 'p',
+                                            content: 'Для использования библиотеки необходимо:' 
+                                        },
+                                        {
+                                            elem: 'ol',
+                                            content: [
+                                                {
+                                                    elem: 'li',
+                                                    content: 'подготовить среду разработки и потренироваться на тестовом проекте;'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'ознакомится с соглашением об именовании;'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'изучить основные понятия шаблонизатора BEMHTML;'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'p',
+                                            content: [
+                                                'Информация об использовании библиотеки, вопросы и ответы — в ',
+                                                {
+                                                    block: 'b-link',
+                                                    target: '_blank',
+                                                    url: '//clubs.ya.ru/bem/',
+                                                    content: 'Клубе на Я.ру'
+                                                } 
+                                            ]    
+                                        }                                
+                                    ]
                                 }
                             ]
                         },
@@ -376,7 +432,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-									mods: { lib: 'name'},
+									mix: [{ block: 'libraries', elem : 'service-name' }],
                                     url: '#',
                                     content: 'bootstrap-bl'
                                 },
@@ -385,208 +441,71 @@
                                 }
                             ]
                         }
-                     ]
-                  }
-			    ]
-			  },				
-              { 
-                    block: 'portfolio',
-                    content: [
-						{
-							elem: 'title',
-							content: 'Companies already using BEM'
-						},
-						{
-							block: 'companies',
-							content: [						
-							{
-								block: 'b-link',
-								mods: { cmp: 'yandex'},
-								url: '#'
-							},						
-							{
-								block: 'b-link',
-								mods: { cmp: 'thk'},
-								url: '#'
-							},
-							{
-								block: 'b-link',
-								mods: { cmp: 'hh'},
-								url: '#'
-							},
-							{
-								block: 'b-link',
-								mods: { cmp: 'rambler'},
-								url: '#'
-							},
-							{
-								block: 'b-link',
-								mods: { cmp: 'yota'},
-								url: '#'
-							},		
-							{
-								block: 'b-link',
-								mods: { cmp: 'lj'},
-								url: '#'
-							},
-							{
-								block: 'b-link',
-								mods: { cmp: 'lenta'},
-								url: '#'
-							}								
-						  ]
-						}	
-                     ]
+                    ]
                 }
-            ]
+			]
+    		},
+            { 
+                block: 'portfolio',
+                content: [
+					{
+						elem: 'title',
+						content: 'Компании, которые используют BEM'
+					},
+					{
+						block: 'companies',
+						content: [
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yandex' } }],
+                                target: '_blank',
+    							url: '//yandex.ru'
+    						},
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'thk' } }],
+                                target: '_blank',
+    							url: '//www.tnk-racing.ru'
+    						},
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'hh' } }],
+                                target: '_blank',
+    							url: '//hh.ru'
+    						},
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'rambler' } }],
+                                target: '_blank',
+    							url: '//rambler.ru'
+    						},
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yota' } }],
+                                target: '_blank',
+                                url: '//yota.ru'
+                            },	
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lj' } }],
+                                target: '_blank',
+    							url: '//livejournal.com'
+    						},
+    						{
+    							block: 'b-link',
+    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lenta' } }],
+                                target: '_blank',
+    							url: '//lenta.ru'
+    						}
+					    ]
+					}	
+                ]
+            }
+        ]
         },
         {
-
-                    block: 'footer',
-                    content: [
-                        {
-                            elem: 'tech',
-                            content: [
-						{
-                            block: 'b-menu-vert',
-                            content: [
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'borschik'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'shmakowiki'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'bemlint'
-                                    }
-                                 }
-							   ]
-						     }
-                           ]
-                         },
-						{
-                            elem: 'tech',
-                            content: [
-						{
-                            block: 'b-menu-vert',
-                            content: [
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'borschik'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'shmakowiki'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'bemlint'
-                                    }
-                                 }
-							   ]
-						     }
-                           ]
-                         },
-						{
-                            elem: 'tech',
-                            content: [
-						{
-                            block: 'b-menu-vert',
-                            content: [
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'borschik'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'shmakowiki'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'bemlint'
-                                    }
-                                 }
-							   ]
-						     }
-                           ]
-                         },
-						{
-                            elem: 'tech',
-                            content: [
-						{
-                            block: 'b-menu-vert',
-                            content: [
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'borschik'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'shmakowiki'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'bemlint'
-                                    }
-                                 }
-							   ]
-						     }
-                           ]
-                         },
-						 {
-                            block: 'copyright',
-							content: 'Built with BEM'
-                         }   						 
-                       ]
-
-        } 
+            block: 'footer'
+        }
     ]
 }
 ])

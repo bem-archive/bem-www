@@ -11,8 +11,18 @@
 
 .libraries__lib
 {
-	margin: 25px 0 45px 0;	
+	margin: 25px 0 45px;	
 }	
+
+.libraries__service-name
+{
+	display: inline-block;
+	
+	font: 175% Ekibastuz, Tahoma, arial, sans-serif;
+	margin: 0 0 .5em -7px;
+	
+	padding: 2px 7px;	
+}
 
 @media screen and (min-width: 2000px) 
 {
@@ -21,5 +31,12 @@
 		float: left;
 		
 		width: 46%;
+
+		margin-top: 22px;
 	}
+
+	.libraries__lib
+	{
+		margin-top: 15px;	
+	}	
 }
