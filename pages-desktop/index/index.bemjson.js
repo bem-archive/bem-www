@@ -299,10 +299,9 @@
                             elem: 'link',
                             content: [
                                 {
-                                    block: 'b-link',
-                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '#',
-                                    content: 'Libraries'
+                                    block: 'how-to-start',
+                                    elem: 'link-inner',
+                                    content: 'Библиотеки блоков'
                                 }
                             ]
                         },
@@ -312,7 +311,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'libraries', elem : 'service-name' }],
-                                    url: '#',
+                                    url: 'http://bem.github.com/bem-bl/index.ru.html',
                                     content: 'bem-bl'
                                 },
                                 {
@@ -374,20 +373,6 @@
                                     ]
                                 }
                             ]
-                        },
-                        {
-                            elem: 'lib',
-                            content: [
-                                {
-                                    block: 'b-link',
-                                    mix: [{ block: 'libraries', elem : 'service-name' }],
-                                    url: '#',
-                                    content: 'bootstrap-bl'
-                                },
-                                {
-                                    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2). As our ambitions, complexity and performance requirements grew, we aimed at replacing XSLT and Perl templates with a JS-based declarative templating DSL, built on top of Node.js. Along with those efforts, we looked into simplifying development workflow and developed a bunch of command-line tools that already helped us manage front-end code on the file system, preprocess CSS and JavaScript code, and so on, and so forth. Some parts of the BEM stack started as open source projects, while others (like the UI component library) are being gradually open sourced. Our goal is to publish most of them during 2012. BEM is a toolkit that will help address and resolve front-end issues quickly and effectively. It is available in a range of reusable code libraries—all of them are hosted on Github and are completely open source.'
-                                }
-                            ]
                         }
                     ]
                 }
@@ -407,43 +392,43 @@
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yandex' } }],
                                 target: '_blank',
-                                url: '//yandex.ru'
+                                url: '//www.yandex.ru/'
                             },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'thk' } }],
                                 target: '_blank',
-                                url: '//www.tnk-racing.ru'
+                                url: '//www.tnk-racing.ru/'
                             },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'hh' } }],
                                 target: '_blank',
-                                url: '//hh.ru'
+                                url: '//hh.ru/'
                             },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'rambler' } }],
                                 target: '_blank',
-                                url: '//rambler.ru'
+                                url: '//rambler.ru/'
                             },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yota' } }],
                                 target: '_blank',
-                                url: '//yota.ru'
+                                url: '//yota.ru/'
                             },  
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lj' } }],
                                 target: '_blank',
-                                url: '//livejournal.com'
+                                url: '//livejournal.com/'
                             },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lenta' } }],
                                 target: '_blank',
-                                url: '//lenta.ru'
+                                url: '//lenta.ru/'
                             }
                         ]
                     }
