@@ -30,18 +30,18 @@
                     mix: [{ block: 'i-clearfix' }],
                     content: [
                         {
-							elem: 'link',
-							content: [
-								{
+                            elem: 'link',
+                            content: [
+                                {
                                     block: 'b-link',
-        							mix: [{ block: 'description', elem : 'link-inner' }],
+                                    mix: [{ block: 'description', elem : 'link-inner' }],
                                     url: '//bem.github.com/bem-method/pages/beginning/beginning.ru.html',
                                     content: 'Подробное описание BEM'
-    							}
-						    ]	
+                                }
+                            ]
                         },
                         {
-							elem: 'inner',
+                            elem: 'inner',
                             content: 'В Яндексе сверстали множество проектов, счёт страниц идёт на десятки тысяч. Подходы, применяемые разработчиками Яндекса к HTML/CSS-вёрстке и клиентскому коду вообще, постоянно эволюционировали.'
                         }
                     ]
@@ -51,7 +51,7 @@
                     content: [
                         {
                             block: 'b-link',
-							mix: [{ block: 'description', elem : 'link-inner' }],
+                            mix: [{ block: 'description', elem : 'link-inner' }],
                             url: '//bem.github.com/bem-method/pages/history/history.ru.html',
                             content: 'История создания БЭМ'
                         },
@@ -66,7 +66,7 @@
                                     elem: 'p',
                                     content: 'К концу статьи вы увидите, что БЭМ гибок и может применяться в том объёме, в каком это возможно в вашем проекте.'
                                 }
-								/*,                                
+                                /*,
                                 {
                                     elem: 'h1',
                                     content: 'Самое начало (Яндекс.Адреса)'
@@ -83,7 +83,7 @@
                                     elem: 'p',
                                     content: 'Странички были статическими html-файлами. Стили для них складывались в один файл на весь проект – adresa.css, скрипты – в adresa.js. Скриптов было очень мало.) Картинки – в отдельную директорию.'
                                 }
-								*/
+                                */
                             ]
                         }
                     ]
@@ -92,18 +92,18 @@
                     block: 'how-to-start',
                     content: [
                         {
-							elem: 'link',
-							content: [
-								{
+                            elem: 'link',
+                            content: [
+                                {
                                     block: 'b-link',
                                     mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                                     url: 'http://noteskeeper.ru/527/',
                                     content: 'Как начать?'
-							    }
-						    ]	
+                                }
+                            ]
                         },
                         {
-                            content: 'Если хочется попробовать и получить некоторые плюсы от разработки в стиле БЭМ, но нет возможности внедрять всю технологическую цепочку, то стоит для начала перенять именование классов. Разумеется, это будет уже не БЭМ. Тем не мене, методом проб и ошибок ребятам из Яндекса удалось выработать хорошую методику именования CSS-селекторов для абсолютно-независимых блоков.'
+                            content: 'Если хочется попробовать и получить некоторые плюсы от разработки в стиле БЭМ, но нет возможности внедрять всю технологическую цепочку, то стоит для начала перенять именование классов.'
                         }
                     ]
                 },
@@ -112,23 +112,23 @@
                     mix: [{ block: 'i-clearfix' }],
                     content: [
                         {
-							elem: 'link',
-							content: [
-								{							
-                                    block: 'b-link',
-        							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '//github.com/bem/bem-tools',
-                                    content: 'Инструменты'
-							    }
-						    ]	
-                        },
-                        {
-                            elem: 'tool',
-							mods: { type: 'col-1'},
+                            elem: 'link',
                             content: [
                                 {
                                     block: 'b-link',
-									mix: [{ block: 'description', elem : 'link-inner' }],
+                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    url: '//github.com/bem/bem-tools',
+                                    content: 'Инструменты'
+                                }
+                            ]
+                        },
+                        {
+                            elem: 'tool',
+                            mods: { type: 'col-1'},
+                            content: [
+                                {
+                                    block: 'b-link',
+                                    mix: [{ block: 'description', elem : 'link-inner' }],
                                     url: 'https://github.com/bem/bem-tools/blob/master/README.ru.md',
                                     content: 'BEM tools'
                                 },
@@ -152,20 +152,20 @@
                                                 {
                                                     elem: 'li',
                                                     content: 'и блоки самого проекта'
-                                                }                                                
+                                                }
                                             ]
-                                        }                               
+                                        }
                                     ]
                                 }
                             ]
                         },
                         {
                             elem: 'tool',
-							mods: { type: 'col-2'},
+                            mods: { type: 'col-2'},
                             content: [
                                 {
                                     block: 'b-link',
-									mix: [{ block: 'description', elem : 'link-inner' }],
+                                    mix: [{ block: 'description', elem : 'link-inner' }],
                                     url: 'https://github.com/css/csso/blob/master/README.ru.md',
                                     content: 'CSSO'
                                 },
@@ -176,7 +176,7 @@
                         },
                         {
                             block: 'b-menu-vert',
-							mods: { type: 'col-3'},
+                            mods: { type: 'col-3'},
                             content: [
                                 {
                                     elem: 'item',
@@ -270,26 +270,26 @@
                         }
                     ]
                 },
-				{
-					block: 'tech-wrapper',
+                {
+                    block: 'tech-wrapper',
                     mix: [{ block: 'i-clearfix' }],
                     content: [
                 {
                     block: 'technologies',
                     content: [
                         {
-							elem: 'link',
-							content: [
-								{
+                            elem: 'link',
+                            content: [
+                                {
                                     block: 'b-link',
-        						    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                                     url: '#',
                                     content: 'Technologies'
-							    }
-						    ]	
+                                }
+                            ]
                         },
                         {
-							elem: 'info',
+                            elem: 'info',
                             content: '* БЭМ не накладывает ограничений на используемые технологии, его можно применять с любыми технологиями'
                         },
                         {
@@ -301,7 +301,7 @@
                                     content: 'CSS'
                                 },
                                 {
-								    content: 'С точки зрения CSS файлы всех блоков собираются в один файл страницы. Несмотря на то, что CSS для каждого блока, элемента и модификатора реализован в отдельном файле, для работы страницы нет необходимости подключать эти файлы as is. Всю необходимую CSS-реализацию страницы можно собрать в один файл. К тому же это решает проблемы: ограниченного количества импортов в IE, количества HTTP-запросов к серверу. Объединение всех CSS в один файл мы делаем при помощи утилиты borschik. Браузер получает минимизированный код. В процессе сборки можно минимизировать и оптимизировать CSS-код. Например, при помощи утилиты CSSO.Каждый браузер получает CSS, написанный специально для него. Есть возможность разделять CSS-реализации для разных браузеров и поставлять в каждый конкретный браузер только тот CSS, который нужен ему. Для этого можно использовать Сеточку, прототип.'
+                                    content: 'С точки зрения CSS файлы всех блоков собираются в один файл страницы. Несмотря на то, что CSS для каждого блока, элемента и модификатора реализован в отдельном файле, для работы страницы нет необходимости подключать эти файлы as is. Всю необходимую CSS-реализацию страницы можно собрать в один файл. К тому же это решает проблемы: ограниченного количества импортов в IE, количества HTTP-запросов к серверу. Объединение всех CSS в один файл мы делаем при помощи утилиты borschik. Браузер получает минимизированный код. В процессе сборки можно минимизировать и оптимизировать CSS-код. Например, при помощи утилиты CSSO.Каждый браузер получает CSS, написанный специально для него. Есть возможность разделять CSS-реализации для разных браузеров и поставлять в каждый конкретный браузер только тот CSS, который нужен ему. Для этого можно использовать Сеточку, прототип.'
                                 }
                             ]
                         },
@@ -314,7 +314,7 @@
                                     content: 'JS'
                                 },
                                 {
-								    content: 'С точки зрения JavaScript много файлов для блоков, один файл для страницы. Так же, как и в случае CSS, JavaScript-реализация всех необходимых блоков может быть объединена в один файл.'
+                                    content: 'С точки зрения JavaScript много файлов для блоков, один файл для страницы. Так же, как и в случае CSS, JavaScript-реализация всех необходимых блоков может быть объединена в один файл.'
                                 }
                             ]
                         },
@@ -327,7 +327,7 @@
                                     content: 'BEMHTML'
                                 },
                                 {
-								    content: 'bemhtml — это надмножество xjst, позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
+                                    content: 'bemhtml — это надмножество xjst, позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
                                 }
                             ]
                         },
@@ -350,22 +350,22 @@
                     block: 'libraries',
                     content: [
                         {
-							elem: 'link',
-							content: [
-								{
+                            elem: 'link',
+                            content: [
+                                {
                                     block: 'b-link',
-        							mix: [{ block: 'how-to-start', elem : 'link-inner' }],
+                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
                                     url: '#',
                                     content: 'Libraries'
-    							}
-    						]	
+                                }
+                            ]
                         },
                         {
                             elem: 'lib',
                             content: [
                                 {
                                     block: 'b-link',
-									mix: [{ block: 'libraries', elem : 'service-name' }],
+                                    mix: [{ block: 'libraries', elem : 'service-name' }],
                                     url: '#',
                                     content: 'bem-bl'
                                 },
@@ -385,8 +385,8 @@
                                                     target: '_blank',
                                                     url: '//github.com/bem/bem-bl',
                                                     content: 'github.com/bem/bem-bl.'
-                                                } 
-                                            ]    
+                                                }
+                                            ]
                                         },
                                         {
                                             elem: 'p',
@@ -422,9 +422,9 @@
                                                     target: '_blank',
                                                     url: '//clubs.ya.ru/bem/',
                                                     content: 'Клубе на Я.ру'
-                                                } 
-                                            ]    
-                                        }                                
+                                                }
+                                            ]
+                                        }
                                     ]
                                 }
                             ]
@@ -434,7 +434,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-									mix: [{ block: 'libraries', elem : 'service-name' }],
+                                    mix: [{ block: 'libraries', elem : 'service-name' }],
                                     url: '#',
                                     content: 'bootstrap-bl'
                                 },
@@ -445,62 +445,62 @@
                         }
                     ]
                 }
-			]
-    		},
+            ]
+            },
             { 
                 block: 'portfolio',
                 content: [
-					{
-						elem: 'title',
-						content: 'Компании, которые используют BEM'
-					},
-					{
-						block: 'companies',
-						content: [
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yandex' } }],
+                    {
+                        elem: 'title',
+                        content: 'Компании, которые используют BEM'
+                    },
+                    {
+                        block: 'companies',
+                        content: [
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yandex' } }],
                                 target: '_blank',
-    							url: '//yandex.ru'
-    						},
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'thk' } }],
+                                url: '//yandex.ru'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'thk' } }],
                                 target: '_blank',
-    							url: '//www.tnk-racing.ru'
-    						},
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'hh' } }],
+                                url: '//www.tnk-racing.ru'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'hh' } }],
                                 target: '_blank',
-    							url: '//hh.ru'
-    						},
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'rambler' } }],
+                                url: '//hh.ru'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'rambler' } }],
                                 target: '_blank',
-    							url: '//rambler.ru'
-    						},
+                                url: '//rambler.ru'
+                            },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yota' } }],
                                 target: '_blank',
                                 url: '//yota.ru'
-                            },	
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lj' } }],
+                            },  
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lj' } }],
                                 target: '_blank',
-    							url: '//livejournal.com'
-    						},
-    						{
-    							block: 'b-link',
-    							mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lenta' } }],
+                                url: '//livejournal.com'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'lenta' } }],
                                 target: '_blank',
-    							url: '//lenta.ru'
-    						}
-					    ]
-					}	
+                                url: '//lenta.ru'
+                            }
+                        ]
+                    }
                 ]
             }
         ]
