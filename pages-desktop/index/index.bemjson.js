@@ -166,11 +166,11 @@
                                 {
                                     block: 'b-link',
 									mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: '#',
+                                    url: 'https://github.com/css/csso/blob/master/README.ru.md',
                                     content: 'CSSO'
                                 },
                                 {
-                                    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
+                                    content: 'CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст. CSSO написан на Javascript, выполняется как в браузере, так и в командной строке (с помощью NodeJS). Распространяется под лицензией MIT.'
                                 }
                             ]
                         },
