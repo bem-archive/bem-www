@@ -323,7 +323,7 @@
                             content: [
                                 {
                                     block: 'b-link',
-                                    url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898/',
+                                    url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898',
                                     content: 'BEMHTML'
                                 },
                                 {
