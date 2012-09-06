@@ -160,7 +160,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/veged/borschik/',
                                         content: 'borschik'
                                     }
                                 },
@@ -168,7 +168,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/css/cssp',
                                         content: 'cssp'
                                     }
                                 },
@@ -176,7 +176,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/veged/shmakowiki',
                                         content: 'shmakowiki'
                                     }
                                 },
@@ -184,7 +184,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/imgo/imgo',
                                         content: 'imgo'
                                     }
                                 },
@@ -192,7 +192,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/afelix/setochka',
                                         content: 'setochka'
                                     }
                                 },
@@ -200,7 +200,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/bem/bem-django',
                                         content: 'bem-django'
                                     }
                                 },
@@ -208,40 +208,8 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#',
+                                        url: 'https://github.com/bem/bem-haml',
                                         content: 'bem-haml'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'plug-ins for IDE and others'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'borschik'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'scripts: prettyprint, convert, etc.'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#',
-                                        content: 'bemlint'
                                     }
                                 }
                             ]
