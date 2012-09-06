@@ -412,6 +412,12 @@
                                 target: '_blank',
                                 url: '//rambler.ru/'
                             },
+							{
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'nile' } }],
+                                target: '_blank',
+                                url: '//nile.ru//'
+                            },
                             {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'yota' } }],
