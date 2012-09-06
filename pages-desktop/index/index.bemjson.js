@@ -97,8 +97,8 @@
 								{
                                     block: 'b-link',
                                     mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '#',
-                                    content: 'How to start?'
+                                    url: 'http://noteskeeper.ru/527/',
+                                    content: 'Как начать?'
 							    }
 						    ]	
                         },
