@@ -301,7 +301,7 @@
                                     content: 'CSS'
                                 },
                                 {
-								    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
+								    content: 'С точки зрения CSS файлы всех блоков собираются в один файл страницы. Несмотря на то, что CSS для каждого блока, элемента и модификатора реализован в отдельном файле, для работы страницы нет необходимости подключать эти файлы as is. Всю необходимую CSS-реализацию страницы можно собрать в один файл. К тому же это решает проблемы: ограниченного количества импортов в IE, количества HTTP-запросов к серверу. Объединение всех CSS в один файл мы делаем при помощи утилиты borschik. Браузер получает минимизированный код. В процессе сборки можно минимизировать и оптимизировать CSS-код. Например, при помощи утилиты CSSO.Каждый браузер получает CSS, написанный специально для него. Есть возможность разделять CSS-реализации для разных браузеров и поставлять в каждый конкретный браузер только тот CSS, который нужен ему. Для этого можно использовать Сеточку, прототип.'
                                 }
                             ]
                         },
@@ -314,7 +314,7 @@
                                     content: 'JS'
                                 },
                                 {
-								    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
+								    content: 'С точки зрения JavaScript много файлов для блоков, один файл для страницы. Так же, как и в случае CSS, JavaScript-реализация всех необходимых блоков может быть объединена в один файл.'
                                 }
                             ]
                         },
