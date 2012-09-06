@@ -129,11 +129,11 @@
                                 {
                                     block: 'b-link',
 									mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: '//github.com/bem/bem-tools',
+                                    url: 'https://github.com/bem/bem-tools/blob/master/README.ru.md',
                                     content: 'BEM tools'
                                 },
                                 {
-                                    content: 'Начали реализацию инструментов bem-tools, которые помогают работать с файлами по БЭМ-методу.Инструменты реализуются на JavaScript под Node.js.Директории с реализацией блоков стали называть «уровнем переопределения».Например, на проекте может быть:'
+                                    content: 'Начали реализацию инструментов bem-tools, которые помогают работать с файлами по БЭМ-методу. Инструменты реализуются на JavaScript под Node.js. Директории с реализацией блоков стали называть «уровнем переопределения». Например, на проекте может быть:'
                                 },
                                 {
                                     block: 'b-text',
@@ -323,11 +323,11 @@
                             content: [
                                 {
                                     block: 'b-link',
-                                    url: '#',
+                                    url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898/',
                                     content: 'BEMHTML'
                                 },
                                 {
-								    content: 'We first began sketching out the internal front-end framework at Yandex around the year 2007, starting with a robust CSS naming convention, and a file system layout that was associated with it. Since the naming convention was well-structured, it seemed suitable to develop certain JavaScript helpers (to work with the DOM and CSS classes in particular, on a higher level of abstraction). We then used those approaches to build an internal library of UI components that could be shared among our various websites and rich applications, built using different technology stacks (XML/XSLT, Python/Django, Perl/TT2).'
+								    content: 'bemhtml — это надмножество xjst, позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
                                 }
                             ]
                         },
