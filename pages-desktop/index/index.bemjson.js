@@ -35,7 +35,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: '//bem.github.com/bem-method/pages/beginning/beginning.ru.html',
+                                    url: '//bem.github.com/bem-method/pages/beginning/beginning.ru.html?yasubbotnik=moscow-8.09.2012',
                                     content: 'Подробное описание BEM'
                                 }
                             ]
@@ -52,7 +52,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'description', elem : 'link-inner' }],
-                            url: '//bem.github.com/bem-method/pages/history/history.ru.html',
+                            url: '//bem.github.com/bem-method/pages/history/history.ru.html?yasubbotnik=moscow-8.09.2012',
                             content: 'История создания БЭМ'
                         },
                         {
@@ -117,7 +117,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '//github.com/bem/bem-tools',
+                                    url: '//github.com/bem/bem-tools?yasubbotnik=moscow-8.09.2012',
                                     content: 'Инструменты'
                                 }
                             ]
@@ -129,7 +129,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: 'https://github.com/bem/bem-tools/blob/master/README.ru.md',
+                                    url: 'https://github.com/bem/bem-tools/blob/master/README.ru.md?yasubbotnik=moscow-8.09.2012',
                                     content: 'BEM tools'
                                 },
                                 {
@@ -144,7 +144,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'description', elem : 'link-inner' }],
-                                    url: 'https://github.com/css/csso/blob/master/README.ru.md',
+                                    url: 'https://github.com/css/csso/blob/master/README.ru.md?yasubbotnik=moscow-8.09.2012',
                                     content: 'CSSO'
                                 },
                                 {
@@ -160,7 +160,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/veged/borschik/',
+                                        url: 'https://github.com/veged/borschik/?yasubbotnik=moscow-8.09.2012',
                                         content: 'borschik'
                                     }
                                 },
@@ -168,7 +168,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/css/cssp',
+                                        url: 'https://github.com/css/cssp?yasubbotnik=moscow-8.09.2012',
                                         content: 'cssp'
                                     }
                                 },
@@ -176,7 +176,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/veged/shmakowiki',
+                                        url: 'https://github.com/veged/shmakowiki?yasubbotnik=moscow-8.09.2012',
                                         content: 'shmakowiki'
                                     }
                                 },
@@ -184,7 +184,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/imgo/imgo',
+                                        url: 'https://github.com/imgo/imgo?yasubbotnik=moscow-8.09.2012',
                                         content: 'imgo'
                                     }
                                 },
@@ -192,7 +192,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/afelix/setochka',
+                                        url: 'https://github.com/afelix/setochka?yasubbotnik=moscow-8.09.2012',
                                         content: 'setochka'
                                     }
                                 },
@@ -200,7 +200,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/bem/bem-django',
+                                        url: 'https://github.com/bem/bem-django?yasubbotnik=moscow-8.09.2012',
                                         content: 'bem-django'
                                     }
                                 },
@@ -208,7 +208,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: 'https://github.com/bem/bem-haml',
+                                        url: 'https://github.com/bem/bem-haml?yasubbotnik=moscow-8.09.2012',
                                         content: 'bem-haml'
                                     }
                                 }
@@ -243,7 +243,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'technologies', elem: 'title' }],
-                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/css.js',
+                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/css.js?yasubbotnik=moscow-8.09.2012',
                                     content: 'CSS'
                                 },
                                 {
@@ -257,7 +257,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'technologies', elem: 'title' }],
-                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/js.js',
+                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/js.js?yasubbotnik=moscow-8.09.2012',
                                     content: 'JS'
                                 },
                                 {
@@ -271,7 +271,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'technologies', elem: 'title' }],
-                                    url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898',
+                                    url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898&yasubbotnik=moscow-8.09.2012',
                                     content: 'BEMHTML'
                                 },
                                 {
@@ -279,7 +279,7 @@
                                         'bemhtml — это надмножество ',
                                         {
                                             block: 'b-link',
-                                            url: 'https://github.com/veged/xjst',
+                                            url: 'https://github.com/veged/xjst?yasubbotnik=moscow-8.09.2012',
                                             content: 'xjst'
                                         },
                                         ', позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
@@ -293,7 +293,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'technologies', elem: 'title' }],
-                                    url: 'https://github.com/bem/bem-tools/tree/master/lib/techs',
+                                    url: 'https://github.com/bem/bem-tools/tree/master/lib/techs?yasubbotnik=moscow-8.09.2012',
                                     content: 'Другие технологии'
                                 },
                                 {
@@ -322,7 +322,7 @@
                                 {
                                     block: 'b-link',
                                     mix: [{ block: 'libraries', elem : 'service-name' }],
-                                    url: 'http://bem.github.com/bem-bl/index.ru.html',
+                                    url: 'http://bem.github.com/bem-bl/index.ru.html?yasubbotnik=moscow-8.09.2012',
                                     content: 'bem-bl'
                                 },
                                 {
@@ -339,7 +339,7 @@
                                                 {
                                                     block: 'b-link',
                                                     target: '_blank',
-                                                    url: '//github.com/bem/bem-bl',
+                                                    url: '//github.com/bem/bem-bl?yasubbotnik=moscow-8.09.2012',
                                                     content: 'github.com/bem/bem-bl.'
                                                 }
                                             ]
@@ -376,7 +376,7 @@
                                                 {
                                                     block: 'b-link',
                                                     target: '_blank',
-                                                    url: '//clubs.ya.ru/bem/',
+                                                    url: 'http://clubs.ya.ru/bem/?yasubbotnik=moscow-8.09.2012',
                                                     content: 'Клубе на Я.ру'
                                                 }
                                             ]
@@ -455,6 +455,9 @@
         },
         {
             block: 'footer'
+        },
+        {
+            block: 'metrika'
         }
     ]
 }
