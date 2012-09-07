@@ -227,10 +227,9 @@
                             elem: 'link',
                             content: [
                                 {
-                                    block: 'b-link',
-                                    mix: [{ block: 'how-to-start', elem : 'link-inner' }],
-                                    url: '#',
-                                    content: 'Technologies'
+                                    block: 'how-to-start',
+                                    elem: 'link-inner',
+                                    content: 'Технологии'
                                 }
                             ]
                         },
@@ -243,7 +242,8 @@
                             content: [
                                 {
                                     block: 'b-link',
-                                    url: '#',
+                                    mix: [{ block: 'technologies', elem: 'title' }],
+                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/css.js',
                                     content: 'CSS'
                                 },
                                 {
@@ -256,7 +256,8 @@
                             content: [
                                 {
                                     block: 'b-link',
-                                    url: '#',
+                                    mix: [{ block: 'technologies', elem: 'title' }],
+                                    url: 'https://github.com/bem/bem-tools/blob/master/lib/techs/js.js',
                                     content: 'JS'
                                 },
                                 {
@@ -269,11 +270,20 @@
                             content: [
                                 {
                                     block: 'b-link',
+                                    mix: [{ block: 'technologies', elem: 'title' }],
                                     url: 'http://clubs.ya.ru/bem/replies.xml?item_no=898',
                                     content: 'BEMHTML'
                                 },
                                 {
-                                    content: 'bemhtml — это надмножество xjst, позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
+                                    content: [
+                                        'bemhtml — это надмножество ',
+                                        {
+                                            block: 'b-link',
+                                            url: 'https://github.com/veged/xjst',
+                                            content: 'xjst'
+                                        },
+                                        ', позволяющее писать шаблоны блоков, которые затем компилируются в plain JavaScript. При помощи таких шаблонов из JSON-описания страницы (bemjson)  можно получить html.'
+                                    ]
                                 }
                             ]
                         },
@@ -282,11 +292,12 @@
                             content: [
                                 {
                                     block: 'b-link',
-                                    url: '#',
-                                    content: 'Other technologies'
+                                    mix: [{ block: 'technologies', elem: 'title' }],
+                                    url: 'https://github.com/bem/bem-tools/tree/master/lib/techs',
+                                    content: 'Другие технологии'
                                 },
                                 {
-                                    content: 'С точки зрения процесса разработки роботы на службе у человека (не наоборот). Разработчик пишет код так, как ему удобно. О производительности заботятся роботы, которые в процессе сборки превращают код в оптимизированный (и, возможно, нечитаемый). С точки зрения организации труда — разделение труда. Существуют одни разработчики, создающие блоки, и существуют другие разработчики, занимающиеся оптимизацией конечного продукта.'
+                                    content: ''
                                 }
                             ]
                         }
@@ -412,11 +423,11 @@
                                 target: '_blank',
                                 url: '//rambler.ru/'
                             },
-							{
+                            {
                                 block: 'b-link',
                                 mix: [{ block: 'companies', elem: 'company',  elemMods: { name: 'nile' } }],
                                 target: '_blank',
-                                url: '//nile.ru//'
+                                url: '//nile.ru/'
                             },
                             {
                                 block: 'b-link',
