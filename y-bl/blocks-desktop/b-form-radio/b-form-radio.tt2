@@ -1,0 +1,33 @@
+[%
+    PROCESS 'blocks-desktop/b-form-radio/button/b-form-radio__button.tt2';
+%]
+
+[% MACRO b_form_radio(options) BLOCK %]
+    [%
+        SET class = 'b-form-radio b-form-radio_is-bem_yes i-bem';
+        SET class = class _ ' ' _ options.class IF options.class;
+        SET class = class _ ' b-form-radio_size_' _ (options.item('size') || 'm');
+    %]
+    <span class="[% class %]" onclick="return {'b-form-radio':{name:'b-form-radio'}}">
+        [% b_form_radio__button(options) %]
+    </span>
+[% END %]
+
+
+
+[% #----------------------------------------------------------------------# %]
+    [% IF 0 %]
+        [%
+            b_form_radio({
+                name => 'genre',
+                size => 's',
+                content => [
+                    { text => 'Фанк', id => 'funk', checked => 1 },
+                    { text => 'Рок', id => 'rock' },
+                    { text => 'Джаз', id => 'jazz', focused => 1 },
+                    { text => 'Поп', id => 'pop', disabled => 1 }
+                ]
+            });
+        %]
+    [% END %]
+[% #----------------------------------------------------------------------# %]

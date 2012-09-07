@@ -1,0 +1,19 @@
+.b-form-slider_theme_custom .b-form-slider__runner
+{
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=0, Color='#b8b8b8', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#656667', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=-1, Color='#d7d7d7', Positive='true'),
+            progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=0, Color='#b8b8b8', Positive='true'),
+            progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#c1c1c3',GradientType=0 );
+}
+
+.b-form-slider_theme_custom .b-form-slider__range,
+.b-form-slider_theme_custom .b-form-slider__allowed-range
+{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e462e0a', endColorstr='#14cbcbcb',GradientType=0 );
+}
+
+.b-form-slider_theme_custom .b-form-slider__allowed-range
+{
+    filter: alpha(opacity = 30);
+}

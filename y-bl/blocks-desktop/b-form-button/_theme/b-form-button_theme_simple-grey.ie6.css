@@ -1,0 +1,4 @@
+a.b-form-button_theme_simple-grey:hover .b-form-button__simple
+{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#14000000', endColorstr='#2e000000',GradientType=0);
+}

@@ -1,0 +1,23 @@
+.b-form-attach .b-form-attach__holder .b-form-attach__reset /* увеличиваем вес селектора, хорошо бы отрефакторить  */
+{
+    width: 1px;
+    height: 1px;
+    margin-left: 5px;
+    padding: 7px 7px 0 0;
+
+    visibility: hidden;
+
+    background: url(//yandex.st/lego/_/lmQpkU_UhR9xbAF5jSMijGJhB4w.png) no-repeat;
+
+    cursor: pointer;
+}
+
+.b-form-attach .b-form-attach__reset:hover
+{
+    background-position: -8px 0;
+}
+
+.b-form-attach .b-form-attach__holder .b-form-attach__reset_visibility_visible
+{
+    visibility: visible;
+}

@@ -1,0 +1,23 @@
+.b-form-select__popup_size_s .b-form-select__item
+{
+    font-size: 11px;
+    line-height: 17px;
+    font-family: Verdana, sans-serif;
+}
+
+.b-form-select_size_s .b-form-button .b-form-button__content
+{
+    margin-top: -23px;
+}
+
+.b-form-select__popup_size_s .b-form-select__item_selected_yes .b-form-select__text:before
+{
+    background-position: -21px 4px;
+}
+
+.b-form-select_size_s .b-form-select__arrow
+{
+    font: 9px Arial,Helvetica,sans-serif;
+
+    top: 6px;
+}

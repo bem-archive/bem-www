@@ -1,0 +1,20 @@
+.sidebar
+{	
+	width: 23%;
+	
+	float: right;
+	
+	padding: 1.5%;
+}
+
+.sidebar__inner
+{
+	background: #FDF6E3;
+	
+	padding: 18px;
+}
+
+.sidebar__inner .b-text_size_18
+{
+	font-family: Ekibastuz, Tahoma,arial,sans-serif;
+}

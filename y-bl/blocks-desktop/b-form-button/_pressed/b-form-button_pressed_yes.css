@@ -1,0 +1,19 @@
+.b-form-button_pressed_yes
+{
+    background-position: 100% -399px !important;
+}
+
+.b-form-button_pressed_yes .b-form-button__left
+{
+    background-position: 0 -342px !important;
+}
+
+.b-form-button_pressed_yes .b-form-button__content
+{
+    background-position: 0 -456px !important;
+}
+
+.b-form-button_pressed_yes .b-form-button__text
+{
+    padding-top: 1px;
+}

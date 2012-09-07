@@ -1,0 +1,13 @@
+.b-form-select__popup
+{
+    width: auto;
+    margin: -2px 0 0 2px;
+}
+
+.b-form-select__popup .b-popupa__content
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    padding: 0;
+}

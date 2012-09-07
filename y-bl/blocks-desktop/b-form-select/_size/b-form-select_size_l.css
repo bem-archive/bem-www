@@ -1,0 +1,33 @@
+.b-form-select__popup_size_l .b-form-select__item
+{
+    font-size: 15px;
+    
+    line-height: 23px;
+}
+
+.b-form-select_size_l .b-form-button .b-form-button__content
+{
+    margin-top: -30px;
+}
+
+.b-form-select__popup_size_l .b-form-select__item_selected_yes .b-form-select__text:before
+{
+    background-position: 9px 6px;
+}
+
+.b-form-select_size_l .b-form-select__arrow
+{
+    font-size: 11px;
+
+    top: 10px;
+}
+
+.b-form-select_size_l .b-form-button .b-form-button__content
+{
+    padding: 0 25px 0 8px;
+}
+
+.b-form-select__popup_size_l .b-form-select__text
+{
+    padding-left: 9px;
+}

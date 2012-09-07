@@ -1,0 +1,9 @@
+.b-form-select__popup_theme_grey .b-form-select__fade
+{
+    background: url(b-form-select-grey-fade.ie.png) 0 0 repeat-y;
+}
+
+.b-form-select__popup_theme_grey .b-form-select__item_selected_yes
+{
+    background-image: url(b-form-select-grey-selected.ie.png);
+}

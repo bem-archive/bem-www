@@ -1,0 +1,47 @@
+.b-comments-button
+{
+	background-color: #d6d6d6;
+	background-image: linear-gradient(bottom, rgb(180,180,180), rgb(255,255,255));
+	background-image: -o-linear-gradient(bottom, rgb(180,180,180), rgb(255,255,255));
+	background-image: -moz-linear-gradient(bottom, rgb(180,180,180), rgb(255,255,255));
+	background-image: -webkit-linear-gradient(bottom, rgb(180,180,180), rgb(255,255,255));
+	background-image: -ms-linear-gradient(bottom, rgb(180,180,180), rgb(255,255,255));
+
+	position: absolute;
+	
+	right: 0;
+	bottom: 0;
+	
+	cursor: pointer;
+	
+    font-size: 12px;
+	
+    padding: 9px 20px;
+	
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	
+	text-shadow: 0 1px 0 #f0f0f0;
+
+	color: #586E75
+}
+
+.b-comments-button:hover
+{
+	background-color: #d6d6d6;
+	background-image: linear-gradient(bottom, rgb(153,153,153), rgb(255,255,255));
+	background-image: -o-linear-gradient(bottom, rgb(153,153,153), rgb(255,255,255));
+	background-image: -moz-linear-gradient(bottom, rgb(153,153,153), rgb(255,255,255));
+	background-image: -webkit-linear-gradient(bottom, rgb(153,153,153), rgb(255,255,255));
+	background-image: -ms-linear-gradient(bottom, rgb(153,153,153), rgb(255,255,255));
+}
+
+.b-comments-button:active
+{
+	background: #d6d6d6;
+	box-shadow: inset 0 0 5px #bbb;
+	-moz-box-shadow: inset 0 0 5px #bbb;
+	-webkit-box-shadow: inset 0 0 5px #bbb;
+	-o-box-shadow: inset 0 0 5px #bbb;
+	-ms-box-shadow: inset 0 0 5px #bbb;
+}

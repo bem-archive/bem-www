@@ -1,0 +1,13 @@
+/* При написании хаков для IE7, IE6 — последний перестает читать filter, поэтому пришлось разделять свойства (begin) */ /**/
+    [class].b-form-switch_disabled_yes
+    {
+        /* !important для перекрытия модификатора focused */ /**/
+        filter: alpha(opacity=30) !important;
+    }
+
+    .b-form-switch_disabled_yes .b-form-switch__body
+    {
+        /* !important для перекрытия модификатора focused */ /**/
+        filter: alpha(opacity=30) !important;
+    }
+/* При написании хаков для IE7, IE6 — последний перестает читать filter, поэтому пришлось разделять свойства (end) */ /**/

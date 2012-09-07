@@ -1,0 +1,19 @@
+.b-form-slider__body
+{
+    position: relative;
+    z-index: 7;
+
+    cursor: default;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.b-form-slider__range,
+.b-form-slider__allowed-range
+{
+    height: 4px;
+    margin-top: -2px;
+}

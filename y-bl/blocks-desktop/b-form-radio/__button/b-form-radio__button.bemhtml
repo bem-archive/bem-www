@@ -1,0 +1,81 @@
+block b-form-radio {
+
+    elem button {
+        default, !this._inputId: {
+            local(
+                this._inputAttrs = this._.extend(this._inputAttrs, this.ctx.inputAttrs), // TODO: refactor
+                this._inputId = this._inputAttrs.id || this.generateId(),
+                this._inputAttrs.id = this._inputId,
+                this._inputAttrs.checked = (this.elemMods.checked && (this._nextForChecked = true, this.elemMods.checked)),
+                this._inputAttrs.disabled = this.elemMods.disabled
+            ) this.apply()
+        }
+
+        js: true
+
+        tag: 'label'
+
+        attrs: { 'for': this._inputId }
+
+        mix: {
+            var m = [],
+                side = (this.isFirst() && this.isLast() && 'both') ||
+                    (this.isFirst() && 'left') ||
+                    (this.isLast() && 'right')  || '';
+
+            side && m.push({ elemMods: { side: side } });
+
+            this._nextForChecked && !this._inputAttrs.checked && (
+                    this._nextForChecked = null, m.push({ elemMods: { 'next-for-checked': 'yes' } }));
+
+            return m;
+        }
+
+        content: {
+            elem: 'inner',
+            content: this.ctx.content
+        }
+    }
+
+    elem inner {
+        tag: 'span'
+        content: {
+            elem: 'content',
+            content: this.ctx.content
+        }
+    }
+
+    elem content {
+        tag: 'span'
+        content: [
+            { elem: 'radio' },
+            { elem: 'text', content: this.ctx.content }
+        ]
+    }
+
+    elem radio {
+        tag: 'input'
+        attrs: {
+            var a = this._inputAttrs;
+
+            if(!a.disabled)
+                delete a.disabled
+            else
+                a.disabled = 'disabled';
+
+            if(!a.checked)
+                delete a.checked
+            else
+                a.checked = 'checked';
+
+            a.type = 'radio';
+
+            typeof a.value === 'undefined' && delete a.value;
+
+            return a;
+        }
+    }
+
+    elem text, tag: 'span'
+
+}

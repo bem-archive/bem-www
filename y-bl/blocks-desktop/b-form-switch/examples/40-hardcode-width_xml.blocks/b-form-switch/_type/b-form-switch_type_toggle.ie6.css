@@ -1,0 +1,6 @@
+.b-form-switch_type_toggle
+{
+    /* В попапе в IE6 контролл подпрыгивает вверх,
+    задавая ему position: relative; мы это исправляем */ /**/
+    position: relative;
+}

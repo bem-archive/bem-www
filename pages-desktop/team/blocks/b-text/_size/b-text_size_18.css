@@ -1,0 +1,36 @@
+.b-text_size_18
+{
+	font: 18px Tahoma,arial,sans-serif;
+}
+
+.b-text_size_18 .b-text__ul .b-text__li
+{
+	list-style: none;
+	
+	margin-left: .5em;
+}
+
+.b-text_size_18 .b-text__ul .b-text__li:before
+{
+	content: "—";
+	padding: 0 0.3em 0 0;
+	color: #868686;
+}
+
+.b-text_size_18 .b-text__code
+{
+	background: #FDF6E3;
+	
+    display: block;
+	
+    font: 14px Courier;
+    line-height: 1.7;
+	
+    margin-left: 3%;
+    padding: 5px 15px;
+}
+
+.b-text__p_size_18
+{
+	font: 18px Tahoma,arial,sans-serif;
+}

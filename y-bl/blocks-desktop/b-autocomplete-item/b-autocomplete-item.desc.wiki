@@ -1,0 +1,2 @@
+Элемент автокомплита.
+Блок используется для построения списка в ((/blocks-desktop/b-form-input/b-form-input.wiki b-form-input_autocomplete_yes)).

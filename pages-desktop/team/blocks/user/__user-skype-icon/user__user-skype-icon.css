@@ -1,0 +1,11 @@
+.user__user-skype-icon
+{
+	width: 21px;
+	height: 18px;
+	
+	background: url(user__user-skype-icon.png);
+	
+	position: absolute;
+	
+	margin: 3px 0 0 -25px;
+}	

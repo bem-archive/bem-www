@@ -1,0 +1,17 @@
+block b-form-switch, mod type toggle {
+
+    content: {
+        elem: 'body',
+        content: this.ctx.content
+    }
+
+    elem label, content: [
+        this.ctx.content,
+        {
+            elem: 'label-inner',
+            content: this._switchOptionContent
+        }
+    ]
+
+}
+

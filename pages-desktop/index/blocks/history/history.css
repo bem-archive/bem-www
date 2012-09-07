@@ -1,0 +1,46 @@
+.history
+{
+    margin-bottom: 80px;
+}
+
+.history__inner
+{
+    float: left;
+
+    width: 44.5%;
+    margin-left: 38%;
+}
+
+.history__container
+{
+    position: relative;
+    z-index: 10;
+    padding: 20px 3.7%;
+
+    background: #fff;
+}
+
+.history__shadow
+{
+    position: relative;
+    z-index: 0;
+
+    height: 33px;
+    margin-top: -19px;
+
+    background: -moz-radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
+    background: -webkit-radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
+    background: -o-radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
+    background: -ms-radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
+    background: radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
+}
+
+@media screen and (min-width: 2000px) 
+{
+    .history
+    {
+        float: left;
+
+        width: 47%;
+    }
+}

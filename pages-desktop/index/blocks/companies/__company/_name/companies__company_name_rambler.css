@@ -1,0 +1,7 @@
+.companies__company_name_rambler,
+.companies__company_name_rambler:hover
+{
+	background: url(companies__company_name_rambler.png) 0 -5px no-repeat;
+	
+	width: 15%;
+}

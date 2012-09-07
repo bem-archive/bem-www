@@ -1,0 +1,44 @@
+.b-form-button_type_normal .b-form-button__normal
+{
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*z-index: -1;*/
+
+    display: inline-block;
+
+    margin: 0 0 !important;
+
+    border-radius: 0.27em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+    border-width: 1px;
+    border-style: outset outset outset inset;
+
+    background-clip: border-box;
+    -moz-background-clip: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.b-form-button__inner
+{
+    font: 13px Arial, sans-serif;
+
+
+    display: inline-block;
+
+    margin: 0 !important;
+    padding: 0;
+
+    text-align: center;
+    white-space: nowrap;
+
+    /*border-radius: 0.27em;*/
+        /*-moz-border-radius: 3px;*/
+        /*-webkit-border-radius: 3px;*/
+}
+
+.b-form-button_disabled_yes .b-form-button__normal
+{
+    opacity: 0.35;
+}

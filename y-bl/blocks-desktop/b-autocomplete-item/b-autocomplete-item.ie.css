@@ -1,0 +1,7 @@
+.b-autocomplete-item
+{
+    /* Подставляем однопиксельную полупрозрачную картинку,
+       чтобы при повторном наборе в саджесте отрабатывал ховер на элементах *//**/
+    background-image: url(//yandex.st/lego/_/La6qi18Z8LwgnZdsAr1qy1GwCwo.gif);
+    background-repeat: repeat;
+}

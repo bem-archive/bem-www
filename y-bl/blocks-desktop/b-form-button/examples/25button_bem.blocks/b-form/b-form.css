@@ -1,0 +1,25 @@
+.b-form-button_action_click
+{
+    margin: 20px 0 0 20px;
+}
+
+.b-form
+{
+    margin: 0;
+    padding: 0;
+}
+
+.b-form .b-form-input
+{
+    display: inline-block;
+
+    width: 23em;
+    margin-right: 3px;
+}
+
+.b-form .b-form-button
+{
+    margin: 1.3em 0 0;
+
+    vertical-align: top;
+}

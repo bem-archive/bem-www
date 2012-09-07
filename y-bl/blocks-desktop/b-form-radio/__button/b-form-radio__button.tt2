@@ -1,0 +1,37 @@
+[%~ MACRO b_form_radio__button(options) BLOCK ~%]
+    [%~ FOR item = options.content ~%]
+        [%~
+            SET class = 'b-form-radio__button';
+            SET class = class _ ' b-form-radio__button_side_left' IF loop.first;
+            SET class = class _ ' b-form-radio__button_side_right' IF loop.last;
+            SET class = class _ ' b-form-radio__button_checked_yes' IF item.checked;
+            SET class = class _ ' b-form-radio__button_disabled_yes' IF item.disabled;
+            SET class = class _ ' b-form-radio__button_focused_yes' IF item.focused;
+            SET class = class _ ' b-form-radio__button_next-for-checked_yes' IF loop.prev.checked;
+
+            SET attr.for = '';
+            SET attr.for = ' for="' _ item.id _ '"' IF item.id;
+        ~%]
+        <label class="[% class %]" hidefocus="true" [% attr.for %] >
+            <span class="b-form-radio__inner">
+                <span class="b-form-radio__content">
+                    [%~
+                        SET attr.id = '';
+                        SET attr.id = ' id="' _ item.id _ '"' IF item.id;
+
+                        SET attr.value = '';
+                        SET attr.value = ' value="' _ item.value _ '"' IF item.value.defined();
+
+                        SET attr.checked = '';
+                        SET attr.checked = ' checked="checked"' IF item.checked;
+
+                        SET attr.disabled = '';
+                        SET attr.disabled = ' disabled="disabled"' IF item.disabled;
+                    ~%]
+                    <input class="b-form-radio__radio" name="[% options.name %]" type="radio" [% attr.id %] [% attr.value %] [% attr.checked %] [% attr.disabled %] />
+                    <span class="b-form-radio__text">[% item.text %]</span>
+                </span>
+            </span>
+        </label>
+    [%~ END ~%]
+[%~ END ~%]

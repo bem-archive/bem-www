@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lego:page xmlns:lego="https://lego.yandex-team.ru">
+    <lego:i-lego-example>
+        <lego:b-form-slider lego:type="range" min="10" max="90" lego:theme="grey" lego:size="xs">
+
+            <lego:info lego:preset="inline">
+                <lego:title>Цена</lego:title>
+
+                <lego:b-form-input lego:theme="grey" value="30">
+                    <lego:input/>
+                </lego:b-form-input>
+
+                <lego:b-form-input lego:theme="grey" value="70">
+                    <lego:input/>
+                </lego:b-form-input>
+            </lego:info>
+
+            <lego:scale>
+                <lego:mark value="0" step="10">
+                    <lego:label>0</lego:label>
+                </lego:mark>
+                <lego:mark value="100">
+                    <lego:label>100</lego:label>
+                </lego:mark>
+            </lego:scale>
+        </lego:b-form-slider>
+    </lego:i-lego-example>
+
+</lego:page>

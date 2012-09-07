@@ -1,0 +1,27 @@
+.b-form-button_theme_simple-grey .b-form-button__simple
+{
+    color: #000;
+
+    background: rgba(0,0,0,0.12);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.12) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.05)), color-stop(100%,rgba(0,0,0,0.12)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.12) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.12) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.12) 100%);
+}
+
+.b-form-button_theme_simple-grey.b-form-button_hovered_yes .b-form-button__simple
+{
+    background: rgba(0,0,0,0.18);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.08) 0%, rgba(0,0,0,0.18) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.08)), color-stop(100%,rgba(0,0,0,0.18)));
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.08) 0%,rgba(0,0,0,0.18) 100%);
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.08) 0%,rgba(0,0,0,0.18) 100%);
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.08) 0%,rgba(0,0,0,0.18) 100%);
+}
+
+.b-form-button_theme_simple-grey.b-form-button_pressed_yes .b-form-button__simple,
+.b-form-button_theme_simple-grey.b-form-button_focused_yes .b-form-button__simple
+{
+    outline-color: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,25 @@
+.b-autocomplete-item .b-autocomplete-item__link
+{
+    display: block;
+
+    text-decoration: none;
+}
+
+.b-autocomplete-item__link-url
+{
+    color: #1a3dc1;
+
+    text-decoration: underline;
+}
+
+.b-autocomplete-item__link:hover .b-autocomplete-item__link-url
+{
+    color: #f00;
+}
+
+.b-autocomplete-item__link-info
+{
+    color: #666;
+
+    white-space: nowrap;
+}

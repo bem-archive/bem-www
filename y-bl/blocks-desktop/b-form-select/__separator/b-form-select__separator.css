@@ -1,0 +1,12 @@
+.b-form-select__separator
+{
+    font: 0/0 a;
+
+    position: relative;
+    z-index: 3;
+    
+    float: left;
+
+    width: 100%;
+    margin-top: -1px;
+}
