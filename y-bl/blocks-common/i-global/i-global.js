@@ -16,14 +16,7 @@ BEM.DOM.decl('i-global', {
     getDefaultParams : function() {
 
         return {
-            'appcurl-host' : 'www.appcurl.com',
-            'api-appcurl-host' : 'api.appcurl.com',
-            'airomo-host' : 'www.airomo.com',
-            'appsociety-host' : 'apps.airomo.com',
-            'api-host': 'api.airomo.com',
-            'app-api-host' : 'appapi.airomo.com',
-            'airomo-static-host' : 'static.airomo.com',
-            'page-url': '/'
+            'some-param' : 'someval'
         };
 
     }

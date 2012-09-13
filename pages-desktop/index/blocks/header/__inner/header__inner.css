@@ -1,0 +1,13 @@
+.header__inner
+{
+	float: right; 
+
+	margin: -45px 2% 0 0; 
+
+	width: 21%;
+}
+
+.header__inner .b-menu-horiz
+{
+	font: 18px Ekibastuz,Tahoma,arial,sans-serif
+}  

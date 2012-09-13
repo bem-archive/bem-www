@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ekibastuz_rgregular';
+    src: local('ekibastuz_rgregular');
+    src: url('i-font_face_alsekibastuz.woff'),
+         url('i-font_face_alsekibastuz.ttf');
+}
+
+.i-font_face_alsekibastuz
+{
+    font-family: 'ekibastuz_rgregular';
+}

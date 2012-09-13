@@ -1,0 +1,11 @@
+block search-form {
+	tag: 'form'
+    attrs: { action: 'http://yandex.ru/yandsearch' }
+    content: [
+        {
+            tag: 'input',
+            attrs: { type: 'hidden', name: 'site', value: 'bem.info' }
+        },
+        this.ctx.content
+    ]
+}

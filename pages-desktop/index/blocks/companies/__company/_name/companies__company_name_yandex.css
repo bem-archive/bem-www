@@ -1,0 +1,8 @@
+.companies__company_name_yandex,
+.companies__company_name_yandex:hover
+{
+	background: url(companies__company_name_yandex.png) no-repeat;
+
+	width: 12%;
+	margin-left: 1%;
+}

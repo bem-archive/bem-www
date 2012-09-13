@@ -3,6 +3,12 @@ block history {
 
     content: {
         elem: 'inner',
-        content: this.ctx.content
+        content: [
+            {
+                elem: 'container',
+                content: this.ctx.content
+            },
+            { elem: 'shadow' }
+        ]
     }
 }

@@ -1,0 +1,138 @@
+block sidebar, !this.elem {
+    default, !this.ctx._done: {
+        apply(
+            this._mode = '',
+            this.ctx = {
+                block: 'sidebar',
+                content: [
+                    {
+                        elem: 'inner',
+                        content: [
+                            {
+                                block: 'b-text',
+                                mods: { size: '18' },
+                                content: 'Туториалы'
+                            },
+                            {
+                                block: 'b-menu-vert',
+                                mods: { position: 'sidebar'},
+                                content: [
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Приведение параметров, описывающих BEM-сущности в i-bem.js, к единому виду.'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Blocks Reiteration'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Part 3: File System Representation For A Block'
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        block: 'companies',
+                        content: [
+                            {
+                                block: 'b-text',
+                                mods: { size: '12' },
+                                content: 'Компании, применяющие эту технологию:'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company', elemMods: { name: 'yandex' } }],
+                                target: '_blank',
+                                url: '//yandex.ru'
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company', elemMods: { name: 'rambler' } }],
+                                target: '_blank',
+                                url: '//rambler.ru'                                
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company', elemMods: { name: 'thk' } }],
+                                target: '_blank',
+                                url: '//www.tnk-racing.ru'                                
+                            },
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'companies', elem: 'company', elemMods: { name: 'hh' } }],
+                                target: '_blank',
+                                url: '//hh.ru'                                
+                            }
+                        ]
+                    },
+                    {
+                        elem: 'inner',
+                        content: [
+                            {
+                                block: 'b-text',
+                                mods: { size: '18' },
+                                content: 'Инструменты'
+                            },
+                            {
+                                block: 'b-menu-vert',
+                                mods: { position: 'sidebar'},
+                                content: [
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Приведение параметров, описывающих BEM-сущности в i-bem.js, к единому виду.'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Blocks Reiteration'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: '#',
+                                            content: 'Part 3: File System Representation For A Block'
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        block: 'github',
+                        content: [
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'github', elem : 'link' }],
+                                url: '#',
+                                content: 'Гитхаб!'
+                            }
+                        ]
+                    }                
+                ],
+                _done: true
+            }
+        );
+    }
+}
