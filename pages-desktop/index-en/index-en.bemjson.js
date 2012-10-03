@@ -211,7 +211,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: 'https://github.com/deepsweet/svgo/#svgo',
+                            url: 'https://github.com/svg/svgo/#svgo',
                             content: 'SVGO'
                         },
                         {
