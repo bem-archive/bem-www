@@ -522,7 +522,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         this.nav.main.forEach(function(item, idx) {
             var isCurrent = item.page + '-' + lang == pagename;
-            var isParent = item.source == source;
+            var isParent = (item.source == source || (item.source == 'tools' && source == 'bem-tools/docs'));
 
             main.content.push({
                 elem: 'item',
