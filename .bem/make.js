@@ -148,7 +148,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     pagesConfig: [
         {
             page: 'bem-method-index-en',
-            title: 'BEM methodology',
+            title: 'BEM Methodology',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         },
@@ -172,7 +172,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         },
         {
             page: 'bem-method-filesystem-en',
-            title: 'Filesystem organization — BEM',
+            title: 'Filesystem Organization — BEM',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         },
@@ -229,7 +229,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                     {
                         page: 'bem-method-filesystem',
                         title: {
-                            en: 'File system',
+                            en: 'Filesystem',
                             ru: 'Организация файловой системы'
                         },
                         url: 'method/filesystem'
