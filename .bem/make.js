@@ -132,7 +132,11 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                         pageContent = this.getTemplateBemJson(page.block, source, lang),
                         content = item.tech === 'wiki'?
                             shmakowiki.shmakowikiToBemjson(src) :
-                            { block: 'b-text', content: MD(src) };
+                            {
+                                block: 'b-text',
+                                mods: { 'type': 'global' },
+                                content: MD(src)
+                            };
 
                     pageContent.content[1].content.push(content);
 
