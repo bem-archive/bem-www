@@ -33,7 +33,7 @@ add your own.
 ((https://github.com/veged/borschik/ Borschik)) is a extendable builder for text-based file formats.
 It's main purpose is the assembly of static files for web projects (CSS, JS, etc.).
 
-==== setochka
+==== setochka (prototype)
 ((https://github.com/afelix/setochka Setochka)) is a tool to extract properties of the CSS style in separate files.
 
 Can also be used to remove those properties without storing them in files.
