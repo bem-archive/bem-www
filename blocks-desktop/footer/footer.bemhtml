@@ -15,8 +15,16 @@ block footer, !this.elem {
                                         elem: 'item',
                                         content: {
                                             block: 'b-link',
-                                            url: 'http://clubs.ya.ru/bem/?yasubbotnik=moscow-8.09.2012',
-                                            content: 'Клуб BEM на Я.ру'
+                                            url: 'http://www.facebook.com/#!/groups/209713935765634/',
+                                            content: 'Facebook'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: 'https://twitter.com/bem_tw',
+                                            content: '@bem_tw'
                                         }
                                     }
                                 ]

@@ -1,6 +1,5 @@
 ({
     shouldDeps: [
-        { elems: [ '' ] },
         { elem: 'copyright' }
     ]
 })

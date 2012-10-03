@@ -1,0 +1,3 @@
+block heading {
+    mix: [{ block: 'i-font', mods: { face: 'alsekibastuz' } }]
+}

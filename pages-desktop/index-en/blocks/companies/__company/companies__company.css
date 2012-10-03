@@ -1,0 +1,18 @@
+.companies__company
+{
+	width: 13%;
+	height: 68px;
+    margin: 0;
+    padding: 0;
+
+	float: left;
+
+	outline: 0;
+
+	background: #fff no-repeat 50% 0;
+}
+
+.companies__company:hover
+{
+    background-color: #fff;
+}

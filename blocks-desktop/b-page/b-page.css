@@ -1,15 +1,14 @@
 .b-page
 {
-    font: 14px/1.7 Tahoma, arial, sans-serif;
+    font: 16px/1.7 Tahoma, arial, sans-serif;
 
-    margin: auto;
+    position: relative;
 
     width: 100%;
     min-width: 1000px;
+    margin: 0;
 
     background: #f3f1ee;
 
     color: #586e75;
-
-    position: relative;
 }

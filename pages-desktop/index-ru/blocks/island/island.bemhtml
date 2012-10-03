@@ -1,0 +1,13 @@
+block island {
+    content: {
+        elem: 'inner',
+        content: [
+            {
+                elem: 'container',
+                mix: [{ block: 'i-clearfix' }],
+                content: this.ctx.content
+            },
+            { elem: 'shadow' }
+        ]
+    }
+}

@@ -1,3 +1,0 @@
-block technologies {
-    mix: [{ block: 'i-clearfix' }]
-}

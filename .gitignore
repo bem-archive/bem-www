@@ -1,8 +1,13 @@
 .DS_Store
-bem-bl
-node_modules
+.idea/
+bem-www.iml
+.bem/cache/
+bem-bl/
+node_modules/
+content/bem-method/
+content/bem-tools/
 pages-desktop/*/*.*
-.svn
+.svn/
 !pages-desktop/*/*.bemjson.js
 !pages-desktop/.bem
 !pages-desktop/.bem/level.js
