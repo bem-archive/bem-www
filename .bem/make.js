@@ -205,6 +205,140 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             title: 'BEM Tools',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+
+
+        {
+            page: 'bem-tools-api-ru',
+            title: 'API – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-api-en',
+            title: 'API – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-build-ru',
+            title: 'bem build – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-build-en',
+            title: 'bem build – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-create-ru',
+            title: 'bem create – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-create-en',
+            title: 'bem create – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-decl-ru',
+            title: 'bem decl – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-decl-en',
+            title: 'bem decl – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-make-ru',
+            title: 'bem make – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-make-en',
+            title: 'bem make – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-server-ru',
+            title: 'bem server – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-bem-server-en',
+            title: 'bem server – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-contribute-ru',
+            title: 'Contribute – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-contribute-en',
+            title: 'Участие в разработке – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-customization-ru',
+            title: 'Настройка – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-customization-en',
+            title: 'Сustomization – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-installation-ru',
+            title: 'Установка – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-installation-en',
+            title: 'Installation – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-levels-ru',
+            title: 'Levels – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-levels-en',
+            title: 'Уровни переопределения – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-tech-modules-ru',
+            title: 'Tech modules  – bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-tech-modules-en',
+            title: 'Модули технологий – bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         }
     ],
     nav: {
@@ -247,11 +381,101 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             {
                 page: 'tools-index',
                 source: 'tools',
-                url: 'tools',
                 title: {
                     en: 'Tools',
                     ru: 'Инструменты'
-                }
+                },
+                url: 'tools',
+                sub: [
+                    {
+                        page: 'bem-tools-installation',
+                        title: {
+                            en: 'Installation',
+                            ru: 'Установка'
+                        },
+                        url: 'tools/installation'
+                    },
+                    {
+                        page: 'bem-tools-bem-create',
+                        title: {
+                            en: 'bem create',
+                            ru: 'bem create'
+                        },
+                        url: 'tools/bem-create'
+                    },
+                    {
+                        page: 'bem-tools-bem-build',
+                        title: {
+                            en: 'bem build',
+                            ru: 'bem build'
+                        },
+                        url: 'tools/bem-build'
+                    },
+                    {
+                        page: 'bem-tools-bem-decl',
+                        title: {
+                            en: 'bem decl',
+                            ru: 'bem decl'
+                        },
+                        url: 'tools/bem-decl'
+                    },
+                    {
+                        page: 'bem-tools-bem-make',
+                        title: {
+                            en: 'bem make',
+                            ru: 'bem make'
+                        },
+                        url: 'tools/bem-make'
+                    },
+                    {
+                        page: 'bem-tools-bem-server',
+                        title: {
+                            en: 'bem server',
+                            ru: 'bem server'
+                        },
+                        url: 'tools/bem-server'
+                    },
+                    {
+                        page: 'bem-tools-levels',
+                        title: {
+                            en: 'Levels',
+                            ru: 'Уровни переопределения'
+                        },
+                        url: 'tools/levels'
+                    },
+                    {
+                        page: 'bem-tools-customization',
+                        title: {
+                            en: 'Customization',
+                            ru: 'Настройка'
+                        },
+                        url: 'tools/customization'
+                    },
+                    {
+                        page: 'bem-tools-tech-modules',
+                        title: {
+                            en: 'Techs',
+                            ru: 'Модули технологий'
+                        },
+                        url: 'tools/tech-modules'
+                    },
+                    {
+                        page: 'bem-tools-api',
+                        title: {
+                            en: 'API',
+                            ru: 'API'
+                        },
+                        url: 'tools/api'
+                    },
+                    {
+                        page: 'bem-tools-contribute',
+                        title: {
+                            en: 'Сontribute',
+                            ru: 'Участие в разработке'
+                        },
+                        url: 'tools/contribute'
+                    }
+                ]
             }
         ]
     },
