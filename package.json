@@ -15,7 +15,8 @@
     "mkdirp": "*",
     "ometajs": "~3.1.4",
     "xjst": "~0.3.1",
-    "dom-js": "*"
+    "dom-js": "*",
+    "marked": "~0.2.5"
   },
   "devDependencies": {},
   "optionalDependencies": {},

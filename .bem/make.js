@@ -2,6 +2,7 @@ var BEM = require('bem'),
     PATH = require('path'),
     FS = require('fs'),
     shmakowiki = require('shmakowiki'),
+    MD = require('marked'),
     mkdirp = require('mkdirp');
 
 process.env.YENV = 'production';
@@ -27,7 +28,10 @@ MAKE.decl('BundleNode', {
             'ie6.css',
             'ie7.css',
             'ie8.css',
-            'ie9.css','i18n', 'i18n.js', 'i18n.html'
+            'ie9.css',
+            'i18n',
+            'i18n.js',
+            'i18n.html'
         ]);
 
     },
@@ -72,7 +76,6 @@ MAKE.decl('Arch', {
             'content/bem-tools': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-tools.git',
-                treeish: 'doc-split',
                 packages: false
             }
 
@@ -85,7 +88,7 @@ MAKE.decl('Arch', {
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools']
+                sources: ['bem-method', 'bem-tools/docs', 'tools']
             });
 
         this.arch.setNode(node, bundles, libs);
@@ -124,12 +127,14 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
                     var suffix = item.suffix.substr(1),
                         lang = suffix.split('.')[0],
-                        wiki = FS.readFileSync(PATH.join(level.getPathByObj(item, suffix)), 'utf8'),
-                        page = { block: source + '-' + item.block + '-' + lang },
-                        bemjson = shmakowiki.shmakowikiToBemjson(wiki),
-                        pageContent = this.getTemplateBemJson(page.block, source, lang);
+                        src = FS.readFileSync(PATH.join(level.getPathByObj(item, suffix)), 'utf8'),
+                        page = { block: source.split('/')[0] + '-' + item.block + '-' + lang },
+                        pageContent = this.getTemplateBemJson(page.block, source, lang),
+                        content = item.tech === 'wiki'?
+                            shmakowiki.shmakowikiToBemjson(src) :
+                            { block: 'b-text', content: MD(src) };
 
-                    pageContent.content[1].content.push(bemjson);
+                    pageContent.content[1].content.push(content);
 
                     mkdirp.sync('pages-desktop/' + page.block);
 
