@@ -286,6 +286,7 @@
                 }
             ]
         },
+/*
         {
             block: 'portfolio',
             content: [
@@ -348,6 +349,7 @@
                 }
             ]
         },
+*/
         {
             block: 'footer'
         },
