@@ -1,4 +1,5 @@
 var BEM = require('bem'),
+    Q = BEM.require('q'),
     PATH = require('path'),
     FS = require('fs'),
     shmakowiki = require('shmakowiki'),
@@ -109,18 +110,19 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
     make: function() {
 
-       // return;
-
+        // skip rebuild if this was already done in the same process
+        // TODO: this will not with `bem server`
         if (this.done) return;
 
-        var bundlesLevel = BEM.createLevel(PATH.resolve(this.root, 'pages-desktop'));
+        var bundlesLevel = BEM.createLevel(PATH.resolve(this.root, 'pages-desktop')),
+            promises = [];
 
         this.sources.forEach(function(source) {
-            var level = BEM.createLevel(PATH.resolve(this.root, 'content/' + source));
+            var level = BEM.createLevel(PATH.resolve(this.root, 'content', source));
 
             level.getItemsByIntrospection()
                 .filter(function(item) {
-                    return BEM.util.bemType(item) === 'block';
+                    return BEM.util.bemType(item) === 'block' && ~['md', 'wiki'].indexOf(item.tech);
                 })
                 //.reduce(BEM.util.uniq(BEM.util.bemKey), [])
                 .forEach(function(item) {
@@ -142,16 +144,18 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
                     mkdirp.sync('pages-desktop/' + page.block);
 
-                    FS.writeFileSync(PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js')), '(' + JSON.stringify(pageContent, null, ' ') + ')');
+                    var outPath = PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js')),
+                        outContent = '(' + JSON.stringify(pageContent, null, 1) + ')';
 
-                    console.log('file to read: %s', PATH.join(level.getPathByObj(item, item.tech)));
-                    console.log('file to generate: %s', PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js')));
+                    promises.push(BEM.util.writeFileIfDiffers(outPath, outContent));
 
                 }, this);
 
         }, this);
 
         this.done = true;
+
+        return Q.all(promises);
 
     },
     pagesConfig: [
