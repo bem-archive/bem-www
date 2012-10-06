@@ -115,7 +115,8 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         if (this.done) return;
 
         var bundlesLevel = BEM.createLevel(PATH.resolve(this.root, 'pages-desktop')),
-            promises = [];
+            promises = [],
+            _this = this;
 
         this.sources.forEach(function(source) {
             var level = BEM.createLevel(PATH.resolve(this.root, 'content', source));
@@ -128,26 +129,38 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                 .forEach(function(item) {
 
                     var suffix = item.suffix.substr(1),
-                        lang = suffix.split('.')[0],
-                        src = FS.readFileSync(PATH.join(level.getPathByObj(item, suffix)), 'utf8'),
-                        page = { block: source.split('/')[0] + '-' + item.block + '-' + lang },
-                        pageContent = this.getTemplateBemJson(page.block, source, lang),
-                        content = item.tech === 'wiki'?
-                            shmakowiki.shmakowikiToBemjson(src) :
-                            {
-                                block: 'b-text',
-                                mods: { 'type': 'global' },
-                                content: MD(src)
-                            };
+                        lang = suffix.split('.').shift(),
+                        page = { block: source.split('/').shift() + '-' + item.block + '-' + lang },
+                        srcPath = PATH.join(level.getPathByObj(item, suffix)),
+                        outPath = PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js'));
 
-                    pageContent.content[1].content.push(content);
+                    return BEM.util.isFileValid(outPath, srcPath)
+                        .then(function(valid) {
 
-                    mkdirp.sync('pages-desktop/' + page.block);
+                            if (valid) return;
 
-                    var outPath = PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js')),
-                        outContent = '(' + JSON.stringify(pageContent, null, 1) + ')';
+                            promises.push(BEM.util.readFile(srcPath)
+                                .then(function(src) {
 
-                    promises.push(BEM.util.writeFileIfDiffers(outPath, outContent));
+                                    var pageContent = _this.getTemplateBemJson(page.block, source, lang),
+                                        content = item.tech === 'wiki'?
+                                            shmakowiki.shmakowikiToBemjson(src) :
+                                            {
+                                                block: 'b-text',
+                                                mods: { 'type': 'global' },
+                                                content: MD(src)
+                                            };
+
+                                    pageContent.content[1].content.push(content);
+
+                                    mkdirp.sync('pages-desktop/' + page.block);
+
+                                    var outContent = '(' + JSON.stringify(pageContent, null, 1) + ')';
+                                    return BEM.util.writeFile(outPath, outContent);
+
+                                }));
+
+                        });
 
                 }, this);
 
