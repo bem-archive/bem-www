@@ -13,3 +13,4 @@ pages-desktop/*/*.*
 !pages-desktop/.bem/level.js
 pages-desktop/bem-method*/
 pages-desktop/tools*/
+pages-desktop/bem-tools*/
