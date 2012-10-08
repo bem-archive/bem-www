@@ -367,144 +367,144 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         }
     ],
-    nav: {
-        main: [
-            {
-                page: 'bem-method-index',
-                source: 'bem-method',
-                title: {
-                    en: 'Methodology',
-                    ru: 'Методология'
-                },
-                url: 'method',
-                sub: [
-                    {
-                        page: 'bem-method-definitions',
-                        title: {
-                            en: 'Definitions',
-                            ru: 'Определения'
-                        },
-                        url: 'method/definitions'
-                    },
-                    {
-                        page: 'bem-method-filesystem',
-                        title: {
-                            en: 'Filesystem',
-                            ru: 'Организация файловой системы'
-                        },
-                        url: 'method/filesystem'
-                    },
-                    {
-                        page: 'bem-method-history',
-                        title: {
-                            en: 'History',
-                            ru: 'История создания'
-                        },
-                        url: 'method/history'
-                    }
-                ]
+    nav: [
+        {
+            page: 'bem-method-index',
+            source: 'bem-method',
+            title: {
+                en: 'Methodology',
+                ru: 'Методология'
             },
-            {
-                page: 'tools-index',
-                source: 'tools',
-                title: {
-                    en: 'Tools',
-                    ru: 'Инструменты'
+            url: 'method',
+            content: [
+                {
+                    page: 'bem-method-definitions',
+                    title: {
+                        en: 'Definitions',
+                        ru: 'Определения'
+                    },
+                    url: 'method/definitions'
                 },
-                url: 'tools',
-                sub: [
-                    {
-                        page: 'bem-tools-installation',
-                        title: {
-                            en: 'Installation',
-                            ru: 'Установка'
-                        },
-                        url: 'tools/installation'
+                {
+                    page: 'bem-method-filesystem',
+                    title: {
+                        en: 'Filesystem',
+                        ru: 'Организация файловой системы'
                     },
-                    {
-                        page: 'bem-tools-bem-create',
-                        title: {
-                            en: 'bem create',
-                            ru: 'bem create'
-                        },
-                        url: 'tools/bem-create'
+                    url: 'method/filesystem'
+                },
+                {
+                    page: 'bem-method-history',
+                    title: {
+                        en: 'History',
+                        ru: 'История создания'
                     },
-                    {
-                        page: 'bem-tools-bem-build',
-                        title: {
-                            en: 'bem build',
-                            ru: 'bem build'
-                        },
-                        url: 'tools/bem-build'
+                    url: 'method/history'
+                }
+            ]
+        },
+        {
+            page: 'tools-index',
+            source: 'tools',
+            title: {
+                en: 'Tools',
+                ru: 'Инструменты'
+            },
+            url: 'tools',
+            content: [
+                {
+                    page: 'bem-tools-installation',
+                    title: {
+                        en: 'Installation',
+                        ru: 'Установка'
                     },
-                    {
-                        page: 'bem-tools-bem-decl',
-                        title: {
-                            en: 'bem decl',
-                            ru: 'bem decl'
+                    url: 'tools/installation',
+                    content: [
+                        {
+                            page: 'bem-tools-bem-create',
+                            title: {
+                                en: 'bem create',
+                                ru: 'bem create'
+                            },
+                            url: 'tools/bem-create'
                         },
-                        url: 'tools/bem-decl'
-                    },
-                    {
-                        page: 'bem-tools-bem-make',
-                        title: {
-                            en: 'bem make',
-                            ru: 'bem make'
+                        {
+                            page: 'bem-tools-bem-build',
+                            title: {
+                                en: 'bem build',
+                                ru: 'bem build'
+                            },
+                            url: 'tools/bem-build'
                         },
-                        url: 'tools/bem-make'
-                    },
-                    {
-                        page: 'bem-tools-bem-server',
-                        title: {
-                            en: 'bem server',
-                            ru: 'bem server'
+                        {
+                            page: 'bem-tools-bem-decl',
+                            title: {
+                                en: 'bem decl',
+                                ru: 'bem decl'
+                            },
+                            url: 'tools/bem-decl'
                         },
-                        url: 'tools/bem-server'
-                    },
-                    {
-                        page: 'bem-tools-levels',
-                        title: {
-                            en: 'Levels',
-                            ru: 'Уровни переопределения'
+                        {
+                            page: 'bem-tools-bem-make',
+                            title: {
+                                en: 'bem make',
+                                ru: 'bem make'
+                            },
+                            url: 'tools/bem-make'
                         },
-                        url: 'tools/levels'
-                    },
-                    {
-                        page: 'bem-tools-customization',
-                        title: {
-                            en: 'Customization',
-                            ru: 'Настройка'
+                        {
+                            page: 'bem-tools-bem-server',
+                            title: {
+                                en: 'bem server',
+                                ru: 'bem server'
+                            },
+                            url: 'tools/bem-server'
                         },
-                        url: 'tools/customization'
-                    },
-                    {
-                        page: 'bem-tools-tech-modules',
-                        title: {
-                            en: 'Techs',
-                            ru: 'Модули технологий'
+                        {
+                            page: 'bem-tools-levels',
+                            title: {
+                                en: 'Levels',
+                                ru: 'Уровни переопределения'
+                            },
+                            url: 'tools/levels'
                         },
-                        url: 'tools/tech-modules'
-                    },
-                    {
-                        page: 'bem-tools-api',
-                        title: {
-                            en: 'API',
-                            ru: 'API'
+                        {
+                            page: 'bem-tools-customization',
+                            title: {
+                                en: 'Customization',
+                                ru: 'Настройка'
+                            },
+                            url: 'tools/customization'
                         },
-                        url: 'tools/api'
-                    },
-                    {
-                        page: 'bem-tools-contribute',
-                        title: {
-                            en: 'Сontribute',
-                            ru: 'Участие в разработке'
+                        {
+                            page: 'bem-tools-tech-modules',
+                            title: {
+                                en: 'Techs',
+                                ru: 'Модули технологий'
+                            },
+                            url: 'tools/tech-modules'
                         },
-                        url: 'tools/contribute'
-                    }
-                ]
-            }
-        ]
-    },
+                        {
+                            page: 'bem-tools-api',
+                            title: {
+                                en: 'API',
+                                ru: 'API'
+                            },
+                            url: 'tools/api'
+                        },
+                        {
+                            page: 'bem-tools-contribute',
+                            title: {
+                                en: 'Сontribute',
+                                ru: 'Участие в разработке'
+                            },
+                            url: 'tools/contribute'
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
     getCurrentPageInfo: function(pagename) {
         var conf = this.pagesConfig;
 
@@ -522,30 +522,44 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             keywords: pagename
         };
     },
-    getNavBemJson: function(pagename, source, lang) {
+    getNavBemJson: function(nav, pagename, source, lang, parent) {
         var _this = this,
             navBemJson = [],
-            hasSub = false,
-            main = {
-                block: 'b-menu-horiz',
-                mods: { layout: 'normal' },
-                mix: [{ block: 'nav', mods: { type: 'main' } }],
-                js: false,
-                content: []
+            currentIdx,
+            sub,
+            getMenuBemJson = function(mods) {
+                return {
+                    block: 'b-menu-horiz',
+                    mods: { layout: 'normal' },
+                    mix: [{ block: 'nav', mods: mods }],
+                    js: false,
+                    content: []
+                };
             },
-            sub = {
-                block: 'b-menu-horiz',
-                mods: { layout: 'normal' },
-                mix: [{ block: 'nav', mods: { type: 'sub' } }],
-                js: false,
-                content: []
+            currentNavLevelResult = getMenuBemJson(),
+            checkParent = function(item, parent) {
+                if (item.page == currentPage.page) return true;
+
+                var content = item.content;
+                if (!content || !content.length) return false;
+                if (parent === undefined) return item.source == currentPage.source;
+
+                for (var pageIdx = 0; pageIdx < content.length; pageIdx++) {
+                    if (checkParent(content[pageIdx], pageIdx)) return true;
+                    if (content[pageIdx].page == currentPage.page) return true;
+                }
+
+                return false;
             };
 
-        this.nav.main.forEach(function(item, idx) {
-            var isCurrent = item.page + '-' + lang == pagename;
-            var isParent = (item.source == source || (item.source == 'tools' && source == 'bem-tools/docs'));
+        nav.forEach(function(item, idx) {
+            var isParent = false;
 
-            main.content.push({
+            isParent = checkParent(item, parent);
+            isCurrent = item.page == currentPage.page;
+            (isCurrent || isParent) && (currentIdx = idx);
+
+            currentNavLevelResult.content.push({
                 elem: 'item',
                 elemMods: isCurrent ? { state: 'current' } : isParent ? { state: 'parent' } : undefined,
                 content: isCurrent ? item.title.en : {
@@ -554,28 +568,14 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                     content: item.title.en
                 }
             });
-
-            if (isParent && _this.nav.main[idx].sub && _this.nav.main[idx].sub.length) {
-                hasSub = true;
-
-                _this.nav.main[idx].sub.forEach(function(item) {
-                    var isCurrent = item.page + '-' + lang == pagename;
-
-                    sub.content.push({
-                        elem: 'item',
-                        elemMods: isCurrent ? { state: 'current' } : undefined,
-                        content: isCurrent ? item.title.en : {
-                            block: 'b-link',
-                            url: '/' + item.url + '/',
-                            content: item.title.en
-                        }
-                    });
-                });
-            }
         });
 
-        navBemJson.push(main);
-        hasSub && navBemJson.push(sub);
+        navBemJson.push(currentNavLevelResult);
+
+        if (nav[currentIdx]) {
+            sub = nav[currentIdx].content;
+            sub && sub.length && navBemJson.push(buildNav(sub, currentIdx));
+        }
 
         return navBemJson;
     },
@@ -601,7 +601,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                             mix: [{ block: 'header', elem: 'logo' }],
                             url: '/'
                         },
-                        this.getNavBemJson(pagename, source, lang)
+                        this.getNavBemJson(this.nav, pagename, source, lang)
                     ]
                 },
                 {
