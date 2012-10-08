@@ -115,18 +115,20 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         if (this.done) return;
 
         var bundlesLevel = BEM.createLevel(PATH.resolve(this.root, 'pages-desktop')),
-            promises = [],
-            _this = this;
+            _this = this,
+            ctx = this.ctx,
+            promises;
 
-        this.sources.forEach(function(source) {
-            var level = BEM.createLevel(PATH.resolve(this.root, 'content', source));
+        promises = this.sources.reduce(function(res, source) {
 
-            level.getItemsByIntrospection()
+            var level = BEM.createLevel(PATH.resolve(_this.root, 'content', source));
+
+            return res.concat(level.getItemsByIntrospection()
                 .filter(function(item) {
                     return BEM.util.bemType(item) === 'block' && ~['md', 'wiki'].indexOf(item.tech);
                 })
                 //.reduce(BEM.util.uniq(BEM.util.bemKey), [])
-                .forEach(function(item) {
+                .map(function(item) {
 
                     var suffix = item.suffix.substr(1),
                         lang = suffix.split('.').shift(),
@@ -137,9 +139,9 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                     return BEM.util.isFileValid(outPath, srcPath)
                         .then(function(valid) {
 
-                            if (valid) return;
+                            if (valid && !ctx.force) return;
 
-                            promises.push(BEM.util.readFile(srcPath)
+                            return BEM.util.readFile(srcPath)
                                 .then(function(src) {
 
                                     var pageContent = _this.getTemplateBemJson(page.block, source, lang),
@@ -158,17 +160,18 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                     var outContent = '(' + JSON.stringify(pageContent, null, 1) + ')';
                                     return BEM.util.writeFile(outPath, outContent);
 
-                                }));
+                                });
 
                         });
 
-                }, this);
+                }, _this));
 
-        }, this);
+        }, []);
 
-        this.done = true;
-
-        return Q.all(promises);
+        return Q.all(promises)
+            .then(function() {
+                _this.done = true;
+            });
 
     },
     pagesConfig: [
@@ -522,7 +525,9 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             keywords: pagename
         };
     },
+
     getNavBemJson: function(nav, pagename, source, lang, parent) {
+
         var _this = this,
             navBemJson = [],
             currentIdx,
@@ -553,10 +558,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             };
 
         nav.forEach(function(item, idx) {
-            var isParent = false;
 
-            isParent = checkParent(item, parent);
-            isCurrent = item.page == currentPage.page;
+            var isParent = checkParent(item, parent),
+                isCurrent = item.page == currentPage.page;
+
             (isCurrent || isParent) && (currentIdx = idx);
 
             currentNavLevelResult.content.push({
@@ -579,6 +584,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         return navBemJson;
     },
+
     getTemplateBemJson: function(pagename, source, lang) {
         return {
             block: 'b-page',
