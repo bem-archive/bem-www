@@ -12,6 +12,7 @@
         {
             block: 'i-font', mods: { face: 'alsekibastuz' }
         },
-        { block: 'i-clearfix' }
+        { block: 'i-clearfix' },
+        { block: 'b-code', mods: { 'theme': 'github' } }
     ]
 })
