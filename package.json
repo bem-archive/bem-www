@@ -16,7 +16,8 @@
     "ometajs": "~3.1.4",
     "xjst": "~0.3.1",
     "dom-js": "*",
-    "marked": "~0.2.5"
+    "marked": "~0.2.5",
+    "highlight.js": "7"
   },
   "devDependencies": {},
   "optionalDependencies": {},
