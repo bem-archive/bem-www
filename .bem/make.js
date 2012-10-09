@@ -370,6 +370,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         }
     ],
+    _navLevelIdx: 0,
     nav: [
         {
             page: 'bem-method-index',
@@ -532,7 +533,9 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             navBemJson = [],
             currentIdx,
             sub,
+            level = ['first', 'second', 'third', 'fourth'],
             getMenuBemJson = function(mods) {
+                _this._navLevelIdx++;
                 return {
                     block: 'b-menu-horiz',
                     mods: { layout: 'normal' },
@@ -541,17 +544,16 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                     content: []
                 };
             },
-            currentNavLevelResult = getMenuBemJson(),
+            currentNavLevelResult = getMenuBemJson({ level: level[_this._navLevelIdx] }),
             checkParent = function(item, parent) {
-                if (item.page == currentPage.page) return true;
+                if (item.page + '-' + lang == pagename) return true;
 
                 var content = item.content;
                 if (!content || !content.length) return false;
-                if (parent === undefined) return item.source == currentPage.source;
 
                 for (var pageIdx = 0; pageIdx < content.length; pageIdx++) {
                     if (checkParent(content[pageIdx], pageIdx)) return true;
-                    if (content[pageIdx].page == currentPage.page) return true;
+                    if (content[pageIdx].page == pagename) return true;
                 }
 
                 return false;
@@ -560,7 +562,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         nav.forEach(function(item, idx) {
 
             var isParent = checkParent(item, parent),
-                isCurrent = item.page == currentPage.page;
+                isCurrent = item.page + '-' + lang == pagename;
 
             (isCurrent || isParent) && (currentIdx = idx);
 
@@ -579,7 +581,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         if (nav[currentIdx]) {
             sub = nav[currentIdx].content;
-            sub && sub.length && navBemJson.push(buildNav(sub, currentIdx));
+            sub && sub.length && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
         }
 
         return navBemJson;

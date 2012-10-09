@@ -1,4 +1,4 @@
-.nav_type_main
+.nav_level_first
 {
     font-size: 20px;
 
@@ -13,20 +13,20 @@
     padding: 8px 16px 8px;
 }
 
-.nav_type_main .b-menu-horiz__item_state_current
+.nav_level_first .b-menu-horiz__item_state_current
 {
     background: #eee8d5;
 }
 
-.nav_type_sub
+.nav_level_second
 {
     padding-left: 60px;
 
     background: #eee8d5;
 }
 
-.nav_type_sub .b-link:hover,
-.nav_type_sub .b-menu-horiz__item_state_current
+.nav_level_second .b-link:hover,
+.nav_level_second .b-menu-horiz__item_state_current
 {
     background: #fff;
 
