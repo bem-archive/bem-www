@@ -4,10 +4,61 @@ var BEM = require('bem'),
     FS = require('fs'),
     shmakowiki = require('shmakowiki'),
     MD = require('marked'),
+    HL = require('highlight.js'),
     mkdirp = require('mkdirp');
 
 process.env.YENV = 'production';
 process.env.BEM_I18N_LANGS = 'en ru';
+process.env.SHMAKOWIKI_HL = 'server';
+
+function processMarkdown(src) {
+
+    var langs = {};
+
+    return MD(src, {
+            gfm: true,
+            pedantic: false,
+            sanitize: false,
+            highlight: function(code, lang) {
+                if (!lang) return code;
+                var res = HL.highlight(translateAlias(lang), code);
+                langs[lang] = res.language;
+                return res.value;
+            }
+        })
+        .replace(/<pre><code class="lang-(.+?)">([\s\S]+?)<\/code><\/pre>/gm, function(m, lang, code) {
+
+            return '<pre class="highlight"><code class="highlight__code ' + langs[lang] + '">' +
+                code +
+                '</code></pre>';
+
+        });
+
+}
+
+function translateAlias(alias) {
+
+    var lang = alias;
+
+    switch (alias) {
+
+        case 'js':
+            lang = 'javascript';
+            break;
+
+        case 'patch':
+            lang = 'diff';
+            break;
+
+        case 'md':
+            lang = 'markdown';
+            break;
+
+    }
+
+    return lang;
+
+}
 
 /** @name MAKE */
 
@@ -150,7 +201,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                             {
                                                 block: 'b-text',
                                                 mods: { 'type': 'global' },
-                                                content: MD(src)
+                                                content: processMarkdown(src)
                                             };
 
                                     pageContent.content[1].content.push(content);
