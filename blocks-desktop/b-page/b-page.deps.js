@@ -13,6 +13,6 @@
             block: 'i-font', mods: { face: 'alsekibastuz' }
         },
         { block: 'i-clearfix' },
-        { block: 'b-code', mods: { 'theme': 'github' } }
+        { block: 'highlight', mods: { 'theme': 'github' } }
     ]
 })

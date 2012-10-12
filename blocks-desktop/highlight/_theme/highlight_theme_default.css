@@ -1,0 +1,134 @@
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.highlight__code {
+    background: #f0f0f0;
+}
+
+.highlight__code,
+.highlight .subst,
+.highlight .tag .title,
+.highlight .lisp .title,
+.highlight .clojure .built_in,
+.highlight .nginx .title {
+    color: black;
+}
+
+.highlight .string,
+.highlight .title,
+.highlight .constant,
+.highlight .parent,
+.highlight .tag .value,
+.highlight .rules .value,
+.highlight .rules .value .number,
+.highlight .preprocessor,
+.highlight .ruby .symbol,
+.highlight .ruby .symbol .string,
+.highlight .aggregate,
+.highlight .template_tag,
+.highlight .django .variable,
+.highlight .smalltalk .class,
+.highlight .addition,
+.highlight .flow,
+.highlight .stream,
+.highlight .bash .variable,
+.highlight .apache .tag,
+.highlight .apache .cbracket,
+.highlight .tex .command,
+.highlight .tex .special,
+.highlight .erlang_repl .function_or_atom,
+.highlight .markdown .header {
+    color: #800;
+}
+
+.highlight .comment,
+.highlight .annotation,
+.highlight .template_comment,
+.highlight .diff .header,
+.highlight .chunk,
+.highlight .markdown .blockquote {
+    color: #888;
+}
+
+.highlight .number,
+.highlight .date,
+.highlight .regexp,
+.highlight .literal,
+.highlight .smalltalk .symbol,
+.highlight .smalltalk .char,
+.highlight .go .constant,
+.highlight .change,
+.highlight .markdown .bullet,
+.highlight .markdown .link_url {
+    color: #080;
+}
+
+.highlight .label,
+.highlight .javadoc,
+.highlight .ruby .string,
+.highlight .decorator,
+.highlight .filter .argument,
+.highlight .localvars,
+.highlight .array,
+.highlight .attr_selector,
+.highlight .important,
+.highlight .pseudo,
+.highlight .pi,
+.highlight .doctype,
+.highlight .deletion,
+.highlight .envvar,
+.highlight .shebang,
+.highlight .apache .sqbracket,
+.highlight .nginx .built_in,
+.highlight .tex .formula,
+.highlight .erlang_repl .reserved,
+.highlight .input_number,
+.highlight .markdown .link_label,
+.highlight .vhdl .attribute,
+.highlight .clojure .attribute,
+.highlight .coffeescript .property {
+    color: #88f;
+}
+
+.highlight .keyword,
+.highlight .id,
+.highlight .phpdoc,
+.highlight .title,
+.highlight .built_in,
+.highlight .aggregate,
+.highlight .css .tag,
+.highlight .javadoctag,
+.highlight .phpdoc,
+.highlight .yardoctag,
+.highlight .smalltalk .class,
+.highlight .winutils,
+.highlight .bash .variable,
+.highlight .apache .tag,
+.highlight .go .typename,
+.highlight .tex .command,
+.highlight .markdown .strong,
+.highlight .request,
+.highlight .status {
+    font-weight: bold;
+}
+
+.highlight .markdown .emphasis {
+    font-style: italic;
+}
+
+.highlight .nginx .built_in {
+    font-weight: normal;
+}
+
+.highlight .coffeescript .javascript,
+.highlight .javascript .xml,
+.highlight .tex .formula,
+.highlight .xml .javascript,
+.highlight .xml .vbscript,
+.highlight .xml .css,
+.highlight .xml .cdata {
+    opacity: 0.5;
+}

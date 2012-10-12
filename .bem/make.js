@@ -9,6 +9,7 @@ var BEM = require('bem'),
 
 process.env.YENV = 'production';
 process.env.BEM_I18N_LANGS = 'en ru';
+process.env.SHMAKOWIKI_HL = 'server';
 
 function processMarkdown(src) {
 
@@ -27,7 +28,7 @@ function processMarkdown(src) {
         })
         .replace(/<pre><code class="lang-(.+?)">([\s\S]+?)<\/code><\/pre>/gm, function(m, lang, code) {
 
-            return '<pre class="b-code"><code class="b-code__snippet ' + langs[lang] + '">' +
+            return '<pre class="highlight"><code class="highlight__code ' + langs[lang] + '">' +
                 code +
                 '</code></pre>';
 

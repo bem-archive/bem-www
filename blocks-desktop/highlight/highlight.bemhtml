@@ -1,0 +1,7 @@
+block highlight, tag: 'pre'
+
+block highlight, content: {
+    elem: 'code',
+    cls: this.ctx.lang,
+    content: this.ctx.content
+}

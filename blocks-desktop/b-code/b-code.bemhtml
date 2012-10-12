@@ -1,7 +1,0 @@
-block b-code, tag: 'pre'
-
-block b-code, content: {
-    elem: 'snippet',
-    cls: this.ctx.lang,
-    content: this.ctx.content
-}
