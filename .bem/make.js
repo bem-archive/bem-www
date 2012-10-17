@@ -277,18 +277,30 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         },
         {
             page: 'tools-index-ru',
-            title: 'Инструменты для работы в предметной области БЭМ',
+            title: 'Инструменты',
             description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
             keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         },
         {
             page: 'tools-index-en',
-            title: 'BEM Tools',
+            title: 'Tools',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
         },
 
 
+        {
+            page: 'bem-tools-index-ru',
+            title: 'bem tools',
+            description: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области',
+            keywords: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+        {
+            page: 'bem-tools-index-en',
+            title: 'bem tools',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
         {
             page: 'bem-tools-api-ru',
             title: 'API – bem tools',
@@ -420,6 +432,55 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             title: 'Модули технологий – bem tools',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso'
+        },
+
+        {
+            page: 'csso-index-ru',
+            title: 'CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-index-en',
+            title: 'CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-install-ru',
+            title: 'Установка - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-install-en',
+            title: 'Installation - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+            {
+            page: 'csso-usage-ru',
+            title: 'Использование - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-usage-en',
+            title: 'Usage - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-description-ru',
+            title: 'Описание - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
+        },
+        {
+            page: 'csso-description-en',
+            title: 'Description - CSSO (CSS Optimizer)',
+            description: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ',
+            keywords: 'css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor'
         }
     ],
     _navLevelIdx: 0,
@@ -622,23 +683,24 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     },
 
     getNavBemJson: function(nav, pagename, source, lang, parent) {
-
         var _this = this,
             navBemJson = [],
             currentIdx,
             sub,
             level = ['first', 'second', 'third', 'fourth'],
             getMenuBemJson = function(mods) {
-                _this._navLevelIdx++;
+                console.log("!!! ", mods, _this._navLevelIdx);
                 return {
                     block: 'b-menu-horiz',
                     mods: { layout: 'normal' },
-                    mix: [{ block: 'nav', mods: mods }],
+                    mix: [{ block: 'nav' /*, mods: mods */ }],
                     js: false,
                     content: []
                 };
             },
+
             currentNavLevelResult = getMenuBemJson({ level: level[_this._navLevelIdx] }),
+            
             checkParent = function(item, parent) {
                 if (item.page + '-' + lang == pagename) return true;
 
@@ -663,10 +725,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             currentNavLevelResult.content.push({
                 elem: 'item',
                 elemMods: isCurrent ? { state: 'current' } : isParent ? { state: 'parent' } : undefined,
-                content: isCurrent ? item.title.en : {
+                content: isCurrent ? item.title[lang] : {
                     block: 'b-link',
                     url: '/' + item.url + '/',
-                    content: item.title.en
+                    content: item.title[lang]
                 }
             });
         });
@@ -675,7 +737,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         if (nav[currentIdx]) {
             sub = nav[currentIdx].content;
-            sub && sub.length && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
+            sub && sub.length && _this._navLevelIdx++ && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
         }
 
         return navBemJson;
