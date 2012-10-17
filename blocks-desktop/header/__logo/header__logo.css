@@ -6,10 +6,10 @@
     height: 40px;
     margin: 10px 0 37px 10px;
     
-    background: url(header__logo.png);
+    background: url("http://bem.info/blocks-desktop/header/__logo/header__logo.png");
 }
 
 .b-link.header__logo:hover
 {
-    background: url(header__logo.png);
+    background: url("http://bem.info/blocks-desktop/header/__logo/header__logo.png");
 }
