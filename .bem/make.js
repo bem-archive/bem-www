@@ -113,6 +113,7 @@ MAKE.decl('Arch', {
     getLibraries: function() {
 
         return {
+/*
             'bem-bl': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
@@ -130,7 +131,7 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/bem/bem-tools.git',
                 packages: false
             }
-
+*/
         };
 
     },
@@ -140,7 +141,7 @@ MAKE.decl('Arch', {
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'bem-tools/docs', 'tools']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs']
             });
 
         this.arch.setNode(node, bundles, libs);
@@ -468,20 +469,28 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             url: 'tools',
             content: [
                 {
-                    page: 'bem-tools-installation',
+                    page: 'bem-tools-index',
                     title: {
-                        en: 'Installation',
-                        ru: 'Установка'
+                        en: 'bem-tools',
+                        ru: 'bem-tools'
                     },
-                    url: 'tools/installation',
+                    url: 'tools/bem',
                     content: [
+                        {
+                            page: 'bem-tools-installation',
+                            title: {
+                                en: 'Installation',
+                                ru: 'Установка'
+                            },
+                            url: 'tools/bem/installation',
+                        },
                         {
                             page: 'bem-tools-bem-create',
                             title: {
                                 en: 'bem create',
                                 ru: 'bem create'
                             },
-                            url: 'tools/bem-create'
+                            url: 'tools/bem/bem-create'
                         },
                         {
                             page: 'bem-tools-bem-build',
@@ -489,7 +498,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'bem build',
                                 ru: 'bem build'
                             },
-                            url: 'tools/bem-build'
+                            url: 'tools/bem/bem-build'
                         },
                         {
                             page: 'bem-tools-bem-decl',
@@ -497,7 +506,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'bem decl',
                                 ru: 'bem decl'
                             },
-                            url: 'tools/bem-decl'
+                            url: 'tools/bem/bem-decl'
                         },
                         {
                             page: 'bem-tools-bem-make',
@@ -505,7 +514,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'bem make',
                                 ru: 'bem make'
                             },
-                            url: 'tools/bem-make'
+                            url: 'tools/bem/bem-make'
                         },
                         {
                             page: 'bem-tools-bem-server',
@@ -513,7 +522,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'bem server',
                                 ru: 'bem server'
                             },
-                            url: 'tools/bem-server'
+                            url: 'tools/bem/bem-server'
                         },
                         {
                             page: 'bem-tools-levels',
@@ -521,7 +530,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'Levels',
                                 ru: 'Уровни переопределения'
                             },
-                            url: 'tools/levels'
+                            url: 'tools/bem/levels'
                         },
                         {
                             page: 'bem-tools-customization',
@@ -529,7 +538,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'Customization',
                                 ru: 'Настройка'
                             },
-                            url: 'tools/customization'
+                            url: 'tools/bem/customization'
                         },
                         {
                             page: 'bem-tools-tech-modules',
@@ -537,7 +546,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'Techs',
                                 ru: 'Модули технологий'
                             },
-                            url: 'tools/tech-modules'
+                            url: 'tools/bem/tech-modules'
                         },
                         {
                             page: 'bem-tools-api',
@@ -545,7 +554,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'API',
                                 ru: 'API'
                             },
-                            url: 'tools/api'
+                            url: 'tools/bem/api'
                         },
                         {
                             page: 'bem-tools-contribute',
@@ -553,7 +562,41 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                 en: 'Сontribute',
                                 ru: 'Участие в разработке'
                             },
-                            url: 'tools/contribute'
+                            url: 'tools/bem/contribute'
+                        }
+                    ]
+                },
+                {
+                    page: 'csso-index',
+                    title: {
+                        en: 'CSSO',
+                        ru: 'CSSO'
+                    },
+                    url: 'tools/csso',
+                    content: [
+                        {
+                            page: 'csso-install',
+                            title: {
+                                en: 'Installation',
+                                ru: 'Установка'
+                            },
+                            url: 'tools/csso/install',
+                        },
+                        {
+                            page: 'csso-usage',
+                            title: {
+                                en: 'Usage',
+                                ru: 'Использование'
+                            },
+                            url: 'tools/csso/usage',
+                        },
+                        {
+                            page: 'csso-description',
+                            title: {
+                                en: 'Description',
+                                ru: 'Описание'
+                            },
+                            url: 'tools/csso/description',
                         }
                     ]
                 }
