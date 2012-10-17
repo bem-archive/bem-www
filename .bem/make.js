@@ -75,7 +75,9 @@ MAKE.decl('BundleNode', {
         arr.splice(arr.indexOf('html'), 1);
 
         // add i18n techs
-        return arr.concat([
+        return arr;
+/*
+.concat([
             'ie.css',
             'ie6.css',
             'ie7.css',
@@ -85,9 +87,9 @@ MAKE.decl('BundleNode', {
             'i18n.js',
             'i18n.html'
         ]);
-
-    },
-
+*/
+    }
+/*,
     'create-i18n.js-optimizer-node': function(tech, sourceNode, bundleNode) {
 
         sourceNode.getFiles().forEach(function(f) {
@@ -105,7 +107,7 @@ MAKE.decl('BundleNode', {
             magicNode);
 
     }
-
+*/
 });
 
 MAKE.decl('Arch', {
@@ -113,7 +115,6 @@ MAKE.decl('Arch', {
     getLibraries: function() {
 
         return {
-/*
             'bem-bl': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
@@ -130,8 +131,13 @@ MAKE.decl('Arch', {
                 type: 'git',
                 url: 'git://github.com/bem/bem-tools.git',
                 packages: false
+            },
+
+            'content/csso': {
+                type: 'git',
+                url: 'git://github.com/css/csso.git',
+                packages: false
             }
-*/
         };
 
     },
@@ -749,10 +755,13 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             title: this.getCurrentPageInfo(pagename).title,
             favicon: '/favicon.ico',
             head: [
+/*
                 { elem: 'css', url: '_' + pagename + '.css', ie: false },
                 { elem: 'css', url: '_' + pagename, ie: true },
+*/
                 // { block: 'i-jquery', elem: 'core' },
                 // { elem: 'js', url: '_' + pagename + '.js' },
+                { elem: 'css', url: '_' + pagename + '.css' },
                 { elem: 'meta', attrs: { name: 'description', value: this.getCurrentPageInfo(pagename).description }},
                 { elem: 'meta', attrs: { name: 'keywords', value: this.getCurrentPageInfo(pagename).keywords }}
             ],
