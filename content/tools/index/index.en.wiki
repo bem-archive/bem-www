@@ -1,7 +1,5 @@
-== Tools
-
 === bem-tools
-((https://github.com/bem/bem-tools/#bem-tools- bem-tools)) is a toolkit to work with files
+((/tools/bem/ bem-tools)) is a toolkit to work with files
 based on BEM methodology.
 
 It allows you:
@@ -13,7 +11,7 @@ It allows you:
 
 === Optimizers
 ==== CSSO
-((https://github.com/css/csso/#readme CSSO)) (CSS Optimizer) is a CSS minimizer unlike others.
+((/tools/csso/ CSSO)) (CSS Optimizer) is a CSS minimizer unlike others.
 
 In addition to usual minification techniques it can perform structural optimization of CSS files,
 resulting in smaller file size compared to other minifiers.
