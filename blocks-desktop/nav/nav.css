@@ -5,7 +5,7 @@
     padding-top: 11px;
 }
 
-.nav .b-link,
+.b-page .nav .b-link,
 .nav .b-menu-horiz__item_state_current
 {
     display: block;
@@ -13,7 +13,8 @@
     padding: 8px 16px 8px;
 }
 
-.nav_level_first .b-menu-horiz__item_state_current
+.nav_level_first .b-menu-horiz__item_state_current,
+.nav_level_first .b-menu-horiz__item_state_parent
 {
     background: #eee8d5;
 }
@@ -26,7 +27,8 @@
 }
 
 .nav_level_second .b-link:hover,
-.nav_level_second .b-menu-horiz__item_state_current
+.nav_level_second .b-menu-horiz__item_state_current,
+.nav_level_second .b-menu-horiz__item_state_parent
 {
     background: #fff;
 

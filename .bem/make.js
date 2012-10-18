@@ -124,7 +124,8 @@ MAKE.decl('Arch', {
 
             'content/bem-method': {
                 type: 'git',
-                url: 'git://github.com/bem/bem-method.git'
+                url: 'git://github.com/bem/bem-method.git',
+                packages: false
             },
 
             'content/bem-tools': {
@@ -317,6 +318,18 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     },
 
     getTemplateBemJson: function(pagename, source, lang) {
+        /*
+        * upyachka:
+        * this.getNavBemJson returns array with two elements:
+        * first element is first level menu
+        * second element consists of second and third level menues
+        */
+        var nav = this.getNavBemJson(this.nav, pagename, source, lang),
+            mainNav = [],
+            subNav = nav[1][1];
+
+        mainNav.push(nav[0], nav[1][0]);
+
         return {
             block: 'b-page',
             title: this.getCurrentPageInfo(pagename).title,
@@ -341,12 +354,12 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                             mix: [{ block: 'header', elem: 'logo' }],
                             url: '/'
                         },
-                        this.getNavBemJson(this.nav, pagename, source, lang)
+                        mainNav
                     ]
                 },
                 {
                     block: 'content',
-                    content: []
+                    content: [subNav]
                 },
                 {
                     block: 'footer'
