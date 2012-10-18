@@ -260,11 +260,12 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             sub,
             level = ['first', 'second', 'third', 'fourth'],
             getMenuBemJson = function(mods) {
-                console.log("!!! ", mods, _this._navLevelIdx);
+                _this._navLevelIdx++;
+
                 return {
                     block: 'b-menu-horiz',
                     mods: { layout: 'normal' },
-                    mix: [{ block: 'nav' /*, mods: mods */ }],
+                    mix: [{ block: 'nav' , mods: mods }],
                     js: false,
                     content: []
                 };
@@ -308,9 +309,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         if (nav[currentIdx]) {
             sub = nav[currentIdx].content;
-            sub && sub.length && _this._navLevelIdx++ && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
+            sub && sub.length && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
         }
 
+        _this._navLevelIdx = 0;
         return navBemJson;
     },
 
