@@ -46,8 +46,8 @@
             {
                 "page": "bem-tools-index",
                 "title": {
-                    "en": "bem-tools",
-                    "ru": "bem-tools"
+                    "en": "BEM tools",
+                    "ru": "BEM tools"
                 },
                 "url": "tools/bem",
                 "content": [
