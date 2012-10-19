@@ -60,44 +60,12 @@
                         "url": "tools/bem/installation"
                     },
                     {
-                        "page": "bem-tools-bem-create",
+                        "page": "bem-tools-commands",
                         "title": {
-                            "en": "bem create",
-                            "ru": "bem create"
+                            "en": "Commands",
+                            "ru": "Команды"
                         },
-                        "url": "tools/bem/bem-create"
-                    },
-                    {
-                        "page": "bem-tools-bem-build",
-                        "title": {
-                            "en": "bem build",
-                            "ru": "bem build"
-                        },
-                        "url": "tools/bem/bem-build"
-                    },
-                    {
-                        "page": "bem-tools-bem-decl",
-                        "title": {
-                            "en": "bem decl",
-                            "ru": "bem decl"
-                        },
-                        "url": "tools/bem/bem-decl"
-                    },
-                    {
-                        "page": "bem-tools-bem-make",
-                        "title": {
-                            "en": "bem make",
-                            "ru": "bem make"
-                        },
-                        "url": "tools/bem/bem-make"
-                    },
-                    {
-                        "page": "bem-tools-bem-server",
-                        "title": {
-                            "en": "bem server",
-                            "ru": "bem server"
-                        },
-                        "url": "tools/bem/bem-server"
+                        "url": "tools/bem/commands"
                     },
                     {
                         "page": "bem-tools-levels",
