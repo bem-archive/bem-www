@@ -1,207 +1,210 @@
-[
-    {
-        "page": "bem-method-index-en",
-        "title": "BEM Methodology",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
+{
+    "ru": {
+        "bem-method/index": {
+            "title": "Методология БЭМ",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Методология"
+        },
+        "bem-method/definitions": {
+            "title": "Определения — БЭМ",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Определения"
+        },
+        "bem-method/filesystem": {
+            "title": "Организация файловой системы — БЭМ",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Организация файловой системы"
+        },
+        "bem-method/history": {
+            "title": "История создания БЭМ",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "История создания"
+        },
+        "tools/index": {
+            "title": "Инструменты",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Инструменты"
+        },
+        "bem-tools/docs/index": {
+            "title": "BEM tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "BEM tools"
+        },
+        "bem-tools/docs/installation": {
+            "title": "Установка – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Установка"
+        },
+        "bem-tools/docs/commands": {
+            "title": "Команды – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Команды"
+        },
+        "bem-tools/docs/levels": {
+            "title": "Уровни переопределения – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Уровни переопределения"
+        },
+        "bem-tools/docs/customization": {
+            "title": "Настройка – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Настройка"
+        },
+        "bem-tools/docs/tech-modules": {
+            "title": "Модули технологий – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Модули технологий"
+        },
+        "bem-tools/docs/api": {
+            "title": "API – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "API"
+        },
+        "bem-tools/docs/contribute": {
+            "title": "Участие в разработке – bem tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Участие в разработке"
+        },
+        "csso/docs/index": {
+            "title": "CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "CSSO"
+        },
+        "csso/docs/install": {
+            "title": "Установка - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Установка"
+        },
+        "csso/docs/usage": {
+            "title": "Использование - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Использование"
+        },
+        "csso/docs/description": {
+            "title": "Описание - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Описание"
+        }
     },
-    {
-        "page": "bem-method-index-ru",
-        "title": "Методология БЭМ",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-definitions-en",
-        "title": "Definitions — BEM",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-definitions-ru",
-        "title": "Определения — БЭМ",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-filesystem-en",
-        "title": "Filesystem Organization — BEM",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-filesystem-ru",
-        "title": "Организация файловой системы — БЭМ",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-history-en",
-        "title": "History — BEM",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-method-history-ru",
-        "title": "История создания БЭМ",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "tools-index-ru",
-        "title": "Инструменты",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "tools-index-en",
-        "title": "Tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-index-ru",
-        "title": "BEM tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-index-en",
-        "title": "BEM tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-api-ru",
-        "title": "API – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-api-en",
-        "title": "API – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-commands-ru",
-        "title": "Команды – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-commands-en",
-        "title": "Commands – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-contribute-ru",
-        "title": "Contribute – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-contribute-en",
-        "title": "Участие в разработке – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-customization-ru",
-        "title": "Настройка – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-customization-en",
-        "title": "Сustomization – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-installation-ru",
-        "title": "Установка – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-installation-en",
-        "title": "Installation – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-levels-ru",
-        "title": "Levels – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-levels-en",
-        "title": "Уровни переопределения – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-tech-modules-ru",
-        "title": "Tech modules  – bem tools",
-        "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
-        "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-    {
-        "page": "bem-tools-tech-modules-en",
-        "title": "Модули технологий – bem tools",
-        "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
-        "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso"
-    },
-
-    {
-        "page": "csso-index-ru",
-        "title": "CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-index-en",
-        "title": "CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-install-ru",
-        "title": "Установка - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-install-en",
-        "title": "Installation - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-        {
-        "page": "csso-usage-ru",
-        "title": "Использование - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-usage-en",
-        "title": "Usage - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-description-ru",
-        "title": "Описание - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
-    },
-    {
-        "page": "csso-description-en",
-        "title": "Description - CSSO (CSS Optimizer)",
-        "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
-        "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor"
+    "en": {
+        "bem-method/index": {
+            "title": "BEM Methodology",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Methodology"
+        },
+        "bem-method/definitions": {
+            "title": "Definitions — BEM",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Definitions"
+        },
+        "bem-method/filesystem": {
+            "title": "Filesystem Organization — BEM",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Filesystem"
+        },
+        "bem-method/history": {
+            "title": "History — BEM",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "History"
+        },
+        "tools/index": {
+            "title": "Tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Tools"
+        },
+        "bem-tools/docs/index": {
+            "title": "BEM tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "BEM tools"
+        },
+        "bem-tools/docs/installation": {
+            "title": "Installation – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Installation"
+        },
+        "bem-tools/docs/commands": {
+            "title": "Commands – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Commands"
+        },
+        "bem-tools/docs/levels": {
+            "title": "Levels – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Levels"
+        },
+        "bem-tools/docs/customization": {
+            "title": "Сustomization – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Сustomization"
+        },
+        "bem-tools/docs/tech-modules": {
+            "title": "Tech modules  – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Tech modules"
+        },
+        "bem-tools/docs/api": {
+            "title": "API – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "API"
+        },
+        "bem-tools/docs/contribute": {
+            "title": "Contribute – bem tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Contribute"
+        },
+        "csso/docs/index": {
+            "title": "CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "CSSO"
+        },
+        "csso/docs/install": {
+            "title": "Installation - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Installation"
+        },
+        "csso/docs/usage": {
+            "title": "Usage - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Usage"
+        },
+        "csso/docs/description": {
+            "title": "Description - CSSO (CSS Optimizer)",
+            "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
+            "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
+            "menu": "Description"
+        }
     }
-]
+}

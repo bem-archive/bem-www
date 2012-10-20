@@ -125,19 +125,19 @@ MAKE.decl('Arch', {
             'content/bem-method': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-method.git',
-                packages: false
+                npmPackages: false
             },
 
             'content/bem-tools': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-tools.git',
-                packages: false
+                npmPackages: false
             },
 
             'content/csso': {
                 type: 'git',
                 url: 'git://github.com/css/csso.git',
-                packages: false
+                npmPackages: false
             }
         };
 
@@ -203,7 +203,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                             return BEM.util.readFile(srcPath)
                                 .then(function(src) {
 
-                                    var pageContent = _this.getTemplateBemJson(page.block, source, lang),
+                                    var pageContent = _this.getTemplateBemJson(item.block, source, lang),
                                         content = item.tech === 'wiki'?
                                             shmakowiki.shmakowikiToBemjson(src) :
                                             {
@@ -235,29 +235,21 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     },
     pagesConfig: JSON.parse(FS.readFileSync('content/pages-config.json', 'utf8')),
     _navLevelIdx: 0,
-    nav: JSON.parse(FS.readFileSync('content/site-structure-config.json', 'utf8')),
-    getCurrentPageInfo: function(pagename) {
-        var conf = this.pagesConfig;
-
-        for (var pageIdx = 0; pageIdx < conf.length; pageIdx++) {
-            if (conf[pageIdx].page == pagename) {
-                return conf[pageIdx];
-            }
-        }
-
-        // Костыль на случай, если в конфиге нет описания для данной страницы
-        return {
-            page: pagename,
-            title: pagename,
-            description: pagename,
-            keywords: pagename
+    structureConfig: JSON.parse(FS.readFileSync('content/site-structure-config.json', 'utf8')),
+    getCurrentPageInfo: function(sourceDir, lang) {
+        lang = lang || 'en';
+        return this.pagesConfig[lang][sourceDir] || {
+            title: 'BEM: block, element, modificator',
+            description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
+            keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso',
+            menu: sourceDir.split('/').pop()
         };
     },
 
-    getNavBemJson: function(nav, pagename, source, lang, parent) {
+    getNavBemJson: function(cfg, sourceDir, lang) {
         var _this = this,
             navBemJson = [],
-            currentIdx,
+            currentDir,
             sub,
             level = ['first', 'second', 'third', 'fourth'],
             getMenuBemJson = function(mods) {
@@ -274,44 +266,41 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
             currentNavLevelResult = getMenuBemJson({ level: level[_this._navLevelIdx] }),
 
-            checkParent = function(item, parent) {
-                if (item.page + '-' + lang == pagename) return true;
+            checkParent = function(dir, currentStructureLevel) {
+                if (dir == sourceDir) return true;
 
-                var content = item.content;
-                if (!content || !content.length) return false;
+                var children = currentStructureLevel[dir].children;
+                if (!children) return false;
 
-                for (var pageIdx = 0; pageIdx < content.length; pageIdx++) {
-                    if (checkParent(content[pageIdx], pageIdx)) return true;
-                    if (content[pageIdx].page == pagename) return true;
+                for (var child in children) {
+                    if (child == sourceDir || checkParent(child, children)) return true;
                 }
 
                 return false;
             };
 
-        nav.forEach(function(item, idx) {
+        for (var dir in cfg) {
+            var isParent = checkParent(dir, cfg),
+                isCurrent = dir == sourceDir,
+                title = this.getCurrentPageInfo(dir, lang).menu;
 
-            var isParent = checkParent(item, parent),
-                isCurrent = item.page + '-' + lang == pagename;
-
-            (isCurrent || isParent) && (currentIdx = idx);
+            isParent && (currentDir = dir);
 
             currentNavLevelResult.content.push({
                 elem: 'item',
                 elemMods: isCurrent ? { state: 'current' } : isParent ? { state: 'parent' } : undefined,
-                content: isCurrent ? item.title[lang] : {
+                content: isCurrent ? title : {
                     block: 'b-link',
-                    url: '/' + item.url + '/',
-                    content: item.title[lang]
+                    url: '/' + cfg[dir].url + '/',
+                    content: title
                 }
             });
-        });
+        }
 
         navBemJson.push(currentNavLevelResult);
 
-        if (nav[currentIdx]) {
-            sub = nav[currentIdx].content;
-            sub && sub.length && navBemJson.push(this.getNavBemJson(sub, pagename, source, lang, currentIdx));
-        }
+        sub = cfg[currentDir] ? cfg[currentDir].children : null;
+        sub && navBemJson.push(this.getNavBemJson(sub, sourceDir, lang));
 
         _this._navLevelIdx = 0;
         return navBemJson;
@@ -324,7 +313,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         * first element is first level menu
         * second element consists of second and third level menues
         */
-        var nav = this.getNavBemJson(this.nav, pagename, source, lang),
+        var sourceDir = source + '/' + pagename,
+            pageInfo = this.getCurrentPageInfo(sourceDir, lang),
+            resourceFileName = '_' + source.split('/').shift() + '-' + pagename + '-' + lang,
+            nav = this.getNavBemJson(this.structureConfig, sourceDir, lang),
             mainNav = [],
             subNav = nav[1][1];
 
@@ -332,18 +324,16 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
         return {
             block: 'b-page',
-            title: this.getCurrentPageInfo(pagename).title,
+            title: pageInfo.title,
             favicon: '/favicon.ico',
             head: [
-/*
-                { elem: 'css', url: '_' + pagename + '.css', ie: false },
-                { elem: 'css', url: '_' + pagename, ie: true },
-*/
+                { elem: 'css', url: resourceFileName + '.css' },
+                // { elem: 'css', url: resourceFileName + '.css', ie: false },
+                // { elem: 'css', url: resourceFileName, ie: true },
                 // { block: 'i-jquery', elem: 'core' },
-                // { elem: 'js', url: '_' + pagename + '.js' },
-                { elem: 'css', url: '_' + pagename + '.css' },
-                { elem: 'meta', attrs: { name: 'description', value: this.getCurrentPageInfo(pagename).description }},
-                { elem: 'meta', attrs: { name: 'keywords', value: this.getCurrentPageInfo(pagename).keywords }}
+                // { elem: 'js', url: resourceFileName + '.js' },
+                { elem: 'meta', attrs: { name: 'description', value: pageInfo.description }},
+                { elem: 'meta', attrs: { name: 'keywords', value: pageInfo.keywords }}
             ],
             content: [
                 {

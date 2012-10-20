@@ -1,148 +1,35 @@
-[
-    {
-        "page": "bem-method-index",
-        "source": "bem-method",
-        "title": {
-            "en": "Methodology",
-            "ru": "Методология"
-        },
+{
+    "bem-method/index": {
         "url": "method",
-        "content": [
-            {
-                "page": "bem-method-definitions",
-                "title": {
-                    "en": "Definitions",
-                    "ru": "Определения"
-                },
-                "url": "method/definitions"
-            },
-            {
-                "page": "bem-method-filesystem",
-                "title": {
-                    "en": "Filesystem",
-                    "ru": "Организация файловой системы"
-                },
-                "url": "method/filesystem"
-            },
-            {
-                "page": "bem-method-history",
-                "title": {
-                    "en": "History",
-                    "ru": "История создания"
-                },
-                "url": "method/history"
-            }
-        ]
+        "children": {
+            "bem-method/definitions": { "url": "method/definitions" },
+            "bem-method/filesystem": { "url": "method/filesystem" },
+            "bem-method/history": { "url": "method/history" }
+        }
     },
-    {
-        "page": "tools-index",
-        "source": "tools",
-        "title": {
-            "en": "Tools",
-            "ru": "Инструменты"
-        },
+    "tools/index": {
         "url": "tools",
-        "content": [
-            {
-                "page": "bem-tools-index",
-                "title": {
-                    "en": "BEM tools",
-                    "ru": "BEM tools"
-                },
+        "children": {
+            "bem-tools/docs/index": {
                 "url": "tools/bem",
-                "content": [
-                    {
-                        "page": "bem-tools-installation",
-                        "title": {
-                            "en": "Installation",
-                            "ru": "Установка"
-                        },
-                        "url": "tools/bem/installation"
-                    },
-                    {
-                        "page": "bem-tools-commands",
-                        "title": {
-                            "en": "Commands",
-                            "ru": "Команды"
-                        },
-                        "url": "tools/bem/commands"
-                    },
-                    {
-                        "page": "bem-tools-levels",
-                        "title": {
-                            "en": "Levels",
-                            "ru": "Уровни переопределения"
-                        },
-                        "url": "tools/bem/levels"
-                    },
-                    {
-                        "page": "bem-tools-customization",
-                        "title": {
-                            "en": "Customization",
-                            "ru": "Настройка"
-                        },
-                        "url": "tools/bem/customization"
-                    },
-                    {
-                        "page": "bem-tools-tech-modules",
-                        "title": {
-                            "en": "Techs",
-                            "ru": "Модули технологий"
-                        },
-                        "url": "tools/bem/tech-modules"
-                    },
-                    {
-                        "page": "bem-tools-api",
-                        "title": {
-                            "en": "API",
-                            "ru": "API"
-                        },
-                        "url": "tools/bem/api"
-                    },
-                    {
-                        "page": "bem-tools-contribute",
-                        "title": {
-                            "en": "Сontribute",
-                            "ru": "Участие в разработке"
-                        },
-                        "url": "tools/bem/contribute"
-                    }
-                ]
-            },
-            {
-                "page": "csso-index",
-                "title": {
-                    "en": "CSSO",
-                    "ru": "CSSO"
-                },
-                "url": "tools/csso",
-                "content": [
-                    {
-                        "page": "csso-install",
-                        "title": {
-                            "en": "Installation",
-                            "ru": "Установка"
-                        },
-                        "url": "tools/csso/install"
-                    },
-                    {
-                        "page": "csso-usage",
-                        "title": {
-                            "en": "Usage",
-                            "ru": "Использование"
-                        },
-                        "url": "tools/csso/usage"
-                    },
-                    {
-                        "page": "csso-description",
-                        "title": {
-                            "en": "Description",
-                            "ru": "Описание"
-                        },
-                        "url": "tools/csso/description"
-                    }
-                ]
+                "children": {
+                    "bem-tools/docs/installation": { "url": "tools/bem/installation" },
+                    "bem-tools/docs/commands": { "url": "tools/bem/commands" },
+                    "bem-tools/docs/levels": { "url": "tools/bem/levels" },
+                    "bem-tools/docs/customization": { "url": "tools/bem/customization" },
+                    "bem-tools/docs/tech-modules": { "url": "tools/bem/tech-modules" },
+                    "bem-tools/docs/api": { "url": "tools/bem/api" },
+                    "bem-tools/docs/contribute": { "url": "tools/bem/contribute" }
+                }
             }
-        ]
+        }
+    },
+    "csso/docs/index": {
+        "url": "tools/csso",
+        "children": {
+            "csso/docs/install": { "url": "tools/csso/install" },
+            "csso/docs/usage": { "url": "tools/csso/usage" },
+            "csso/docs/description": { "url": "tools/csso/description" }
+        }
     }
-]
+}
