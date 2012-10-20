@@ -21,15 +21,15 @@
                     "bem-tools/docs/api": { "url": "tools/bem/api" },
                     "bem-tools/docs/contribute": { "url": "tools/bem/contribute" }
                 }
+            },
+            "csso/docs/index": {
+                "url": "tools/csso",
+                "children": {
+                    "csso/docs/install": { "url": "tools/csso/install" },
+                    "csso/docs/usage": { "url": "tools/csso/usage" },
+                    "csso/docs/description": { "url": "tools/csso/description" }
+                }
             }
-        }
-    },
-    "csso/docs/index": {
-        "url": "tools/csso",
-        "children": {
-            "csso/docs/install": { "url": "tools/csso/install" },
-            "csso/docs/usage": { "url": "tools/csso/usage" },
-            "csso/docs/description": { "url": "tools/csso/description" }
         }
     }
 }
