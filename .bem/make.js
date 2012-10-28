@@ -332,8 +332,8 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                 // { elem: 'css', url: resourceFileName, ie: true },
                 // { block: 'i-jquery', elem: 'core' },
                 // { elem: 'js', url: resourceFileName + '.js' },
-                { elem: 'meta', attrs: { name: 'description', value: pageInfo.description }},
-                { elem: 'meta', attrs: { name: 'keywords', value: pageInfo.keywords }}
+                { elem: 'meta', attrs: { name: 'description', content: pageInfo.description }},
+                { elem: 'meta', attrs: { name: 'keywords', content: pageInfo.keywords }}
             ],
             content: [
                 {

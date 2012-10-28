@@ -7,8 +7,8 @@
         { elem: 'css', url: '_index-ru', ie: true },
         // { block: 'i-jquery', elem: 'core' },
         // { elem: 'js', url: '_index.js' },
-        { elem: 'meta', attrs: { name: 'description', value: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области' }},
-        { elem: 'meta', attrs: { name: 'keywords', value: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso' }}
+        { elem: 'meta', attrs: { name: 'description', content: 'БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области' }},
+        { elem: 'meta', attrs: { name: 'keywords', content: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso' }}
     ],
     content: [
         {
