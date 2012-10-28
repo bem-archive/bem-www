@@ -236,6 +236,18 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     pagesConfig: JSON.parse(FS.readFileSync('content/pages-config.json', 'utf8')),
     _navLevelIdx: 0,
     structureConfig: JSON.parse(FS.readFileSync('content/site-structure-config.json', 'utf8')),
+    getPageUrl: function(sourceDir, cfg) {
+        cfg = cfg || this.structureConfig;
+
+        var children;
+
+        for (var dir in cfg) {
+            if (sourceDir == dir) return cfg[dir].url;
+
+            children = (cfg[dir].children && this.getPageUrl(sourceDir, cfg[dir].children));
+            if (children) return children;
+        }
+    },
     getCurrentPageInfo: function(sourceDir, lang) {
         lang = lang || 'en';
         return this.pagesConfig[lang][sourceDir] || {
@@ -318,7 +330,20 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             resourceFileName = '_' + source.split('/').shift() + '-' + pagename + '-' + lang,
             nav = this.getNavBemJson(this.structureConfig, sourceDir, lang),
             mainNav = [],
-            subNav = nav[1][1];
+            subNav = nav[1][1],
+            langSwitcherContent = lang == 'ru' ? [{
+                                    block: 'b-link',
+                                    url: '//bem.info/' + this.getPageUrl(sourceDir) + '/',
+                                    content: 'English'
+                                },
+                                ' | Русский' ] : [
+                                    'English | ',
+                                    {
+                                        block: 'b-link',
+                                        url: '//ru.bem.info/' + this.getPageUrl(sourceDir) + '/',
+                                        content: 'Русский'
+                                    }
+                                ];
 
         mainNav.push(nav[0], nav[1][0]);
 
@@ -343,6 +368,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                             block: 'b-link',
                             mix: [{ block: 'header', elem: 'logo' }],
                             url: '/'
+                        },
+                        {
+                            block: 'lang-switcher',
+                            content: langSwitcherContent
                         },
                         mainNav
                     ]
