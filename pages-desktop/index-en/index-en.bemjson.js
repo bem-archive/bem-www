@@ -222,7 +222,7 @@
                                 },
                                 {
                                     content: 'SVGO has a plugin-based architecture, so almost every optimization is a separate plugin, and you can easily add your own.'
-                                },
+                                }
                             ]
                         },
                         {
