@@ -6,9 +6,10 @@ var extend = require('bem/lib/util').extend,
 exports.getTechs = function() {
     return {
         'bemjson.js': '',
+        'bemdecl.js': 'bemdecl.js',
         'bemhtml': PATH.join(BEM_TECHS, 'bemhtml.js'),
-        'html': PATH.join(BEM_TECHS, 'html.js')
-//        'js': 'js-i',
+        'html': PATH.join(BEM_TECHS, 'html.js'),
+        'js': 'js-i'
 //        'i18n': PATH.join(BEM_TECHS, 'i18n.js'),
 //        'i18n.js': PATH.join(BEM_TECHS, 'i18n.js.js'),
 //        'i18n.html': PATH.join(BEM_TECHS, 'i18n.html.js')

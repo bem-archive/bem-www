@@ -66,48 +66,27 @@ MAKE.decl('BundleNode', {
 
     getTechs: function() {
 
-        var arr = this.__base();
+        var techs = [
+                'bemjson.js',
+                'bemdecl.js',
+                'deps.js'
+            ];
 
-        // remove js tech
-        // arr.splice(arr.indexOf('js'), 1);
+        if (PATH.basename(this.level.dir) === 'bundles-desktop') {
+            return techs.concat([
+                'css',
+                'ie.css',
+                'js'
+            ]);
+        }
 
-        // remove html tech
-        // arr.splice(arr.indexOf('html'), 1);
-
-        // add i18n techs
-        return arr;
-/*
-.concat([
-            'ie.css',
-            'ie6.css',
-            'ie7.css',
-            'ie8.css',
-            'ie9.css',
-            'i18n',
-            'i18n.js',
-            'i18n.html'
+        return techs.concat([
+            'bemhtml',
+            'html'
         ]);
-*/
-    }
-/*,
-    'create-i18n.js-optimizer-node': function(tech, sourceNode, bundleNode) {
-
-        sourceNode.getFiles().forEach(function(f) {
-            this['create-js-optimizer-node'](tech, this.ctx.arch.getNode(f), bundleNode);
-        }, this);
-
-    },
-
-    'create-i18n.html-node': function(tech, bundleNode, magicNode) {
-
-        return this.setBemCreateNode(
-            tech,
-            this.level.resolveTech(tech),
-            bundleNode,
-            magicNode);
 
     }
-*/
+
 });
 
 MAKE.decl('Arch', {
@@ -352,11 +331,11 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             title: pageInfo.title,
             favicon: '/favicon.ico',
             head: [
-                { elem: 'css', url: resourceFileName + '.css' },
-                // { elem: 'css', url: resourceFileName + '.css', ie: false },
-                // { elem: 'css', url: resourceFileName, ie: true },
+                { elem: 'css', url: '/bundles-desktop/inner/_inner.css' },
+                // { elem: 'css', url: '/bundles-desktop/inner/_inner.css', ie: false },
+                // { elem: 'css', url: '/bundles-desktop/inner/_inner', ie: true },
                 // { block: 'i-jquery', elem: 'core' },
-                // { elem: 'js', url: resourceFileName + '.js' },
+                // { elem: 'js', url: '/bundles-desktop/inner/_inner.js' },
                 { elem: 'meta', attrs: { name: 'description', content: pageInfo.description }},
                 { elem: 'meta', attrs: { name: 'keywords', content: pageInfo.keywords }}
             ],

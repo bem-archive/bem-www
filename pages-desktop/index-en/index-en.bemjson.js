@@ -3,10 +3,10 @@
     title: 'BEM: Methodology of Effective Site Development',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '_index-en.css', ie: false },
-        { elem: 'css', url: '_index-en', ie: true },
+        { elem: 'css', url: '/bundles-desktop/index/_index.css' },
+        // { elem: 'css', url: '/bundles-desktop/index/_index', ie: true },
         // { block: 'i-jquery', elem: 'core' },
-        // { elem: 'js', url: '_index.js' },
+        // { elem: 'js', url: '/bundles-desktop/index/_index.js' },
         { elem: 'meta', attrs: { name: 'description', content: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.' }},
         { elem: 'meta', attrs: { name: 'keywords', content: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso' }}
     ],
