@@ -1,0 +1,3 @@
+block companies {
+    mix: [{ block: 'i-clearfix' }]
+}

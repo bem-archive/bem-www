@@ -1,0 +1,13 @@
+.portfolio
+{
+    margin-top: 40px;
+
+    background: #fff;
+}
+
+.portfolio__title
+{
+    font-size: 48px;
+
+    text-align: center;
+}
