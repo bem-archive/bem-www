@@ -39,6 +39,9 @@ exports.blocks = [
         ]
     },
     {
+        "name": "lang-switcher"
+    },
+    {
         "name": "nav",
         "mods": [
             {
