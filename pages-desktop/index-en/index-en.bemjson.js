@@ -199,7 +199,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: 'https://github.com/css/csso/',
+                            url: '/tools/csso/',
                             content: 'CSSO'
                         },
                         {
