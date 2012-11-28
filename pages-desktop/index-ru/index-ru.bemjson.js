@@ -187,7 +187,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: 'https://github.com/bem/bem-tools/blob/master/README.ru.md',
+                            url: '/tools/bem/',
                             content: 'BEM tools'
                         },
                         {
