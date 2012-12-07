@@ -101,6 +101,18 @@
             "description": "CSSO (CSS Optimizer) является минимизатором CSS, выполняющим как минимизацию без изменения структуры, так и структурную минимизацию с целью получить как можно меньший текст.",
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Описание"
+        },
+        "articles": {
+            "title": "Статьи",
+            "description": "",
+            "keywords": "",
+            "menu": "Статьи"
+        },
+        "articles/firm-card-story/docs/article": {
+            "title": "БЭМ-приложение на LeafLet и API 2GIS",
+            "description": "Пример простого картографического приложения, разработанного по БЭМ-методологии",
+            "keywords": "LeafLet, 2GIS, карты",
+            "menu": "БЭМ-приложение на LeafLet и API 2GIS"
         }
     },
     "en": {
@@ -205,6 +217,19 @@
             "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Description"
+        },
+        "articles": {
+            "title": "Articles",
+            "description": "",
+            "keywords": "",
+            "menu": "Articles"
+        },
+        "articles/firm-card-story/docs/article": {
+            "title": "БЭМ-приложение на LeafLet и API 2GIS",
+            "description": "Пример простого картографического приложения, разработанного по БЭМ-методологии",
+            "keywords": "LeafLet, 2GIS, карты",
+            "menu": "БЭМ-приложение на LeafLet и API 2GIS"
         }
+
     }
 }

@@ -31,5 +31,10 @@
                 }
             }
         }
+    },
+    "articles": {
+        "children": {
+            "articles/firm-card-story/docs/article": { "url": "articles/firm-card-story" }
+        }
     }
 }

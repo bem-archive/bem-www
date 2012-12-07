@@ -8,6 +8,7 @@ node_modules/
 content/bem-method/
 content/bem-tools/
 content/csso/
+content/articles/
 
 pages-desktop/*/*.*
 !pages-desktop/*/*.bemjson.js
@@ -17,6 +18,7 @@ pages-desktop/bem-method*/
 pages-desktop/tools*/
 pages-desktop/bem-tools*/
 pages-desktop/csso*/
+pages-desktop/articles*/
 
 bundles-desktop/*/*.*
 !bundles-desktop/*/*.bemjson.js
@@ -26,3 +28,4 @@ bundles-desktop/bem-method*/
 bundles-desktop/tools*/
 bundles-desktop/bem-tools*/
 bundles-desktop/csso*/
+bundles-desktop/articles*/
