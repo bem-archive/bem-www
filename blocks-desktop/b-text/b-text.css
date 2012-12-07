@@ -9,5 +9,6 @@
 
 .b-text code
 {
+    display: block;
     overflow: auto;
 }
