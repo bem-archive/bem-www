@@ -6,3 +6,8 @@
 
     background: #F7F7E7;
 }
+
+.b-text code
+{
+    overflow: auto;
+}
