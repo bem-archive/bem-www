@@ -212,9 +212,13 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             });
 
     },
-    pagesConfig: JSON.parse(FS.readFileSync('content/pages-config.json', 'utf8')),
+    pagesConfig: function() {
+        return JSON.parse(FS.readFileSync(PATH.resolve(this.root, 'content/pages-config.json'), 'utf8'));
+    },
     _navLevelIdx: 0,
-    structureConfig: JSON.parse(FS.readFileSync('content/site-structure-config.json', 'utf8')),
+    structureConfig: function() {
+        return JSON.parse(FS.readFileSync(PATH.resolve(this.root, 'content/site-structure-config.json'), 'utf8'));
+    },
     getPageUrl: function(sourceDir, cfg) {
         cfg = cfg || this.structureConfig;
 
