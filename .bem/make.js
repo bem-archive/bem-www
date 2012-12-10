@@ -220,7 +220,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         return JSON.parse(FS.readFileSync(PATH.resolve(this.root, 'content/site-structure-config.json'), 'utf8'));
     },
     getPageUrl: function(sourceDir, cfg) {
-        cfg = cfg || this.structureConfig;
+        cfg = cfg || this.structureConfig();
 
         var children;
 
@@ -233,7 +233,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
     },
     getCurrentPageInfo: function(sourceDir, lang) {
         lang = lang || 'en';
-        return this.pagesConfig[lang][sourceDir] || {
+        return this.pagesConfig()[lang][sourceDir] || {
             title: 'BEM: block, element, modificator',
             description: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.',
             keywords: 'bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso',
@@ -311,7 +311,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
         var sourceDir = source + '/' + pagename,
             pageInfo = this.getCurrentPageInfo(sourceDir, lang),
             resourceFileName = '_' + source.split('/').shift() + '-' + pagename + '-' + lang,
-            nav = this.getNavBemJson(this.structureConfig, sourceDir, lang),
+            nav = this.getNavBemJson(this.structureConfig(), sourceDir, lang),
             mainNav = [],
             subNav = nav[1][1],
             langSwitcherContent = lang == 'ru' ? [{
