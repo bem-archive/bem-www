@@ -225,10 +225,10 @@
             "menu": "Articles"
         },
         "articles/firm-card-story/docs/article": {
-            "title": "БЭМ-приложение на LeafLet и API 2GIS",
-            "description": "Пример простого картографического приложения, разработанного по БЭМ-методологии",
-            "keywords": "LeafLet, 2GIS, карты",
-            "menu": "БЭМ-приложение на LeafLet и API 2GIS"
+            "title": "BEM application built on LeafLet and 2GIS API",
+            "description": "An example of simple map application built on BEM methodology",
+            "keywords": "LeafLet, 2GIS, maps",
+            "menu": "BEM application on LeafLet and 2GIS API"
         }
 
     }

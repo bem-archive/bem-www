@@ -7,7 +7,7 @@
     background: #F7F7E7;
 }
 
-.b-text code
+.b-text pre code
 {
     display: block;
     overflow: auto;
