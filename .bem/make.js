@@ -134,7 +134,7 @@ MAKE.decl('Arch', {
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs', 'blog']
             });
 
         this.arch.setNode(node, bundles, libs);

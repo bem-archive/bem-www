@@ -102,6 +102,18 @@
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Описание"
         },
+        "blog": {
+            "title": "Блог",
+            "description": "",
+            "keywords": "",
+            "menu": "Блог"
+        },
+        "blog/2013-02-bem-goes-to-india": {
+            "title": "БЭМ едет в Индию",
+            "description": "",
+            "keywords": "",
+            "menu": "БЭМ едет в Индию"
+        },
         "articles": {
             "title": "Статьи",
             "description": "",
@@ -223,6 +235,18 @@
             "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Description"
+        },
+        "blog": {
+            "title": "Blog",
+            "description": "",
+            "keywords": "",
+            "menu": "Blog"
+        },
+        "blog/2013-02-bem-goes-to-india": {
+            "title": "BEM goes to India",
+            "description": "",
+            "keywords": "",
+            "menu": "BEM goes to India"
         },
         "articles": {
             "title": "Articles",

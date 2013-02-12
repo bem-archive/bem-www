@@ -19,6 +19,7 @@ pages-desktop/tools*/
 pages-desktop/bem-tools*/
 pages-desktop/csso*/
 pages-desktop/articles*/
+pages-desktop/blog-2013-02-bem-goes-to-india*/
 
 bundles-desktop/*/*.*
 !bundles-desktop/*/*.bemjson.js
@@ -29,3 +30,4 @@ bundles-desktop/tools*/
 bundles-desktop/bem-tools*/
 bundles-desktop/csso*/
 bundles-desktop/articles*/
+bundles-desktop/blog-2013-02-bem-goes-to-india*/
