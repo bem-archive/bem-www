@@ -108,7 +108,7 @@
             "keywords": "",
             "menu": "Статьи"
         },
-        "articles/start-from-project-stub/start-from-project-stub": {
+        "articles/bem-articles/start-with-project-stub": {
             "title": "Start developing BEM with project-stub",
             "description": "The quick start for BEM full stack",
             "keywords": "bem server",
@@ -230,7 +230,7 @@
             "keywords": "",
             "menu": "Articles"
         },
-        "articles/start-from-project-stub/start-from-project-stub": {
+        "articles/bem-articles/start-with-project-stub": {
             "title": "Start developing BEM with project-stub",
             "description": "The quick start for BEM full stack",
             "keywords": "bem server",

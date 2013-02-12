@@ -117,9 +117,9 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/css/csso.git',
                 npmPackages: false
             },
-            'content/articles/start-from-project-stub': {
+            'content/articles/bem-articles': {
                 type: 'git',
-                url: 'git://github.com/tadatuta/bem-articles.git',
+                url: 'git://github.com/bem/bem-articles.git',
                 npmPackages: false
             },
             'content/articles/firm-card-story': {
@@ -128,14 +128,13 @@ MAKE.decl('Arch', {
                 npmPackages: false
             }
         };
-
     },
     createCustomNodes: function(common, libs, blocks, bundles) {
 
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/start-from-project-stub', 'articles/firm-card-story/docs']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs']
             });
 
         this.arch.setNode(node, bundles, libs);
