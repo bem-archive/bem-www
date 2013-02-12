@@ -90,11 +90,9 @@ MAKE.decl('BundleNode', {
 });
 
 MAKE.decl('Arch', {
-
     getLibraries: function() {
 
         return {
-/*
             'bem-bl': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
@@ -110,6 +108,7 @@ MAKE.decl('Arch', {
             'content/bem-tools': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-tools.git',
+                treeish: 'dev',
                 npmPackages: false
             },
 
@@ -118,22 +117,24 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/css/csso.git',
                 npmPackages: false
             },
-*/
+            'content/articles/bem-articles': {
+                type: 'git',
+                url: 'git://github.com/bem/bem-articles.git',
+                npmPackages: false
+            },
             'content/articles/firm-card-story': {
                 type: 'git',
                 url: 'git://github.com/AndreyGeonya/firmCardStory.git',
                 npmPackages: false
             }
         };
-
     },
-
     createCustomNodes: function(common, libs, blocks, bundles) {
 
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/firm-card-story/docs']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs']
             });
 
         this.arch.setNode(node, bundles, libs);

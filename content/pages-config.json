@@ -108,6 +108,12 @@
             "keywords": "",
             "menu": "Статьи"
         },
+        "articles/bem-articles/start-with-project-stub": {
+            "title": "Start developing BEM with project-stub",
+            "description": "The quick start for BEM full stack",
+            "keywords": "bem server",
+            "menu": "Full stack quick start"
+        },
         "articles/firm-card-story/docs/article": {
             "title": "БЭМ-приложение на LeafLet и API 2GIS",
             "description": "Пример простого картографического приложения, разработанного по БЭМ-методологии",
@@ -223,6 +229,12 @@
             "description": "",
             "keywords": "",
             "menu": "Articles"
+        },
+        "articles/bem-articles/start-with-project-stub": {
+            "title": "Start developing BEM with project-stub",
+            "description": "The quick start for BEM full stack",
+            "keywords": "bem server",
+            "menu": "Full stack quick start"
         },
         "articles/firm-card-story/docs/article": {
             "title": "BEM application built on LeafLet and 2GIS API",
