@@ -33,7 +33,7 @@
         }
     },
     "articles": {
-        "url": "articles/bem-articles",
+        "url": "articles/start-with-project-stub",
         "children": {
             "articles/bem-articles/start-with-project-stub": { "url": "articles/start-with-project-stub" },
             "articles/firm-card-story/docs/article": { "url": "articles/firm-card-story" }
