@@ -87,5 +87,8 @@ exports.blocks = [
     },
     {
         "name": "footer"
+    },
+    {
+        "name": "metrika"
     }
 ];

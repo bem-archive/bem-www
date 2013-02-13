@@ -372,6 +372,9 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                 },
                 {
                     block: 'footer'
+                },
+                {
+                    block: 'metrika'
                 }
             ]
         };
