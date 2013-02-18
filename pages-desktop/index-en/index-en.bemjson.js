@@ -129,8 +129,8 @@
                             block: 'description',
                             content: [
                                 'BEM gives useful patterns and methodological recommendations on ',
-                                'writing CSS, JavaScript, templates (and other web-related techs) in an extra-semantic way. ',
-                                'Besides, it\'s a pleasure for developers, it also helps to keep interfaces fast-to-develop ',
+                                'writing CSS, JavaScript, templates (and other web-related techs) in an extra-semantic way.<br/>',
+                                'Besides it\'s a pleasure for developers, it also helps to keep interfaces fast-to-develop ',
                                 'and easy-to-maintain in the long run.'
                             ]
                         },
