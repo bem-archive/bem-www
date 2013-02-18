@@ -352,6 +352,9 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             ],
             content: [
                 {
+                    block: 'gh-ribbon'
+                },
+                {
                     block: 'header',
                     content: [
                         {
