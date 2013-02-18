@@ -40,12 +40,12 @@
                         {
                             block: 'description',
                             content: [
-                                {
-                                    content: 'BEM is abbreviation for Block-Element-Modifier. It\'s a way to write code which is easy to support and develop.'
-                                },
-                                {
-                                    content: 'It can be used for the individual development of the site or for a large team.'
-                                }
+                                'BEM stands for Block-Element-Modifier. It\'s a way to modularize the development of pages. ',
+                                'By breaking things into Blocks, being able to break those into Elements, and then use ',
+                                'Modifiers on them, we get a neat TLA and a methodology where each part can advance ',
+                                'rapidly and independently.',
+                                'No matter if you are a large team or a single developer. ',
+                                'BEM gives its benefits for all.'
                             ]
                         },
                         {
@@ -62,19 +62,19 @@
                                     content: [
                                         {
                                             tag: 'li',
-                                            content: 'Simplify the development and support'
+                                            content: 'Simplifies the development and support'
                                         },
                                         {
                                             tag: 'li',
-                                            content: 'Easy switching between projects'
+                                            content: 'Eases switching between projects'
                                         },
                                         {
                                             tag: 'li',
-                                            content: 'Ability for code reuse'
+                                            content: 'Enables reusing code'
                                         },
                                         {
                                             tag: 'li',
-                                            content: 'Growth of the project does not worsen code quality'
+                                            content: 'Prevents code degradation when the project team grows'
                                         }
                                     ]
                                 }
@@ -128,12 +128,10 @@
                         {
                             block: 'description',
                             content: [
-                                {
-                                    content: 'In some ways, BEM is similar to OOP. It\'s a way of describing reality in code, a range of patterns, and a way of thinking about program entities regardless of programming languages being used.'
-                                },
-                                {
-                                    content: 'We used BEM principles to create a set of front-end development techniques and tools, that allow us to build websites quickly and maintain them over a long time.'
-                                }
+                                'BEM gives useful patterns and methodological recommendations on ',
+                                'writing CSS, JavaScript, templates (and other web-related techs) in an extra-semantic way. ',
+                                'Besides, it\'s a pleasure for developers, it also helps to keep interfaces fast-to-develop ',
+                                'and easy-to-maintain in the long run.'
                             ]
                         },
                         {
@@ -142,15 +140,30 @@
                             content: {
                                 block: 'b-link',
                                 url: '/method/definitions/',
-                                content: 'Definitions'
+                                content: 'Block, Element, Modifier'
                             }
                         },
                         {
                             block: 'description',
                             content: [
-                                {
-                                    content: 'The meaning of blocks, elements and modifiers is will be described further in the article.'
-                                }
+                                'The three terms uncover their meaning in this well-illustrated article.'
+                            ]
+                        },
+                        {
+                            block: 'heading',
+                            mods: { size: 'm' },
+                            content: {
+                                block: 'b-link',
+                                url: '/articles/start-with-project-stub/',
+                                content: 'Quick start full BEM stack'
+                            }
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                'Try BEM idea of independent blocks, BEMHTML template engine, writing extra ',
+                                'semantic JavaScript, linking a library to the project and redefining its ',
+                                'functionality at the project level.'
                             ]
                         },
                         {
