@@ -205,9 +205,7 @@
                         },
                         {
                             block: 'description',
-                            content: {
-                                content: 'Toolkit to work with files based on BEM methodology: create entities, dev server, build final runtime.'
-                            }
+                            content: 'Toolkit to work with files based on BEM methodology: create entities, dev server, build final runtime.'
                         },
                         {
                             block: 'b-link',
@@ -217,9 +215,7 @@
                         },
                         {
                             block: 'description',
-                            content: {
-                                content: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers.'
-                            }
+                            content: 'CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers.'
                         },
                         {
                             block: 'b-link',
@@ -230,12 +226,8 @@
                         {
                             block: 'description',
                             content: [
-                                {
-                                    content: '(SVG Optimizer) is a NodeJS-based tool for optimizing SVG vector graphics files.'
-                                },
-                                {
-                                    content: 'SVGO has a plugin-based architecture, so almost every optimization is a separate plugin, and you can easily add your own.'
-                                }
+                                '(SVG Optimizer) is a NodeJS-based tool for optimizing SVG vector graphics files.<br/>',
+                                'SVGO has a plugin-based architecture, so almost every optimization is a separate plugin, and you can easily add your own.'
                             ]
                         },
                         {
@@ -262,19 +254,11 @@
                         },
                         {
                             block: 'description',
-                            content: {
-                                content: [
-                                    {
-                                        content: 'This is an open source UI block library implemented accroding to the BEM methodology.'
-                                    },
-                                    {
-                                        content: 'Blocks are implemented at bemhtml (templates), css, client-side js.'
-                                    },
-                                    {
-                                        content: 'You need BEM tools to use the library.'
-                                    }
-                                ]
-                            }
+                            content: [
+                                'This is an open source UI block library implemented accroding to the BEM methodology.<br/>',
+                                'Blocks are implemented at bemhtml (templates), css, client-side js.<br/>',
+                                'You need BEM tools to use the library.'
+                            ]
                         },
                         {
                             block: 'b-link',
@@ -286,12 +270,8 @@
                             block: 'description',
                             content: {
                                 content: [
-                                    {
-                                        content: 'It\'s the Bootstrap, but better!'
-                                    },
-                                    {
-                                        content: 'bootstrap-bl — half-assed attempt to implement original bootstrap using BEM methodology, modularity and stuff.'
-                                    }
+                                    'It\'s the Bootstrap, but better!<br/>',
+                                    'bootstrap-bl — half-assed attempt to implement original bootstrap using BEM methodology, modularity and stuff.'
                                 ]
                             }
                         }
