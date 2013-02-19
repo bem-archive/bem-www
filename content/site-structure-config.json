@@ -42,6 +42,7 @@
         "url": "articles/start-with-project-stub",
         "children": {
             "articles/bem-articles/start-with-project-stub": { "url": "articles/start-with-project-stub" },
+            "articles/bem-articles/yandex-frontend-dev" : { "url": "articles/yandex-frontend-dev" },
             "articles/firm-card-story/docs/article": { "url": "articles/firm-card-story" }
         }
     }
