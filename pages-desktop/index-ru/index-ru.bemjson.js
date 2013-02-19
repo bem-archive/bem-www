@@ -11,6 +11,7 @@
         { elem: 'meta', attrs: { name: 'keywords', content: 'бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso' }}
     ],
     content: [
+        { block: 'gh-ribbon'  },
         {
             block: 'lang-switcher',
             content: [

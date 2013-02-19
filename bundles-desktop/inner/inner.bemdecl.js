@@ -3,6 +3,9 @@ exports.blocks = [
         "name": "b-page"
     },
     {
+        "name": "gh-ribbon"
+    },
+    {
         "name": "header",
         "elems": [
             {
