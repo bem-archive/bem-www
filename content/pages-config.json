@@ -108,6 +108,12 @@
             "keywords": "",
             "menu": "Блог"
         },
+        "blog/2013-02-maintainable-frontend-dev-with-bem": {
+            "title": "Maintainable frontend dev with BEM",
+            "description": "",
+            "keywords": "",
+            "menu": "Maintainable frontend dev"
+        },
         "blog/2013-02-bem-goes-to-india": {
             "title": "БЭМ едет в Индию",
             "description": "",
@@ -247,6 +253,12 @@
             "description": "",
             "keywords": "",
             "menu": "Blog"
+        },
+        "blog/2013-02-maintainable-frontend-dev-with-bem": {
+            "title": "Maintainable frontend dev with BEM",
+            "description": "",
+            "keywords": "",
+            "menu": "Maintainable frontend dev"
         },
         "blog/2013-02-bem-goes-to-india": {
             "title": "BEM goes to India",
