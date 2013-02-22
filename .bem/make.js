@@ -351,10 +351,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                 { elem: 'meta', attrs: { name: 'keywords', content: pageInfo.keywords }}
             ],
             content: [
-                {
-                    block: 'gh-ribbon'
-                },
-                {
+               {
                     block: 'header',
                     content: [
                         {
