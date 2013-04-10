@@ -99,6 +99,13 @@ MAKE.decl('Arch', {
                 treeish: '0.3'
             },
 
+            'content/bem-core': {
+                type: 'git',
+                url: 'git://github.com/bem/bem-core.git',
+                treeish: 'master',
+                npmPackages: false
+            },
+
             'content/bem-method': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-method.git',
@@ -134,7 +141,7 @@ MAKE.decl('Arch', {
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs', 'blog']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs', 'blog', 'bem-core/common.docs']
             });
 
         this.arch.setNode(node, bundles, libs);
@@ -320,7 +327,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             resourceFileName = '_' + source.split('/').shift() + '-' + pagename + '-' + lang,
             nav = this.getNavBemJson(this.structureConfig(), sourceDir, lang),
             mainNav = [],
-            subNav = nav[1][1],
+            subNav = nav[1] ? nav[1][1] : '',
             langSwitcherContent = lang == 'ru' ? [{
                                     block: 'b-link',
                                     url: '//bem.info/' + this.getPageUrl(sourceDir) + '/',
@@ -335,7 +342,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                                     }
                                 ];
 
-        mainNav.push(nav[0], nav[1][0]);
+        mainNav.push(nav[0], nav[1] ? nav[1][0] : '');
 
         return {
             block: 'b-page',
