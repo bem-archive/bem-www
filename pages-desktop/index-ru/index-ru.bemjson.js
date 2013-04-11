@@ -223,7 +223,7 @@
                                 },
                                 {
                                     content: 'SVGO имеет архитектуру, в которой практически каждая оптимизация является отдельным плагином, и вы легко можете добавить свой собственный.'
-                                },
+                                }
                             ]
                         },
                         {
@@ -281,6 +281,124 @@
                                         content: 'bootstrap-bl — это попытка реализовать оригинальный Бутстрап в БЭМ методологии. Модульность, АНБ, всё такое.'
                                     }
                                 ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    block: 'island',
+                    mix: [{ block: 'articles' }],
+                    content: [
+                        {
+                            block: 'heading',
+                            content: {
+                                block: 'b-link',
+                                url: '/articles/',
+                                content: 'Статьи'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/start-with-project-stub/',
+                            content: 'Full stack quick start'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'This article shows you how to develop an online shop web page using BEM principles in CSS, JavaScript and BEMHTML templates.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/yandex-frontend-dev/',
+                            content: 'What you can borrow from Yandex frontend dev'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'The article sums up Yandex over 7-year experience in finding solutions for efficient frontend development.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/firm-card-story/',
+                            content: 'БЭМ-приложение на LeafLet и API 2GIS'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'Пример реализации несложного картографического сервиса по БЭМ-методологии.'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/bemhtml-intro/',
+                            content: 'Hello, BEMHTML!'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'Данное руководство поможет попробовать шаблонизатор BEMHTML и понять его основные принципы, пройдя семь простых шагов.'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/firm-card-story/',
+                            content: 'Референс по BEMHTML'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'Данный документ представляет собой справочное руководство по шаблонизатору BEMHTML.'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'island',
+                    mix: [{ block: 'blog' }],
+                    content: [
+                        {
+                            block: 'heading',
+                            content: {
+                                block: 'b-link',
+                                url: '/blog/',
+                                content: 'Блог'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/02/maintainable-frontend-dev-with-bem/',
+                            content: 'Maintainable Frontend Development with BEM'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Talk by Varvara Stepanova at MetaRefresh 2013 in Bangalore'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/02/bem-goes-to-india/',
+                            content: 'БЭМ едет в Индию'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Разработка «без потерь» по БЭМ на конференции Meta Refresh 2013 в Индии'
                             }
                         }
                     ]

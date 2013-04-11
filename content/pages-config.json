@@ -143,7 +143,20 @@
             "description": "",
             "keywords": "",
             "menu": "Yandex frontend dev"
+        },
+        "bem-core/common.docs/intro": {
+            "title": "Hello, BEMHTML!",
+            "description": "Данное руководство поможет попробовать шаблонизатор BEMHTML и понять его основные принципы, пройдя семь простых шагов",
+            "keywords": "",
+            "menu": "Hello, BEMHTML!"
+        },
+        "bem-core/common.docs/reference": {
+            "title": "Референс по BEMHTML",
+            "description": "Подробное справочное руководство по шаблонизатору BEMHTML",
+            "keywords": "",
+            "menu": "Референс по BEMHTML"
         }
+
     },
     "en": {
         "bem-method/index": {
@@ -289,6 +302,18 @@
             "description": "",
             "keywords": "",
             "menu": "Yandex frontend dev"
+        },
+        "bem-core/common.docs/intro": {
+            "title": "Hello, BEMHTML!",
+            "description": "BEMHTML template quick start",
+            "keywords": "",
+            "menu": "Hello, BEMHTML!"
+        },
+        "bem-core/common.docs/reference": {
+            "title": "BEMHTML reference",
+            "description": "Step by step reference manual on BEHTML template engine",
+            "keywords": "",
+            "menu": "BEMHTML reference"
         }
 
     }
