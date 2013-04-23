@@ -54,6 +54,14 @@ function translateAlias(alias) {
             lang = 'markdown';
             break;
 
+        case 'html':
+            lang = 'xml';
+            break;
+
+        case 'sh':
+            lang = 'bash';
+            break;
+
     }
 
     return lang;
