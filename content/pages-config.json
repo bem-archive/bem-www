@@ -144,6 +144,12 @@
             "keywords": "",
             "menu": "Yandex frontend dev"
         },
+        "articles/bem-articles/borschik": {
+            "title": "Borschik",
+            "description": "Borschik — это простой, но мощный сборщик файлов текстовых форматов",
+            "keywords": "",
+            "menu": "Borschik"
+        },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
             "description": "Данное руководство поможет попробовать шаблонизатор BEMHTML и понять его основные принципы, пройдя семь простых шагов",
@@ -155,6 +161,12 @@
             "description": "Подробное справочное руководство по шаблонизатору BEMHTML",
             "keywords": "",
             "menu": "Референс по BEMHTML"
+        },
+        "bem-core/common.docs/rationale": {
+            "title": "BEMHTML: шаблонизатор для БЭМ",
+            "description": "BEMHTML — шаблонизатор (шаблонный движок) для тех, кто ведет веб-разработку в рамках БЭМ-методологии",
+            "keywords": "",
+            "menu": "BEMHTML: шаблонизатор для БЭМ"
         }
 
     },
@@ -303,6 +315,12 @@
             "keywords": "",
             "menu": "Yandex frontend dev"
         },
+        "articles/bem-articles/borschik": {
+            "title": "Borschik",
+            "description": "Borschik is a simple but powerful builder for text-based file formats.",
+            "keywords": "",
+            "menu": "Borschik"
+        },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
             "description": "BEMHTML template quick start",
@@ -314,7 +332,12 @@
             "description": "Step by step reference manual on BEHTML template engine",
             "keywords": "",
             "menu": "BEMHTML reference"
+        },
+        "bem-core/common.docs/rationale": {
+            "title": "BEMHTML rationale",
+            "description": "BEHTML — template engine for BEM",
+            "keywords": "",
+            "menu": "BEMHTML rationale"
         }
-
     }
 }
