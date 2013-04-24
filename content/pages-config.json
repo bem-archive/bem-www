@@ -122,7 +122,7 @@
         },
         "articles": {
             "title": "Статьи",
-            "description": "",
+            "description": "Статьи о БЭМ",
             "keywords": "",
             "menu": "Статьи"
         },
@@ -299,7 +299,7 @@
         },
         "articles": {
             "title": "Articles",
-            "description": "",
+            "description": "BEM related articles",
             "keywords": "",
             "menu": "Articles"
         },
