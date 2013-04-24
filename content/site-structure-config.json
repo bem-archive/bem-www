@@ -39,8 +39,8 @@
             "blog/2013-02-bem-goes-to-india": { "url": "blog/2013/02/bem-goes-to-india" }
         }
     },
-    "articles": {
-        "url": "articles/",
+    "articles/bem-articles/index": {
+        "url": "articles",
         "children": {
             "articles/bem-articles/start-with-project-stub": { "url": "articles/start-with-project-stub" },
             "articles/bem-articles/yandex-frontend-dev" : { "url": "articles/yandex-frontend-dev" },

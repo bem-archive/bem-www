@@ -120,7 +120,7 @@
             "keywords": "",
             "menu": "БЭМ едет в Индию"
         },
-        "articles": {
+        "articles/bem-articles/index": {
             "title": "Статьи",
             "description": "Статьи о БЭМ",
             "keywords": "",
@@ -297,7 +297,7 @@
             "keywords": "",
             "menu": "BEM goes to India"
         },
-        "articles": {
+        "articles/bem-articles/index": {
             "title": "Articles",
             "description": "BEM related articles",
             "keywords": "",
