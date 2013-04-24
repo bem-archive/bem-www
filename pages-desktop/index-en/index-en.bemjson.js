@@ -317,6 +317,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/borschik/',
+                            content: 'Borschik'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Borschik is a simple but powerful builder for text-based file formats.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/firm-card-story/',
                             content: 'BEM app with LeafLet and 2GIS API'
                         },
@@ -345,7 +357,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/firm-card-story/',
+                            url: '/articles/bemhtml-reference/',
                             content: 'BEMHTML reference'
                         },
                         {
@@ -353,6 +365,20 @@
                             content: [
                                 {
                                     content: 'This is BEMHTML reference manual.'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/bemhtml-rationale/',
+                            content: 'BEMHTML: template engine for BEM'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'BEMHTML rationale.'
                                 }
                             ]
                         }

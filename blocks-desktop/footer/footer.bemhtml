@@ -21,11 +21,19 @@ block footer, !this.elem {
                                     },
                                     {
                                         elem: 'item',
-                                        content: {
-                                            block: 'b-link',
-                                            url: 'https://twitter.com/bem_tw',
-                                            content: '@bem_tw'
-                                        }
+                                        content: [
+                                            {
+                                                block: 'b-link',
+                                                url: 'https://twitter.com/bem_en',
+                                                content: '@bem_en'
+                                            },
+                                            ' ',
+                                            {
+                                                block: 'b-link',
+                                                url: 'https://twitter.com/bem_ru',
+                                                content: '@bem_ru'
+                                            }
+                                        ]
                                     }
                                 ]
                             }

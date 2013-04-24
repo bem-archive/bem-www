@@ -324,6 +324,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/borschik/',
+                            content: 'Borschik'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Borschik — простой, но мощный сборщик файлов текстовых форматов.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/firm-card-story/',
                             content: 'БЭМ-приложение на LeafLet и API 2GIS'
                         },
@@ -352,7 +364,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/firm-card-story/',
+                            url: '/articles/bemhtml-reference/',
                             content: 'Референс по BEMHTML'
                         },
                         {
@@ -360,6 +372,20 @@
                             content: [
                                 {
                                     content: 'Данный документ представляет собой справочное руководство по шаблонизатору BEMHTML.'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/bemhtml-rationale/',
+                            content: 'BEMHTML: шаблонизатор для БЭМ'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'Зачем мы написали еще один шаблонизатор.'
                                 }
                             ]
                         }
