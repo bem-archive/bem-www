@@ -150,6 +150,12 @@
             "keywords": "",
             "menu": "Borschik"
         },
+        "articles/bem-articles/bem-js-main-terms": {
+            "title": "JavaScript по БЭМ: основные понятия",
+            "description": "В стеке БЭМ-технологий есть блок i-bem библиотеки bem-bl. Его JavaScript-реализация использует предметную область БЭМ и позволяет насладиться всеми преимуществами разработки по принципам БЭМ не только программируя внешний вид компонент, но и их поведение.",
+            "keywords": "i-bem.js",
+            "menu": "JavaScript по БЭМ: основные понятия"
+        },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
             "description": "Данное руководство поможет попробовать шаблонизатор BEMHTML и понять его основные принципы, пройдя семь простых шагов",
@@ -320,6 +326,12 @@
             "description": "Borschik is a simple but powerful builder for text-based file formats.",
             "keywords": "",
             "menu": "Borschik"
+        },
+        "articles/bem-articles/bem-js-main-terms": {
+            "title": "JavaScript in BEM: The basics",
+            "description": "i-bem.js",
+            "keywords": "i-bem.js",
+            "menu": "JavaScript in BEM: The basics"
         },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
