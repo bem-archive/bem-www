@@ -336,6 +336,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/bem-js-main-terms/',
+                            content: 'JavaScript по БЭМ: основные понятия'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'В стеке БЭМ-технологий есть блок i-bem библиотеки bem-bl. Его JavaScript-реализация использует предметную область БЭМ и позволяет насладиться всеми преимуществами разработки по принципам БЭМ не только программируя внешний вид компонент, но и их поведение.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/firm-card-story/',
                             content: 'БЭМ-приложение на LeafLet и API 2GIS'
                         },
