@@ -1,18 +1,13 @@
 .island
 {
-    float: left;
-
+    display: inline-block;
+    vertical-align: top;
     width: 50%;
 }
 
 .island__inner
 {
     margin: 5% 5% 0;
-
-    /*float: left;
-
-    width: 44.5%;
-    margin-left: 38%;*/
 }
 
 .island__container
@@ -40,16 +35,3 @@
     background: -ms-radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
     background: radial-gradient(center,ellipse contain,#bbbdc1 0,#f3f1ee 100%);
 }
-
-
-/*.brick
-{
-    float: left;
-
-    width: 50%;
-}
-
-.brick__inner
-{
-    padding: 10% 10% 0;
-}*/
