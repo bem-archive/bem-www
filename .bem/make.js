@@ -99,7 +99,6 @@ MAKE.decl('BundleNode', {
 
 MAKE.decl('Arch', {
     getLibraries: function() {
-
         return {
             'bem-bl': {
                 type: 'git',

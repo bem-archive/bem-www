@@ -12,3 +12,20 @@
     display: block;
     overflow: auto;
 }
+
+.b-text table
+{
+	width: 100%;
+}
+
+.b-text td
+{
+	padding: 5px;
+}
+
+.b-text table code
+{
+	padding: 5px;
+
+	background: #f8f8ff;
+}
