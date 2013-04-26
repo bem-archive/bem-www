@@ -261,9 +261,6 @@ exports.deps = [
     },
     {
         "block": "metrika"
-    },
-    {
-        "block": "article-author"
     }
 
 ];

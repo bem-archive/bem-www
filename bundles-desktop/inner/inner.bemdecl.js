@@ -93,5 +93,8 @@ exports.blocks = [
     },
     {
         "name": "metrika"
+    },
+    {
+        "block": "article-author"
     }
 ];
