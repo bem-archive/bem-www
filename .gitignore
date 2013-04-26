@@ -27,6 +27,7 @@ pages-desktop/blog-2013-02-bem-goes-to-india*/
 pages-desktop/blog-2013-02-maintainable-frontend-dev-with-bem*/
 
 bundles-desktop/*/*.*
+!bundles-desktop/inner/*.deps.js
 !bundles-desktop/*/*.bemjson.js
 !bundles-desktop/.bem
 !bundles-desktop/.bem/level.js
