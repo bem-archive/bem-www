@@ -1,0 +1,87 @@
+.article-author
+{
+    padding-top: 20px;
+    border-top: 5px solid #F3F1EE;
+    line-height: 1.5;
+}
+
+.article-author:before,
+.article-author:after
+{
+    content: " ";
+    display: table;
+}
+
+.article-author:after
+{
+    clear: both;
+}
+
+.article-author__photo
+{
+    margin-right: 20px;
+    width: 130px;
+    float: left;
+}
+
+.article-author__pictures
+{
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.article-author__info
+{
+    overflow: hidden;
+}
+
+.article-author__row
+{
+    margin-bottom: 5px;
+}
+
+.article-author__name
+{
+    font-weight: 700;
+}
+
+.article-author__social-icon
+{
+    position: relative;
+}
+
+.article-author__social-icon:before
+{
+    display: inline-block;
+    margin: 2px 5px 0 0;
+    width: 24px;
+    height: 24px;
+    content: " ";
+    vertical-align: top;
+}
+
+.article-author__social-icon[href*="twitter.com"]:before
+{
+    background: url(http://img-fotki.yandex.ru/get/6444/51437929.0/0_bf1fa_128db7d7_XS.png) no-repeat top left;
+}
+
+.article-author__social-icon[href*="github.com"]:before
+{
+    background: url(http://img-fotki.yandex.ru/get/6441/51437929.0/0_bf1fb_1478957f_XS.png) no-repeat top left;
+}
+
+.article-author__social-icon[target="_blank"]:after
+{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: -7px;
+    background: url(http://img-fotki.yandex.ru/get/6442/51437929.0/0_bf200_a9bf352f_XS.png) no-repeat 0 -11px;
+}
+
+.article-author__social-icon[target="_blank"]:hover:after
+{
+    background-position: 0 0;
+}
