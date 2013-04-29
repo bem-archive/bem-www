@@ -400,6 +400,18 @@
                                     content: 'Зачем мы написали еще один шаблонизатор.'
                                 }
                             ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/deps-js-syntax/',
+                            content: 'Синтаксис deps.js'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Основы синтаксиса deps.js - управление зависимостями'
+                            }
                         }
                     ]
                 },

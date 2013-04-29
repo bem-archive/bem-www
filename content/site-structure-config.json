@@ -49,7 +49,8 @@
             "articles/firm-card-story/docs/article": { "url": "articles/firm-card-story" },
             "bem-core/common.docs/intro": { "url": "articles/bemhtml-intro" },
             "bem-core/common.docs/reference": { "url": "articles/bemhtml-reference" },
-            "bem-core/common.docs/rationale": { "url": "articles/bemhtml-rationale" }
+            "bem-core/common.docs/rationale": { "url": "articles/bemhtml-rationale" },
+            "articles/bem-articles/deps-js-syntax" : { "url": "articles/deps-js-syntax" }
         }
     }
 }
