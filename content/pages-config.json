@@ -173,6 +173,12 @@
             "description": "BEMHTML — шаблонизатор (шаблонный движок) для тех, кто ведет веб-разработку в рамках БЭМ-методологии",
             "keywords": "",
             "menu": "BEMHTML: шаблонизатор для БЭМ"
+        },
+        "articles/bem-articles/deps-js-syntax": {
+            "title": "Синтаксис deps.js",
+            "description": "Общее описание синтаксиса deps.js",
+            "keywords": "deps.js, бэм зависимости",
+            "menu": "Синтаксис deps.js"
         }
 
     },
@@ -350,6 +356,12 @@
             "description": "BEHTML — template engine for BEM",
             "keywords": "",
             "menu": "BEMHTML rationale"
+        },
+        "articles/bem-articles/deps-js-syntax": {
+            "title": "Syntax deps.js",
+            "description": "A General description of the syntax deps.js",
+            "keywords": "deps.js, bem dependency",
+            "menu": "Syntax deps.js"
         }
     }
 }
