@@ -208,7 +208,7 @@
                             block: 'description',
                             content: 'Toolkit to work with files based on BEM methodology: create entities, dev server, build final runtime.'
                         },
-                          {
+                        {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/borschik/',
