@@ -197,6 +197,20 @@
                                 content: 'Работа с файлами, написанными по БЭМ-методу: создание сущностей, разработческий сервер, сборка финального runtime.'
                             }
                         },
+
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/borschik/',
+                            content: 'Borschik'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Borschik — это простой, но мощный сборщик статических файлов (CSS, JS, т.д.).'
+                            }
+                        },
+
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -220,9 +234,6 @@
                             content: [
                                 {
                                     content: 'SVGO (SVG Optimizer) — это инструмент для оптимизации векторной графики в формате SVG, написанный на Node.js.'
-                                },
-                                {
-                                    content: 'SVGO имеет архитектуру, в которой практически каждая оптимизация является отдельным плагином, и вы легко можете добавить свой собственный.'
                                 }
                             ]
                         },

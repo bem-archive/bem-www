@@ -208,6 +208,16 @@
                             block: 'description',
                             content: 'Toolkit to work with files based on BEM methodology: create entities, dev server, build final runtime.'
                         },
+                          {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/borschik/',
+                            content: 'Borschik'
+                        },
+                        {
+                            block: 'description',
+                            content: 'Borschik is a simple but powerful builder for text-based file formats (CSS, JS, etc.).'
+                        },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -227,8 +237,7 @@
                         {
                             block: 'description',
                             content: [
-                                '(SVG Optimizer) is a NodeJS-based tool for optimizing SVG vector graphics files.<br/>',
-                                'SVGO has a plugin-based architecture, so almost every optimization is a separate plugin, and you can easily add your own.'
+                                '(SVG Optimizer) is a NodeJS-based tool for optimizing SVG vector graphics files.'
                             ]
                         },
                         {
