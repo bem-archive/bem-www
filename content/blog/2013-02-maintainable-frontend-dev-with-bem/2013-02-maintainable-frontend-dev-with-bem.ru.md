@@ -1,4 +1,6 @@
-# Maintainable Frontend Development with BEM at MetaRefresh 2013 in Bangalore by Varvara Stepanova
+# Видео и презентация доклада "Разработка "без потерь" по БЭМ" на конференции Meta Refresh 2013 в Индии
+
+Видео и презентация доступны на английском языке.
 
 <iframe width="560" height="315" frameborder="0" src="http://static.video.yandex.ru/lite/ya-events/lydx75hks7.7039/" allowfullscreen></iframe>
 
