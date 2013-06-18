@@ -36,7 +36,8 @@
         "url": "blog/2013/02/bem-goes-to-india",
         "children": {
             "blog/2013-02-maintainable-frontend-dev-with-bem": { "url": "blog/2013/02/maintainable-frontend-dev-with-bem" },
-            "blog/2013-02-bem-goes-to-india": { "url": "blog/2013/02/bem-goes-to-india" }
+            "blog/2013-02-bem-goes-to-india": { "url": "blog/2013/02/bem-goes-to-india" },
+            "blog/bem-news/anygrid-bem-notations": { "url": "blog/2013/07/anygrid-bem-notations" }
         }
     },
     "articles/bem-articles/index": {

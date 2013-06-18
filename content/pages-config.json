@@ -120,6 +120,12 @@
             "keywords": "",
             "menu": "БЭМ едет в Индию"
         },
+        "blog/bem-news/anygrid-bem-notations": {
+            "title": "Генератор сеток AnyGrid для CSS в БЭМ-нотациях",
+            "description": "Генератор сеток AnyGrid для CSS в БЭМ-нотациях",
+            "keywords": "генератор сеток, bem, БЭМ",
+            "menu": "Генератор сеток AnyGrid для CSS в БЭМ-нотациях"
+        },
         "articles/bem-articles/index": {
             "title": "Статьи",
             "description": "Статьи о БЭМ",
@@ -302,6 +308,12 @@
             "description": "",
             "keywords": "",
             "menu": "BEM goes to India"
+        },
+         "blog/bem-news/anygrid-bem-notations": {
+            "title": "AnyGrid – CSS Grids Generator that uses BEM-notations",
+            "description": "AnyGrid – CSS Grids Generator that uses BEM-notations",
+            "keywords": "CSS Grids Generator, bem, AnyGrid",
+            "menu": "AnyGrid – CSS Grids Generator"
         },
         "articles/bem-articles/index": {
             "title": "Articles",

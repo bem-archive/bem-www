@@ -461,6 +461,18 @@
                             content: {
                                 content: 'Разработка «без потерь» по БЭМ на конференции Meta Refresh 2013 в Индии'
                             }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/anygrid-bem-notations',
+                            content: 'Генератор сеток AnyGrid для CSS в БЭМ-нотациях'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Вася Аксёнов написал вот такой крутой проект — генератор сеток (http://anygrid.net/).'
+                            }
                         }
                     ]
                 }

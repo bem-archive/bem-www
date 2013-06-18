@@ -10,9 +10,10 @@ content/bem-core/
 content/bem-tools/
 content/csso/
 content/articles/
+content/blog/bem-news/
 
 pages-desktop/*/*.*
-!pages-desktop/*/*.bemjson.js
+!pages-desktop/*/*.bemjson.js 
 !pages-desktop/.bem
 !pages-desktop/.bem/level.js
 pages-desktop/bem-method*/
@@ -25,6 +26,7 @@ pages-desktop/bem-core-reference*/
 pages-desktop/bem-core-rationale*/
 pages-desktop/blog-2013-02-bem-goes-to-india*/
 pages-desktop/blog-2013-02-maintainable-frontend-dev-with-bem*/
+pages-desktop/blog-anygrid-bem-notations-ru*/
 
 bundles-desktop/*/*.*
 !bundles-desktop/*/*.bemjson.js

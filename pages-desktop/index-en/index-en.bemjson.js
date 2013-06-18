@@ -428,6 +428,18 @@
                             content: {
                                 content: 'Development with BEM at Meta Refresh 2013 in India'
                             }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/anygrid-bem-notations',
+                            content: 'AnyGrid – CSS Grids Generator that uses BEM-notations and etc!'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Vasya Aksyonov developed a great project — **CSS Grids Generator** called(http://anygrid.net/).'
+                            }
                         }
                     ]
                 }
