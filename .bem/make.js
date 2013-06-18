@@ -108,7 +108,7 @@ MAKE.decl('Arch', {
             'content/bem-core': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-core.git',
-                treeish: 'master',
+                treeish: 'v1',
                 npmPackages: false
             },
             'content/bem-method': {
