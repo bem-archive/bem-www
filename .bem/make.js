@@ -139,7 +139,7 @@ MAKE.decl('Arch', {
             },
             'content/blog/bem-news': {
                 type: 'git',
-                url: 'git://github.com/tavriaforever/bem-news.git',
+                url: 'git://github.com/mursya/bem-news.git',
                 npmPackages: false
             }
         };
