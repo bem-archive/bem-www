@@ -441,13 +441,25 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/blog/2013/02/maintainable-frontend-dev-with-bem/',
-                            content: 'Maintainable Frontend Development with BEM'
+                            url: '/blog/2013/07/anygrid-bem-notations',
+                            content: 'Генератор сеток AnyGrid для CSS в БЭМ-нотациях'
                         },
                         {
                             block: 'description',
                             content: {
-                                content: 'Talk by Varvara Stepanova at MetaRefresh 2013 in Bangalore'
+                                content: 'Читайте больше о том, как работает сервис, и как ему можно помогать развиваться.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/02/maintainable-frontend-dev-with-bem/',
+                            content: 'Видео и презентация c Meta Refresh 2013 в Индии'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: ''
                             }
                         },
                         {
@@ -460,18 +472,6 @@
                             block: 'description',
                             content: {
                                 content: 'Разработка «без потерь» по БЭМ на конференции Meta Refresh 2013 в Индии'
-                            }
-                        },
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/blog/2013/07/anygrid-bem-notations',
-                            content: 'Генератор сеток AnyGrid для CSS в БЭМ-нотациях'
-                        },
-                        {
-                            block: 'description',
-                            content: {
-                                content: 'Вася Аксёнов написал вот такой крутой проект — генератор сеток (http://anygrid.net/).'
                             }
                         }
                     ]
