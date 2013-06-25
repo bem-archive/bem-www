@@ -185,6 +185,12 @@
             "description": "Общее описание синтаксиса deps.js",
             "keywords": "deps.js, бэм зависимости",
             "menu": "Синтаксис deps.js"
+        },
+        "articles/bem-articles/smartcd": {
+            "title": "smartcd: локальный запуск инструментов",
+            "description": "Узнайте, как с помощью smartcd можно быстрее запустить bem-tools из коммандной строки",
+            "keywords": "smartcd, bem-tools, инструменты",
+            "menu": "smartcd: локальный запуск инструментов"
         }
 
     },
@@ -374,6 +380,12 @@
             "description": "A General description of the syntax deps.js",
             "keywords": "deps.js, bem dependency",
             "menu": "Syntax deps.js"
+        },
+        "articles/bem-articles/smartcd": {
+            "title": "smartcd: how to launch tools locally",
+            "description": "Find out how you can launch bem-tools faster right from the command line using smartcd",
+            "keywords": "smartcd, bem-tools, tools",
+            "menu": "smartcd: how to launch tools locally"
         }
     }
 }

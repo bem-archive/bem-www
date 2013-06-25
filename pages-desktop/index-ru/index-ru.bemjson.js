@@ -311,27 +311,39 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/start-with-project-stub/',
-                            content: 'Full stack quick start'
+                            url: '/articles/smartcd/',
+                            content: 'smartcd: локальный запуск инструментов'
                         },
                         {
                             block: 'description',
                             content: {
-                                content: 'This article shows you how to develop an online shop web page using BEM principles in CSS, JavaScript and BEMHTML templates.'
+                                content: 'Узнайте, как с помощью smartcd можно быстрее запустить bem-tools из коммандной строки.'
                             }
                         },
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/yandex-frontend-dev/',
-                            content: 'What you can borrow from Yandex frontend dev'
-                        },
-                        {
-                            block: 'description',
-                            content: {
-                                content: 'The article sums up Yandex over 7-year experience in finding solutions for efficient frontend development.'
-                            }
-                        },
+                        // {
+                        //     block: 'b-link',
+                        //     mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                        //     url: '/articles/start-with-project-stub/',
+                        //     content: 'Full stack quick start'
+                        // },
+                        // {
+                        //     block: 'description',
+                        //     content: {
+                        //         content: 'This article shows you how to develop an online shop web page using BEM principles in CSS, JavaScript and BEMHTML templates.'
+                        //     }
+                        // },
+                        // {
+                        //     block: 'b-link',
+                        //     mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                        //     url: '/articles/yandex-frontend-dev/',
+                        //     content: 'What you can borrow from Yandex frontend dev'
+                        // },
+                        // {
+                        //     block: 'description',
+                        //     content: {
+                        //         content: 'The article sums up Yandex over 7-year experience in finding solutions for efficient frontend development.'
+                        //     }
+                        // },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -421,7 +433,7 @@
                         {
                             block: 'description',
                             content: {
-                                content: 'Основы синтаксиса deps.js - управление зависимостями'
+                                content: 'Основы синтаксиса deps.js - управление зависимостями.'
                             }
                         }
                     ]

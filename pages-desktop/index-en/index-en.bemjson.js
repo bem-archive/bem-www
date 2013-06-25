@@ -302,6 +302,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/smartcd/',
+                            content: 'smartcd: how to launch tools locally'
+                        },      
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Find out how you can launch bem-tools faster right from the command line using smartcd.'
+                            }
+                        },                  
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/start-with-project-stub/',
                             content: 'Full stack quick start'
                         },
@@ -311,18 +323,18 @@
                                 content: 'This article shows you how to develop an online shop web page using BEM principles in CSS, JavaScript and BEMHTML templates.'
                             }
                         },
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/yandex-frontend-dev/',
-                            content: 'What you can borrow from Yandex frontend dev'
-                        },
-                        {
-                            block: 'description',
-                            content: {
-                                content: 'The article sums up Yandex over 7-year experience in finding solutions for efficient frontend development.'
-                            }
-                        },
+                        // {
+                        //     block: 'b-link',
+                        //     mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                        //     url: '/articles/yandex-frontend-dev/',
+                        //     content: 'What you can borrow from Yandex frontend dev'
+                        // },
+                        // {
+                        //     block: 'description',
+                        //     content: {
+                        //         content: 'The article sums up Yandex over 7-year experience in finding solutions for efficient frontend development.'
+                        //     }
+                        // },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -335,20 +347,20 @@
                                 content: 'Borschik is a simple but powerful builder for text-based file formats.'
                             }
                         },
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/firm-card-story/',
-                            content: 'BEM app with LeafLet and 2GIS API'
-                        },
-                        {
-                            block: 'description',
-                            content: [
-                                {
-                                    content: 'An example of map service made with BEM'
-                                }
-                            ]
-                        },
+                        // {
+                        //     block: 'b-link',
+                        //     mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                        //     url: '/articles/firm-card-story/',
+                        //     content: 'BEM app with LeafLet and 2GIS API'
+                        // },
+                        // {
+                        //     block: 'description',
+                        //     content: [
+                        //         {
+                        //             content: 'An example of map service made with BEM'
+                        //         }
+                        //     ]
+                        // },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -409,7 +421,7 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/anygrid-bem-notations',
-                            content: 'AnyGrid – CSS Grids Generator that uses BEM-notations and etc!'
+                            content: 'AnyGrid – CSS Grids Generator that uses BEM-notations'
                         },
                         {
                             block: 'description',
