@@ -196,10 +196,10 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
                         srcPath = PATH.join(level.getPathByObj(item, suffix)),
                         outPath = PATH.join(bundlesLevel.getPathByObj(page, 'bemjson.js'));
 
-                    return BEM.util.isFileValid(outPath, srcPath)
-                        .then(function(valid) {
+                    // return BEM.util.isFileValid(outPath, srcPath)
+                    //     .then(function(valid) {
 
-                            if (valid && !ctx.force) return;
+                            // if (valid && !ctx.force) return;
 
                             return BEM.util.readFile(srcPath)
                                 .then(function(src) {
@@ -222,7 +222,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
 
                                 });
 
-                        });
+                        // });
 
                 }, _this));
 
