@@ -1,7 +1,12 @@
-# Maintainable Frontend Development with BEM at MetaRefresh 2013 in Bangalore by Varvara Stepanova
+#BEM at MetaRefresh 2013
 
-BEM is a way to modularize the development of pages. By breaking things into Blocks, being able to break those into Elements, and then use Modifiers on them, we get a neat TLA and a methodology where each part can advance rapidly and independently, instead of having to get the CSS done, and then have everyone wait for the Javascript guy, only to have the project return to the HTML guy and have to run through the whole development cycle again.
-By following the BEM principles - some tricks about organizing files and CSS, you get the ability to make your Javascript extra semantic, and to choose all three of quality, speed and price in your development project! In this presentation you will learn more about BEM and how this actually works.
+BEM is a way to modularize the development of pages. 
+
+By breaking things into Blocks, being able to break those into Elements, and then use Modifiers on them, we get a neat TLA and a methodology where each part can advance rapidly and independently, instead of having to get the CSS done, and then have everyone wait for the Javascript guy, only to have the project return to the HTML guy and have to run through the whole development cycle again.
+
+By following the BEM principles - some tricks about organizing files and CSS, you get the ability to make your Javascript extra semantic, and to choose all three of quality, speed and price in your development project! 
+
+In this presentation given at MetaRefresh 2013 in Bangalore you will learn more about BEM and how this actually works.
 
 <iframe width="560" height="315" frameborder="0" src="http://static.video.yandex.ru/lite/ya-events/lydx75hks7.7039/" allowfullscreen></iframe>
 
