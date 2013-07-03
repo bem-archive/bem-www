@@ -202,7 +202,7 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/tools/bem/',
-                            content: 'BEM tools'
+                            content: 'bem-tools'
                         },
                         {
                             block: 'description',
@@ -420,6 +420,30 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-tools-0-6-4',
+                            content: 'bem-tools v0.6.4'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: "New technologies API added, while using new API bem make / server building speed increased. Npm v1.2.14 or higher needed on installation."
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-tools-0-5-33',
+                            content: 'bem-tools v0.5.33'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: "Npm-dependancies refreshed including Borshik version with Windows build fixes."
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/anygrid-bem-notations',
                             content: 'AnyGrid – CSS Grids Generator that uses BEM-notations'
                         },
@@ -433,12 +457,12 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/02/maintainable-frontend-dev-with-bem/',
-                            content: 'Maintainable Frontend Development with BEM'
+                            content: 'BEM at MetaRefresh 2013'
                         },
                         {
                             block: 'description',
                             content: {
-                                content: 'Talk by Varvara Stepanova at MetaRefresh 2013 in Bangalore'
+                                content: 'Video and presentation of the talk about maintainable frontend development with BEM given by Varvara Stepanova at MetaRefresh 2013 in Bangalore.'
                             }
                         },
                         {
@@ -450,7 +474,7 @@
                         {
                             block: 'description',
                             content: {
-                                content: 'Development with BEM at Meta Refresh 2013 in India'
+                                content: 'Promo video of the talk about maintainable frontend development with BEM by Varvara Stepanova for MetaRefresh 2013 in Bangalore, abstract and some ideas behind the talk.'
                             }
                         }
                     ]

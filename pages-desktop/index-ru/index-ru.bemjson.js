@@ -189,7 +189,7 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/tools/bem/',
-                            content: 'BEM tools'
+                            content: 'bem-tools'
                         },
                         {
                             block: 'description',
@@ -453,6 +453,30 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-tools-0-6-4',
+                            content: 'Версия bem-tools 0.6.4'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Добавлено новое API технологий, увеличена скорость сборки bem make / server при использовании нового API. Для установки необходим npm версии 1.2.14 или выше.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-tools-0-5-33',
+                            content: 'Версия bem-tools 0.5.33'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Обновлены npm-зависимости, включая версию Borshik, в которой исправлены баги сборки под Windows.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/anygrid-bem-notations',
                             content: 'Генератор сеток AnyGrid для CSS в БЭМ-нотациях'
                         },
@@ -466,12 +490,12 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/02/maintainable-frontend-dev-with-bem/',
-                            content: 'Видео и презентация c Meta Refresh 2013 в Индии'
+                            content: 'БЭМ на конференции MetaRefresh 2013'
                         },
                         {
                             block: 'description',
                             content: {
-                                content: ''
+                                content: 'Видео и презентация доклада Варвары Степановой о разработке "без потерь" по БЭМ на конференции MetaRefresh 2013 в Бангалоре.'
                             }
                         },
                         {
@@ -483,7 +507,7 @@
                         {
                             block: 'description',
                             content: {
-                                content: 'Разработка «без потерь» по БЭМ на конференции Meta Refresh 2013 в Индии'
+                                content: 'Промо-видео доклада Варвары Степановой о разработке "без потерь" по БЭМ на конференции MetaRefresh 2013 в Бангалоре, тезисы и идеи, которые легли в основу рассказа.'
                             }
                         }
                     ]

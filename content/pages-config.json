@@ -31,49 +31,49 @@
             "menu": "Инструменты"
         },
         "bem-tools/docs/index": {
-            "title": "BEM tools",
+            "title": "bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "BEM tools"
         },
         "bem-tools/docs/installation": {
-            "title": "Установка – bem tools",
+            "title": "Установка – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Установка"
         },
         "bem-tools/docs/commands": {
-            "title": "Команды – bem tools",
+            "title": "Команды – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Команды"
         },
         "bem-tools/docs/levels": {
-            "title": "Уровни переопределения – bem tools",
+            "title": "Уровни переопределения – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Уровни переопределения"
         },
         "bem-tools/docs/customization": {
-            "title": "Настройка – bem tools",
+            "title": "Настройка – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Настройка"
         },
         "bem-tools/docs/tech-modules": {
-            "title": "Модули технологий – bem tools",
+            "title": "Модули технологий – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Модули технологий"
         },
         "bem-tools/docs/api": {
-            "title": "API – bem tools",
+            "title": "API – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "API"
         },
         "bem-tools/docs/contribute": {
-            "title": "Участие в разработке – bem tools",
+            "title": "Участие в разработке – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Участие в разработке"
@@ -109,10 +109,10 @@
             "menu": "Блог"
         },
         "blog/2013-02-maintainable-frontend-dev-with-bem": {
-            "title": "Видео и презентация c Meta Refresh 2013 в Индии",
-            "description": "",
+            "title": "БЭМ на MetaRefresh 2013",
+            "description": "Доклад Варвары Степановой на конференции MetaRefresh 2013 в Бангалоре",
             "keywords": "",
-            "menu": "Видео и презентация c Meta Refresh 2013 в Индии"
+            "menu": "БЭМ на MetaRefresh 2013"
         },
         "blog/2013-02-bem-goes-to-india": {
             "title": "БЭМ едет в Индию",
@@ -125,6 +125,18 @@
             "description": "Генератор сеток AnyGrid для CSS в БЭМ-нотациях",
             "keywords": "генератор сеток, bem, БЭМ",
             "menu": "Генератор сеток AnyGrid для CSS в БЭМ-нотациях"
+        },
+        "blog/bem-news/bem-tools-0-5-33": {
+            "title": "Версия bem-tools 0.5.33",
+            "description": "Обновлены npm-зависимости, включая версию Borshik, в которой исправлены баги сборки под Windows",
+            "keywords": "bem-tools, bem, БЭМ",
+            "menu": "Версия bem-tools 0.5.33"
+        },
+        "blog/bem-news/bem-tools-0-6-4": {
+            "title": "Версия bem-tools 0.6.4",
+            "description": "Добавлено новое API технологий, увеличена скорость сборки bem make / server при использовании нового API",
+            "keywords": "bem-tools, bem, БЭМ",
+            "menu": "Версия bem-tools 0.6.4"
         },
         "articles/bem-articles/index": {
             "title": "Статьи",
@@ -226,49 +238,49 @@
             "menu": "Tools"
         },
         "bem-tools/docs/index": {
-            "title": "BEM tools",
+            "title": "bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
-            "menu": "BEM tools"
+            "menu": "bem-tools"
         },
         "bem-tools/docs/installation": {
-            "title": "Installation – bem tools",
+            "title": "Installation – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Installation"
         },
         "bem-tools/docs/commands": {
-            "title": "Commands – bem tools",
+            "title": "Commands – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Commands"
         },
         "bem-tools/docs/levels": {
-            "title": "Levels – bem tools",
+            "title": "Levels – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Levels"
         },
         "bem-tools/docs/customization": {
-            "title": "Сustomization – bem tools",
+            "title": "Сustomization – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Сustomization"
         },
         "bem-tools/docs/tech-modules": {
-            "title": "Tech modules  – bem tools",
+            "title": "Tech modules  – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Tech modules"
         },
         "bem-tools/docs/api": {
-            "title": "API – bem tools",
+            "title": "API – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "API"
         },
         "bem-tools/docs/contribute": {
-            "title": "Contribute – bem tools",
+            "title": "Contribute – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Contribute"
@@ -304,10 +316,10 @@
             "menu": "Blog"
         },
         "blog/2013-02-maintainable-frontend-dev-with-bem": {
-            "title": "Maintainable frontend dev with BEM",
-            "description": "",
+            "title": "BEM at MetaRefresh 2013",
+            "description": "Talk by Varvara Stepanova at MetaRefresh 2013 in Bangalore",
             "keywords": "",
-            "menu": "Maintainable frontend dev"
+            "menu": "BEM at MetaRefresh 2013"
         },
         "blog/2013-02-bem-goes-to-india": {
             "title": "BEM goes to India",
@@ -320,6 +332,18 @@
             "description": "AnyGrid – CSS Grids Generator that uses BEM-notations",
             "keywords": "CSS Grids Generator, bem, AnyGrid",
             "menu": "AnyGrid – CSS Grids Generator"
+        },
+         "blog/bem-news/bem-tools-0-5-33": {
+            "title": "bem-tools v0.5.33",
+            "description": "Npm-dependancies refreshed including Borshik version with Windows build fixes",
+            "keywords": "bem-tools, bem, AnyGrid",
+            "menu": "bem-tools v0.5.33"
+        },
+         "blog/bem-news/bem-tools-0-6-4": {
+            "title": "bem-tools v0.6.4",
+            "description": "New technologies API added, while using new API bem make / server building speed increased",
+            "keywords": "bem-tools, bem, AnyGrid",
+            "menu": "bem-tools v0.6.4"
         },
         "articles/bem-articles/index": {
             "title": "Articles",
