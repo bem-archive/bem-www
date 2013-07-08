@@ -44,7 +44,7 @@
                                 'BEM stands for Block-Element-Modifier. It\'s a way to modularize the development of pages. ',
                                 'By breaking things into Blocks, being able to break those into Elements, and then use ',
                                 'Modifiers on them, we get a neat TLA and a methodology where each part can advance ',
-                                'rapidly and independently.',
+                                'rapidly and independently. ',
                                 'No matter if you are a large team or a single developer. ',
                                 'BEM gives its benefits for all.'
                             ]
