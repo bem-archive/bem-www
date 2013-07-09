@@ -453,6 +453,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-cli',
+                            content: 'bem-cli: запусти bem-tools локально'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Читайте больше о том, что делать, когда нельзя npm i -g bem, и как при помощи инструмента bem-cli запускать локально установленный bem-tools.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/bem-tools-0-6-4',
                             content: 'Версия bem-tools 0.6.4'
                         },

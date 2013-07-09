@@ -138,6 +138,12 @@
             "keywords": "bem-tools, bem, БЭМ",
             "menu": "Версия bem-tools 0.6.4"
         },
+        "blog/bem-news/bem-cli": {
+            "title": "bem-cli",
+            "description": "Локальный запуск bem-tools с помощью bem-cli",
+            "keywords": "bem-tools, bem, БЭМ, bem-cli",
+            "menu": "bem-cli - инструмент для запуска bem-tools"
+        },
         "articles/bem-articles/index": {
             "title": "Статьи",
             "description": "Статьи о БЭМ",
@@ -344,6 +350,12 @@
             "description": "New technologies API added, while using new API bem make / server building speed increased",
             "keywords": "bem-tools, bem, AnyGrid",
             "menu": "bem-tools v0.6.4"
+        },
+        "blog/bem-news/bem-cli": {
+            "title": "bem-cli",
+            "description": "Locally installed bem-tools launch using bem-cli",
+            "keywords": "bem-tools, bem, bem-cli",
+            "menu": "bem-cli - bem-tools launcher"
         },
         "articles/bem-articles/index": {
             "title": "Articles",

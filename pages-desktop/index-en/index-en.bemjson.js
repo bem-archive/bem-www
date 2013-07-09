@@ -304,13 +304,13 @@
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/smartcd/',
                             content: 'smartcd: how to launch tools locally'
-                        },      
+                        },
                         {
                             block: 'description',
                             content: {
                                 content: 'Find out how you can launch bem-tools faster right from the command line using smartcd.'
                             }
-                        },                  
+                        },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
@@ -415,6 +415,18 @@
                                 block: 'b-link',
                                 url: '/blog/',
                                 content: 'Blog'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bem-cli',
+                            content: 'bem-cli: launch bem-tools locally'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Find out more, what to do when you can not use npm i -g bem, and how to launch locally installed bem-tools using bem-cli.'
                             }
                         },
                         {
