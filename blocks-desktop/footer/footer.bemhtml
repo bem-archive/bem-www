@@ -39,7 +39,7 @@ block footer, !this.elem {
                                         elem: 'item',
                                         content: {
                                             block: 'b-link',
-                                            url: 'pages/acknowledgement',
+                                            url: '/pages/acknowledgement/',
                                             content: 'BEM Acknowledgement Page / Команда проекта БЭМ благодарит'
                                         }
                                     }
