@@ -34,6 +34,14 @@ block footer, !this.elem {
                                                 content: '@bem_ru'
                                             }
                                         ]
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            url: 'pages/acknowledgement',
+                                            content: 'BEM Acknowledgement Page / Команда проекта БЭМ благодарит'
+                                        }
                                     }
                                 ]
                             }

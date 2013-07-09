@@ -2,10 +2,10 @@
 {
     background: #000;
 	color: #fff;
-	
+
 	margin-top: 5%;
 	padding: 25px 50px;
-	
+
 	overflow: hidden;
 	font-size: 12px;
 }
@@ -13,20 +13,20 @@
 .footer .b-link
 {
     color: #fff;
-	
+
 	line-height: 1.9;
 }
 
 .footer .b-link:hover
 {
 	background: #000;
-	
+
 	text-decoration: none;
 }
 
 .footer__tech
 {
-	width: 21%;
-	
+	width: 40%;
+
 	float: left;
 }
