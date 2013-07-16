@@ -362,6 +362,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/bem-js-main-terms/',
+                            content: 'JavaScript for BEM: The Main Terms'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'How to write client side JS using i-bem.js from bem-bl library.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/firm-card-story/',
                             content: 'BEM app with Leaflet and 2GIS API'
                         },

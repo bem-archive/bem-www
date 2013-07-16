@@ -393,10 +393,10 @@
             "menu": "Borschik"
         },
         "articles/bem-articles/bem-js-main-terms": {
-            "title": "JavaScript in BEM: The basics",
+            "title": "JavaScript for BEM: The Main Terms",
             "description": "i-bem.js",
             "keywords": "i-bem.js",
-            "menu": "JavaScript in BEM: The basics"
+            "menu": "JavaScript for BEM: The Main Terms"
         },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
