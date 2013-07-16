@@ -13,11 +13,19 @@ block footer, !this.elem {
                                 content: [
                                     {
                                         elem: 'item',
-                                        content: {
-                                            block: 'b-link',
-                                            url: 'http://www.facebook.com/#!/groups/209713935765634/',
-                                            content: 'Facebook'
-                                        }
+                                        content:[
+                                            {
+                                                block: 'b-link',
+                                                url: 'http://www.facebook.com/#!/groups/209713935765634/',
+                                                content: 'Facebook'
+                                            },
+                                            ' ',
+                                            {
+                                                block: 'b-link',
+                                                url: 'http://clubs.ya.ru/bem/',
+                                                content: 'Клуб БЭМ на Я.Ру'
+                                            }
+                                        ]
                                     },
                                     {
                                         elem: 'item',

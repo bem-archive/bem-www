@@ -311,6 +311,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/yamapsbem/',
+                            content: 'API Яндекс.Карт и БЭМ'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Один из самых частых примеров использования API Яндекс.Карт — создание меню для показа на карте организаций различных типов (коллекций геообъектов). Давайте реализуем этот пример с помощью методологии БЭМ!'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/smartcd/',
                             content: 'smartcd: локальный запуск инструментов'
                         },
@@ -372,7 +384,7 @@
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/firm-card-story/',
-                            content: 'БЭМ-приложение на LeafLet и API 2GIS'
+                            content: 'БЭМ-приложение на Leaflet и API 2GIS'
                         },
                         {
                             block: 'description',

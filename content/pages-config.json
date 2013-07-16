@@ -157,10 +157,10 @@
             "menu": "Full stack quick start"
         },
         "articles/firm-card-story/docs/article": {
-            "title": "БЭМ-приложение на LeafLet и API 2GIS",
+            "title": "БЭМ-приложение на Leaflet и API 2GIS",
             "description": "Пример простого картографического приложения, разработанного по БЭМ-методологии",
             "keywords": "LeafLet, 2GIS, карты",
-            "menu": "БЭМ-приложение на LeafLet и API 2GIS"
+            "menu": "БЭМ-приложение на Leaflet и API 2GIS"
         },
         "articles/bem-articles/yandex-frontend-dev": {
             "title": "What you can borrow from Yandex frontend dev",
@@ -209,8 +209,13 @@
             "description": "Узнайте, как с помощью smartcd можно быстрее запустить bem-tools из коммандной строки",
             "keywords": "smartcd, bem-tools, инструменты",
             "menu": "smartcd: локальный запуск инструментов"
+        },
+        "articles/bem-articles/yamapsbem": {
+            "title": "API Яндекс.Карт и БЭМ",
+            "description": "API Яндекс.Карт и БЭМ",
+            "keywords": "карты, яндекс карты, bem, БЭМ",
+            "menu": "API Яндекс.Карт и БЭМ"
         }
-
     },
     "en": {
         "bem-method/index": {
@@ -370,10 +375,10 @@
             "menu": "Full stack quick start"
         },
         "articles/firm-card-story/docs/article": {
-            "title": "BEM application built on LeafLet and 2GIS API",
+            "title": "BEM application built on Leaflet and 2GIS API",
             "description": "An example of simple map application built on BEM methodology",
             "keywords": "LeafLet, 2GIS, maps",
-            "menu": "BEM application on LeafLet and 2GIS API"
+            "menu": "BEM application on Leaflet and 2GIS API"
         },
         "articles/bem-articles/yandex-frontend-dev": {
             "title": "What you can borrow from Yandex frontend dev",
@@ -422,6 +427,12 @@
             "description": "Find out how you can launch bem-tools faster right from the command line using smartcd",
             "keywords": "smartcd, bem-tools, tools",
             "menu": "smartcd: how to launch tools locally"
-        }
+        },
+        "articles/bem-articles/yamapsbem": {
+            "title": "Yandex.Maps API and BEM",
+            "description": "Yandex.Maps API and BEM",
+            "keywords": "maps, yandex maps, bem, BEM",
+            "menu": "Yandex.Maps API and BEM"
+       }
     }
 }

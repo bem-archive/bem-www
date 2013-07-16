@@ -302,6 +302,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/yamapsbem/',
+                            content: 'Yandex.Maps API and BEM'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'One of the most popular cases where Yandex.Maps API is used is a case to create a menu that shows different types of organizations (collections of geoobjects) on the map. Lets make it according to BEM methodology!'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/smartcd/',
                             content: 'smartcd: how to launch tools locally'
                         },
@@ -347,20 +359,20 @@
                                 content: 'Borschik is a simple but powerful builder for text-based file formats.'
                             }
                         },
-                        // {
-                        //     block: 'b-link',
-                        //     mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                        //     url: '/articles/firm-card-story/',
-                        //     content: 'BEM app with LeafLet and 2GIS API'
-                        // },
-                        // {
-                        //     block: 'description',
-                        //     content: [
-                        //         {
-                        //             content: 'An example of map service made with BEM'
-                        //         }
-                        //     ]
-                        // },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/firm-card-story/',
+                            content: 'BEM app with Leaflet and 2GIS API'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                {
+                                    content: 'An example of map service made with BEM'
+                                }
+                            ]
+                        },
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
