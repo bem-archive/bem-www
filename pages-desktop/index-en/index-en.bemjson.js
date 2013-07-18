@@ -381,7 +381,7 @@
                             block: 'description',
                             content: [
                                 {
-                                    content: 'An example of map service made with BEM'
+                                    content: 'An example of map service made with BEM.'
                                 }
                             ]
                         },
