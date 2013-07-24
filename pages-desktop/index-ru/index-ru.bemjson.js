@@ -465,6 +465,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/07/bemup',
+                            content: 'BEMup — первый митап по БЭМ в Москве'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: '2 августа 2013 года в московском Яндексе пройдет первый митап по БЭМ. Подробности в нашем блоге.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/bem-cli',
                             content: 'bem-cli: запусти bem-tools локально'
                         },

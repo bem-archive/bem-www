@@ -144,6 +144,12 @@
             "keywords": "bem-tools, bem, БЭМ, bem-cli",
             "menu": "bem-cli - инструмент для запуска bem-tools"
         },
+        "blog/bem-news/bemup": {
+            "title": "BEMup — митап по БЭМ",
+            "description": "Встреча по БЭМ",
+            "keywords": "встреча, bem, БЭМ",
+            "menu": "BEMup — митап по БЭМ"
+        },
         "articles/bem-articles/index": {
             "title": "Статьи",
             "description": "Статьи о БЭМ",
