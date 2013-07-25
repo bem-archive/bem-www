@@ -368,6 +368,12 @@
             "keywords": "bem-tools, bem, bem-cli",
             "menu": "bem-cli - bem-tools launcher"
         },
+        "blog/bem-news/bemup": {
+            "title": "BEMup — BEM meetup",
+            "description": "BEM meetup",
+            "keywords": "meetup, bem, BEM",
+            "menu": "BEMup — BEM meetup"
+        },
         "articles/bem-articles/index": {
             "title": "Articles",
             "description": "BEM related articles",
