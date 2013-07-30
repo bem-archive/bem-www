@@ -29,6 +29,9 @@
                     "csso/docs/usage": { "url": "tools/csso/usage" },
                     "csso/docs/description": { "url": "tools/csso/description" }
                 }
+            },
+            "borschik/docs/index": {
+                "url": "tools/borschik"
             }
         }
     },

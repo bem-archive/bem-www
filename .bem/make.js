@@ -127,6 +127,11 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/css/csso.git',
                 npmPackages: false
             },
+            'content/borschik': {
+                type: 'git',
+                url: 'git://github.com/bem/borschik.git',
+                npmPackages: false
+            },
             'content/articles/bem-articles': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-articles.git',
@@ -149,7 +154,7 @@ MAKE.decl('Arch', {
         var node = new (MAKE.getNodeClass('PagesGeneratorNode'))({
                 id: 'pages-generator',
                 root: this.root,
-                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'articles/bem-articles', 'articles/firm-card-story/docs', 'blog', 'blog/bem-news', 'bem-core/common.docs', 'pages']
+                sources: ['bem-method', 'tools', 'bem-tools/docs', 'csso/docs', 'borschik/docs', 'articles/bem-articles', 'articles/firm-card-story/docs', 'blog', 'blog/bem-news', 'bem-core/common.docs', 'pages']
             });
 
         this.arch.setNode(node, bundles, libs);

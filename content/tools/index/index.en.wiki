@@ -28,7 +28,7 @@ add your own.
 
 === Work with files
 ==== borschik
-((https://github.com/veged/borschik/ Borschik)) is a extendable builder for text-based file formats.
+((/tools/borschik/ borschik)) is a extendable builder for text-based file formats.
 It's main purpose is the assembly of static files for web projects (CSS, JS, etc.).
 
 ==== setochka (prototype)

@@ -201,7 +201,7 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/borschik/',
+                            url: '/tools/borschik/',
                             content: 'Borschik'
                         },
                         {

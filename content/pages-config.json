@@ -102,6 +102,12 @@
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Описание"
         },
+        "borschik/docs/index": {
+            "title": "Borschik",
+            "description": "Borschik — это простой, но мощный сборщик файлов текстовых форматов.",
+            "keywords": "Borschik",
+            "menu": "Borschik"
+        },
         "blog": {
             "title": "Блог",
             "description": "",
@@ -325,6 +331,12 @@
             "description": "CSSO (CSS Optimizer) is a CSS minimizer unlike others. In addition to usual minification techniques it can perform structural optimization of CSS files, resulting in smaller file size compared to other minifiers. ",
             "keywords": "css, csso, css optimization, css minification, css minimizer, cssmin, yuicompessor",
             "menu": "Description"
+        },
+        "borschik/docs/index": {
+            "title": "Borschik",
+            "description": "Borschik is a simple but powerful builder for text-based file formats.",
+            "keywords": "Borschik",
+            "menu": "Borschik"
         },
         "blog": {
             "title": "Blog",
