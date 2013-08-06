@@ -444,6 +444,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/08/bem-components',
+                            content: 'Rename bem-controls to bem-components'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'We renamed bem-controls repository to bem-components. See details.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/bem-cli',
                             content: 'bem-cli: launch bem-tools locally'
                         },

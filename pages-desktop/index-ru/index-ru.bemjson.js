@@ -465,6 +465,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/08/bem-components',
+                            content: 'bem-controls — теперь bem-components'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Мы переименовали репозиторий bem-controls в bem-components. Подробности в нашем блоге.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/07/bemup',
                             content: 'BEMup — первый митап по БЭМ в Москве'
                         },
