@@ -465,6 +465,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/08/bemup-promo',
+                            content: 'BEMup — как это было'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Смотрите наш видеоотчет и читайте впечатления участников.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/08/bem-components',
                             content: 'bem-controls — теперь bem-components'
                         },

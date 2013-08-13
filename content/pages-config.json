@@ -156,11 +156,17 @@
             "keywords": "встреча, bem, БЭМ",
             "menu": "BEMup — митап по БЭМ"
         },
-        "blog/2013/08/bem-components": {
+        "blog/bem-news/bem-components": {
             "title": "bem-controls — теперь bem-components",
             "description": "bem-components",
             "keywords": "bem, БЭМ",
             "menu": "bem-controls — теперь bem-components"
+        },
+        "blog/bem-news/bemup-promo": {
+            "title": "BEMup — как это было",
+            "description": "Видеоотчет про первый BEMup",
+            "keywords": "встреча, bem, БЭМ",
+            "menu": "BEMup — как это было"
         },
         "articles/bem-articles/index": {
             "title": "Статьи",
@@ -392,11 +398,17 @@
             "keywords": "meetup, bem, BEM",
             "menu": "BEMup — BEM meetup"
         },
-        "blog/2013/08/bem-components": {
+        "blog/bem-news/bem-components": {
             "title": "Rename bem-controls to bem-components",
             "description": "bem-components",
             "keywords": "bem, BEM",
             "menu": "Rename bem-controls to bem-components"
+        },
+        "blog/bem-news/bemup-promo": {
+            "title": "BEMup: watch it!",
+            "description": "BEMup promovideo",
+            "keywords": "meetup, bem, BEM",
+            "menu": "BEMup: watch it!"
         },
         "articles/bem-articles/index": {
             "title": "Articles",
