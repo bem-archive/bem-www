@@ -16,11 +16,25 @@
 .b-text table
 {
 	width: 100%;
+    border-spacing: 0;
+    text-align: center;
+}
+
+.b-text th
+{
+    border-bottom: 3px solid #F3F1EE;
 }
 
 .b-text td
 {
 	padding: 5px;
+    border-bottom: 1px solid #F3F1EE;
+    border-right: 1px solid #F3F1EE;
+}
+
+.b-text td:first-child
+{
+    border-left: 1px solid #F3F1EE;
 }
 
 .b-text table code
