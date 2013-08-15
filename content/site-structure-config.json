@@ -31,7 +31,11 @@
                 }
             },
             "borschik/docs/index": {
-                "url": "tools/borschik"
+                "url": "tools/borschik",
+                "children": {
+                    "borschik/docs/index": { "url": "tools/borschik" },
+                    "borschik-server/docs/borschik-server": { "url": "tools/borschik-server" }
+                }
             }
         }
     },

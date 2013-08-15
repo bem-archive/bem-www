@@ -13,6 +13,11 @@
     padding: 8px 16px 8px;
 }
 
+.nav .b-menu-horiz__item_state_current
+{
+    background: #F3F1EE;
+}
+
 .nav_level_first .b-menu-horiz__item_state_current,
 .nav_level_first .b-menu-horiz__item_state_parent
 {

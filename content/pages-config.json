@@ -108,6 +108,12 @@
             "keywords": "Borschik",
             "menu": "Borschik"
         },
+        "tools/borschik-server": {
+            "title": "Borschik-server",
+            "description": "Borschik-server — HTTP-сервер для обработки JS и CSS файлов утилитой borschik.",
+            "keywords": "Borschik-server",
+            "menu": "Borschik-server"
+        },
         "blog": {
             "title": "Блог",
             "description": "",
@@ -349,6 +355,12 @@
             "description": "Borschik is a simple but powerful builder for text-based file formats.",
             "keywords": "Borschik",
             "menu": "Borschik"
+        },
+        "tools/borschik-server": {
+            "title": "Borschik-server",
+            "description": "Borschik-server — HTTP server to process JS and CSS files with borschik on demand.",
+            "keywords": "Borschik-server",
+            "menu": "Borschik-server"
         },
         "blog": {
             "title": "Blog",
