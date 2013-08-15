@@ -108,7 +108,7 @@
             "keywords": "Borschik",
             "menu": "Borschik"
         },
-        "tools/borschik-server": {
+        "borschik-server/docs/borschik-server": {
             "title": "Borschik-server",
             "description": "Borschik-server — HTTP-сервер для обработки JS и CSS файлов утилитой borschik.",
             "keywords": "Borschik-server",
@@ -356,7 +356,7 @@
             "keywords": "Borschik",
             "menu": "Borschik"
         },
-        "tools/borschik-server": {
+        "borschik-server/docs/borschik-server": {
             "title": "Borschik-server",
             "description": "Borschik-server — HTTP server to process JS and CSS files with borschik on demand.",
             "keywords": "Borschik-server",

@@ -444,6 +444,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/08/bemup-promo',
+                            content: 'BEMup — watch it, feel it!'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: '3 hours in a friendly atmosphere with Yandex developers and programmers from other IT companies. Watch the video and read some feedback from the community.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/08/bem-components',
                             content: 'Rename bem-controls to bem-components'
                         },
