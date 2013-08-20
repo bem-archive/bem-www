@@ -465,6 +465,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/08/bemup-talks',
+                            content: 'Видео докладов первого BEMup\'а'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Мы опубликовали 9 видео докладов первого BEMup\'а. Смотрите, присылайте фидбек.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/08/bemup-promo',
                             content: 'BEMup — как это было'
                         },

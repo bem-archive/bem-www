@@ -95,6 +95,18 @@ exports.blocks = [
         "name": "metrika"
     },
     {
-        "block": "article-author"
+        "name": "article-author"
+    },
+    {
+        "name": "image",
+        "mods": [
+            {
+                "name": "pos",
+                "vals": [
+                    "left",
+                    "right"
+                ]
+            }
+        ]
     }
 ];

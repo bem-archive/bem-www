@@ -40,7 +40,7 @@
         }
     },
     "blog": {
-        "url": "blog/2013/08/bemup-promo",
+        "url": "blog/2013/08/bemup-talks",
         "children": {
             "blog/2013-02-maintainable-frontend-dev-with-bem": { "url": "blog/2013/02/maintainable-frontend-dev-with-bem" },
             "blog/2013-02-bem-goes-to-india": { "url": "blog/2013/02/bem-goes-to-india" },
@@ -50,7 +50,8 @@
             "blog/bem-news/bem-cli": { "url": "blog/2013/07/bem-cli" },
             "blog/bem-news/bemup": { "url": "blog/2013/07/bemup" },
             "blog/bem-news/bem-components": { "url": "blog/2013/08/bem-components" },
-            "blog/bem-news/bemup-promo": { "url": "blog/2013/08/bemup-promo" }
+            "blog/bem-news/bemup-promo": { "url": "blog/2013/08/bemup-promo" },
+            "blog/bem-news/bemup-talks": { "url": "blog/2013/08/bemup-talks" }
         }
     },
     "articles/bem-articles/index": {
