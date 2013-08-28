@@ -235,10 +235,10 @@
             "menu": "BEMHTML: шаблонизатор для БЭМ"
         },
         "articles/bem-articles/deps-js-syntax": {
-            "title": "Синтаксис deps.js",
+            "title": "deps.js — технология для декларирования зависимостей по БЭМ",
             "description": "Общее описание синтаксиса deps.js",
             "keywords": "deps.js, бэм зависимости",
-            "menu": "Синтаксис deps.js"
+            "menu": "deps.js — технология для декларирования зависимостей по БЭМ"
         },
         "articles/bem-articles/smartcd": {
             "title": "smartcd: локальный запуск инструментов",
@@ -489,10 +489,10 @@
             "menu": "BEMHTML rationale"
         },
         "articles/bem-articles/deps-js-syntax": {
-            "title": "Syntax deps.js",
+            "title": "deps.js — a technology to declare dependencies in BEM",
             "description": "A General description of the syntax deps.js",
             "keywords": "deps.js, bem dependency",
-            "menu": "Syntax deps.js"
+            "menu": "deps.js — a technology to declare dependencies in BEM"
         },
         "articles/bem-articles/smartcd": {
             "title": "smartcd: how to launch tools locally",

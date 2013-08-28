@@ -302,6 +302,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/deps-js-syntax/',
+                            content: 'deps.js — a technology to declare dependencies in BEM'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Instead of describing dependencies for the whole project at once we created a technology called deps.js that allows us to declare dependencies for each block according to BEM methodology. This makes easier for us to re-use blocks from project to project. Read the details about the syntax and building mechanics in our new article with examples of code.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/yamapsbem/',
                             content: 'Yandex.Maps API and BEM'
                         },

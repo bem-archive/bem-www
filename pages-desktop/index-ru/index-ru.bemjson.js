@@ -311,6 +311,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/articles/deps-js-syntax/',
+                            content: 'deps.js — технология для декларирования зависимостей по БЭМ'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: 'Вместо того, чтобы описывать зависимости для всего проекта целиком, мы написали технологию deps.js, которая позволяет декларировать их для каждого блока согласно методологии БЭМ. Это упрощает повторное использования блоков при переносе с проекта на проект. О синтаксисе и механизме сборки читайте в нашей новой статье с примерами.'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/articles/yamapsbem/',
                             content: 'API Яндекс.Карт и БЭМ'
                         },
@@ -435,18 +447,6 @@
                                     content: 'Зачем мы написали еще один шаблонизатор.'
                                 }
                             ]
-                        },
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
-                            url: '/articles/deps-js-syntax/',
-                            content: 'Синтаксис deps.js'
-                        },
-                        {
-                            block: 'description',
-                            content: {
-                                content: 'Основы синтаксиса deps.js - управление зависимостями.'
-                            }
                         }
                     ]
                 },
