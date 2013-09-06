@@ -54,6 +54,12 @@
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Уровни переопределения"
         },
+        "bem-tools/docs/depsjs": {
+            "title": "Декларация зависимостей в deps.js – bem-tools",
+            "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
+            "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Декларация зависимостей в deps.js"
+        },
         "bem-tools/docs/customization": {
             "title": "Настройка – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
@@ -179,6 +185,12 @@
             "description": "Видео докладов первого BEMup'а",
             "keywords": "видео, bem, БЭМ, bemup",
             "menu": "Видео докладов первого BEMup'а"
+        },
+        "blog/bem-news/bemup-yac2013": {
+            "title": "Второй BEMup — в рамках YaC 2013",
+            "description": "Анонс второго BEMup",
+            "keywords": "встреча, bem, БЭМ",
+            "menu": "Второй BEMup — в рамках YaC 2013"
         },
         "articles/bem-articles/index": {
             "title": "Статьи",
@@ -308,6 +320,12 @@
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
             "menu": "Levels"
         },
+        "bem-tools/docs/depsjs": {
+            "title": "Declaration of dependences into deps.js – bem-tools",
+            "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
+            "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
+            "menu": "Declaration of dependences into deps.js"
+        },
         "bem-tools/docs/customization": {
             "title": "Сustomization – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
@@ -433,6 +451,12 @@
             "description": "First BEMup talks archive",
             "keywords": "meetup, bem, BEM, bemup, video",
             "menu": "First BEMup talks archive"
+        },
+        "blog/bem-news/bemup-yac2013": {
+            "title": "Second BEMup during YaC 2013!",
+            "description": "Second BEMup announcement",
+            "keywords": "meetup, bem, BEM",
+            "menu": "Second BEMup during YaC 2013!"
         },
         "articles/bem-articles/index": {
             "title": "Articles",

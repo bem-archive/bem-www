@@ -16,6 +16,7 @@
                     "bem-tools/docs/installation": { "url": "tools/bem/installation" },
                     "bem-tools/docs/commands": { "url": "tools/bem/commands" },
                     "bem-tools/docs/levels": { "url": "tools/bem/levels" },
+                    "bem-tools/docs/depsjs": { "url": "tools/bem/depsjs" },
                     "bem-tools/docs/customization": { "url": "tools/bem/customization" },
                     "bem-tools/docs/tech-modules": { "url": "tools/bem/tech-modules" },
                     "bem-tools/docs/api": { "url": "tools/bem/api" },
@@ -40,7 +41,7 @@
         }
     },
     "blog": {
-        "url": "blog/2013/08/bemup-talks",
+        "url": "blog/2013/09/bemup-yac2013",
         "children": {
             "blog/2013-02-maintainable-frontend-dev-with-bem": { "url": "blog/2013/02/maintainable-frontend-dev-with-bem" },
             "blog/2013-02-bem-goes-to-india": { "url": "blog/2013/02/bem-goes-to-india" },
@@ -51,7 +52,8 @@
             "blog/bem-news/bemup": { "url": "blog/2013/07/bemup" },
             "blog/bem-news/bem-components": { "url": "blog/2013/08/bem-components" },
             "blog/bem-news/bemup-promo": { "url": "blog/2013/08/bemup-promo" },
-            "blog/bem-news/bemup-talks": { "url": "blog/2013/08/bemup-talks" }
+            "blog/bem-news/bemup-talks": { "url": "blog/2013/08/bemup-talks" },
+            "blog/bem-news/bemup-yac2013": { "url": "blog/2013/09/bemup-yac2013" }
         }
     },
     "articles/bem-articles/index": {

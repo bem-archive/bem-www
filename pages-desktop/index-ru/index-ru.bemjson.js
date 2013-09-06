@@ -465,6 +465,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/blog/2013/09/bemup-yac2013',
+                            content: 'Второй BEMup — в рамках YaC 2013'
+                        },
+                        {
+                            block: 'description',
+                            content: {
+                                content: '2 октября в Москве пройдет ежегодная конференция Яндекса — YaC 2013, в рамках которой мы проведем наш второй митап по БЭМ. Хотите записаться с докладом, читайте новость!'
+                            }
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 's' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: '/blog/2013/08/bemup-talks',
                             content: 'Видео докладов первого BEMup\'а'
                         },
