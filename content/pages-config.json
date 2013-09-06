@@ -58,7 +58,7 @@
             "title": "Декларация зависимостей в deps.js – bem-tools",
             "description": "БЭМ (Блок, Элемент, Модификатор) – это методология и инструментарий для разработки сайтов в единой предметной области",
             "keywords": "бэм, бем, bem, блок элемент модификатор, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
-            "menu": "Декларация зависимостей в deps.js"
+            "menu": "Зависимости"
         },
         "bem-tools/docs/customization": {
             "title": "Настройка – bem-tools",
@@ -324,7 +324,7 @@
             "title": "Declaration of dependences into deps.js – bem-tools",
             "description": "BEM is abbreviation for Block-Element-Modifier. It's a way to write code which is easy to support and develop.",
             "keywords": "bem, block, element, modifier, bemjson, bemhtml, i-bem, i-bem.js, borschik, bem tools, csso",
-            "menu": "Declaration of dependences into deps.js"
+            "menu": "Dependences"
         },
         "bem-tools/docs/customization": {
             "title": "Сustomization – bem-tools",
