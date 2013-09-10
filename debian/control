@@ -1,0 +1,11 @@
+Source: yandex-bem-www-www
+Section: yandex
+Priority: optional
+Build-Depends: yandex-verstka-cdbs (>= 1.0.9)
+Maintainer: Vladimir Grinenko <tadatuta@yandex-team.ru>
+
+Package: yandex-bem-www-www
+Section: yandex
+Priority: optional
+Architecture: all
+Description: WWW for bem-www

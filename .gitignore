@@ -5,6 +5,7 @@ bem-www.iml
 .bem/cache/
 bem-bl/
 node_modules/
+i/
 content/bem-method/
 content/bem-core/
 content/bem-tools/
@@ -29,3 +30,7 @@ bundles-desktop/bem-tools*/
 bundles-desktop/csso*/
 bundles-desktop/articles*/
 bundles-desktop/blog-2013-02-bem-goes-to-india*/
+
+debian/files
+debian/yandex-bem-www-www.debhelper.log
+debian/yandex-bem-www-www/
