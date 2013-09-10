@@ -8,17 +8,15 @@ install/$(DEB_SOURCE_PACKAGE)::
 	mkdir -p $(DEB_PRJWWW_DESTDIR)tmp
 	cp -r `ls -I debian` .borschik .bem $(DEB_PRJWWW_DESTDIR)tmp/
 
-	cd $(DEB_PRJWWW_DESTDIR)tmp
+	rm -rf $(DEB_PRJWWW_DESTDIR)tmp/configs/current
+	ln -s production $(DEB_PRJWWW_DESTDIR)tmp/configs/current
+	dh_versions $(DEB_PRJWWW_DESTDIR)tmp/configs/*/*
 
-	rm -rf configs/current
-	ln -s production configs/current
-	dh_versions configs/*/*
+	npm i $(DEB_PRJWWW_DESTDIR)tmp/
+	YENV=production $(DEB_PRJWWW_DESTDIR)tmp/node_modules/bem/bin/bem make --force -r $(DEB_PRJWWW_DESTDIR)tmp
 
-	npm i
-	YENV=production ./node_modules/bem/bin/bem make --force
-
-	cp -r bundles-desktop/*/_*.css $(DEB_PRJWWW_DESTDIR)
-	cp -r pages-desktop/*/*.html $(DEB_PRJWWW_DESTDIR)
-	cp -r i $(DEB_PRJWWW_DESTDIR)
+	cp -r $(DEB_PRJWWW_DESTDIR)tmp/bundles-desktop/*/_*.css $(DEB_PRJWWW_DESTDIR)
+	cp -r $(DEB_PRJWWW_DESTDIR)tmp/pages-desktop/*/*.html $(DEB_PRJWWW_DESTDIR)
+	cp -r $(DEB_PRJWWW_DESTDIR)tmp/i $(DEB_PRJWWW_DESTDIR)
 
 	rm -rf $(DEB_PRJWWW_DESTDIR)tmp
