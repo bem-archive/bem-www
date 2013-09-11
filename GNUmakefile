@@ -6,7 +6,8 @@ BEM_FLAGS := --force
 endif
 
 %::
-	$(if $(findstring GNUmakefile,$@),,$(BEM) make $@ $(BEM_FLAGS))
+	npm install --production
+	YENV=production $(BEM) make --force
 
 .PHONY: clean
 clean::

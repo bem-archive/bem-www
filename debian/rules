@@ -4,19 +4,11 @@ PRJDIR=bem-www/
 
 include /usr/share/cdbs/1/class/verstka.mk
 
-install/$(DEB_SOURCE_PACKAGE)::
-	mkdir -p $(DEB_PRJWWW_DESTDIR)tmp
-	cp -r `ls -I debian` .borschik .bem $(DEB_PRJWWW_DESTDIR)tmp/
+make::
+	$(MAKE) YENV=production
 
-	rm -rf $(DEB_PRJWWW_DESTDIR)tmp/configs/current
-	ln -s production $(DEB_PRJWWW_DESTDIR)tmp/configs/current
-	dh_versions $(DEB_PRJWWW_DESTDIR)tmp/configs/*/*
+install/$(DEB_SOURCE_PACKAGE)::make
+	cp -r bundles-desktop/*/_*.css $(DEB_PRJWWW_DESTDIR)
+	cp -r pages-desktop/*/*.html $(DEB_PRJWWW_DESTDIR)
+	cp -r i $(DEB_PRJWWW_DESTDIR)
 
-	npm i $(DEB_PRJWWW_DESTDIR)tmp/
-	YENV=production $(DEB_PRJWWW_DESTDIR)tmp/node_modules/bem/bin/bem make --force -r $(DEB_PRJWWW_DESTDIR)tmp
-
-	cp -r $(DEB_PRJWWW_DESTDIR)tmp/bundles-desktop/*/_*.css $(DEB_PRJWWW_DESTDIR)
-	cp -r $(DEB_PRJWWW_DESTDIR)tmp/pages-desktop/*/*.html $(DEB_PRJWWW_DESTDIR)
-	cp -r $(DEB_PRJWWW_DESTDIR)tmp/i $(DEB_PRJWWW_DESTDIR)
-
-	rm -rf $(DEB_PRJWWW_DESTDIR)tmp

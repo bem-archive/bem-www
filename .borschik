@@ -1,1 +1,8 @@
-configs/current/borschik
+{
+    "paths" : {
+        "./": "/"
+    },
+    "freeze_paths" : {
+        "./": "i/"
+    }
+}
