@@ -1,8 +1,22 @@
 #!/usr/bin/make -f
 
-PRJDIR=bem-www/
+include /usr/share/cdbs/1/rules/debhelper.mk
 
-include /usr/share/cdbs/1/class/verstka.mk
+ifndef WWWDIR
+WWWDIR=var/lib/yandex/
+endif
+
+ifndef PRJDIR
+PRJDIR=$(DEB_SOURCE_PACKAGE)/
+endif
+
+PRJWWWDIR=$(WWWDIR)$(PRJDIR)
+DEB_PRJWWW_DESTDIR=debian/$(DEB_SOURCE_PACKAGE)/$(PRJWWWDIR)
+
+install/$(DEB_SOURCE_PACKAGE)::
+	mkdir -p $(DEB_PRJWWW_DESTDIR)
+
+PRJDIR = bem-www/
 
 make::
 	$(MAKE) YENV=production
@@ -11,4 +25,5 @@ install/$(DEB_SOURCE_PACKAGE)::make
 	cp -r bundles-desktop/*/_*.css $(DEB_PRJWWW_DESTDIR)
 	cp -r pages-desktop/*/*.html $(DEB_PRJWWW_DESTDIR)
 	cp -r pages-desktop/favicon.ico $(DEB_PRJWWW_DESTDIR)
+	cp -r pages-desktop/robots.txt $(DEB_PRJWWW_DESTDIR)
 	cp -r i $(DEB_PRJWWW_DESTDIR)
