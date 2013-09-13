@@ -3,7 +3,7 @@
     title: 'BEM: Methodology of Effective Site Development',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '/bundles-desktop/index/_index.css' },
+        { elem: 'css', url: '/_index.css' },
         // { elem: 'css', url: '/bundles-desktop/index/_index', ie: true },
         // { block: 'i-jquery', elem: 'core' },
         // { elem: 'js', url: '/bundles-desktop/index/_index.js' },

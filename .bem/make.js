@@ -367,7 +367,7 @@ MAKE.decl('PagesGeneratorNode', 'Node', {
             title: pageInfo.title,
             favicon: '/favicon.ico',
             head: [
-                { elem: 'css', url: '/bundles-desktop/inner/_inner.css' },
+                { elem: 'css', url: '/_inner.css' },
                 // { elem: 'css', url: '/bundles-desktop/inner/_inner.css', ie: false },
                 // { elem: 'css', url: '/bundles-desktop/inner/_inner', ie: true },
                 // { block: 'i-jquery', elem: 'core' },

@@ -61,14 +61,12 @@
 
 .article-author__social-icon[href*="twitter.com"]:before
 {
-    background: url(http://img-fotki.yandex.ru/get/6444/51437929.0/0_bf1fa_128db7d7_XS.png) no-repeat top left;
+    background: url("twitter.png") no-repeat top left;
 }
-
 .article-author__social-icon[href*="github.com"]:before
 {
-    background: url(http://img-fotki.yandex.ru/get/6441/51437929.0/0_bf1fb_1478957f_XS.png) no-repeat top left;
+    background: url("github.png") no-repeat top left;
 }
-
 .article-author__social-icon[target="_blank"]:after
 {
     content: " ";
@@ -78,7 +76,7 @@
     margin-left: 5px;
     position: relative;
     top: -7px;
-    background: url(http://img-fotki.yandex.ru/get/6442/51437929.0/0_bf200_a9bf352f_XS.png) no-repeat 0 -11px;
+    background: url("blank.png") no-repeat 0 -11px;
 }
 
 .article-author__social-icon[target="_blank"]:hover:after
