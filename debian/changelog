@@ -1,8 +1,15 @@
+yandex-bem-www-www (1.2) stable; urgency=low
+
+  * Make fix for fisrt deployment 
+
+ -- Nickolay Ilchenko <tavria@yandex-team.ru>  Fri, 13 Sep 2013 16:25:35 +0400
+
 yandex-bem-www-www (1.1) stable; urgency=low
 
   * Full static page bem-www 
 
  -- Nickolay Ilchenko <tavria@yandex-team.ru>  Fri, 13 Sep 2013 15:08:29 +0400
+
 
 yandex-bem-www-www (1.0) stable; urgency=low
 
