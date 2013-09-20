@@ -58,6 +58,10 @@ function translateAlias(alias) {
             lang = 'xml';
             break;
 
+        case 'HTML':
+            lang = 'xml';
+            break;
+
         case 'sh':
             lang = 'bash';
             break;
