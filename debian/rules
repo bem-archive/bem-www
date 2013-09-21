@@ -27,3 +27,4 @@ install/$(DEB_SOURCE_PACKAGE)::make
 	cp -r pages-desktop/favicon.ico $(DEB_PRJWWW_DESTDIR)
 	cp -r pages-desktop/robots.txt $(DEB_PRJWWW_DESTDIR)
 	cp -r i $(DEB_PRJWWW_DESTDIR)
+	cp -r content/bem-method/*/images/* $(DEB_PRJWWW_DESTDIR)i
