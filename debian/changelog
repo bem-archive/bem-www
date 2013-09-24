@@ -1,3 +1,9 @@
+yandex-bem-www-www (1.3) unstable; urgency=low
+
+  * Fix images 404
+
+ -- Vladimir Grinenko <tadatuta@yandex-team.ru>  Sun, 22 Sep 2013 01:03:43 +0400
+
 yandex-bem-www-www (1.2) stable; urgency=low
 
   * Make fix for fisrt deployment 
