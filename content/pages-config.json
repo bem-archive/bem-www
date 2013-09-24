@@ -228,6 +228,12 @@
             "keywords": "i-bem.js",
             "menu": "JavaScript по БЭМ: основные понятия"
         },
+        "libs/index": {
+            "title": "Библиотеки блоков",
+            "description": "Библиотеки блоков, реализованных на БЭМ",
+            "keywords": "блоки, библиотека",
+            "menu": "Библиотеки блоков"
+        },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
             "description": "Данное руководство поможет попробовать шаблонизатор BEMHTML и понять его основные принципы, пройдя семь простых шагов",
@@ -246,6 +252,30 @@
             "keywords": "",
             "menu": "BEMHTML: шаблонизатор для БЭМ"
         },
+        "bem-core/common.docs/i-bem-js": {
+            "title": "i-bem.js: Руководство пользователя",
+            "description": "Javascript-фреймворк для БЭМ",
+            "keywords": "",
+            "menu": "i-bem.js: Руководство пользователя"
+        },
+        "bem-core/common.docs/bem-core": {
+            "title": "bem-core: Описание библиотеки",
+            "description": "Библиотека ядерных блоков, реализующих БЭМ-методологию",
+            "keywords": "",
+            "menu": "bem-core: Описание библиотеки"
+        },
+        "bem-core/common.docs/migration": {
+            "title": "bem-core: Миграция",
+            "description": "Инструкция по миграции с bem-bl на bem-core",
+            "keywords": "миграция, переход с bem-bl",
+            "menu": "bem-core: Миграция"
+        },
+        "bem-core/common.docs/changelog": {
+            "title": "bem-core: Changelog",
+            "description": "Changelog библиотеки bem-core",
+            "keywords": "",
+            "menu": "bem-core: Changelog"
+        },
         "articles/bem-articles/deps-js-syntax": {
             "title": "deps.js — технология для декларирования зависимостей по БЭМ",
             "description": "Общее описание синтаксиса deps.js",
@@ -263,6 +293,12 @@
             "description": "API Яндекс.Карт и БЭМ",
             "keywords": "карты, яндекс карты, bem, БЭМ",
             "menu": "API Яндекс.Карт и БЭМ"
+        },
+        "jobs/index": {
+            "title": "Работа в команде БЭМ",
+            "description": "У нас есть вакансии :)",
+            "keywords": "работа, вакансии",
+            "menu": "Вакансии"
         }
     },
     "en": {
@@ -494,6 +530,12 @@
             "keywords": "i-bem.js",
             "menu": "JavaScript for BEM: The Main Terms"
         },
+        "libs/index": {
+            "title": "BEM libraries",
+            "description": "Block libraries build with BEM",
+            "keywords": "libs, blocks",
+            "menu": "Block libraries"
+        },
         "bem-core/common.docs/intro": {
             "title": "Hello, BEMHTML!",
             "description": "BEMHTML template quick start",
@@ -512,6 +554,30 @@
             "keywords": "",
             "menu": "BEMHTML rationale"
         },
+        "bem-core/common.docs/i-bem-js": {
+            "title": "i-bem.js: User guide",
+            "description": "Javascript framework for BEM",
+            "keywords": "",
+            "menu": "i-bem.js: User guide"
+        },
+        "bem-core/common.docs/bem-core": {
+            "title": "bem-core: The library",
+            "description": "Core blocks implementing BEM stack",
+            "keywords": "",
+            "menu": "bem-core: The library"
+        },
+        "bem-core/common.docs/migration": {
+            "title": "bem-core: Migration",
+            "description": "Guide to migrate from bem-bl to bem-core",
+            "keywords": "",
+            "menu": "bem-core: Migration"
+        },
+        "bem-core/common.docs/changelog": {
+            "title": "bem-core: Changelog",
+            "description": "Changelog of bem-core library",
+            "keywords": "",
+            "menu": "bem-core: Changelog"
+        },
         "articles/bem-articles/deps-js-syntax": {
             "title": "deps.js — a technology to declare dependencies in BEM",
             "description": "A General description of the syntax deps.js",
@@ -529,6 +595,12 @@
             "description": "Yandex.Maps API and BEM",
             "keywords": "maps, yandex maps, bem, BEM",
             "menu": "Yandex.Maps API and BEM"
-       }
+        },
+        "jobs/index": {
+            "title": "We are hiring",
+            "description": "Want to work with BEM team?",
+            "keywords": "job, vacancies, work",
+            "menu": "Jobs"
+        }
     }
 }

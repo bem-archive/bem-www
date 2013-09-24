@@ -40,6 +40,21 @@
             }
         }
     },
+    "libs/index": {
+        "url": "libs/bem-core",
+        "children": {
+            "bem-core/common.docs/bem-core": {
+                "url": "libs/bem-core",
+                "children": {
+                    "bem-core/common.docs/changelog": { "url": "libs/bem-core/changelog" },
+                    "bem-core/common.docs/migration": { "url": "libs/bem-core/migration" },
+                    "bem-core/common.docs/i-bem-js": { "url": "libs/bem-core/i-bem-js" },
+                    "bem-core/common.docs/reference": { "url": "libs/bem-core/bemhtml-reference" },
+                    "bem-core/common.docs/rationale": { "url": "libs/bem-core/bemhtml-rationale" }
+                }
+            }
+        }
+    },
     "blog": {
         "url": "blog/2013/09/bemup-yac2013",
         "children": {
@@ -71,5 +86,8 @@
             "articles/bem-articles/smartcd" : { "url": "articles/smartcd" },
             "articles/bem-articles/yamapsbem" : { "url": "articles/yamapsbem" }
         }
+    },
+    "jobs/index": {
+        "url": "jobs"
     }
 }
