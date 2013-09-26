@@ -1,0 +1,13 @@
+{
+    "title": "deps.js Syntax",
+    "createDate": "12-06-2013",
+    "editDate": "25-08-2013",
+    "summary": "A brief guide to the syntax of deps.js.",
+    "thumbnail": "",
+    "authors": ["varankin-vladimir","bashinsky-pavel"],
+    "tags": ["bem-tools","tools"],
+    "categories": [{"name": "bem/bem-tools", "url": "bem/bem-tools"}],
+    "translators": ["shirshin-maxim"],
+    "url": "content/articles/deps-js-syntax/",
+    "type": "tools"
+}

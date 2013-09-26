@@ -1,5 +1,5 @@
 === bem-tools
-((/tools/bem/ bem-tools)) is a toolkit to work with files
+((/tools/bem/bem-tools bem-tools)) is a toolkit to work with files
 based on BEM methodology.
 
 It allows you:
@@ -11,7 +11,7 @@ It allows you:
 
 === Optimizers
 ==== CSSO
-((/tools/csso/ CSSO)) (CSS Optimizer) is a CSS minimizer unlike others.
+((/tools/optimizers/csso CSSO)) (CSS Optimizer) is a CSS minimizer unlike others.
 
 In addition to usual minification techniques it can perform structural optimization of CSS files,
 resulting in smaller file size compared to other minifiers.
@@ -28,7 +28,7 @@ add your own.
 
 === Work with files
 ==== borschik
-((/tools/borschik/ borschik)) is a extendable builder for text-based file formats.
+((/tools/optimizers/borschik borschik)) is a extendable builder for text-based file formats.
 It's main purpose is the assembly of static files for web projects (CSS, JS, etc.).
 
 ==== setochka (prototype)
