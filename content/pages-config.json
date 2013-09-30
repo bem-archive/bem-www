@@ -298,7 +298,7 @@
             "title": "Работа в команде БЭМ",
             "description": "У нас есть вакансии :)",
             "keywords": "работа, вакансии",
-            "menu": "Вакансии"
+            "menu": "Работа в команде БЭМ"
         }
     },
     "en": {
@@ -600,7 +600,7 @@
             "title": "We are hiring",
             "description": "Want to work with BEM team?",
             "keywords": "job, vacancies, work",
-            "menu": "Jobs"
+            "menu": "We are hiring"
         }
     }
 }
