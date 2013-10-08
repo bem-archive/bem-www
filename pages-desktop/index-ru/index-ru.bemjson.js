@@ -251,6 +251,7 @@
                     content: [
                         {
                             block: 'heading',
+                            mods: { type: 'long' },
                             content: 'Библиотеки блоков'
                         },
                         {
