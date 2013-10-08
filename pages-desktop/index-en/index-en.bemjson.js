@@ -259,6 +259,18 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 'm' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/libs/bem-core/',
+                            content: 'bem-core'
+                        },
+                        {
+                            block: 'description',
+                            content: [
+                                'bem-core is a base library for web interface development. It provides the minimal stack for coding client-side JavaScript and templating.'
+                            ]
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 'm' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: 'http://bem.github.com/bem-bl/index.en.html',
                             content: 'bem-bl'
                         },

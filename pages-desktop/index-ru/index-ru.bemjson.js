@@ -256,6 +256,16 @@
                         {
                             block: 'b-link',
                             mix: [{ block: 'heading', mods: { size: 'm' } }, { block: 'i-font', face: 'alsekibastuz' }],
+                            url: '/libs/bem-core/',
+                            content: 'bem-core'
+                        },
+                        {
+                            block: 'description',
+                            content: 'Базовая библиотека блоков для разработки веб-интерфейсов. Содержит только необходимый минимум для разработки клиентского js и html-шаблонов.'
+                        },
+                        {
+                            block: 'b-link',
+                            mix: [{ block: 'heading', mods: { size: 'm' } }, { block: 'i-font', face: 'alsekibastuz' }],
                             url: 'http://bem.github.com/bem-bl/index.ru.html',
                             content: 'bem-bl'
                         },
