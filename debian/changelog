@@ -1,3 +1,9 @@
+yandex-bem-www-www (1.8) unstable; urgency=low
+
+  * fix css
+
+ -- Vladimir Grinenko <tadatuta@yandex-team.ru>  Tue, 08 Oct 2013 12:40:06 +0400
+
 yandex-bem-www-www (1.7) unstable; urgency=low
 
   * add bem-core to main page
