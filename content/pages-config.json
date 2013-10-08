@@ -114,6 +114,12 @@
             "keywords": "Borschik",
             "menu": "Borschik"
         },
+        "borschik/docs/changelog": {
+            "title": "Borschik — Changelog",
+            "description": "Borschik — список изменений",
+            "keywords": "Borschik, changelog",
+            "menu": "Changelog"
+        },
         "borschik-server/docs/borschik-server": {
             "title": "Borschik-server",
             "description": "Borschik-server — HTTP-сервер для обработки JS и CSS файлов утилитой borschik.",
@@ -415,6 +421,12 @@
             "description": "Borschik is a simple but powerful builder for text-based file formats.",
             "keywords": "Borschik",
             "menu": "Borschik"
+        },
+        "borschik/docs/changelog": {
+            "title": "Borschik — Changelog",
+            "description": "Borschik — list of changes",
+            "keywords": "Borschik, changelog",
+            "menu": "Changelog"
         },
         "borschik-server/docs/borschik-server": {
             "title": "Borschik-server",

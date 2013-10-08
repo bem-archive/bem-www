@@ -35,6 +35,7 @@
                 "url": "tools/borschik",
                 "children": {
                     "borschik/docs/index": { "url": "tools/borschik" },
+                    "borschik/docs/changelog": { "url": "tools/borschik/changelog" },
                     "borschik-server/docs/borschik-server": { "url": "tools/borschik-server" }
                 }
             }
