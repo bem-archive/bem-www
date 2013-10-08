@@ -1,3 +1,9 @@
+yandex-bem-www-www (1.9) unstable; urgency=low
+
+  * fix links in borschik changelog
+
+ -- Vladimir Grinenko <tadatuta@yandex-team.ru>  Tue, 08 Oct 2013 12:55:45 +0400
+
 yandex-bem-www-www (1.8) unstable; urgency=low
 
   * fix css
