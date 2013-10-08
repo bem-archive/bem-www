@@ -1,3 +1,9 @@
+yandex-bem-www-www (1.7) unstable; urgency=low
+
+  * add bem-core to main page
+
+ -- Vladimir Grinenko <tadatuta@yandex-team.ru>  Tue, 08 Oct 2013 12:25:33 +0400
+
 yandex-bem-www-www (1.6) unstable; urgency=low
 
   * Add borschik changelog
